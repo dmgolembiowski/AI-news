@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>The New York Times</title>
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+		<link rel="shortcut icon" href="https://cooking.nytimes.com/favicon.ico" />
+
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+		<meta content="MOPS" name="sourceApp">
+		<meta content="Bring The New York Times into your kitchen." property="og:title">
+		<meta content="https://www.nytimes.com/subscriptions/Multiproduct/lp8R3WU.html" property="og:site_name">
+		<meta content="" property="og:image">
+		<meta content="product" property="og:type">
+		<meta content="https://www.nytimes.com/subscriptions/Multiproduct/lp8R3WU.html" property="og:url">
+		<meta content="Unlimited access. $1.25 per week. Or save with our annual offer." property="og:description">
+		<meta content="width=device-width, initial-scale=1.0" name="viewport">
+		<link href="https://www.nytimes.com/subscriptions/Multiproduct/lp8R3WU.html" rel="canonical">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="https://wurfl.io/wurfl.js" type="text/javascript"></script>
+
+		<script src="//static01.nyt.com/subscriptions/components/js/html5shiv.js"></script>
+		<script src="//static01.nyt.com/subscriptions/components/js/common.js"></script>
+		<script src="cooking_lp/assets/js/apple-pay.js"></script>
+		<script src="cooking_lp/assets/js/main-script.js"></script>
+		<script src="cooking_lp/assets/js/checkout.js"></script>
+		<script src="cooking_lp/assets/js/timespan_toggle.js"></script>
+
+		<script src="https://cdn.optimizely.com/public/3013110282/s/landing_prod.js"></script>
+		<script src="https://a1.nyt.com/analytics/json-kidd-no-ender.min.js"></script>  
+		<!--
+		<link rel="stylesheet" href="https://a1.nyt.com/fonts/css/fonts.css" type="text/css"/> -->
+
+		<script src="//typeface.nytimes.com/zam5nzz.js"></script>
+		<script>try {Typekit.load();} catch (e) {}</script>
+
+		<link rel="stylesheet" href="cooking_lp/assets/css/main-styles.css" type="text/css"/>
+		<link rel="stylesheet" href="cooking_lp/assets/css/mobile-styles.css" type="text/css"/>
+
+		<link rel="stylesheet" href="https://static01.nyt.com/subscriptions/Multiproduct/assets_pa2017/css/footer.css" type="text/css"/>
+
+		<link rel="stylesheet" href="cooking_lp/assets/css/timespan_toggle.css" type="text/css"/>	
+		
+	</head>
+
+	<body class="external">
+
+		<section id="intro">
+			<div class="mobile-top-navbar">
+				   <div class="mobile-nyt-logo">
+					 <img src="cooking_lp/assets/images/nyt-logo-mobile.png" alt="New York Times">
+				   </div>
+			   <!-- End of nyt logo mobile -->
+
+				  <div class="mobile-subscribe">
+					   <a href="javascript:void(0)" class="subscribe-now-mobile">subscribe</a>
+				  </div>
+			   <!-- End of subscribe mobile -->
+			   </div>
+			<div class="content">
+
+			   <div class="nyt-logo">
+				   <img src="cooking_lp/assets/images/nyt-logo.png" alt="New York Times">
+			   </div>
+			   <!-- End of nyt logo -->
+
+			   <div class="cooking-logo">
+					<a href="https://cooking.nytimes.com/">
+						<img src="cooking_lp/assets/images/cooking.png" alt="New York Times Cooking">
+					</a>   	
+			   </div>
+			   <!-- End of cooking logo -->
+
+				<h1 class="cooking-header-title">Bring The New York Times<br> into your kitchen.</h1>
+				<p class="offer-price">
+					Unlimited access. $1.25 per week.
+					Or save with our annual offer.
+				</p>
+			   <p class="subscribe-button"><a href="javascript:void(0)" class="subscribe-now">SUBSCRIBE NOW</a></p>
+			</div>
+			<!-- END of content -->
+		<a class="down_arrow" href="javascript:void(0)"></a><!-- END of arrow -->
+
+	   <!-- image to replace background -->
+		</section>
+		<!--End of Top Header -->
+
+		<section id="recipe" class="recipe">
+			<div class="container">
+			   <div class="expert-cooks">
+				   <img src="cooking_lp/assets/images/perspectives-devices2.jpg" class="recipe-img">
+
+				   <div class="expert-cooks-content">
+					  <div class="number"><img src="cooking_lp/assets/images/one.png"></div>
+					   <h3>Expert cooks. Essential recipes. Compelling design.</h3>
+					   <p>You’ll get unlimited digital access to 18,000+ recipes tested and curated by the experts at The Times, available on <span class="together">every device.</span></p>
+				   </div>
+			   </div>
+			   <!-- End of expert cooks -->
+
+				<div class="recipe-guide-video">
+				   <div id="videoContainer">
+						 <img src="cooking_lp/assets/images/recipe-video.jpg" id="cookingGuide" class="recipe-img">
+						<!-- End of image of the cooking guide video -->
+						<div id="CookingVideoModal" class="modal">
+						  <!-- Modal content -->
+						  <div class="modal-content">
+							<div class="close">&times;</div>
+							<div class="modal-video-container">
+                                <video id="cookingVideo" class="cooking-guide-video" type="video/mp4" src="cooking_lp/assets/videos/34590_1_lattice-guide_wg_1.mp4" width="768" height="432" controls controlsList="nodownload" poster="cooking_lp/assets/images/recipe-video-poster.jpg">
+								</video>
+							
+							</div>
+						  </div>
+							<!-- End of modal content -->
+						</div>
+				   </div>
+				   <!-- End of video container -->
+
+					<div class="recipe-guide-content">
+					  <div class="number"><img src="cooking_lp/assets/images/two.png"></div>
+					   <div class="recipe-guide-title"><h3>Let us be your guide.</h3></div>
+					   <p>From hamburgers to cassoulet, our food journalists and home cooks are here to serve &mdash; with easy-to-follow cooking guides offering recipes, videos, techniques and tips to help both novices and master chefs achieve success.</p>
+					</div>
+					<!-- End of recipe guid video content -->
+				</div>
+				<!-- END of recipe guide video  -->
+
+				<div class="recipe-box">
+					 <div class="recipe-img"><img src="cooking_lp/assets/images/recipe-box.jpg"></div>
+					 <div class="number"><img src="cooking_lp/assets/images/three.png"></div>
+					 <div class="recipe-box-content">
+					   <h3>The only Recipe Box you’ll ever need.</h3>
+					   <p>Build and organize your personal Recipe Box so all your culinary inspirations are in one place. Including recipes from outside The Times.</p>
+				   </div>
+
+				</div>
+				<!-- End of recipe box -->				
+			</div>
+			<!-- END of container -->
+			<div class="see-more"><!-- <a href="https://cooking.nytimes.com/see-our-features" target="_blank">See more features</a> --> </div>
+		 </section>
+		 <!-- End of recipe -->
+
+		 <section class="subscribe-nyt-cooking" id="subscribeNYT">
+			 <div class="container">
+				 <div class="subscribe-cooking-bundle">
+				   <p class="subscribe-cooking-header">Subscribe to NYT Cooking.</p>
+					<div class="bundle" id="cooking-monthly">
+						<h3>NYT Cooking <br>Monthly</h3>
+						<p class="bundle-price">Only $1.25/week*</p>
+						<p class="billed-as ap_below">Billed as $5 every 4 weeks</p>
+						 <a class="button button--purchase first"  href="https://myaccount.nytimes.com/get-started/auth" data-oc="20000124820" data-firstbill="5" data-linkname="Monthly">get monthly</a>
+
+					</div>
+					<!-- End of cooking Bundle 1 -->
+
+					<div class="bundle" id="cooking-annual">
+						<h3>NYT Cooking<br>Annual</h3>
+						<p class="bundle-price">Only $40/year*</p>
+						<p class="billed-as ap_below">Billed as $40 annually</p>
+						<a class="button button--purchase last" href="https://myaccount.nytimes.com/get-started/auth" data-oc="20000140020" data-firstbill="40" data-linkname="Annual">get annual</a>
+
+					</div>
+					<!-- End of cooking Bundle 2 -->
+
+				 </div>
+
+				 <div class="clear"></div>
+				 <div class="disclaimer">
+					<p>
+						*<b>No commitment required. Cancel anytime.</b> Your subscription automatically renews and your payment method is charged in advance of each billing period unless you cancel.
+						You may <b>cancel</b> at any time. Smartphone and tablet Cooking apps are not supported on all devices. Does not include e-reader edition, The New York Times news content or Crossword. Other restrictions and taxes may apply. Offers and pricing are subject to change without notice.
+					</p>
+				 </div>
+				 <!-- END of container -->
+
+				 <div class="bundle-content">
+					<p>Get unlimited digital access to the entire <span class="together">NYT Cooking recipe archive.</span></p>
+					<p>Learn practical and advanced techniques with our exclusive how-to cooking guides.</p>
+					<p>Build and organize your personal Recipe Box to stay on top of your <span class="together"> cooking routine.</span></p>
+				 </div>
+			 </div>
+		 </section>
+
+		<!-- End of subscrib NYT Cooking  -->
+		<!-- 
+		<section id="faq" class="faq-section">
+			<div class="container">
+				<h2>Questions About NYT Cooking?</h2>
+				<div class="faq_accordion">
+					<h4 class="question expanded">How do I get access to NYT Cooking?</h4>
+					<p class="answer" style="display: block;">
+						In order to access NYT Cooking, we require users to create an account, or log in with an existing New York Times account. Registered users will have access to a limited portion of NYT Cooking’s content and tools, while full access will require a subscription to NYT Cooking. NYT Cooking access is also included in all New York Times print subscriptions, as well as “All Access” digital subscriptions. If you have a “Basic” subscription, click here to see options for upgrading to get full access to NYT Cooking.
+					</p>
+					
+					<h4 class="question">I have a subscription to The New York Times. Is NYT Cooking included?</h4>
+					<p class="answer">
+						An unlimited New York Times digital subscription provides ongoing access to NYTimes.com from any computer or device, as well as access to apps on portable devices. When you subscribe, you’ll get access to articles and blog posts, as well as video, slide shows and other multimedia features.
+					</p>
+					
+					<h4 class="question">What are my subscription options? How often am I billed?</h4>
+					<p class="answer">
+						No. A digital subscription package gives you ongoing access to NYTimes.com on any computer or device, plus NYTimes apps for your smartphone and tablet.
+					</p>
+					
+					<h4 class="question">How do I add full New York Times access to my NYT Cooking subscription?</h4>
+					<p class="answer">
+						Yes. Print subscribers to The New York Times get a free Digital Access subscription. This package includes free, unlimited access to NYTimes.com on any device, as well as the full range of NYTimes apps for your smartphone (iPhone<span class="supreg">&reg;</span>, BlackBerry<span class="supreg">&reg;</span>, Windows<span class="supreg">&reg;</span> Phone, Android<span class="sup">TM</span>-powered phones) and your tablet (iPad<span class="supreg">&reg;</span> and Android-powered tablets). Print subscribers can share Digital Access with a family member. Free, unlimited access is provided to all print subscribers, no matter what type of subscription you have (daily, weekday, Fri.&ndash;Sun., etc.). You’ll also qualify for free digital access if your home delivery is provided by a third party (rather than by The New York Times directly). NYTimes home delivery subscriptions do not include e-reader editions or digital versions of The New York Times Crossword.
+						<br/>
+						<br/> To activate your digital subscription, you’ll need to connect your home delivery subscription to your NYTimes.com account. If you haven’t already done so, <a class="free_access_hd nomo" href="https://myaccount.nytimes.com/link/homedelivery?&amp;ref=LP&amp;campaignId=47HQY" target="_blank">visit this page to connect your accounts</a>.
+					</p>
+					
+					<h4 class="question">I have recipes saved in my Recipe Box, but cannot click through to see them. Why is this?</h4>
+					<p class="answer">
+						Yes. Organizations of all varieties &mdash; including schools, hotels, libraries and corporations &mdash; can purchase digital access to The New York Times for multiple users at a group discount.
+						<br/>
+						<br/> For information on Corporate group subscriptions, <a target="_blank" href="http://nytimescorporate.com/620/?Pardot_Campaign_Code_Form_Input=3LLRQ">click here.</a>
+						<br/> For information on Education group subscriptions, <a target="_blank" href="http://nytimesineducation.com/?campaignId=3LLRQ#find-rep">click here.</a>
+						<br/>
+						<br/> We also offer individual subscriptions at a discounted education rate. To learn more, <a target="_blank" href="https://www.nytimes.com/subscriptions/edu/lp8LQFK.html?campaignId=6LKUJ">click here.</a>
+					</p>
+					
+					<h4 class="question"> What if I use a different email address for NYT Cooking than I use for my New York Times subscription?</h4>
+					<p class="answer">
+						Yes. The more you give, the more you save &mdash; you can give the gift of unlimited access to NYTimes.com and NYTimes apps and save up to 50% on your gift subscription. <a class="faq_gift" href="https://www.nytimes.com/subscriptions/Multiproduct/lp8R34X.html?campaignId=47J6J">Click here</a>.
+					</p>
+				</div>
+				
+			</div>
+			
+		</section>
+
+		-->
+		<!-- END of faq-section -->
+
+	   <footer id="footer" class="footer">
+			 <!-- Logo , copyright -->
+
+			 <!-- About -->
+
+			 <!-- Help -->
+
+			 <!-- ways to Subscribe -->
+
+			<svg style="display:none" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+				<symbol viewBox="0 0 30 30" preserveAspectRatio="xMinYMin meet" id="icon-plus-toggle-svg">
+					<title>plus-icon</title><g id="Working" class="cls-1 footer_plus"><g id="PA-Why-Desktop"><g id="_01-Journ.-Videos" data-name="01-Journ.-Videos"><g id="Instagrams"><g id="Caption-01"><g id="Blue-Plus"><g id="Combined-Shape"><g class="cls-2"><path id="path-1" d="M22,20V14H20v6H14v2h6v6h2V22h6V20ZM21,36A15,15,0,1,1,36,21,15,15,0,0,1,21,36Z" transform="translate(-6 -6)"></path></g><path id="path-1-2" data-name="path-1" class="cls-3" d="M22,20V14H20v6H14v2h6v6h2V22h6V20ZM21,36A15,15,0,1,1,36,21,15,15,0,0,1,21,36Z" transform="translate(-6 -6)"></path></g></g></g></g></g></g></g>
+				</symbol>
+			</svg>
+
+
+			<div class="container">
+
+				<div class="col">
+					<a href="https://www.nytimes.com" class="logo" target="_blank">
+						<img src="https://static01.nyt.com/subscriptions/Multiproduct/assets_pa2017/images/logo_nyt_white.svg" width="200">
+					</a>
+					<p>Copyright©2018</p>
+				</div><!-- END of col -->
+
+				<div class="col">
+					<h3>
+						About <i><svg height="22px" width="22px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-plus-toggle-svg"></use></svg></i>
+						<button class="footer_toggle"></button>
+					</h3>
+					<div class="footer_links">
+						<a href="http://www.nytco.com/" target="_blank">The New York Times Company </a> <br>
+						<a href="https://www.nytimes.com/privacy" target="_blank">Privacy Policy</a> <br>
+						<a href="https://www.nytimes.com/content/help/rights/sale/terms-of-sale.html" target="_blank">Terms of Sale</a>
+					</div><!-- END of footer_links -->
+				</div><!-- END of col -->
+
+				<div class="col">
+					<h3>
+						Help <i><svg height="22px" width="22px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-plus-toggle-svg"></use></svg></i>
+						<button class="footer_toggle"></button>
+					</h3>
+					<div class="footer_links">
+						<a href="https://www.nytimes.com/content/help/account/purchases/subscriptions-and-purchases.html" target="_blank">Frequently Asked Questions</a> <br>
+						<a href="https://www.nytimes.com/content/help/contact/directory.html" target="_blank">Contact Us</a> <br>
+						<a href="https://myaccount.nytimes.com/membercenter/feedback.html" target="_blank">Feedback</a>
+					</div><!-- END of footer_links -->
+				</div><!-- END of col -->
+
+				<div class="col">
+					<h3>
+						Ways to Subscribe <i><svg height="22px" width="22px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-plus-toggle-svg"></use></svg></i>
+						<button class="footer_toggle"></button>
+					</h3>
+					<div class="footer_links">
+						<a href="https://www.nytimes.com/subscription/multiproduct/lp8HYKU.html?campaignId=6JUHR" class="link_newreader" target="_blank">Digital + Home Delivery</a> <br>
+						<a href="https://www.nytimes.com/subscriptions/edu/lp8LQFK.html?campaignId=6RR8R" class="link_education" target="_blank">Education Rates</a> <br>
+						<a href="http://nytimesgroupsubscriptions.com/?Pardot_Campaign_Code_Form_Input=6RJUJ" class="link_corporate" target="_blank">Group Subscriptions</a> <br>
+						<a href="https://www.nytimes.com/subscriptions/games/lp897H9.html?campaignId=6RRWR" class="link_crosswords" target="_blank">NYTimes Crosswords</a> <br>
+						<a href="https://www.nytimes.com/subscription/Multiproduct/lp8R34X.html?campaignId=3FQ4Y" class="link_gift" target="_blank">Gift Subscriptions</a>
+					</div><!-- END of footer_links -->
+				</div><!-- END of col -->
+
+				<p class="mobile_copyright">Copyright ©2018</p>
+
+			</div><!-- END of container -->
+		</footer>
+	  <!-- End of footer -->
+	</body>
+</html>

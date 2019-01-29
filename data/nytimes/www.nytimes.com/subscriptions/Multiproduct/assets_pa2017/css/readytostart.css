@@ -1,0 +1,140 @@
+section#readytostart {
+  background-color: #FFF;
+  padding: 0 30px 120px;
+}
+
+section#readytostart.whatready{
+    padding: 120px 30px;
+}
+
+section#readytostart .content h2{
+    margin:  40px auto;   
+}
+
+section#readytostart div#buttonSet { /* holds 2 buttons */ 
+   width:440px;
+   margin:20px auto;
+   display:table;
+}
+
+section#readytostart div.button {
+  border: solid 1px #4D7B9F;
+  max-width: 320px;
+  width: 210px;
+  height: 40px;
+  border-radius: 3px;
+  line-height: 40px;
+  font-size:14px;
+  font-family: "nyt-franklin",Arial; 
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+
+section#readytostart div.button.seeWhat {
+    float:left;
+    color:#4D7B9F;
+}
+
+section#readytostart div.button.seeWhat:hover {
+    color:#fff;
+    background-color: #355976; 
+    cursor:pointer;
+}
+
+section#readytostart div.button.subscribeNow {
+    background-color: #2e84ed;
+    border-color: #2e84ed;
+    color:#fff;
+    margin: 0 auto;
+    width: auto;
+}
+
+section#readytostart div.button.subscribeNow:hover{
+    color:#fff;
+    background-color: #2e84ed;
+    cursor:pointer;
+}
+
+/* share */
+section#readytostart div.button.social_btn{
+    color:#fff;
+    background-color: #4d7b9f; 
+    cursor:pointer;
+}
+
+section#readytostart div.button.social_btn i{
+    margin: 0 5% 0 0;
+    display: inline-block;
+    vertical-align: -4px;
+    background-size: cover;
+    background-position: center;
+}
+
+section#readytostart div.button.fb {
+    float:left;
+}
+
+section#readytostart div.button.fb i{
+    background: url("https://static01.nyt.com/subscriptions/Multiproduct/assets_pa2017/images/social/fb.svg");
+    width: 20px;
+    height: 20px;
+}
+
+section#readytostart div.button.tw {
+    float:right;
+}
+
+section#readytostart div.button.tw i{
+    background: url("https://static01.nyt.com/subscriptions/Multiproduct/assets_pa2017/images/social/tw.svg");
+    width: 24px;
+    height: 20px;
+}
+
+section#readytostart div.button.social_btn:hover{
+    color:#fff;
+    background-color: #355976; 
+    cursor:pointer;
+}
+
+section#readytostart div#buttonSet p{
+	width: 155px;
+	height: 14px;
+	font-family: "nyt-franklin",Arial;
+	font-size: 14px;
+	font-weight: 500;
+	color: #4a4a4a;
+    margin: 20px auto 0;
+}
+
+
+@media(max-width: 767px){
+
+    section#readytostart{
+        padding:0 20px 30px;
+    }
+    
+    section#readytostart div#buttonSet{
+        width: 100%;
+        margin: 20px auto;
+        display: block;
+    }
+    
+    section#readytostart .content{
+        margin: 0 auto;
+        padding: 0;
+        overflow: hidden;
+        width: 100%;
+    }
+    
+    section#readytostart div.button{
+        margin: 0 auto 12px;
+        float: none;
+        display: block;
+    }
+    
+    section#readytostart div.button.seeWhat, section#readytostart div.button.subscribeNow, section#readytostart div.button.fb, section#readytostart div.button.tw{
+        float: none;
+    }
+    
+}

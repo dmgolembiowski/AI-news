@@ -1,0 +1,992 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Group Subscriptions | The New York Times</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name='language' content='en'>
+		<meta name="" content="">
+		<meta name="" content="">
+		<meta name="" content="">
+		<meta name="sourceApp" content="nyt-b2b">
+        <meta name="description" content="">
+        <!-- Favicon -->
+        <link rel="icon" type="image/ico" href="http://css.nyt.com/images/icons/nyt.ico" />
+        <link rel="shortcut icon" href="http://css.nyt.com/images/icons/nyt.ico" />
+        <link href="css/groupsubscriptions.css" rel="stylesheet">
+        
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+        <script src="js/jquery-1.12.4.js"></script>
+        <script src="js/jquery-ui.js"></script>
+        <script src="js/jquery.transit.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- NYTimes typekit -->
+        <script src="//typeface.nytimes.com/zam5nzz.js"></script>
+        <script>
+            try {
+                Typekit.load();
+            } catch (e) {
+            }
+        </script>
+
+        
+        <script>
+            /* Google Analytics */
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function() {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+            ga('create', 'UA-104393356-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+        <script type="text/javascript">
+            /* Pardot */
+            piAId = '147041';
+            piCId = '11786';
+            (function() {
+                function async_load() {
+                    var s = document.createElement('script');
+                    s.type = 'text/javascript';
+                    s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+                    var c = document.getElementsByTagName('script')[0];
+                    c.parentNode.insertBefore(s, c);
+                }
+                if (window.attachEvent) { window.attachEvent('onload', async_load); } else { window.addEventListener('load', async_load, false); }
+            })();
+        </script>
+
+        <script type="text/javascript">
+            var _domain = 'http://dev.nytimesgroupsubscriptions.com';
+            window.NYTD = window.NYTD || {};
+            window.NYTD.env = 'stg';
+        </script>
+
+        <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+        <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+        <script>
+        window.addEventListener("load", function(){
+        window.cookieconsent.initialise({
+        "palette": {
+        "popup": {
+        "background": "#f4f3f3"
+        },
+        "button": {
+        "background": "#343434"
+        }
+        },
+        "position": "top",
+        "content": {
+        "message": "We use cookies to recognize your repeat visits and preferences, as well as to measure the effectiveness of campaigns and analyze traffic. To learn more about cookies, including how to disable them, view our Cookie Policy. By clicking “I accept” on this banner, you consent to the use of cookies.",
+        "dismiss": "I Accept",
+        "deny": "deny",
+        "link": "Cookie Policy",
+        "href": "https://www.nytimes.com/subscription/dg-cookie-policy/be.html"
+        }
+        })});
+        </script>
+        
+        <!-- LiveConnect Tag -->
+        <script type="text/javascript" src="//b-code.liadm.com/a-00-xx.min.js" async="true" charset="utf-8"></script>
+        
+        <script src="https://cdn.optimizely.com/js/5474130067.js"></script>
+        <script src="https://a1.nyt.com/analytics/json-kidd-no-ender.min.js"></script>
+        <script src="js/script.js"></script> 
+        <script src="js/tab.js"></script>
+        <script src="js/event-tracking.js"></script> 
+
+	</head>
+	<body>
+
+        <!-- Contact Form -->
+<div id="contact-form" class="form--contact modal fade contact-form" role="dialog">
+	<div class="modal-dialog">
+
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+			<div class="mymodal_header">
+				<script type="text/javascript">
+					// var form = 'https://go.pardot.com/l/139361/2016-11-22/vjwst';
+					var form = 'http://www2.nytimesgroupsubscriptions.com/l/146041/2018-09-05/tl97g';
+					var params = window.location.search;
+					var thisScript = document.scripts[document.scripts.length - 1];
+					var iframe = document.createElement('iframe');
+					iframe.setAttribute('src', form + params);
+					iframe.setAttribute('width', '100%');
+					iframe.setAttribute('height', '100%');
+					iframe.setAttribute('type', 'text/html');
+					iframe.setAttribute('frameborder', 0);
+					iframe.setAttribute('allowTransparency', 'true');
+					iframe.style.border = '0';
+					thisScript.parentElement.replaceChild(iframe, thisScript);
+				</script>
+			</div>
+			<!-- /.mymodal_header -->
+		</div>
+		<!-- /.modal-content -->
+	</div>
+	<!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+
+<!-- Pardot -->
+<noscript class="fallback--pardot">
+	<iframe src="http://www2.nytimesgroupsubscriptions.com/l/146041/2018-09-05/tl97g" width="100%" height="500" type="text/html" frameborder="0" allowTransparency="true" style="position:relative; max-width:100%;"></iframe>
+</noscript>
+
+        <div id="contact-form2" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+			<!-- /.modal-header -->
+			<div class="mymodal_header">
+				<script type="text/javascript">
+					var form = 'http://www2.nytimesgroupsubscriptions.com/l/146041/2017-10-16/kb68b';
+					var params = window.location.search;
+					var thisScript = document.scripts[document.scripts.length - 1];
+					var iframe = document.createElement('iframe');
+					iframe.setAttribute('src', form + params);
+					iframe.setAttribute('width', '100%');
+					iframe.setAttribute('height', 900);
+					iframe.setAttribute('type', 'text/html');
+					iframe.setAttribute('frameborder', 0);
+					iframe.setAttribute('allowTransparency', 'true');
+					iframe.style.border = '0';
+					thisScript.parentElement.replaceChild(iframe, thisScript);
+				</script>
+			</div>
+			<!-- /.mymodal_header -->
+		</div>
+		<!-- /.modal-content -->
+	</div>
+	<!-- /.modal-dialog -->
+</div>
+<!-- /.modal#contact-form2 -->
+
+        <div id="contact-form3" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+			<!-- /.modal-header -->
+			<div class="mymodal_header">
+				<script type="text/javascript">
+					var form = 'http://www2.nytimesgroupsubscriptions.com/l/146041/2018-11-02/wzkyd';
+					var params = window.location.search;
+					var thisScript = document.scripts[document.scripts.length - 1];
+					var iframe = document.createElement('iframe');
+					iframe.setAttribute('src', form + params);
+					iframe.setAttribute('width', '100%');
+					iframe.setAttribute('height', 900);
+					iframe.setAttribute('type', 'text/html');
+					iframe.setAttribute('frameborder', 0);
+					iframe.setAttribute('allowTransparency', 'true');
+					iframe.style.border = '0';
+					thisScript.parentElement.replaceChild(iframe, thisScript);
+				</script>
+			</div>
+			<!-- /.mymodal_header -->
+		</div>
+		<!-- /.modal-content -->
+	</div>
+	<!-- /.modal-dialog -->
+</div>
+<!-- /.modal#contact-form2 -->
+
+        <div id="contact-form4" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+			<!-- /.modal-header -->
+			<div class="mymodal_header">
+				<script type="text/javascript">
+					var form = 'http://www2.nytimesgroupsubscriptions.com/l/146041/2018-10-23/wk69s';
+					var params = window.location.search;
+					var thisScript = document.scripts[document.scripts.length - 1];
+					var iframe = document.createElement('iframe');
+					iframe.setAttribute('src', form + params);
+					iframe.setAttribute('width', '100%');
+					iframe.setAttribute('height', 900);
+					iframe.setAttribute('type', 'text/html');
+					iframe.setAttribute('frameborder', 0);
+					iframe.setAttribute('allowTransparency', 'true');
+					iframe.style.border = '0';
+					thisScript.parentElement.replaceChild(iframe, thisScript);
+				</script>
+			</div>
+			<!-- /.mymodal_header -->
+		</div>
+		<!-- /.modal-content -->
+	</div>
+	<!-- /.modal-dialog -->
+</div>
+<!-- /.modal#contact-form2 -->
+
+        <main class="wrapper">
+
+            <nav class="nav-bar">
+                <div class="container">
+                    <a class="nyt-logo" href="https://www.nytimes.com/" target="_blank">
+                        <img src="https://www.nytimes.com/subscriptions/components/img/logos/logo_nyt.svg" alt="The New York Times" class="nyt-logo__img nyt-logo__desktop" width="204">
+                        <img src="images/super-t.svg" alt="The New York Times" class="nyt-logo__img nyt-logo__mobile" width="20">
+                    </a>
+
+                    <div class="nav-mobile-controls">
+                        <a href="javascript:void(0)" class="nav-menu-btn">Menu <i class="nav-menu-btn__arrow"></i></a>
+                        <a class="nav-cta scroll-links" href="javascript:void(0)" data-anchor="subscription-option">See Plan Details</a>
+                    </div>
+                    
+                    <menu class="nav-menu">
+                        <a href="javascript:void(0)" class="nav-menu__link scroll-links business-link" data-anchor="business-section">For Business</a>
+                        <a href="javascript:void(0)" class="nav-menu__link scroll-links education-link" data-anchor="education-section">For Education</a>
+                        <a href="#form" class="nav-menu__link contact-link" data-toggle="modal" data-target="#contact-form">Contact</a>
+                        <a href="javascript:void(0)" class="nav-menu__link scroll-links" data-anchor="faq-section">FAQS</a>
+                        <a href="javascript:void(0)" class="nav-menu__link nav-cta scroll-links" data-anchor="subscription-option">See Plan Details</a>
+                    </menu>
+                </div>
+                <!-- /.container -->
+            </nav>
+            <!-- /.nav-bar -->
+
+            <header class="section hero">
+                <div class="container">
+                    <div class="content">
+                        <figure class="hero__fig">
+                            <img src="images/hero-hero-phone.png" alt="Access to the world's finest journalism" width="219" class="hero__fig__img">
+                        </figure>
+                        <p class="crown-text">Group Subscriptions</p>
+                        <!-- <h1 class="section__title" style="max-width: 700px">Access to the world&rsquo;s <span class="no-orphan">finest journalism</span></h1> -->
+                        <h1 class="section__title">Inspire your organization with digital Times access</h1>
+                        <p class="section__copy">With a New York Times group subscription, you can offer your school or organization full access to our industry-leading, original journalism.</p>
+                        <a href="javascript:void(0)" class="hero__cta scroll-links" data-anchor="subscription-option">See Plan Details</a>
+                    </div>
+                    <!-- /.content -->
+                </div>
+                <!-- /.container -->
+            </header>
+            <!-- /.section .hero -->
+            
+            <section class="section benefits">
+                <section class="section benefits-top-content">
+                    <div class="container">
+                        <div class="content">
+                            <h1 class="section__title">Benefits</h1>
+                            <p class="section__copy">The New York Times group subscription offers organizations and users a way to stay informed and inspired by the trusted newspaper of record.</p>
+                            <div class="row benefits-list">
+                                <div class="column">
+                                    <h3 class="benefits-list__title">Unlimited Access</h3>
+                                    <p class="benefits-list__copy">Readers have access to The Times&rsquo;s vast digital archives.</p>
+                                </div>
+                                <!-- /.column -->
+                                <div class="column">
+                                    <h3 class="benefits-list__title">Easy to Manage</h3>
+                                    <p class="benefits-list__copy">Subscriptions are easy to set up, manage and bill.</p>
+                                </div>
+                                <!-- /.column -->
+                                <div class="column">
+                                    <h3 class="benefits-list__title">Desktop and Mobile</h3>
+                                    <p class="benefits-list__copy">Users can access NYT regardless of their device.</p>
+                                </div>
+                                <!-- /.column -->
+                                <div class="column">
+                                    <h3 class="benefits-list__title">Tailored Pricing</h3>
+                                    <p class="benefits-list__copy">Scaled pricing delivers increased value to large groups.</p>
+                                </div>
+                                <!-- /.column -->
+                            </div>
+                            <!-- /.row benefits -->
+                        </div>
+                        <!-- /.content -->
+                    </div>
+                    <!-- /.container -->
+                </section>
+                <!-- /.section .benefits-top-content -->
+
+                <section class="specific-benefit business-section">
+                    <div class="container">
+                        <h3 class="specific-benefit__title">For Business</h3>
+                        <p class="specific-benefit__description">The Times&rsquo;s uncompromising reporting offers great value to businesses and organizations in media, hospitality and beyond.</p>
+
+                        <div class="benefits-tab tab-holder">
+                            <nav class="benefits-tab__tablinks tab__nav">
+                                <a class="benefits-tab__tablinks__links active tablink library-click" data-tabtarget="libraries" href="javascript:void(0)">
+                                    <span class="benefits-tab__tablinks__links__text">Libraries</span>
+                                    <div class="benefits-tab__tablinks__links__active-state"></div>
+                                </a>
+                                <a class="benefits-tab__tablinks__links tablink media-click" data-tabtarget="media" href="javascript:void(0)">
+                                    <span class="benefits-tab__tablinks__links__text">Media</span>
+                                    <div class="benefits-tab__tablinks__links__active-state"></div>
+                                </a>
+                                <a class="benefits-tab__tablinks__links tablink hospitality-click" data-tabtarget="hospitality" href="javascript:void(0)">
+                                    <span class="benefits-tab__tablinks__links__text">Hospitality</span>
+                                    <div class="benefits-tab__tablinks__links__active-state"></div>
+                                </a>
+                                <a class="benefits-tab__tablinks__links tablink otherbusinesses-click" data-tabtarget="otherbusinesses" href="javascript:void(0)">
+                                    <span class="benefits-tab__tablinks__links__text">Other Businesses</span>
+                                    <div class="benefits-tab__tablinks__links__active-state"></div>
+                                </a>
+
+                                <div class="benefits-tab__active-bar">
+                                    <div class="benefits-tab__active-bar__active-state tab-active-bar"></div>
+                                </div>
+                                <!-- /.benefits-tab__active-bar -->
+                            </nav>
+                            <!-- /.benefits-tab__tablinks -->
+
+                            <div class="benefits-tab__tab-content tab-content-holder libraries-content active">
+                                <p class="benefits-tab__tab-content__text">Our multimedia storytelling engages readers with <span class="no-orphan">of-the-moment</span> information from beyond the bookstacks.</p>
+                                <a class="benefits-tab__tab-content__text-link casestudy-click" href="javascript:void(0)" data-toggle="modal" data-target="#contact-form2">See case study</a>
+                                <article class="benefits-tab__tab-content__quote">
+                                    <p class="benefits-tab__tab-content__quote__text">&ldquo;Offering free access to NYTimes.com supports our library&rsquo;s mission to empower all people to explore, connect and grow. Patrons appreciate and enjoy the high-quality editorial content, and we&rsquo;re able to offer a world-class news source even when the library&rsquo;s closed.&rdquo;</p>
+                                    <div class="benefits-tab__tab-content__quote__person">
+                                        <h4 class="benefits-tab__tab-content__quote__person__name">Mana</h4>
+                                        <p class="benefits-tab__tab-content__quote__person__jobtitle">Supervising Librarian</p>
+                                        <p class="benefits-tab__tab-content__quote__person__company">Oakland Public Library</p>
+                                    </div>
+                                    <!--  -->
+                                </article>
+                                <!-- /.benefits-tab__tab-content__quote -->
+                            </div>
+                            <!-- /.benefits-tab__tab-content -->
+
+                            <div class="benefits-tab__tab-content tab-content-holder media-content">
+                                <p class="benefits-tab__tab-content__text">Our uncompromising, fact-based journalism can inspire and inform your own outlet&rsquo;s coverage.</p>
+                                <article class="benefits-tab__tab-content__quote">
+                                    <p class="benefits-tab__tab-content__quote__text">&ldquo;Digital access to The New York Times has helped us stay on the forefront of news and trends shaping our clients&rsquo; businesses. Being informed in real time allows us to stay ahead of the curve and be a resource to our customers as a consultant beyond the typical sales experience.&rdquo;</p>
+                                    <div class="benefits-tab__tab-content__quote__person">
+                                        <h4 class="benefits-tab__tab-content__quote__person__name">Kirk</h4>
+                                        <p class="benefits-tab__tab-content__quote__person__jobtitle">Vice President</p>
+                                        <p class="benefits-tab__tab-content__quote__person__company">Washington Speakers Bureau</p>
+                                    </div>
+                                </article>
+                                <!-- /.benefits-tab__tab-content__quote -->
+                            </div>
+                            <!-- /.benefits-tab__tab-content -->
+
+                            <div class="benefits-tab__tab-content tab-content-holder hospitality-content">
+                                <p class="benefits-tab__tab-content__text">Complimentary access to The Times is a special perk that will delight your guests and keep them connected to the world.</p>
+                                <article class="benefits-tab__tab-content__quote">
+                                    <p class="benefits-tab__tab-content__quote__text">&ldquo;The New York Times provides great value to our guests who enjoy reading unlimited articles anytime, on any device. We&rsquo;re also very happy to reduce our environmental impact by using the digital version over the print newspaper.&rdquo;</p>
+                                    <div class="benefits-tab__tab-content__quote__person">
+                                        <h4 class="benefits-tab__tab-content__quote__person__name">Schack</h4>
+                                        <p class="benefits-tab__tab-content__quote__person__jobtitle">Director of Operations</p>
+                                        <p class="benefits-tab__tab-content__quote__person__company">Streamsong Resort Golf &amp; Spa</p>
+                                    </div>
+                                </article>
+                                <!-- /.benefits-tab__tab-content__quote -->
+                            </div>
+                            <!-- /.benefits-tab__tab-content -->
+
+                            <div class="benefits-tab__tab-content tab-content-holder otherbusinesses-content">
+                                <p class="benefits-tab__tab-content__text">The unparalleled quality and breadth of our coverage grants any business a valuable leg up.</p>
+                                <article class="benefits-tab__tab-content__quote">
+                                    <p class="benefits-tab__tab-content__quote__text">&ldquo;With digital access to The New York Times, it&rsquo;s easy for our busy, on-the-go designers and planners to stay informed as they shape the ways we experience our world.&rdquo;</p>
+                                    <div class="benefits-tab__tab-content__quote__person">
+                                        <h4 class="benefits-tab__tab-content__quote__person__name">Aliza</h4>
+                                        <p class="benefits-tab__tab-content__quote__person__jobtitle">Corporate Librarian/Archivist</p>
+                                        <p class="benefits-tab__tab-content__quote__person__company">Sasaki Associates</p>
+                                    </div>
+                                </article>
+                                <!-- /.benefits-tab__tab-content__quote -->
+                            </div>
+                            <!-- /.benefits-tab__tab-content -->                            
+
+                        </div>
+                        <!-- /.benefits-tab -->
+
+                        <div class="benefits-accordion accordion-holder">
+                            <a class="benefits-accordion__mobile-link accor-link library-click" data-tabtarget="libraries" data-index="0" href="javascript:void(0)">
+                                <i class="benefits-accordion__accor-link__icon">+</i> Libraries
+                            </a>
+                            <!-- /.benefits-accordion__mobile-link -->
+                            <div class="benefits-accordion__content accor-content-holder libraries-content">
+                                <p class="benefits-accordion__content__text">Our multimedia storytelling engages readers with <span class="no-orphan">of-the-moment</span> information from beyond the bookstacks.</p>
+                                <a class="benefits-accordion__content__text-link casestudy-click" href="javascript:void(0)" data-toggle="modal" data-target="#contact-form2">See case study</a>
+                                <article class="benefits-accordion__content__quote">
+                                    <p class="benefits-accordion__content__quote__text">&ldquo;Offering free access to NYTimes.com supports our library&rsquo;s mission to empower all people to explore, connect and grow. Patrons appreciate and enjoy the high-quality editorial content, and we&rsquo;re able to offer a world-class news source even when the library&rsquo;s closed.&rdquo;</p>
+                                    <div class="benefits-accordion__content__quote__person">
+                                        <h4 class="benefits-accordion__content__quote__person__name">Mana</h4>
+                                        <p class="benefits-accordion__content__quote__person__jobtitle">Supervising Librarian</p>
+                                        <p class="benefits-accordion__content__quote__person__company">Oakland Public Library</p>
+                                    </div>
+                                    <!--  -->
+                                </article>
+                                <!-- /.benefits-accordion__content__quote -->
+                            </div>
+                            <!-- /.benefits-accordion__content -->
+
+                            <a class="benefits-accordion__mobile-link accor-link media-click" data-tabtarget="media" data-index="1" href="javascript:void(0)">
+                                <i class="benefits-accordion__accor-link__icon">+</i> Media
+                            </a>
+                            <!-- /.benefits-accordion__mobile-link -->
+                            <div class="benefits-accordion__content accor-content-holder media-content">
+                                <p class="benefits-accordion__content__text">Our uncompromising, fact-based journalism can inspire and inform your own outlet&rsquo;s coverage.</p>
+                                <article class="benefits-accordion__content__quote">
+                                    <p class="benefits-accordion__content__quote__text">&ldquo;Digital access to The New York Times has helped us stay on the forefront of news and trends shaping our clients&rsquo; businesses. Being informed in real time allows us to stay ahead of the curve and be a resource to our customers as a consultant beyond the typical sales experience.&rdquo;</p>
+                                    <div class="benefits-accordion__content__quote__person">
+                                        <h4 class="benefits-accordion__content__quote__person__name">Kirk</h4>
+                                        <p class="benefits-accordion__content__quote__person__jobtitle">Vice President</p>
+                                        <p class="benefits-accordion__content__quote__person__company">Washington Speakers Bureau</p>
+                                    </div>
+                                </article>
+                                <!-- /.benefits-accordion__content__quote -->
+                            </div>
+                            <!-- /.benefits-accordion__content -->
+
+                            <a class="benefits-accordion__mobile-link accor-link hospitality-click" data-tabtarget="hospitality" data-index="2" href="javascript:void(0)">
+                                <i class="benefits-accordion__mobile-link__icon">+</i> Hospitality
+                            </a>
+                            <!-- /.benefits-accordion__mobile-link -->
+                            <div class="benefits-accordion__content accor-content-holder hospitality-content">
+                                <p class="benefits-accordion__content__text">Complimentary access to The Times is a special perk that will delight your guests and keep them connected to the world.</p>
+                                <article class="benefits-accordion__content__quote">
+                                    <p class="benefits-accordion__content__quote__text">&ldquo;The New York Times provides great value to our guests who enjoy reading unlimited articles anytime, on any device. We&rsquo;re also very happy to reduce our environmental impact by using the digital version over the print newspaper.&rdquo;</p>
+                                    <div class="benefits-accordion__content__quote__person">
+                                        <h4 class="benefits-accordion__content__quote__person__name">Schack</h4>
+                                        <p class="benefits-accordion__content__quote__person__jobtitle">Director of Operations</p>
+                                        <p class="benefits-accordion__content__quote__person__company">Streamsong Resort Golf &amp; Spa</p>
+                                    </div>
+                                </article>
+                                <!-- /.benefits-accordion__content__quote -->
+                            </div>
+                            <!-- /.benefits-accordion__content -->
+
+                            <a class="benefits-accordion__mobile-link accor-link otherbusinesses-click" data-index="3" data-tabtarget="otherbusinesses" href="javascript:void(0)">
+                                <i class="benefits-accordion__mobile-link__icon">+</i> Other Businesses
+                            </a>
+                            <!-- /.benefits-accordion__mobile-link -->
+                            <div class="benefits-accordion__content accor-content-holder otherbusinesses-content">
+                                <p class="benefits-accordion__content__text">The unparalleled quality and breadth of our coverage grants any business a valuable leg up.</p>
+                                <article class="benefits-accordion__content__quote">
+                                    <p class="benefits-accordion__content__quote__text">&ldquo;With digital access to The New York Times, it&rsquo;s easy for our busy, on-the-go designers and planners to stay informed as they shape the ways we experience our world.&rdquo;</p>
+                                    <div class="benefits-accordion__content__quote__person">
+                                        <h4 class="benefits-accordion__content__quote__person__name">Aliza</h4>
+                                        <p class="benefits-accordion__content__quote__person__jobtitle">Corporate Librarian/Archivist</p>
+                                        <p class="benefits-accordion__content__quote__person__company">Sasaki Associates</p>
+                                    </div>
+                                </article>
+                                <!-- /.benefits-accordion__content__quote -->
+                            </div>
+                            <!-- /.benefits-accordion__content -->
+                        </div>
+                        <!-- /.benefits-accordion -->
+                    </div>
+                    <!-- /.container -->
+                </section>
+                <!-- /.business-section -->
+
+                <section class="specific-benefit education-section">
+                    <div class="container">
+                        <h3 class="specific-benefit__title">For Education</h3>
+                        <p class="specific-benefit__description">The Times introduces the next generation of young minds to quality journalism, while offering college students vetted reporting and extensive archives as an academic resource.</p>
+
+                        <div class="benefits-tab tab-holder">
+                            <nav class="benefits-tab__tablinks tab__nav">
+                                <a class="benefits-tab__tablinks__links active tablink k12-click" data-tabtarget="k12" href="javascript:void(0)">
+                                    <span class="benefits-tab__tablinks__links__text">K–12</span>
+                                    <div class="benefits-tab__tablinks__links__active-state"></div>
+                                </a>
+                                <a class="benefits-tab__tablinks__links tablink university-click" data-tabtarget="university" href="javascript:void(0)">
+                                    <span class="benefits-tab__tablinks__links__text">University</span>
+                                    <div class="benefits-tab__tablinks__links__active-state"></div>
+                                </a>
+                                <div class="benefits-tab__active-bar">
+                                    <div class="benefits-tab__active-bar__active-state tab-active-bar"></div>
+                                </div>
+                                <!-- /.benefits-tab__active-bar -->
+                            </nav>
+                            <!-- /.benefits-tab__tablinks -->
+
+                            <div class="benefits-tab__tab-content tab-content-holder k12-content active">
+                                <p class="benefits-tab__tab-content__text">Times coverage demonstrates the value of quality journalism — instilling habits to help students become <span class="no-orphan">21st-century</span> learners.</p>
+                                <article class="benefits-tab__tab-content__quote">
+                                    <p class="benefits-tab__tab-content__quote__text">&ldquo;The New York Times has provided our classes with the opportunity to bring our subjects to a level that enlivens and enriches our students&rsquo; experiences and outlook on education.&rdquo;</p>
+                                    <div class="benefits-tab__tab-content__quote__person">
+                                        <h4 class="benefits-tab__tab-content__quote__person__name">Christopher</h4>
+                                        <p class="benefits-tab__tab-content__quote__person__jobtitle">Teacher</p>
+                                        <p class="benefits-tab__tab-content__quote__person__company">Folsom Elementary School</p>
+                                    </div>
+                                    <!-- /.benefits-tab__tab-content__quote__person -->
+                                </article>
+                                <!-- /.benefits-tab__tab-content__quote -->
+                                <article class="benefits-tab__tab-content__extra-content">
+                                    <h3 class="benefits-tab__tab-content__extra-content__title">The Learning Network</h3>
+                                    <p class="benefits-tab__tab-content__extra-content__description">Empower your students and teaching staff with educator-designed teaching and learning resources, like lesson plans, writing prompts, news quizzes and more. The Learning Network is now included with district and schoolwide access.</p>
+                                    <a class="benefits-tab__tab-content__extra-content__textlink" href="https://www.nytimes.com/section/learning" target="_blank">Learn more</a>
+                                </article>
+                                <!-- /.benefits-tab__tab-content__extra-content -->
+                            </div>
+                            <!-- /.benefits-tab__tab-content -->
+
+                            <div class="benefits-tab__tab-content tab-content-holder university-content">
+                                <p class="benefits-tab__tab-content__text">The Times serves as a vital academic resource for students and faculty alike, with full access to our unparalleled news coverage and award-winning interactive multimedia stories.</p>
+                                <article class="benefits-tab__tab-content__quote">
+                                    <p class="benefits-tab__tab-content__quote__text">&ldquo;The New York Times is an invaluable asset in my classrooms. <span class="no-orphan">I expect</span> grad-school journalism students to be fully up-to-date on the news, and to train toward being world citizens.  The Times is the best source for that, with its mature, thorough, unbiased news reporting.&rdquo;</p>
+                                    <div class="benefits-tab__tab-content__quote__person">
+                                        <h4 class="benefits-tab__tab-content__quote__person__name">Bill</h4>
+                                        <p class="benefits-tab__tab-content__quote__person__jobtitle">Professor</p>
+                                        <p class="benefits-tab__tab-content__quote__person__company">Northwestern University</p>
+                                    </div>
+                                </article>
+                                <!-- /.benefits-tab__tab-content__quote -->
+                                <article class="benefits-tab__tab-content__extra-content">
+                                    <h3 class="benefits-tab__tab-content__extra-content__title">The New York Times inEducation</h3>
+                                    <p class="benefits-tab__tab-content__extra-content__description">Keep learning current with curated summaries, instructional strategies and exclusive content — all designed for easy educator implementation. Campus subscriptions include full access to The New York Times inEducation.</p>
+                                    <a class="benefits-tab__tab-content__extra-content__textlink pass-pardot-campaign" href="http://nytimesineducation.com/" target="_blank">Learn more</a>
+                                </article>
+                                <!-- /.benefits-tab__tab-content__extra-content -->
+                            </div>
+                            <!-- /.benefits-tab__tab-content -->                          
+
+                        </div>
+                        <!-- /.benefits-tab -->
+
+                        <div class="benefits-accordion accordion-holder">
+                            <a class="benefits-accordion__mobile-link accor-link k12-click" data-tabtarget="k12" data-index="0" href="javascript:void(0)">
+                                <i class="benefits-accordion__accor-link__icon">+</i> K–12
+                            </a>
+                            <!-- /.benefits-accordion__mobile-link -->
+                            <div class="benefits-accordion__content accor-content-holder k12-content">
+                                <p class="benefits-accordion__content__text">Times coverage demonstrates the value of quality journalism — instilling habits to help students become <span class="no-orphan">21st-century</span> learners.</p>
+                                <article class="benefits-accordion__content__quote">
+                                    <p class="benefits-accordion__content__quote__text">&ldquo;The New York Times has provided our classes with the opportunity to bring our subjects to a level that enlivens and enriches our students&rsquo; experiences and outlook on education.&rdquo;</p>
+                                    <div class="benefits-accordion__content__quote__person">
+                                        <h4 class="benefits-accordion__content__quote__person__name">Christopher</h4>
+                                        <p class="benefits-accordion__content__quote__person__jobtitle">Teacher</p>
+                                        <p class="benefits-accordion__content__quote__person__company">Folsom Elementary School</p>
+                                    </div>
+                                    <!--  -->
+                                </article>
+                                <!-- /.benefits-accordion__content__quote -->
+                                <article class="benefits-accordion__content__extra-content">
+                                    <h3 class="benefits-accordion__content__extra-content__title">The Learning Network</h3>
+                                    <p class="benefits-accordion__content__extra-content__description">Empower your students and teaching staff with educator-designed teaching and learning resources, like lesson plans, writing prompts, news quizzes and more. The Learning Network is now included with district and schoolwide access.</p>
+                                    <a class="benefits-accordion__content__extra-content__textlink" href="https://www.nytimes.com/section/learning" target="_blank">Learn more</a>
+                                </article>
+                                <!-- /.benefits-accordion__content__extra-content -->
+                            </div>
+                            <!-- /.benefits-accordion__content -->
+
+                            <a class="benefits-accordion__mobile-link accor-link university-click " data-tabtarget="university" data-index="1" href="javascript:void(0)">
+                                <i class="benefits-accordion__accor-link__icon">+</i> University
+                            </a>
+                            <!-- /.benefits-accordion__mobile-link -->
+                            <div class="benefits-accordion__content accor-content-holder university-content">
+                                <p class="benefits-accordion__content__text">Our uncompromising, fact-based journalism can inspire and inform your own outlet&rsquo;s coverage.</p>
+                                <article class="benefits-accordion__content__quote">
+                                    <p class="benefits-accordion__content__quote__text">&ldquo;The New York Times is an invaluable asset in my classrooms. I expect grad-school journalism students to be fully up-to-date on the news, and to train toward being world citizens.  The Times is the best source for that, with its mature, thorough, unbiased news reporting.&rdquo;</p>
+                                    <div class="benefits-accordion__content__quote__person">
+                                        <h4 class="benefits-accordion__content__quote__person__name">Bill</h4>
+                                        <p class="benefits-accordion__content__quote__person__jobtitle">Professor</p>
+                                        <p class="benefits-accordion__content__quote__person__company">Northwestern University</p>
+                                    </div>
+                                </article>
+                                <!-- /.benefits-accordion__content__quote -->
+                                <article class="benefits-accordion__content__extra-content">
+                                    <h3 class="benefits-accordion__content__extra-content__title">The New York Times inEducation</h3>
+                                    <p class="benefits-accordion__content__extra-content__description">Keep learning current with curated summaries, instructional strategies and exclusive content — all designed for easy educator implementation. Campus subscriptions include full access to The New York Times inEducation.</p>
+                                    <a class="benefits-accordion__content__extra-content__textlink pass-pardot-campaign" href="http://nytimesineducation.com/" target="_blank">Learn more</a>
+                                </article>
+                                <!-- /.benefits-tab__tab-content__extra-content -->
+                            </div>
+                            <!-- /.benefits-accordion__content -->
+
+                        </div>
+                        <!-- /.benefits-accordion -->
+
+                    </div>
+                    <!-- /.container -->
+                </section>
+                <!-- /.education-section -->
+
+            </section>
+            <!-- /.section end of /.benefits -->
+
+            <section class="section subscription-option">
+                <div class="container">
+                    <h1 class="section__title">Group Subscription</h1>
+
+                    <div class="subtext">
+                        <p class="subtext__text">
+                            <strong>Interested in the academic group rate?</strong> <a href="javascript:void(0)" data-toggle="modal" data-target="#contact-form4" class="subtext__text__link">Request a quote</a> 
+                        </p>
+                    </div>
+
+                    <div class="subscription-product-b">
+                        <div class="subscription-product-b__prices">
+                            <div class="subscription-product-b__prices__table">
+                                <div class="subscription-product-b__prices__table__col">
+                                    <div class="subscription-product-b__prices__table__col__data"><strong>5&ndash;14 users</strong></div>
+                                    <div class="subscription-product-b__prices__table__col__data">$119.60/user/year</div>
+                                </div>
+                                <div class="subscription-product-b__prices__table__col">
+                                    <div class="subscription-product-b__prices__table__col__data"><strong>15&ndash;49 users</strong></div>
+                                    <div class="subscription-product-b__prices__table__col__data">$114.40/user/year</div>
+                                </div>
+                                <div class="subscription-product-b__prices__table__col">
+                                    <div class="subscription-product-b__prices__table__col__data"><strong>50&ndash;74 users</strong></div>
+                                    <div class="subscription-product-b__prices__table__col__data">$98.80/user/year</div>
+                                </div>
+                                <div class="subscription-product-b__prices__table__col">
+                                    <div class="subscription-product-b__prices__table__col__data"><strong>75+ users</strong></div>
+                                    <div class="subscription-product-b__prices__table__col__data"><a href="javascript:void(0)" data-toggle="modal" data-target="#contact-form3" class="subscription-product-b__prices__table__col__data__link">Request a quote</a></div>
+                                </div>
+                                <!--
+                                <div class="subscription-product-b__prices__table__col">
+                                    <div class="subscription-product-b__prices__table__col__data"><strong>Special academic group rates</strong></div>
+                                    <div class="subscription-product-b__prices__table__col__data"><a href="javascript:void(0)" data-toggle="modal" data-target="#contact-form4" class="subscription-product-b__prices__table__col__data__link">Request a quote</a></div>
+                                </div>
+                                -->
+                            </div>
+                        </div>
+                        <!-- /.subscription-product__prices -->
+
+                        <div class="subscription-product-b__cta-holder">
+                            <a class="subscription-product-b__cta-holder__cta pass-pardot-campaign getstarted-click" href="" data-toggle="modal" data-target="#contact-form">contact us</a>
+                        </div>
+                        <!-- /.subscription-product__cta-holder -->
+
+                        <header class="subscription-product-b__header">
+                            <p class="subscription-product-b__header__text">What&rsquo;s included:</p>
+                        </header>
+                        <!-- /.subscription-product__header -->
+                        <article class="subscription-product-b__features">
+                            <p class="subscription-product-b__features__text">
+                                <i class="subscription-product-b__features__text__check"></i>
+                                <strong>Unlimited articles</strong> on NYTimes.com and the NYTimes app.
+                            </p>
+                            <p class="subscription-product-b__features__text">
+                                <i class="subscription-product-b__features__text__check"></i>
+                                <strong>Access to interactive media</strong> like VR, podcasts, documentaries and beyond.
+                            </p>
+                            <p class="subscription-product-b__features__text">
+                                <i class="subscription-product-b__features__text__check"></i>
+                                <strong>100 archival articles</strong> every month, for each user.*
+                            </p>
+                            <p class="subscription-product-b__features__text">
+                                <i class="subscription-product-b__features__text__check"></i>
+                                <strong>Dedicated customer service and resources</strong> to make implementation easy.
+                            </p>
+                        </article>
+                        <!-- /.subscription-product__features -->
+                        
+                        <!-- /.subscription-products -->
+
+                        <article class="subscription-disclaimer">
+                            <p class="subscription-disclaimer__text">
+                                Group subscriptions are only available to five or more users.<br>
+                                Off-site access is not available for hotels.<br>
+                                *Restrictions may apply for articles between 1923 and 1980.
+                            </p>
+                        </article>
+                        <!-- /.subscription-disclaimer -->
+
+                    </div>
+                    
+                </div>
+                <!-- /.container -->
+            </section>
+            <!-- /.subscription-option -->
+
+            <section class="section countries-section">
+                <div class="container">
+                    <h1 class="section__title">Our Reach</h1>
+
+                    <div class="country-select">
+                        <div class="country-select__column">
+                            <a href="javascript:void(0)" class="country-select__column__link active country-trigger ourreach1m-click" data-img="our-reach-business-map3x.svg" data-subscribers="employees">
+                                <h3 class="country-select__column__link__title">1M</h3>
+                                <p class="country-select__column__link__copy">employees across<br> 91 countries</p>
+                            </a>
+                            <!-- /.country-select__column__link -->
+                        </div>
+                        <!-- /.country-select__column -->
+
+                        <div class="country-select__column">
+                            <a href="javascript:void(0)" class="country-select__column__link country-trigger ourreach3m-click" data-img="our-reach-business-map3x-other.svg" data-subscribers="studentsteachers">
+                                <h3 class="country-select__column__link__title">3M</h3>
+                                <p class="country-select__column__link__copy">students and teachers in over 60 countries</p>
+                            </a>
+                            <!-- /.country-select__column__link -->
+                        </div>
+                        <!-- /.country-select__column -->
+                        <div class="country-select__active-bar">
+                            <div class="country-select__active-bar__active-state tab-active-bar"></div>
+                        </div>
+                        <!-- /.benefits-tab__active-bar -->
+                    </div>
+                    <!-- /.country-select -->
+
+                    <!-- <figure class="earth-map">
+                        <img src="images/our-reach-business-map3x.svg" class="earth-map__img" >
+                    </figure> -->
+                    <!-- /.earth-map -->
+                    <script>
+    (function($){ 
+        $(document).ready(function(){
+            var employeesArray = ["AF","AR","CA", "BR", "AU", "AT", "DE", "MY", "KH", "CN", "CO", "HR", "CZ", "DK", "DO","FI", "GB","FR","BE","GH","GR","HU","ID","IN","IL","IT","JP", "JO","KE","KR","KW","LA","MX","NL", "NZ","NO","OM","PA","PE","PH","PL", "PT", "QA","RO","SA","SI", "ZA","ES","CH","TW","TZ","TH", "TN","TR", "AE","VN","AZ","BS","BD","BA","CM","CU","EG","ET","GE","IS","IE","LV","LT","BB","LU","KY","BM","MK","MT","MA","NI","RU","RW","ME","RS","SK","SE","UG","VE","VG","US"];
+            var studentTeachersArray = ["CA", "BR", "AU", "AT", "DE", "BW", "MY", "BG", "KH", "CN", "CO", "HR", "CZ", "DK", "DO","FI", "EC","GB","FR","BE","GH","GR","HU","ID","IN","IQ","IL","IT","JP", "JO","KE","KR","KW","KG","LA","LB","MX", "NP","NL", "NZ","NO","OM","PA","PY","PE","PH","PL", "PT", "PR", "QA","RO","SA","SI", "ZA","ES", "LK","CH","TW","TZ","TH", "TN","TR", "AE","UZ","VN","ZW","LU","US"]; 
+            var countriesSelected = employeesArray;
+
+            function enableMapToggle(){
+                $(".country-trigger").on("click", function(){
+                    var ourSubscribers = $(this).data("subscribers");
+                    if(!$(this).hasClass("active")){
+                        var thisPosition = $(this).parents(".country-select__column").index();
+                        var barIncrement = 50; /* in percentage */
+                        var leftSpace = (thisPosition * barIncrement) +"%";
+
+                        $(".country-trigger.active").removeClass("active");
+                        $(".country-select .tab-active-bar").animate({left: leftSpace});
+                        $(this).addClass("active");
+
+                        //console.log(thisPosition + "  " + leftSpace);
+                        if(ourSubscribers === "employees"){
+                            countriesSelected = employeesArray;
+                            //console.log("use employees array");
+                            $(".countries-section").removeClass("yellow");
+                        }else if(ourSubscribers === "studentsteachers"){
+                            countriesSelected = studentTeachersArray;
+                            //console.log("use students and teachers array");
+                            $(".countries-section").addClass("yellow");
+
+                        }
+
+                        updateCountries();
+                    }
+                });//End of accordion click 
+            }//END of enableMapToggle
+
+            function updateCountries(){
+                $("path.active").attr("class","cls-1");
+                jQuery.each( countriesSelected, function( i, val ) {
+                    //console.log(val);
+                    $("path#" + val ).attr("class","cls-1 active");
+                });
+            }
+
+            updateCountries();
+            enableMapToggle();
+
+        });//End of doc ready 
+    })(jQuery);
+</script>
+
+<svg id="svg2" class="svg-map" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1001"><defs><style>.cls-1{stroke-linejoin:round;}</style></defs><title>world</title><path id="AF" class="cls-1" d="M1369.9,333.8h-5.4l-3.8-.5-2.5,2.9-2.1.7-1.5,1.3-2.6-2.1-1-5.4-1.6-.3v-2l-3.2-1.5-1.7,2.3.2,2.6-.6.9-3.2-.1-.9,3-2.1-1.3-3.3,2.1-1.8-.8-4.3-1.4h-2.9l-1.6-.2-2.9-1.7-.3,2.3-4.1,1.2.1,5.2-2.5,2-4,.9-.4,3-3.9.8-5.9-2.4-.5,8-.5,4.7,2.5.9-1.6,3.5,2.7,5.1,1.1,4,4.3,1.1,1.1,4-3.9,5.8,9.6,3.2,5.3-.9,3.3.8.9-1.4,3.8.5,6.6-2.6-.8-5.4,2.3-3.6h4l.2-1.7,4-.9,2.1.6,1.7-1.8-1.1-3.8,1.5-3.8,3-1.6-3-4.2,5.1.2.9-2.3-.8-2.5,2-2.7-1.4-3.2-1.9-2.8,2.4-2.8,5.3-1.3,5.8-.8,2.4-1.2,2.8-.7-1.4-1.9Z"/><path id="AO" class="cls-1" d="M1068.3,609.6l-16.6-.1-1.9.7-1.7-.1-2.3.9-.5,1.2,2.8,4,1.1,4.3,1.6,6.1-1.7,2.6-.3,1.3,1.3,3.8,1.5,3.9,1.6,2.2.3,3.6-.7,4.8-1.8,2.8-3.3,4.2-1.3,2.6-1.9,5.7-.3,2.7-2,5.9-.9,5.5.5,4,2.7-1.2,3.3-1,3.6.1,3.2,2.9.9-.4,22.5-.3,3.7,3,13.4.9,10.3-2.5-3.5-4-3.6-5.2.8-20.3,11.6.1-.5-2.2.9-2.4-.9-3,.7-3-.5-2-2.6-.4-3.5,1-2.4-.2-1.4.6.5-7.6-1.9-2.3-.3-4,.9-3.8-1.2-2.4v-4h-6.8l.5-2.3h-2.9l-.3,1.1-3.4.3-1.5,3.7-.9,1.6-3-.9-1.9.9-3.7.5-2.1-3.3-1.3-2.1-1.6-3.8-1.3-4.7Zm-21.8-1.3.2-2.7.9-1.7,2-1.3-2-2.2-1.8,1.1-2.2,2.7,1.4,4.8,1.5-.7Z"/><path id="AL" class="cls-1" d="M1077.5,300.5l-2,3.1.5,1.9h0l1,1-.5,1.9-.1,4.3.7,3,3,2.1.2,1.4,1,.4,2.1-3,.1-2.1,1.6-.9V312l-2.3-1.6-.9-2.6.4-2.1h0l-.5-2.3-1.3-.6-1.3-1.6-1.3.5-.4-1.2Z"/><path id="AE" class="cls-1" d="M1283.9,408.6l-1.3-2.2-3,3.9-3.7,4.1-3.3,4.3-3.3-.2-4.6-.2-4.2,1-.3-1.7-1,.3.4,1.5,2.6,6.4L1279,429l1-1.3-.1-2.6,1.4-2.6-.3-2.6,2.4-1.3-1.1-.8.1-4.2h2.8l-1.3-5Z"/><path id="AR" class="cls-1" d="M669.8,920.7l.9-3-7.3-1.5-7.7-3.6-4.3-4.6-3-2.8,5.9,13.5h5l2.9.2,3.3,2.1,4.3-.3ZM619.4,712.6l-7.4-1.5-4,5.7.9,1.6-1.1,6.6-5.6,3.2,1.6,10.6-.9,2,2,2.5-3.2,4-2.6,5.9-.9,5.8,1.7,6.2-2.1,6.5,4.9,10.9,1.6,1.2,1.3,5.9-1.6,6.2,1.4,5.4-2.9,4.3,1.5,5.9,3.3,6.3-2.5,2.4.3,5.7.7,6.4,3.3,7.6-1.6,1.2,3.6,7.1,3.1,2.3-.8,2.6,2.8,1.3,1.3,2.3-1.8,1.1,1.8,3.7,1.1,8.2-.7,5.3,1.8,3.2-.1,3.9-2.7,2.7,3.1,6.6,2.6,2.2,3.1-.4,1.8,4.6,3.5,3.6,12,.8,4.8.9,2.2.4-4.7-3.6-4.1-6.3.9-2.9,3.5-2.5.5-7.2,4.7-3.5-.2-5.6-5.2-1.3-6.4-4.5-.1-4.7,2.9-3.1,4.7-.1.2-3.3-1.2-6.1,2.9-3.9,4.1-1.9-2.5-3.2-2.2,2-4-1.9-2.5-6.2,1.5-1.6,5.6,2.3,5-.9,2.5-2.2-1.8-3.1-.1-4.8-2-3.8,5.8.6,10.2-1.3,6.9-3.4,3.3-8.3-.3-3.2-3.9-2.8-.1-4.5-7.8-5.5-.3-3.3-.4-4.2.9-1.4-1.1-6.3.3-6.5.5-5.1,5.9-8.6,5.3-6.2,3.3-2.6,4.2-3.5-.5-5.1-3.1-3.7-2.6,1.2-.3,5.7-4.3,4.8-4.2,1.1-6.2-1-5.7-1.8,4.2-9.6-1.1-2.8-5.9-2.5-7.2-4.7-4.6-1L632,713.7l-1-1.3-6.3-.3-1.6,5.1-3.7-4.6Z"/><path id="AM" class="cls-1" d="M1219,325.1l-.9-4.4-2.5-1.1-2.5-1.7,1-2-3.1-2.2.7-1.5-2.2-1.1-1.4-1.7-6.9,1,1.3,2.2v3.1l4.2,1.5,2.4,1.9,1-.2,1.8,1.7h2.3l.2,1,2.8,3.7,1.8-.2Z"/><path id="AU" class="cls-1" d="M1726.7,832l-3-.5-1.9,2.9-.6,5.4-2.1,4-.5,5.3,3,.2.8.3,6.6-4.3.6,1.7,4-4.9,3.2-2.2,4.5-7.3-2.8-.5-4.8,1.2-3.4.9-3.6-2.2Zm50.1-172.3.5-2.3.1-3.6-1.6-3.2.1-2.7-1.3-.8.1-3.9-1.2-3.2-2.3,2.4-.4,1.8-1.5,3.5-1.8,3.4.6,2.1-1.2,1.3-1.5,4.8.1,3.7-.7,1.8.3,3.1-2.6,5-1.3,3.5-1.7,2.9-1.7,3.4-4.1,2.1-4.9-2.1-.5-2-2.5-1.6h-1.6l-3.3-3.8-2.5-2.2-3.9-2-3.9-3.5-.1-1.8,2.5-3.1,2.1-3.2-.3-2.6,1.9-.2,2.5-2.5,2-3.4-2.2-3.2-1.5,1.2-2-.5-3.5,1.8-3.2-2-1.7.7-4.5-1.6-2.7-2.7-3.5-1.5-3.1.9,3.9,2.1-.3,3.2-4.8,1.2-2.8-.7-3.6,2.2-2.9,3.7.6,1.5-2.7,1.7-3.4,5.1.6,3.5-3.4-.6H1691l-2.5-3.8-3.7-2.9-2.8.8-2.6.9-.3,1.6-2.4-.7-.3,1.8-3,1.1-1.7,2.5-3.5,3.1-1.4,4.8-2.3-1.3-2.2,3.1,1.5,3-2.6,1.2-1.4-5.5-4.8,5.4-.8,3.5-.7,2.5-3.8,3.3-2,3.4-3.5,2.8-6.1,1.9-3.1-.2-1.5.6-1.1,1.4-3.5.7-4.7,2.4-1.4-.8-2.6.5-4.6,2.3-3.2,2.7-4.8,2.1-3.1,4.4.4-4.8-3.1,4.6-.1,3.7-1.3,3.2-1.5,1.5-1.3,3.7.9,1.9.1,2,1.6,5-.7,3.3-1-2.5-2.3-1.8.4,5.9-1.7-2.8.1,2.8,1.8,5-.6,5,1.7,2.5-.4,1.9.9,4.1-1.3,3.6-.3,3.6.7,6.5-.7,3.7-2.2,4.4-.6,2.3-1.5,1.5-2.9.8-1.5,3.7,2.4,1.2,4,4.1h3.6l3.8.3,3.3-2.1,3.4-1.8,1.4.3,4.5-3.4,3.8-.3,4.1-.7,4.2,1.2,3.6-.6,4.6-.2,3-2.6,2.3-3.3,5.2-1.5,6.9-3.2,5,.4,6.9-2.1,7.8-2.3,9.8-.6,4,3.1,3.7.2,5.3,3.8-1.6,1.5,1.8,2.4,1.3,4.6-1.6,3.4,2.9,2.6,4.3-5.1,4.3-2.1,6.7-5.5-1.6,4.7-3.4,3.2-2.5,3.7-4.4,3.5,5.2-1.2,4.7-4.4-.9,4.8-3.2,3.1,4.7.8,1.3,2.6-.4,3.3-1.5,4.9,1.4,4,4,1.9,2.8.4,2.4,1,3.5,1.8,7.2-4.7,3.5-1.2-2.7,3.4,2.6,1.1,2.7,2.8,4.7-2.7,3.8-2.5,6.3-2.7,6-.2,4.2-2.3.9-2,3-4.5,3.9-4.8,3.6-3.2,4.4-5.6,3.3-3.1,4.4-5,5.4-3.1,5-5.8,3.1-4.5,1.4-3.6,3.8-5.7,2.1-2.9,2.5-5.7-.7-5.4,1.7-3.9,1.1-3.7v-5.1l-2.8-5.1-1.9-2.5-2.9-3.9.7-6.7-1.5,1-1.6-2.8-2.5,1.4-.6-6.9-2.2-4,1-1.5-3.1-2.8-3.2-3-5.3-3.3-.9-4.3,1.3-3.3-.4-5.5-1.3-.7-.2-3.2-.2-5.5,1.1-2.8-2.3-2.5-1.4-2.7-3.9,2.4-1.2-5Z"/><path id="AT" class="cls-1" d="M1060.2,264l-2.3-1.2-2.3.3-4-1.9-1.7.5-2.6,2.5-3.8-2-1.5,2.9-1.7.8,1,4-.4,1.1-1.7-1.3-2.4-.2-3.4,1.2-4.4-.3-.6,1.6-2.6-1.7-1.5.3.2,1.1-.7,1.6,2.3,1.1,2.6.2,3.1.9.5-1.2,4.8-1.1,1.3,2.2,7.2,1.6,4.2.4,2.4-1.4,4.3-.1.9-1.1,1.3-4-1.1-1.3h2.8l.2-2.6-.7-2.1.3-.8Z"/><path id="AZ" class="cls-1" d="M1210.1,318.9l-1,.2,1.2,2.4,3.2,2.9,3.7.9-2.8-3.7-.2-1h-2.3l-1.8-1.7Zm10.4-9.3-4.3-3.8-1.5-.2-1.1.9,3.2,3.4-.6.7-2.8-.4-4.2-1.8-1.1,1,1.4,1.7,2.2,1.1-.7,1.5,3.1,2.2-1,2,2.5,1.7,2.5,1.1.9,4.4,5.3-4.7,1.9-.5,1.9,1.9-1.2,3.1,3.8,3.4,1.3-.3-.8-3.2,1.7-1.5.4-2.2-.1-5,4.2-.5-2-1.7-2.5-.2-3.5-4.5L1226,306h0l-2.6,2.5-.5,1.5-2.4-.4Z"/><path id="BI" class="cls-1" d="M1148.2,590l-.3-2.5h0l-3-.4-1.7,3.6-3.5-.5,1.4,2.9.1,1.1,2,6.1-.1.3.6-.1,2.1-2.3,2.2-3.3,1.4-1.4v-2l-1.2-1.5Z"/><path id="BE" class="cls-1" d="M1000.7,246.2l-4.4,1.3-3.6-.5h0l-3.8,1.2.7,2.2,2.2.1,2.4,2.4,3.4,2.9,2.5-.4,4.4,2.8.4-3.5,1.3-.2.4-4.2-2.8-1.4-3.1-2.7Z"/><path id="BJ" class="cls-1" d="M996.9,498l-4.3-3.7h-2l-1.9,1.9-1.2,1.9-2.7.6-1.2,2.8-1.9.7-.7,3.3,1.7,1.9,2,2.3.2,3.1,1.1,1.3-.2,14.6,1.4,4.4,4.6-.8.3-10.2L992,518l1-4,1.7-1.9,2.7-4-.6-1.7,1.1-2.5-1.2-3.8.2-2.1Z"/><path id="BF" class="cls-1" d="M978.8,477.2h-3.6l-1.4-1.2-3,.9-5.2,2.6-1.1,2-4.3,2.9-.8,1.6-2.3,1.3-2.7-.9-1.6,1.6-.8,4.4-4.5,5.2.2,2.2-1.6,2.7.4,3.7,2.5,1.4,1,2.1,2.5,1.3,1.9-1.6,2.7-.2,3.8,1.6-.8-4.8.2-3.6,9.7-.3,2.4.5,1.8-1,2.6.5,4.9.1,1.9-.7,1.2-2.8,2.7-.6,1.2-1.9.1-4.4-6.4-1.4-.2-3.1-3.1-4.1-.8-2.9.5-3.1Z"/><path id="BD" class="cls-1" d="M1486.5,431.9l-4.5-10.1-1.5.1-.2,4-3.5-3.3,1.1-3.6,2.4-.4,1.6-5.3-3.4-1.1-5,.1-5.4-.9-1.2-4.4-2.7-.4-4.8-2.7-1.2,4.3,4.6,3.4-3.1,2.4-.8,2.3,3.7,1.7-.4,3.8,2.6,4.8,1.6,5.2,2.2.6,1.7.7.6-1.2,2.5,1.3,1.3-3.5-.9-2.6,5.1.2,2.8,3.7,1.5,3.1.8,3.2,2,3.3-1.1-5.1,2.1,1-.5-4.6Z"/><path id="BG" class="cls-1" d="M1121.6,294.3l-3-.7-4-2.2-5.8,1.4-2.3,1.6-7.5-.3-4-1-1.9.5-1.8-2.6-1.1,1.4.7,2.3,2.8,2.6-1.7,1.9-.7,2,.6.7-.7.9,2.8,2,.8,4.1,3.8.2,3.9-1.7,3.9,2.1,4.6-.6-.3-3,5-2,4.5.8-2.1-3.5,1.3-4.4,2.2-2.5Z"/><path id="BA" class="cls-1" d="M1062.2,284.9l-2.3.1-1,1.3-1.9-1.4-.9,2.5,2.7,2.9,1.3,1.9,2.5,2.3,2,1.4,2.2,2.5,4.7,2.4.4-3.4,1.5-1.4.9-.6,1.2-.3.5-2.9-2.7-2.3,1-2.7h-1.8l-2.4-1.4-3.5.1-4.4-1Z"/><path id="BY" class="cls-1" d="M1112.8,219.4l-5.2-1.5-4.6,2.3-2.6,1,.9,2.6-3.5,2-.5,3.4-4.8,2.2h-4.6l.6,2.7,1.7,2.3.3,2.4-2.7,1.2,1.9,2.9.5,2.7,2.2-.3,2.4-1.6,3.7-.2,5,.5,5.6,1.5,3.8.1,2,.9,1.6-1.1,1.5,1.5,4.3-.3,2,.6-.2-3.1,1.2-1.4,4.1-.3h0l-2-3.9-1.5-2,.8-.6,3.9.2,1.6-1.3-1.7-1.6-3.4-1.1.1-1.1-2.2-1.1-3.7-3.9.6-1.6-1-2.9-4.8-1.4-2.3.7-1-1.4Z"/><path id="BZ" class="cls-1" d="M482.5,471.1l1.4-2.2,1-.2,1.3-1.7,1-3.2-.3-.6.9-2.3-.4-1,1.3-2.7.3-1.8h-1.1l.1-.9h-1l-2.5,3.9-.9-.8-.7.3-.1,1-.7,5-1.2,7.2h1.6Z"/><path id="BO" class="cls-1" d="M655.7,700.5l1.6-1.3-.8-3.6,1.3-2.8.5-5-1.6-4-3.2-1.7-.8-2.6.6-3.6-10.7-.3-2.7-7.4,1.6-.1-.3-2.8-1.2-1.8-.5-3.7-3.3-1.9-3.5.1-2.5-1.9-3.8-1.2-2.4-2.4-6.3-1-6.4-5.7.3-4.3-.9-2.5.4-4.7-7.3,1.1-2.8,2.3-4.8,2.6-1.1,1.9-2.9.2-4.2-.6,5.5,10.3-1.1,2.1.1,4.5.3,5.4-1.9,3.2,1.2,2.4-1.1,2.1,2.8,5.3L591,684l3.1,4.3,1.2,4.6,3.2,2.7-1.1,6.2,3.7,7.1,3.1,8.8,3.8-.9,4-5.7,7.4,1.5,3.7,4.6,1.6-5.1,6.3.3,1,1.3,1.5-7.6-.2-3.4,2.1-5.6,9.5-1.9,5.1.1,5.4,3.3.3,1.9Z"/><path id="BR" class="cls-1" d="M659,560.1l-1.4.2-3.1-.5-1.8,1.7-2.6,1.1-1.7.2-.7,1.3-2.7-.3-3.5-3-.3-2.9-1.4-3.3,1-5.4,1.6-2.2-1.2-3-1.9-.9.8-2.8-1.3-1.5-2.9.3.7,1.8-2.1,2.4-6.4,2.4-4,1-1.7,1.5-4.4-1.6-4.2-.8-1,.6,2.4,1.6-.3,4.3.7,4,4.8.5.3,1.4-4.1,1.8-.7,2.7-2.3,1-4.2,1.5-1.1,1.9-4.4.5-3-3.4-1.1.8-1-3.8-1.6-2-1.9,2.2-10.9-.1v3.9l3.3.7-.2,2.4-1.1-.6-3.2,1v4.6l2.5,2.4.9,3.6-.1,2.8-2.2,17.4-5.1-.3-.7,1-4.6,1.2-6.2,4.3-.4,3-1.3,2.2.7,3.4-3.3,1.9.1,2.7L562,620l2.6,5.8,3.3,3.8-1,2.8,3.7.3,2.3,3.4,4.9.2,4.4-3.8.2,9.7,2.6.7,3-1.1,4.2.6,2.9-.2,1.1-1.9,4.8-2.6,2.8-2.3,7.3-1.1-.4,4.7.9,2.5-.3,4.3,6.4,5.7,6.3,1,2.4,2.4,3.8,1.2,2.5,1.9,3.5-.1,3.3,1.9.5,3.7,1.2,1.8.3,2.8-1.6.1,2.7,7.4,10.7.3-.6,3.6.8,2.6,3.2,1.7,1.6,4-.5,5-1.3,2.8.8,3.6-1.6,1.3,1.9,3.6.4,8.6,6,1.2,2.1-1.2,3.9,1.7,1.2,1.9,1,5.8.9,2.5,2,.3,2-1.1,2.1,1.2.3,3.5-.3,3.8-.7,3.6,2.6-1.2,3.1,3.7.5,5.1-4.2,3.5-3.3,2.6-5.3,6.2-5.9,8.6,3.4-.7,6.2,4.9,1.9-.2,6.2,4.1,4.8,3.5,3.8,4.3-1.9,3,2.1,3.7,2.9-3.7,1.5-6,3.2-3,3.9-5,4.5-11.2,3.4-3.5.8-3.1.3-6.4-1.3-3.5.3-4.8,4.1-6.3,6-5.1,6-1.8,3.6-2.9,8.5-2.4h5.9l1.1-3.8,4.2-2.8.6-6.5,5.1-8.3.5-8.5,1.6-2.6.3-4.1,1.1-9.9-1-11.9,1.4-4.7,1.4-.1,3.9-5.5,3.3-7.2,7.7-8.8,2.7-4.2,2-10.5-1-3.9-2-8.1-2.1-2-4.8-.2-4.3-1.9-7.3-7.1-8.4-5.3-8.4.3-10.9-3.4-6.5,2,.8-3.5-2.7-3.8-9.4-3.8-7.1-2.3-4.2,4.1-.3-6.3-9.9-1-1.7-2,4.2-5.2-.1-4.4-3-1-3-11.2-1.3-3.5-1.9.3-3.5,5.8-1.8,4.7-2.1,2.4-2.7.5-.8-1.8-1.2-.3-1.8,1.8-2.4-1.3-3.2-1.4-2.7.7-2.3-.6-.5,1.8.9,1.3-.5,1.3-3.1-.5Z"/><path id="BN" class="cls-1" d="M1617.8,543.4l2.7,3.3,1.1-2.2,2.7.2.1-4.1.1-3.1-4.6,3.5-2.1,2.4Z"/><path id="BT" class="cls-1" d="M1474.7,395.5l-2.7-1.8-2.9-.1-4.2-1.5-2.6,1.6-2.6,4.8.3,1.2,5.5,2.5,3.2-1,4.7.4,4.4-.2-.4-3.9-2.7-2Z"/><path id="BW" class="cls-1" d="M1116.7,685l-1-.5-3.2,1.5h-1.6l-3.7,2.5-2-2.6-8.6,2.2-4.1.2-.9,22.7-5.4.2-.6,18.5,1.4,1,3,6.1-.7,3.8,1.1,2.3,4-.7,2.8-2.8,2.7-1.9,1.5-3.1,2.7-1.5,2.3.8,2.5,1.8,4.4.3,3.6-1.5.6-2,1.2-3,3-.5,1.7-2.4,2-4.3,5.2-4.7,8-4.7-3.4-2.9-4.2-.9-1.5-4.1.1-2.2-2.3-.7-6-7-1.6-3.7-1.1-1.1-1.9-5.1Z"/><path id="CF" class="cls-1" d="M1110.5,517.3l-.5-.3-2-1.8-.3-2,.8-2.6V508l-3.3-4-.7-2.7-3.5,1.1-2.8,2.5-4,7-5.2,2.9-5.4-.4-1.6.6.6,2.3-2.9,2.2-2.3,2.5-7.1,2.4-1.4-1.4-.9-.2-1,1.7-4.7.4-2.7,6.5-1.4,1.1-.4,5,.6,2.7-.4,1.9,2.6,3.3.5,2.3,2.1,3.2,2.6,2.1.3,2.9.6,1.8,2.9-5.9,3.3-3.4,3.8,1.1,3.6.4.5-4.5,2.2-3.2,3-2,4.6,2.1,3.6,2.4,4.1.6,4.2,1.2,1.6-3.8.8-.5,2.6.6,6.2-3.1,2.2,1.3,1.8-.2.9-1.5,2-.6,4.3.7,3.6.1,1.8-.6-.9-2.1-4.2-2.5-1.5-3.8-2.4-2.7-3.8-3.4-.1-2-3.1-2.6-3.8-2.5Z"/><path id="CA" class="cls-1" d="M659,276.7l-.7-3-2.5,1.9.5,2.1,5.6,2.6,1.9-.4,3.3-2.5-4.7.1-3.4-.8Zm14.4-15.9.2-1.1-4.1-2.6-5.9-1.6-1.9.6,3.5,2.9,5.7,1.9,2.5-.1Zm-305.3,3.7.2-3.4-3.2-2.6-.4-2.9-.1-2.1-4.1-.7-2.4-.9-4.1-1.4-1.4,1.5-.6,3.3,4.3,1.1-.4,1.8,2.9,2.2v2.2l6.3,2.8,3-.9ZM704.2,251l3.9-3.8,1.4-1.7-2.1-.3-4.9,2.2-4.2,3.5-8.1,9.8-5.3,3.7,1.6,1.7-3.8,2.2.2,1.9,9.6.1,5.4-.3,4.4,1.5-4.4,2.9,2.9.2,7.3-5.4,1.2.8-2.5,5.1,3,1.2,2.3-.2,3.5-5.5-.5-3.9.3-3.3-3.7,1.1,2.8-4.6-4.3-1.9-2.7,1.5-3.9-1.7,2.4-2.1-2.9-1.3-3.8,2,4.9-5.4ZM347.4,229.8l-1.9,2-1.4,2.6.9,1.9-.6,2.8.7,2.8H347l-.2-4.9,7.1-6.9-4.9.5-1.6-.8Zm280.9-47-.4-1.2-1.7-.1-2.8,1.7-.4.4.1,1.7,1.7.5,3.5-3Zm-9.6-3.2.8-1.1-6-.1-4.9,2.7v1.5l3,.2,7.1-3.2ZM615.6,163l-2.7-.5-5,5.2-3.6,4.4-5.7,2.8,6.3-.6-.8,3.4,8.2-3,6.2-3,.8,2.6,5.9,1.3,4.9-1.8-1.9-1.8-3.4.4,1.3-2.7-3.7-1.7-3.4-1.9-1.5-1.5-2.8.9.9-2.5Zm44.6-8.2,3.7-1.7,1-.7,1.4-2.3-2.3-1.5-4.2.7-3.8,3.1-.7,2.6,4.9-.2Zm-73.8-10.7-.8-2-.3-1-1.6-1-3-1.5-4.9,2.3-5,1.7,3.5,2.4,3.8-.6,4.1,1.6Zm22.4-2.1-6.6-1,5.7-2.6-.4-6-1.9-2.3-4.5-.8-8.1,3.8-5.5,5.8,2.9,2.1,1.6,3.3-6.3,5.5-3.2-.2-6.2,4.4,4.2-5.2-4.8-1.8-4.5.9-2.4,3.4-5.9-.1-7.2.8-5.1-2.4-5,.4-1.5-2.9-2.1-1.3-3.8.5-5.2.3-4.4,1.8,2,2.3-7,2.8-1.4-3.3-4.4,1-11.8.6-6.4-1.2,8.5-2.6-2.8-2.8-4.4.4-4.7-1-7.5-1.9-3.8-2.3-4.5-.3-3.3,1.6-5.9.9,3.9-4.1-9.4,3.6-1.4-4.7-2.1-.6-3.8,2.5-4.5,1.2-.2-2.2-8.2,1.4-8.8,2.3-5.2-.6-7,1.6-6.2,2.3-3.7-.5-3.3-2.6-5.9-1.3h0l-24.3,20.2-35.4,32.4,4.2.1,2.7,1.6.6,2.6.2,3.9,7.6-3.3,6.4-1.9-.5,3,.7,2.4,1.7,2.7-1.1,4.2-1.5,6.8,4.6,3.8-3.1,3.7-5.1,2.9h0l-2.5,3.1,2.1,4.4-3.1,4.9,4.1,2.6-3.6,3.7-1.3,5.5,6.9,2.5,1.6,2.7,5.4,6.1H509.3l1.3-2.4h1.6l-.8,3.4,1,1,3.2.4,4.6,1,3.8,1.9,4.4-.8,5.3,1.6h0l3.2-2.4,3.2-1,1.8-1.5,1.5-.8,4,1.2,3.3.2.8.8.1,3.5,5.2,1-1.7,1.7,1.2,1.9-1.9,2.3,1.8.8-1.9,2.1h0l1.2.2,1.3-.9.5,1.4,3.4.7,3.8.1,3.8.6,4,1.2.8,2,1.4,4.7-2.4,2-3.8-.8-1-3.8-.9,3.9-3.8,3.4-.8,2.9-1.1,1.7-4.1,2h0l-3.7,3.4-2,2.2,2.7.4,4.5-2L561,301l1.6-.3,2.6.6,1.7-.9,2.8-.8,4.7-.8h0l.3-1.8-.3.1-1.7.3-1.8-.6,2.3-2.1,1.9-.7,3.9-.9,4.6-.9,1.8,1.2,1.9-1.4,1.9-.8.9.4.1.1,6.7-4.2,2.7-1.2h17l1-1.6,1.7-.3,2.5-.9,2.7-2.8,3.2-4.9,5.5-4.7,1.1,1.7,3.7-1.1,1.5,1.8-2.8,8.5,2.1,3.5,5.9-.8,8.1-.2-10.4,5.1-1.5,5.2,3.7.5,7.1-4.5,5.8-2.4,12.2-3.7,7.5-4.1-2.6-2.2,1-4.5-7.1,7-8.6.8-5.5-3.1-.1-4.6.6-6.8,6.1-4.1-3.3-3.1-7.6.6L638,265.8,627.1,274l-4.6,1,7.8-5.7,10.1-8.3,7.2-2.7,5.7-4.4,5.2-.5,7.3.1,10,1.3,8.6-1,7.8-5.1,8.7-2.2,4.2-2.1,4.2-2.3,2-6.8-1.1-2.3-3.4-.8v-5.1l-2.3-1.9-6.9-1.6-2.8-3.4-4.8-3.4,3.4-3.7-2-7.1-2.6-7.5-1-5.2-4.3,2.7-7.4,6.5-8.1,3.2-1.6-3.4-3.7-1,2.2-7.3,2.6-4.9-7.7-.5-.1-2.2-3.6-3.3-3-2-4.5,1.5-4.2-.5-6.6-1.6-3.9,1.3-3.8,9-1,5.3-8.8,6.1,3.1,4.5.5,5-1.7,4-4.7,4.1L610,224l-9,2.8,1.7,3.2-2.2,9.6-5.6,6.3-4.6,1.9-4.4-5.8-.1-6.8,1.7-6,3.6-5.2-4.8-.6-7.5-.4-3.6-2.5-4.8-1.6-1.7-2.9-3.3-2.2-7-2.6-7.1,1.2.7-4.5,1.5-5.5-6-1,4.9-6.8,4.9-4.6,9.4-6.5,8.6-4.6,5.6-.7,2.9-3.7,5.1-2.4,6.4-.4,7.7-3.8,2.9-2.4,7.4-4.7,3.2-2.8,3.2,1.7,6.5-.9L637,155l2.3-2.7-.8-2.9,5-2.9,1.7-2.7-3.5-2.6-5.4-.8-5.5-.4-4.6,5.9-6.5,4.6-7.2,4-1.3-3.7,4.2-4-2.2-3.5-8.7,4.2,4.3-5.5Zm-75.5-18.9-2.8-1-14.1,3.2-5.1,2-7.8,3.9,5.4,1.4,6.2-.1-11.5,2.1v1.9l5.6.1,9-.4,6.5,1.2-6.2,1-5.5-.3-7.1.9-3.3.6.6,4.2,4.2-.6,4.1,1.5-.3,2.5,7.8-.5,11.2-.8,9.4-1.8,5-.4,5.7,1.5,6.7.8,3.1-1.9-.7-2.1,7-.4,2.6-2.4-5-2.5-4.2-2.6,2.4-3.6,2.7-5.1-2.2-2-3-.9-4.2.8-2.8,5.3-4.3,2.1,2.2-5.1-1.7-1.7-7.3,2.7L539,124l-10.4,1.5,4.7-2.4Zm39.1-1.5-1.7-1.1-5.4.2-2.1.7,2.2,3.6Zm107.7,1.6-4.4-2.8-8.4-.5-2.1.3-1.7,1.8,2,2.8.9.3,4.8-.7,4.1.1,4.1.1.7-1.4Zm-39.4-.3,5.7-3.2L635.2,121l-5.8,2.1-7.1,4.6-3.3,5.2,5.6.1-6.1,2.3,1.8,1.9,5.9.8,7.3,1.5,13.8,1.2,7.9-.6,3.2-1.6,2,1.8,3.3.3,2,3.3-3.5,1.4,7.1,1.8,4.6,2.6.5,1.9L674,154l-8.6,5.4-3.2,2.7.2,2-9.2.7-8,.1-5.4,4.2,2.4,1.9,13-.9.9-1.6,4.7,2.7,4.7,2.9-2.4,1.6,3.8,2.8,7.6,3.3,10.7,2.3.3-2-2.8-3.5-3.5-4.9,8.5,4.6,4.7,1.5,3.6-4.1v-5.6l-1-1.5-4.4-2.5-2.7-3.3,2.3-3.2,5.8-.7,3.8,5.4,4,2.4,10.7-6.5,3.3-3.9-6.4-.3-3.2-5.1-5.9-1.2-7.7-3.5,9-2.5-.8-5-2.2-2.1-8.3-2.1-1.9-3.3-8.2,1.2,1.1-2.3-3.6-2.5-6.8-2.6-5.2,2.1-9,1.5,3.3-3.4-2.3-5.3L648.1,122l-7.1,4.1-.3-3.2Zm-50-3.4-7.1,2.4.9,3.4-7.4-.7-1.7,1.7,5.8,3.9.9,2,3.4.5,8.4-2L599,126l-3.8-2.2,6-2.4.5-1.5-7.5.6-3.5-1Zm22.3,5.4,5.6-1,10-4.5-6.1-1.2-7.8-.2-5.2,1.4-4.2,2.1-2.5,2.6-1.8,4.5,4.3.2Zm-114.7,7.2,2.6-2.3,9.1-3.6,13.8-3.6,6.4-1.3-1.6-2.1-1.9-1.5-9.4-.2-4.1-1.1-14,.8-.3,3.1-7.6,3.3-7.4,3.8-4.3,2.2,5.9,2.7-.6,2.3,13.4-2.5Zm124.1-18.3.3-1.6-1.4-1.7-6.9,1.3L610,114l3.2,1.3,5.1.4,4.1-1.9Zm-8.7-8.6-1.1.7-4.8-.3-7.6,1.6-3.8-.1-4.3,3.8,6.6-.4-3.4,2.9,3.2.8,6.8-.5,5.8-3.7,2.8-2.5Zm-39.1,2.5,1.8-2.3-3.1-.5-5.7,1.7-.7,4.7-6.1-.4L558,108l-8.2-1.6-5.4,1.4-11.6,4.8,4.1.8,17.8-.5-10.6,2.2-1.5,1.6,5.9-.1,12.2-2.2,13.8-.8,5.1-2.3,2.3-2.4-3.7-.2-4.3.8Zm55.2-4.3-7.1-.3-3.8,2,2.6,1.5,7,.6,1.4,2.1-2.2,2.4-1.5,2.8,8.5,1.6,5.5.6,8-.1,11.6-.8,4.3.6,6.7-1,3.5-1.4,1-2-2.3-1.9-5.8-.3-8,.4-7,1.1-5.1-.4-4.8-.3-1.2-1.1-3.1-1.1,2.8-1.9-1.4-1.6-7.3.1-2.3-1.6Zm-75-2.6-6,.7-5.5-.1-12.1,3.1-11.6,3.7h0l3.6,1,7-.7,9.8-2.1,3.8-.3,5.2-1.6Zm80.5.6,1-.5-1.5-.9-7.2-.1-.6,1.3,6.4.3,1.9-.1Zm-58.4-.8,3.2-1.4-4.1-.8-5.9.5-5.1,1.5,3.3,1.5Zm7.8-4.2-3.3-.9-1.6-.2-5.7,1.3-1,.7h6Zm46.4,2.5,3-1.7-2.3-1.6-1.7-.3-4.4-.1L623.6,97l-.7,1.8,1.6,1.1,6.6-1Zm-13.7-1.2.1-2.2-7.4-1.7-6.1-.6-2.1,1.7,2.8,1.1-5.3,1.4,7.7.2,4,1.5,5.2.5Zm53.7-6.1.6-2.8L667,88l-4.7-.9-1.6-2.2-8.2.2.3.9-3.9.3-4.1,1.3-4.9,1.9-.3,1.9,2,1.5h6.5l-4.3,1.2-2.1,1.6,1.6,1.9,6.7.6,6.8-.4,10.5-3.4,6.4-1.3Zm78.5-13.8-7-.2-6.9-.3-10.2.6-1.4-.4-10.3.2-6.4.4-5.1.6-5,2-2.3-1-3.9-.2-6.7,1.4-7.4.6-4.1.1-6,.8-1.1,1.3,2.5,1.2.8,1.6,4.4,1.5,12.4-.3,7.2.5-7.2,1.5-2.2-.4-9.3-.2-1.1,2.2,3,1.7-2.8,1.6L666,95.7l-4.9,1.7,4.8.9,1.7,3-7.5-2-2.5.3-2,3.4-8,1.1-2,2.3,6.7.3,4.9.6,11.7-.8,8.4,1.4,12.6-3,1-1.1-6.4.2.5-1.1,6.5-1.4,3.6-1.9,6.8-1.3,5-1.6-.8-2.2,3.3-.8-4.3-.6,11.1-.4,3.2-.9,7.9-.8,9.3-3.5,6.8-1.1,10.3-2.5h-7.4l3.9-.9,9-.8,9.7-1.6,1.1-1.1-5.2-1-6.7-.4-8.5-.3Z"/><path id="CH" class="cls-1" d="M1024.3,270.6l-5.4-1.9-1,1.4h-4.2l-1.3,1-2.3-.6.2,1.6-3.5,3.5v2.8l2.4-.9,1.8,2.7,2.2,1.3,2.4-.3,2.7-2.1.9,1,2.4-.2.9-2.5,3.8.8,2.1-1.1.3-2.5-2.6-.2-2.3-1.1.7-1.6-.2-1.1Z"/><path id="CL" class="cls-1" d="M648.4,905.2l-3.7-.7-3.3,2.5.2,4.1-1.2,2.8-7.2-2.2-8.6-4-4.5-1.3,9.7,6.8,6.3,3.2,7.5,3.4,5.3.9,4.3,1.8,3,.5,2.3.1,3.2-1.8.5-2.4-2.9-.2h-5l-5.9-13.5ZM601.1,708.9l-3.7-7.1,1.1-6.2-3.2-2.7-1.2-4.6L591,684l-1.2,3.3-2.7,1.6,2.1,9,1.5,10.4-.1,14.2v13.2l.9,12.3-1.9,7.8,2.1,7.8-.5,5.3,3.2,9.5-.1,9.5-1.2,10.2-.6,10.5-2.1.2,2.4,7.3,3.3,6.3-1.1,4.3,1.9,11.6,1.5,8.8,3.5.9-1.1-7.7,4,1.6,1.8,12.7-6.4-2.1,2,10.2-2.7,5.5,8.2,1.8-3.4,4.8.2,6,5,10.6,4.2,4.1.2,3.6,3.3,3.8,7.5,3.5h0l7.4,4.2,6.2,2,2-.1-1.8-5.7,3.4-2.2,1.7-1.5h4.2l-4.8-.9-12-.8-3.5-3.6-1.8-4.6-3.1.4-2.6-2.2-3.1-6.6,2.7-2.7.1-3.9-1.8-3.2.7-5.3-1.1-8.2-1.8-3.7,1.8-1.1-1.3-2.3-2.8-1.3.8-2.6-3.1-2.3-3.6-7.1,1.6-1.2-3.3-7.6-.7-6.4-.3-5.7,2.5-2.4-3.3-6.3-1.5-5.9,2.9-4.3-1.4-5.4,1.6-6.2-1.3-5.9-1.6-1.2-4.9-10.9,2.1-6.5-1.7-6.2.9-5.8,2.6-5.9,3.2-4-2-2.5.9-2-1.6-10.6,5.6-3.2,1.1-6.6-.9-1.6-3.8.9-3.1-8.8Z"/><path id="CN" class="cls-1" d="M1587.2,453.3l.6-3.6,2-2.8-1.6-2.5-3.2-.1-5.8,1.8-2.2,2.8,1,5.5,4.9,2,4.3-3.1Zm13.2-196.5-6.1-6.1-4.4-3.7-3.8-2.7-7.7-6.1-5.9-2.3-8.5-1.8-6.2.2-5.1,1.1-1.7,3,3.7,1.5,2.5,3.3-1.2,2,.1,6.5,1.9,2.7-4.4,3.9-7.3-2.3.6,4.6.3,6.2,2.7,2.6,2.4-.8,5.4,1,2.5-2.3,5.1,2,7.2,4.3.7,2.2-4.3-.7-6.8.8-2.4,1.8-1.4,4.1-6.3,2.4-3.1,3.3-5.9-1.3-3.2-.5-.4,4,2.9,2.3,1.9,2.1-2.5,2-1.9,3.3-4.9,2.2-7.5.2-7.2,2.2-4.4,3.3-3.2-2-6.2.1-9.3-3.8-5.5-.9-6.4.8-11.2-1.3-5.5.1-4.7-3.6-4.9-5.7-3.4-.7-7.9-3.8-7.2-.9-6.4-1-3-2.7-1.3-7.3-5.8-5-8.1-2.3-5.7-3.3-3.3-4.4-1.7.5-1.8,4.2-3.8.6,2.5,6.2-1.6,2.8-10.7-2,1,11.1-2,1.4-9,2.4,8.7,10.7-2.9,1.6,1.7,3.5-.2,1.4-6.8,3.4-1,2.4-6.4.8-.6,4-5.7-.9-3.2,1.2-4,3,1.1,1.5-1,1.5,3,5.9,1.6-.6,3.5,1.4.6,2.5,1.8,3.7,1.4,1.9,4.7,3,2.9,5,9.4,2.6,7.6,7.5.8,5.2,3,3.3.6,3.3-4.1-.9,3.2,7,6.2,4,8.5,4.4,1.9-1.5,4.7,2,6.4,4.1,3.2.9,2.5,3.1,4.5,1.2,5,2.8,6.4,1.5,6.5.6,3-1.4,1.5,5.1,2.6-4.8,2.6-1.6,4.2,1.5,2.9.1,2.7,1.8,4.2-.8,3.9-4.8,5.3-4,4.9,1.5,3.2-2.6,3.5,3.9-1.2,2.7,6.1.9,3-.4,2.7,3.7,2.7,1.5,1.3,4.9.8,5.3-4.1,5.3.7,7.5,5.6-1,2.3,5.8,3.7,1.3-.8,5.2,4.5,2.4,2.5,1.2,3.8-1.8.6,2.6.7,1.5,2.9.1-1.9-7.2,2.7-1,2.7-1.5h4.3l5.3-.7,4.1-3.4,3,2.4,5.2,1.1-.2,3.7,3,2.6,5.9,1.6,2.4-1,7.7,2-.9,2.5,2.2,4.6,3-.4.8-6.7,5.6-.9,7.2-3.2,2.5-3.2,2.3,2.1,2.8-2.9,6.1-.7,6.6-5.3,6.3-5.9,3.3-7.6,2.3-8.4,2.1-6.9,2.8-.5-.1-5.1-.8-5.1-3.8-2-2.5-3.4,2.8-1.7-1.6-4.7-5.4-4.9-5.4-5.8-4.6-6.3-7.1-3.5.9-4.6,3.8-3.2,1-3.5,6.7-1.8-2.4-3.4-3.4-.2-5.8-2.5-3.9,4.6-4.9-1.9-1.5-2.9-4.7-1-4.7-4.4,1.2-3,5-.3,1.2-4.1,3.6-4.4,3.4-2.2,4.4,3.3-1.9,4.2,2.3,2.5-1.4,3,4.8-1.8,2.4-2.9,6.3-1.9,2.1-4,3.8-3.4,1-4.4,3.6,2,4.6.2-2.7-3.3,6.3-2.6-.1-3.5,5.5,3.6h0l-1.9-3.1,2.5-.1-3.8-7.3-4.7-5.3,2.9-2.2,6.8,1.1-.6-6-2.8-6.8.4-2.3-1.3-5.6-6.9,1.8-2.6,2.5h-7.5l-6-5.8-8.9-4.5-9.9-1.9Z"/><path id="CI" class="cls-1" d="M946.5,506.2l-2.3.9-1.3.8-.9-2.7-1.6.7-1-.1-1,1.9-4.3-.1-1.6-1-.7.6-1.1.5-.5,2.2,1.3,2.6,1.3,5.1-2,.8-.6.9.4,1.2-.3,2.8h-.9l-.3,1.8.6,3.1-1.2,2.8,1.6,1.8,1.8.4,2.3,2.7.2,2.5-.5.8-.5,5.2,1.1.2,5.6-2.4,3.9-1.8,6.6-1.1,3.6-.1,3.9,1.3,2.6-.1.2-2.5-2.4-5.5,1.5-7.2,2.3-5.3-1.4-9.1-3.8-1.6-2.7.2-1.9,1.6-2.5-1.3-1-2.1-2.5-1.4Z"/><path id="CM" class="cls-1" d="M1060.1,502.9l.2-4.3-.5-4.2-2.2-4.1-1.6.4-.2,2,2.3,2.6-.6,1.1-.3,2.1-4.6,5-1.5,4-.7,3.3-1.2,1.4-1.1,4.5-3,2.6-.8,3.2-1.2,2.6-.5,2.6-3.9,2.2-3.2-2.6-2.1.1-3.3,3.7-1.6.1-2.7,6.1-1.4,4.5v1.8l1.4.9,1.1,2.8,2.6,1.1,2.2,4.2-.8,5,9.2.2,2.6-.4,3.4.8,3.4-.8.7.3,7.1.3,4.5,1.7,4.5,1.5.4-3.5-.6-1.8-.3-2.9-2.6-2.1-2.1-3.2-.5-2.3-2.6-3.3.4-1.9-.6-2.7.4-5,1.4-1.1,2.7-6.5.9-1.7-1.8-4.4-.8-2.6-2.5-1.1-3.3-3.7,1.2-3,2.5.6,1.6-.4,3.1.1-3.1-5.8Z"/><path id="CD" class="cls-1" d="M1124.9,539.4l-4.3-.7-2,.6-.9,1.5-1.8.2-2.2-1.3-6.2,3.1-2.6-.6-.8.5-1.6,3.8-4.2-1.2-4.1-.6-3.6-2.4-4.6-2.1-3,2-2.2,3.2-.5,4.5-.3,3.8-1.6,3.4-1.1,4-.7,5.6.3,3.6-.9,2.2-.2,2.4-.6,2-3.7,3.1-2.6,3.2-2.5,6.2.2,5.3-1.4,2-3.3,3.1-3.4,4-2-1.1-.4-1.8-3.1-.1-1.9,2.4-1.5-.6-2,1.3-.9,1.7-.2,2.7-1.5.7.8,2,2.3-.9,1.7.1,1.9-.7,16.6.1,1.3,4.7,1.6,3.8,1.3,2.1,2.1,3.3,3.7-.5,1.9-.9,3,.9.9-1.6,1.5-3.7,3.4-.3.3-1.1h2.9l-.5,2.3h6.8v4l1.2,2.4-.9,3.8.3,4,1.9,2.3-.5,7.6,1.4-.6,2.4.2,3.5-1,2.6.4,1.9.1.3,2,2.6-.1,3.5.6,1.8,2.8,4.5.9,3.4-2,1.2,3.4,4.3.8,2,2.8,2.1,3.5h4.3l-.3-6.9-1.5,1.2-3.9-2.5-1.4-1.1.8-6.4,1.2-7.5-1.2-2.8,1.6-4.1,1.6-.7,7.5-1.1,1,.3.2-1.1-1.5-1.7-.7-3.5-3.4-3.5-1.8-4.5,1-2.7-1.5-3.6,1.1-10.2.1.1-.1-1.1-1.4-2.9.6-3.5.8-.4.2-3.8,1.6-1.8.1-4.8,1.3-2.4.3-5.1,1.2-3,2.1-3.3,2.2-1.7,1.8-2.3-2.3-.8.3-7.5h0l-5-4.2-1.4-2.7-3.1,1.3-2.6-.4-1.5,1.1-2.5-.8-3.5-5.2-1.8.6-3.6-.1Z"/><path id="CG" class="cls-1" d="M1080.3,549.9l-3.6-.4-3.8-1.1-3.3,3.4-2.9,5.9-.4,3.5-4.5-1.5-4.5-1.7-7.1-.3-.4,2.8,1.5,3.3,4.2-.5,1.4,1.2-2.4,7.4,2.7,3.8.6,4.9-.8,4.3-1.7,3-4.9-.3-3-3-.5,2.8-3.8.8-1.9,1.6,2.1,4.2-4.3,3.5,4.6,6.7,2.2-2.7,1.8-1.1,2,2.2,1.5.6,1.9-2.4,3.1.1.4,1.8,2,1.1,3.4-4,3.3-3.1,1.4-2-.2-5.3,2.5-6.2,2.6-3.2,3.7-3.1.6-2,.2-2.4.9-2.2-.3-3.6.7-5.6,1.1-4,1.6-3.4.3-3.8Z"/><path id="CO" class="cls-1" d="M578.3,497.2l1.2-2.1-1.3-1.7-2-.4-2.9,3.1-2.3,1.4-4.6,3.2-4.3-.5-.5,1.3-3.6.1-3.3,3-1.4,5.4-.1,2.1-2.4.7-4.4,4.4-2.9-.2-.7.9,1.1,3.8-1.1,1.9-1.8-.5-.9,3.1,2.2,3.4.6,5.4-1.2,1.6,1.1,5.9-1.2,3.7,2,1.5-2.2,3.3-2.5,4-2.8.4-1.4,2.3.2,3.2-2.1.5.8,2,5.6,3.6,1-.1,1.4,2.7,4.7.9,1.6-1,2.8,2.1,2.4,1.5,1.5-.6,3.7,3,1.8,3,2.7,1.7,3.4,6.7,4.2.8,3-1.7,2.1,1.1,3.3-.6,4.4,3-3.5,6.5,1.7.1,2.9,3.4,2.2-17.4.1-2.8-.9-3.6-2.5-2.4v-4.6l3.2-1,1.1.6.2-2.4-3.3-.7v-3.9l10.9.1,1.9-2.2,1.6,2,1,3.8,1.1-.8-1.7-6.4-1.4-2.2-2-1.4,2.9-3.1-.2-1.5-1.5-1.9-1-4.2.5-4.6,1.3-2.1,1.2-3.4-2-1.1-3.2.7-4-.3-2.3.7-3.8-5.5-3.2-.8-7.2.6-1.3-2.2-1.3-.6-.2-1.3.8-2.4-.4-2.5-1.1-1.4-.6-2.9-2.9-.5,1.8-3.7.9-4.5,1.8-2.4,2.2-1.8,1.6-3.2,3.7-1.1Z"/><path id="CR" class="cls-1" d="M509.1,502.6l-1.4,1.3-1.7-.4-.8-1.3-1.7-.5-1.4.8-3.5-1.7-.9.8-1.4,1.2,1.5.9-.9,2-.1,2,.7,1.3,1.7.6,1.2,1.8,1.2-1.6-.3-1.8,1.4,1.1.3,1.9,1.9.8,2.1,1.3,1.5,1.5.1,1.4-.7,1.1,1.1,1.3,2.9,1.4.4-1.2.5-1.3-.1-1.2.8-.7-1.1-1,.1-2.5,2.2-.6-2.4-2.7-2-2.6-1.2-3.4Z"/><path id="CU" class="cls-1" d="M539,427.3l-4.9-2.1-4.3-.1-4.7-.5-1.4.7-4.2.6-3,1.3-2.7,1.4-1.5,2.3-3.1,2,2.2.6,2.9-.7.9-1.6,2.3-.1,4.4-3.3,5.4.3-2.3,1.6,1.8,1.3,7,1,1.5,1.3,4.9,1.7,3.2-.2.8,3.6,1.7,1.8,3.5.4,2.1,1.7-4.1,3.5,7.9-.6,3.8.5,3.7-.3,3.8-.8.8-1.5-3.9-2.6-4-.3.6-1.7-3.1-1.3h-1.9l-3-2.8-4.2-4-1.8-1.5-5.2.8-1.9-2.4Z"/><path id="CZ" class="cls-1" d="M1049.4,248.5l-2.1.6-1.4-.7-1.1,1.2-3.4,1.2-1.7,1.5-3.4,1.3,1,1.9.7,2.6,2.6,1.5,2.9,2.6,3.8,2,2.6-2.5,1.7-.5,4,1.9,2.3-.3,2.3,1.2.6-1.4,2.2.1,1.6-.6.1-.6.9-.3.2-1.4,1.1-.3.6-1.1h1.5l-2.6-3.1-3.6-.3-.7-2-3.4-.6-.6,1.5-2.7-1.2.1-1.7-3.7-.6-2.4-1.9Z"/><path id="DE" class="cls-1" d="M1043.6,232.3l-2.4-1.9-5.5-2.4-2.5,1.7-4.7,1.1-.1-2.1-4.9-1.4-.2-2.3-3,.9-3.6-.8.4,3.4,1.2,2.2-3,3-1-1.3-3.9.3-.9,1.3,1,2-1,5.6-1.1,2.3h-2.9l1.1,6.4-.4,4.2,1,1.4-.2,2.7,2.4,1.6,7.1,1.2-2.3,4.2-.5,4.5h4.2l1-1.4,5.4,1.9,1.5-.3,2.6,1.7.6-1.6,4.4.3,3.4-1.2,2.4.2,1.7,1.3.4-1.1-1-4,1.7-.8,1.5-2.9-2.9-2.6-2.6-1.5-.7-2.6-1-1.9,3.4-1.3,1.7-1.5,3.4-1.2,1.1-1.2,1.4.7,2.1-.6-2.3-3.9.1-2.1-1.4-3.3-2-2.2,1.2-1.6-1.4-3.1Z"/><path id="DJ" class="cls-1" d="M1217.8,499.2l-2.5-1.7,3.1-1.5.1-2.7-1.4-1.9-1.6,1.5-2.4-.5-1.9,2.8-1.8,3,.5,1.7.2,2,3.1.1,1.3-.5,1.3,1.1,2-3.4Z"/><path id="DK" class="cls-1" d="M1035.9,221.2l-1.7-3-6.7,2,.9,2.5,5.1,3.4,2.4-4.9Zm-8.6-5.1-2.6-.9-.7-1.6,1.3-2-.1-3-3.6,1.6-1.5,1.7-4,.4-1.2,1.7-.7,1.6.4,6.1,2.1,3.4,3.6.8,3-.9-1.5-3,3.1-4.3,1.4.7,1-2.3Z"/><path id="DO" class="cls-1" d="M579.6,457.4v1.8l1.4,1,2.6-4.4,2-.9.6,1.6,2.2-.4,1.1-1.2,1.8.3,2.6-.2,2.5,1.3,2.3-2.6-2.5-2.3-2.4-.2.3-1.9-3,.1-.8-2.2-1.4.1-3.1-1.6-4.4-.1-.8,1.1.2,3.5-.7,2.4-1.5,1.1,1.2,1.9-.2,1.8Z"/><path id="DZ" class="cls-1" d="M1021,336.9l-3.6.4-2.2-1.5h-5.6l-4.9,2.6-2.7-1-8.7.5-8.9,1.2-5,2-3.4,2.6-5.7,1.2-5.1,3.5,2,4.1.3,3.9,1.8,6.7,1.4,1.4-1,2.5-7,1-2.5,2.4-3.1.5-.3,4.7-6.3,2.5-2.1,3.2L944,383l-5.4,1-8.9,4.7-.1,7.5v.4l-.1,1.2,20.3,15.5,18.4,13.9L986.8,441l1.3,3,3.4,1.8,2.6,1.1.1,4,6.1-.6,7.8-2.8,15.8-12.5,18.6-12.2-2.5-4-4.3-2.9-2.6,1.2-2-3.6-.2-2.7-3.4-4.7,2.1-2.6-.5-4,.6-3.5-.5-2.9.9-5.2-.4-3-1.9-5.6-2.6-11.3-3.4-2.6v-1.5l-4.5-3.8-.6-4.8,3.2-3.6,1.1-5.3-1-6.2,1-3.3Z"/><path id="EC" class="cls-1" d="M553.1,573.1l-2.4-1.5-2.8-2.1-1.6,1-4.7-.9-1.4-2.7-1,.1-5.6-3.6-3.9,2.5-3.1,1.4.4,2.6-2.2,4.1-1,3.9-1.9,1,1,5.8-1.1,1.8,3.4,2.7,2.1-2.9,1.3,2.8-2.9,4.7.7,2.7-1.5,1.5.2,2.3,2.3-.5,2.3.7,2.5,3.2,3.1-2.6.9-4.3,3.3-5.5,6.7-2.5,6-6.7,1.7-4.1Z"/><path id="EG" class="cls-1" d="M1129.7,374.8l-5.5-1.9-5.3-1.7-7.1.2-1.8,3,1.1,2.7-1.2,3.9,2,5.1,1.3,22.7,1,23.4h65.3l-1-1.3-6.8-5.7-.4-4.2,1-1.1-5.3-7-2-3.6-2.3-3.5-4.8-9.9-3.9-6.4-2.8-6.7.5-.6,4.6,9.1,2.7,2.9,2,2,1.2-1.1,1.2-3.3.7-4.8,1.3-2.5-.7-1.7-3.9-9.2h0l-2.5,1.6-4.2-.4-4.4-1.5-1.1,2.1-1.7-3.2-3.9-.8-4.7.6-2.1,1.8-3.9,2-2.6-1Z"/><path id="ER" class="cls-1" d="M1198.1,474l-3.2-3.1-1.8-5.9-3.7-7.3-2.6,3.6-4,1-1.6,2-.4,4.2-1.9,9.4.7,2.5,6.5,1.3,1.5-4.7,3.5,2.9,3.2-1.5,1.4,1.3,3.9.1,4.9,2.5,1.6,2.2,2.5,2.1,2.5,3.7,2,2.1,2.4.5,1.6-1.5-2.8-1.9-1.9-2.2-3.2-3.7L1206,480Z"/><path id="EE" class="cls-1" d="M1093.2,197.5l-5.5.9-5.4,1.6.9,3.4,3.3,2.1,1.5-.8.1,3.5,3.7-1,2.1.7,4.4,2.2h3.8l1.6-1.9-2.5-5.5,2.6-3.4-.9-1h0l-4.6.2Z"/><path id="ET" class="cls-1" d="M1187.6,477l-1.5,4.7-6.5-1.3-.7,5.5-2.1,6.2-3.2,3.2-2.3,4.8-.5,2.6-2.6,1.8-1.4,6.7v.7l.2,5-.8,2-3,.1-1.8,3.6,3.4.5,2.9,3.1,1,2.5,2.6,1.5,3.5,6.9,2.9,1.1v3.6l2,2.1h3.9l7.2,5.4h1.8l1.3-.1,1.2.7,3.8.5,1.6-2.7,5.1-2.6,2.3,2.1h3.8l1.5-2,3.6-.1,4.9-4.5,7.4-.3,15.4-19.1-4.8.1-18.5-7.6-2.2-2.2-2.1-3.1-2.2-3.5,1.1-2.3-1.3-1.1-1.3.5-3.1-.1-.2-2-.5-1.7,1.8-3,1.9-2.8-2-2.1-2.5-3.7-2.5-2.1-1.6-2.2-4.9-2.5-3.9-.1-1.4-1.3-3.2,1.5-3.5-2.9Z"/><path id="FI" class="cls-1" d="M1093.4,144.4l.8-3.8-5.7-2.1-5.8,1.8-1.1,3.9-3.4,2.4-4.7-1.3-5.3.3-5.1-2.9-2.1,1.4,5.9,2.7,7.2,3.7,1.7,8.4,1.9,2.2,6.4,2.6.9,2.3-2.6,1.2-8.7,6.1-3.3,3.6-1.5,3.3,2.9,5.2-.1,5.7,4.7,1.9,3.1,3.1,7.1-1.2,7.5-2.1,8-.5h0l7.9-7.4,3.3-3.3.9-2.9-7.3-3.9.9-3.7-4.9-4.1,1.7-4.8-6.4-6.3,2.8-4.1-7.2-3.7-.4-3.7Z"/><path id="FJ" class="cls-1" d="M1976.7,674.4l-3.7,2-1.9.3L1968,678l.2,2.4,3.9-1.3,3.9-1.6.7-3.1Zm-11,8.1-1.6,1-2.3-.8-2.7,2.2-.2,2.8,2.9.8,3.6-.9,1.8-3.3-1.5-1.8Z"/><path id="GA" class="cls-1" d="M1050.2,557.7l-.7-.3-3.4.8-3.4-.8-2.6.4v7.6h-8.2l-1.9.3-1.1,4.8-1.3,4.6-1.3,2-.2,2.1,3.4,6.6,3.7,5.3,5.8,6.4,4.3-3.5-2.1-4.2,1.9-1.6,3.8-.8.5-2.8,3,3,4.9.3,1.7-3,.8-4.3-.6-4.9-2.7-3.8,2.4-7.4-1.4-1.2-4.2.5-1.5-3.3.4-2.8Z"/><path id="GB" class="cls-1" d="M950,227.5l-4.9-3.7-3.9.3.8,3.2-1.1,3.2,2.9-.1,3.5,1.3Zm13-24.3-5.5.5-3.6-.4-3.7,4.8-1.9,6.1,2.2,3,.1,5.8,2.6-2.8,1.4,1.6-1.7,2.7,1,1.6,5.7,1.1h.1l3.1,3.8-.8,3.5h0l-7.1-.6-1,4,2.6,3.3-5.1,1.9,1.3,2.4,7.5,1h0l-4.3,1.3-7.3,6.5,2.5,1.2,3.5-2.3,4.5.7,3.3-2.9,2.2,1.2,8.3-1.7,6.5.1,4.3-3.3-1.9-3.1,2.4-1.8.5-3.9-5.8-1.2-1.3-2.3-2.9-6.9-3.2-1-4.1-7.1-.4-.6-4.8-.4,4.2-5.3,1.3-4.9h-5l-4.7.8,5-6.4Z"/><path id="GE" class="cls-1" d="M1200,300.2l-7.5-2.9-7.7-1-4.5-1.1-.5.7,2.2,1.9,3,.7,3.4,2.3,2.1,4.2-.3,2.7,5.4-.3,5.6,3,6.9-1,1.1-1,4.2,1.8,2.8.4.6-.7-3.2-3.4,1.1-.9-3.5-1.4-2.1-2.5-5.1-1.3-2.9,1-1.1-1.2Z"/><path id="GH" class="cls-1" d="M976.8,502.1l-2.6-.5-1.8,1-2.4-.5-9.7.3-.2,3.6.8,4.8,1.4,9.1-2.3,5.3-1.5,7.2,2.4,5.5-.2,2.5,5,1.8,5-1.9,3.2-2.1,8.7-3.8-1.2-2.2-1.5-4-.4-3.2,1.2-5.7-1.4-2.3-.6-5.1.1-4.6-2.4-3.3.4-1.9Z"/><path id="GN" class="cls-1" d="M912.4,493l-.8.4-3-.5-.4.7-1.3.1-4-1.5-2.7-.1-.1,2.1-.6.7.4,2.1-.8.9h-1.3l-1.4,1-1.7-.1-2.6,3.1,1.6,1.1.8,1.4.7,2.8,1.3,1.2,1.5.9,2.1,2.5,2.4,3.7,3-2.8.7-1.7,1-1.4,1.5-.2,1.3-1.2h4.5l1.5,2.3,1.2,2.7L917,515l.9,1.7V519l1.5-.3,1.2-.2,1.5-.7,2.3,3.9-.4,2.6,1.1,1.3,1.6.1,1.1-2.6,1.6.2h.9l.3-2.8-.4-1.2.6-.9,2-.8-1.3-5.1-1.3-2.6.5-2.2,1.1-.5-1.7-1.8.3-1.9-.7-.7-1.2.6.2-2.1,1.2-1.6-2.3-2.7-.6-1.7-1.3-1.4-1.1-.2-1.3.9-1.8.8-1.6,1.4-2.4-.5-1.5-1.6-.9-.2-1.5.8h-.9l-.3-2.3Z"/><path id="GM" class="cls-1" d="M882.8,488.5l5,.1,1.4-.9h1l2.1-1.5,2.4,1.4,2.4.1,2.4-1.5-1.1-1.8-1.8,1.1-1.8-.1-2.1-1.5-1.8.1-1.3,1.5-6.1.2-.7,2.8Z"/><path id="GW" class="cls-1" d="M900.2,492.1l-10.3-.3-1.5.7-1.8-.2-3,1.1.3,1.3,1.7,1.4v.9l1.2,1.8,2.4.5,2.9,2.6,2.6-3.1,1.7.1,1.4-1h1.3l.8-.9-.4-2.1.6-.7.1-2.1Z"/><path id="GQ" class="cls-1" d="M1040.1,557.8l-9.2-.2-1.9,7.2,1,.9,1.9-.3h8.2v-7.6Z"/><path id="GR" class="cls-1" d="M1101.9,344.9l-.8,2.8,6.6,1.2V350l7.6-.6.5-1.9-2.8.8v-1.1l-3.9-.5-4.1.4-3.1-2.2Zm11.5-37.4-2.7-1.6.3,3-4.6.6-3.9-2.1-3.9,1.7-3.8-.2-1,.2-.7,1.1-2.8-.1-1.9,1.3-3.3.6v1.6l-1.6.9-.1,2.1-2.1,3,.5,1.9,2.9,3.6,2.3,3,1.3,4.3,2.3,5.1,4.6,2.9,3.4-.1-2.4-5.7,3.3-.7-1.9-3.3,5,1.7-.4-3.7-2.7-1.8-3.2-3,1.8-1.4-2.8-3-1.6-3.8.9-1.3,3,3.2h2.9l2.5-1-3.9-3.6,6.1-1.6,2.7.6,3.2.2,1.1-.7,1.2-3.9Z"/><path id="GL" class="cls-1" d="M887.4,76.3l-26-.4-11.8.3-5,1.3-11.5-.1-12.7,2.1-1.6,1.7,6.7,2.1L819.3,82l-4.5-.3-7-1.4-10.6,2.1-2.7-1.2H784.1l-10.9.6-8.9,1-.2,1.8-5.3.5L744.2,88l-4.6,1.7,8.1,1.5-2.8,1.6L730,95l-15.5,2.2-2.2,1.7,6.4,2,14.5,1.2-7.5.2-10.9,1.5,3.8,3.1,3,1.5,9.4-.3,10.1-.2,7.6.3,8,2.9-1.4,2.1,3.6,1.9,1.4,5.3,1,3.6,1.4,1.9-7,4.8,2.6,1.3,4.4-.8,2.6,1.8,5.3,3.4-7.5-1.4h-3.8l-3,2.8-1.5,3.6,4.2,1.8,4-.8,2.6-.8,5.5-1.9-2.8,4.2-2.6,2.3-7.1,2-7,6.3,2,2-3.4,4,3.7,5.2-1.5,5,.7,3.7,4.8,7.1.8,5.6,3.1,3.2h8.9l5,4.7,6.5-.3,4.1-5.7,3.5-4.8-.3-4.4,8.6-4.6,3.3-3.7,1.4-3.9,4.7-3.5,6.5-1.3,6.1-1.4,3-.2,10.2-3.9,7.4-5.7,4.8-2.1,4.6-.1,12.5-1.8,12.1-4.3,11.9-4.6-5.5-.3-10.6-.2,5.3-2.8-.5-3.6,4.2,3,2.7,2.1,7.3-1-.6-4.3-4.5-3.1-5-1.3,2.4-1.4,7.2,2.1.5-2.3-4.1-3.4h5.4l5.6-.8,1.7-1.8-4-2.1,8.6-.3-4-4.3,4.1-.5.1-4.2-6.2-2.5,6.4-1.6,5.8-.1-3.6-3.2,1.1-5.1,3.6-2.9,4.9-3.2-8-.2,11.3-.7,2.2-1L935,84.8l-1.6-1.7-10-.8-16.9,1.5-9.2,1.5,4.5-2.3-2.3-1.4-7,1.2-9.7-1.4-12.1.5-1.4-.7,18.3-.4,12.9-.2,6.6-1.4-19.7-2.9Z"/><path id="GT" class="cls-1" d="M482.8,458.9l-5.1-.1h-5.2l-.4,3.6h-2.6l1.8,2.1,1.9,1.5.5,1.4.8.4-.4,2.1H467l-3.3,5.2.7,1.2-.8,1.5-.4,1.9,2.7,2.6,2.5,1.3,3.4.1,2.8,1.1.2-1,2.1-1.6,1.1-.7-.2-.7,1.4-.4,1.3-1.6-.3-1.3.5-1.2,2.8-1.8,2.8-2.4-1.5-.8-.6.9-1.7-1.1h-1.6l1.2-7.2.7-5Z"/><path id="GY" class="cls-1" d="M656.1,534.2l-2.1-2.3-2.9-3.1-2.1-.1-.1-3.3-3.3-4.1-3.6-2.4-4.6,3.8-.6,2.3,1.9,2.3-1.5,1.2-3.4,1.1v2.9l-1.6,1.8,3.7,4.8,2.9-.3,1.3,1.5-.8,2.8,1.9.9,1.2,3-1.6,2.2-1,5.4,1.4,3.3.3,2.9,3.5,3,2.7.3.7-1.3,1.7-.2,2.6-1.1,1.8-1.7,3.1.5,1.4-.2-3.3-5.6L655,551l-1.8-.1-2.4-4.6,1.1-3.3-.3-1.5,3.5-1.6,1-5.7Z"/><path id="HN" class="cls-1" d="M514.1,476.8l-1.3-1.8-1.9-1-1.5-1.4-1.6-1.2-.8-.1-2.5-.9-1.1.5-1.5.2-1.3-.4-1.7-.4-.8.7-1.8.7-2.6.2-2.5-.6-.9.4-.5-.6-1.6.1-1.3,1.1-.6-.2-2.8,2.4-2.8,1.8-.5,1.2.3,1.3-1.3,1.6,1.5.5,1.1,1.3,1.6,1,.1.9,2.5-.8,1.1.5.7.7-.6,2.5,1.7.6.7,2,1.8-.3.8-1.5h.8l.2-3.1,1.3-.2h1.2l1.4-1.7,1.5,1.3.6-.8,1.1-.7,2.1-1.8.3-1.3.5.1.8-1.5.6-.2.9.9,1.1.3,1.3-.8h1.4l2-.8.9-.9,1.9.2Z"/><path id="HR" class="cls-1" d="M1065,280.4l-4-2.6-1.6-.8-3.9,1.7-.3,2.5-1.7.6.2,1.7-2-.1-1.8-1-.8,1-3.5-.2-.2.1v2.2l1.7,2,1.3-2.6,3.3,1,.3,2,2.5,2.6-1,.5,4.6,4.5,4.8,1.8,3.1,2.2,5,2.3h0l.5-1-4.7-2.4-2.2-2.5-2-1.4-2.5-2.3-1.3-1.9-2.7-2.9.9-2.5,1.9,1.4,1-1.3,2.3-.1,4.4,1,3.5-.1,2.4,1.4h0l1.7-2.3-1.7-1.8-1.5-2.4h0l-1.8.9-4.2-1.2Z"/><path id="HT" class="cls-1" d="M580.6,446.7l-4.6-1-3.4-.2-1.4,1.7,3.4,1-.3,2.4,2.2,2.8-2.1,1.4-4.2-.5-5-.9-.7,2.1,2.8,1.9,2.7-1.1,3.3.4,2.7-.4,3.6,1.1.2-1.8-1.2-1.9,1.5-1.1.7-2.4Z"/><path id="HU" class="cls-1" d="M1079.1,263.8l-1.6.4-1,1.5-2.2.7-.6-.4-2.3,1-1.9.2-.3,1.2-4.1.8-1.9-.7-2.6-1.6-.2,2.6h-2.8l1.1,1.3-1.3,4,.8.1,1.2,2.1,1.6.8,4,2.6,4.2,1.2,1.8-.9h0l3.7-1.6,3.2.2,3.8-1.1,2.6-4.3,1.9-4.2,2.9-1.3-.6-1.6-2.9-1.7-1,.6-5.5-1.9Z"/><path id="ID" class="cls-1" d="M1651.9,637.3l.5-1.7-1.8-1.9-2.8-2-5.3,1.3,7,4.4,2.4-.1Zm20.9-.6,4-4.8.1-1.9-.5-1.3-5.7,2.6-2.8,3.9-.7,2.1.6.8,5-1.4Zm-35.6-13-1.6,2.2-3.1.1-2.2,3.6,3,.1,3.9-.9,6.6-1.2-1.2-2.8-3.5.6-1.9-1.7Zm28.1,0-5.2,2.3-3.8.5-3.4-1.9-4.5,1.3-.2,2.3,7.4.8,8.6-1.8,1.1-3.5Zm-79.5-8.4-.7-2.3-2.3-.5-4.4-2.4-6.8-.4-4.1,6.1,5.1.4.8,2.8,10,2.6,2.4-.8,4.1.6,6.3,2.4,5.2,1.2,5.8.5,5.1-.2,5.9,2.5,6.6-2.4-6.6-3.8-8.3-1.1-1.8-4.1-10.3-3.1-1.3,2.6-10.7-.6Zm146.6-3.6.2-3-1.2-1.9-1.3,2.2-1.2,2.2.3,4.8Zm-41-17.5-1.4-2.1-5.7.3,1,2.7,3.9,1.2,2.2-2.1Zm18.1-2.4-6.1-1.8-6.9.3-1.5,3.5,3.9.2,3.2-.4,4.6.5,4.7,2.6-1.9-4.9Zm21-12.3-.8-2.4-9-2.6-2.9,2.1-7.6,1.5,2.3,3.2,5,1.2,2.1,3.7,8.3.1.4,1.6-4-.1-6.2,2.3,4.2,3.1-.1,2.8,1.2,2.3,2.1-.5,1.8-3.1,8.2,5.9,4.6.5,10.6,5.4,2.3,5.3,1,6.9-3.7,1.8-2.8,5.2,7.1-.2,1.6-1.8,5.5,1.3,4.6,5.2,1.5-20.8,1-20.7-6-1.2-4.1-2.3L1754,583h-5l-6.6,3.8-4.9,6.8-5.7-3.8Zm-50-16.4-1-1.4-5.5,4.6-6.5.3-7.1-.9-4.4-1.9-4.7,4.8-1.2,2.6-2.9,9.6-.9,5-2.4,4.2,1.6,4.3,2.3.1.6,6.1-1.9,5.9,2.3,1.9,3.6-1,.3-9.1-.2-7.4,3.8-1.9-.7,6.2,3.9,3.7-.8,2.5,1.3,1.7,5.6-2.4-3,5.2,2.1,2.2,3.1-1.9.3-4.1-4.7-7.4,1.1-2.2-5.1-8.1,5-2.5,2.6-3.7,2.4.9.5-2.9-10.5,2.1-3.1,2.9-5-5.6.9-4.8,4.9-1,9.3-.3,5.4,1.3,4.3-1.3,4.4-6.3Zm19.4,1.9-.6-2.6-3.3-.6-.5-3.5-1.8,2.3-1,5.1,1.7,8.2,2.2,4,1.6-.8-2.3-3.3.9-3.9,2.9.6.2-5.5Zm-60.9-4.5.9-2.9-4.3-6,3-5.8-5-1h-6.4l-1.7,7.2-2,2.2-2.7,8.9-4.5,1.3-5.4-1.8-2.7.6-3.2,3.2-3.6-.4-3.6,1.2-3.9-3.5-1-4.3-3.3,4.2-.6,5.9.8,5.6,2.6,5.4,2.8,1.8.7,8.5,4.6.8,3.6-.4,2,3.1,6.7-2.3,2.8,2,4,.4,2,3.9,6.5-2.9.8,2.3,2.5-9.7.3-6.4,5.5-4.3-.2-5.8,1.8-4.3,6.7-.8-6.5-5.9Zm-68.7,48.9.7-9.8,1.7-8-2.6-4-4.1-.5-1.9-3.6-.9-4.4-2-.2-3.2-2.2,2.3-5.2-4.3-2.9-3.3-5.3-4.8-4.4-5.7-.1-5.5-6.8-3.2-2.7L1529,545l-5.2-6.2-8.8-1.2-3.6-.3.6,3.2,6.1,7,4.4,3.6,3.1,5.5,5.1,4,2.2,4.9,1.7,5.5,4.9,5.3,4.1,8.9,2.7,4.8,4.1,5.2,2.2,3.8,7,5.2,4.5,5.3,6.2-.1Z"/><path id="IN" class="cls-1" d="M1414.1,380.1l-8.5-4.4-6.2-4-3.2-7,4.1.9-.6-3.3-3-3.3-.8-5.2-7.6-7.5-3.7,5.4-5.7,1-8.5-1.6-1.9,2.8,3.2,5.6,2.9,4.3,5,3.1-3.7,3.7,1,4.5-3.9,6.3-2.1,6.5-4.5,6.7-6.4-.5-4.9,6.6,4,2.9,1.3,4.9,3.5,3.2,1.8,5.5h-12l-3.2,4.2,7.1,5.4,1.9,2.5-2.4,2.3,8,7.7,4,.8,7.6-3.8,1.7,5.9.8,7.8,2.5,8.1,3.6,12.3,5.8,8.8,1.3,3.9,2,8,3.4,6.1,2.2,3,2.5,6.4,3.1,8.9,5.5,6,2.2-1.8,1.7-4.4,5-1.8-1.8-2.1,2.2-4.8,2.9-.3-.7-10.8,1.9-6.1-.7-5.3-1.9-8.2,1.2-4.9,2.5-.3,4.8-2.3,2.6-1.6-.3-2.9,5-4.2,3.7-4,5.3-7.5,7.4-4.2,2.4-3.8-.9-4.8,6.6-1.3,3.7.1.5-2.4-1.6-5.2-2.6-4.8.4-3.8-3.7-1.7.8-2.3,3.1-2.4-4.6-3.4,1.2-4.3,4.8,2.7,2.7.4,1.2,4.4,5.4.9,5-.1,3.4,1.1-1.6,5.3-2.4.4-1.1,3.6,3.5,3.3.2-4,1.5-.1,4.5,10.1,2.4-1.5-.9-2.7.9-2.1-.9-6.6,4.6,1.4,1.5-5.2-.3-3.1,2.1-5.4-.9-3.6,6.1-4.4,4.1,1.1-1.3-3.9,1.6-1.2-.9-2.4-6.1-.9,1.2-2.7-3.5-3.9-3.2,2.6-4.9-1.5-5.3,4-3.9,4.8-4.2.8,2.7,2,.4,3.9-4.4.2-4.7-.4-3.2,1-5.5-2.5-.3-1.2-1.5-5.1-3,1.4.1,2.7,1.5,4.1-.1,2.5-4.6.1-6.8-1.5-4.3-.6-3.8-3.2-7.6-.9-7.7-3.5-5.8-3.1-5.7-2.5.9-5.9,2.8-2.9Z"/><path id="IE" class="cls-1" d="M947.3,231.7l-3.5-1.3-2.9.1,1.1-3.2-.8-3.2-3.7,2.8-6.7,4.7,2.1,6.1-4.2,6.4,6.7.9,8.7-3.6L948,236l-.7-4.3Z"/><path id="IR" class="cls-1" d="M1213.5,324.4l-3.2-2.9-1.2-2.4-3.3,1.8,2.9,7.3-.7,2,3.7,5.2h0l4.7,7.8,3.7,1.9,1,3.8-2.3,2.2-.5,5,4.6,6.1,7,3.4,3.5,4.9-.2,4.6h1.7l.5,3.3,3.4,3.4,1.7-2.5,3.7,2.1,2.8-1,5.1,8.4,4.3,6.1,5.5,1.8,6.1,4.9,6.9,2.1,5.1-3.1,4-1.1,2.8,1.1,3.2,7.8,6.3.8,6.1,1.5,10.5,1.9,1.2-7.4,7.4-3.3-.9-2.9-2.7-1-1-5.7-5.6-2.7-2.8-3.9-3.2-3.3,3.9-5.8-1.1-4-4.3-1.1-1.1-4-2.7-5.1,1.6-3.5-2.5-.9.5-4.7.5-8-1.6-5.5-3.9-.2-7.3-5.7-4.3-.7-6.5-3.3-3.8-.6-2.1,1.2-3.5-.2-3,3.7-4.4,1.2-.2,1.6-7.9,1.7-7.6-1.1-4.3-3.3-5.2-1.3L1232,328l-1.3.3-3.8-3.4,1.2-3.1-1.9-1.9-1.9.5-5.3,4.7-1.8.2-3.7-.9Z"/><path id="IQ" class="cls-1" d="M1207.3,334.9l-6.2-.9-2.1,1-2.1,4.1-2.7,1.6,1.2,4.7-.9,7.8-11,6.7,3.1,7.7,6.7,1.7,8.5,4.5,16.7,12.7,10.2.5,3.2-6.1,3.7.5,3.2.4-3.4-3.4-.5-3.3h-1.7l.2-4.6-3.5-4.9-7-3.4-4.6-6.1.5-5,2.3-2.2-1-3.8-3.7-1.9-4.7-7.8h0l-2.3,1.1-2.1-1.6Z"/><path id="IS" class="cls-1" d="M915.7,158.6l-6.9-.4-7.3,2.9-5.1-1.5-6.9,3-5.9-3.8-6.5.8-3.6,3.7,8.7,1.3-.1,1.6-7.8,1.1,8.8,2.7-4.6,2.5,11.7,1.8,5.6.8,3.9-1,12.9-3.9,6.1-4.2-4.4-3.8,1.4-3.6Z"/><path id="IL" class="cls-1" d="M1167.8,360.5l-1.4.1-.4,1.1h-1.8l-.1.1-.6,1.6-.6,4.8-1.1,2.9.4.4-1.4,2.1h0l3.9,9.2.7,1.7,1.7-10.2-.4-2.4-2.4.8.1-1.7,1.2-.8-1.4-.7.7-4.3,2,.9.7-2h-.1l.6-1-.3-2.6Z"/><path id="IT" class="cls-1" d="M1057.8,328.6l-4,.5-5.2.7-6.2-.6-.6,3.4,7.5,3.3,2.7.7,4.2,2.4.9-3.3-.9-2Zm-33.7-18.9-2.5,1.9-2.8-.3,1.3,3.6.4,7.6,2.1,1.7,2-2.1,2.4.4.4-8.4-3.3-4.4Zm14.3-34.3-1.3-2.2-4.8,1.1-.5,1.2-3.1-.9-.3,2.5-2.1,1.1-3.8-.8-.9,2.5-2.4.2-.9-1-2.7,2.1-2.4.3-2.2-1.3-.2,1.7,1.6,2.4-1.7,1.8,1.5,4.8,2.7.8-.5,2.7,2.1-.5,2.8-2.8,2.3-.9,4.2,2.1,2.6.7,1.9,6,3.6,3.6,4.9,4,4.2,2.8,3.9.4,2.3,2.5,3.4,1.2,1.7,2.7,2.2.8,1.8,3.2,2.3,3.7-1.1,1.3-.8,3.5.1,2,2.1-.5,2.5-5.6,2.1-.4.4-3.3-3.9-2.3,1.9-4.1,4.5,1,3.1,3,.8-2.3-.6-1.2-4.7-3.2-3.9-1.9-4.8-2.3,1.4-1.2-1.4-1.4-4,.1-6-5-2.9-5.1-4.9-3.1-1.9-3.1.5-1.8-.4-3,3.9-2.2,4.1.9-1.4-2.7.3-3-7.2-1.6Z"/><path id="JM" class="cls-1" d="M550.7,458.5l3.9-.1-.8-1.8-2.7-1.5-3.7-.6-1.2-.2-2.4.4-.8,1.5,2.9,2.3,3,1,1.8-1Z"/><path id="JO" class="cls-1" d="M1186.6,367.6l-3.1-7.7-9.6,6.7-6.3-2.5-.7,2,.4,3.9-.6,1.9.4,2.4-1.7,10.2.3.9,6.1,1,2.1-2,1.1-2.3,4-.8.7-2.2,1.7-1-6.1-6.4,10.4-3.1.9-1Z"/><path id="JP" class="cls-1" d="M1692.5,354.9l-4.5-1.3-1.1,2.7-3.3-.8-1.3,3.8,1.2,3,4.2,1.8-.1-3.7,2.1-1.5,3.1,2.1,1.3-3.9-1.6-2.2Zm24.4-19.3-3.6-6.7,1.3-6.4-2.8-5.2-8.1-8.7-4.8,1.2.2,3.9,5.1,7.1,1,7.9-1.7,2.5-4.5,6.5-5-3.1v11.5l-6.3-1.3-9.6,1.9-1.9,4.4-3.9,3.3-1.1,4-4.3,2,4,4.3,4.1,1.9.9,5.7,3.5,2.5,2.5-2.7-.8-10.8-7.3-4.7,6.1-.1,5-3,8.6-1.4,2.4,4.8,4.6,2.4,4.4-7.3,9.1-.4,5.4-3,.6-4.6-2.5-3.2-.6-5.2Zm-11.8-44.2-5.3-2.1-10.4-6.4,1.9,4.8,4.3,8.5-5.2.4.6,4.7,4.6,6.1h5.7l-1.6-6.8,10.8,4.2.4-6.1,6.4-1.7-6-6.9-1.7,2.6-4.5-1.3Z"/><path id="KZ" class="cls-1" d="M1308.8,223.8l-9-1.3-3.1,2.5-10.8,2.2-1.7,1.5-16.8,2.1-1.4,2.1,5,4.1-3.9,1.6,1.5,1.7-3.6,2.9,9.4,4.2-.2,3-6.9-.3-.8,1.8-7.3-3.2-7.6.2-4.3,2.5-6.6-2.4-11.9-4.3-7.5.2-8.1,6.6.7,4.6-6-3.6-2.1,6.8,1.7,1.2-1.7,4.7,5.3,4.3,3.6-.2,4.2,4.1.2,3.2,2.8,1,4.4-1.3,5-2.7,4.7,1.5,4.9-.3,1.9,3.9.6,6-4.6-.9-4,1,.9,4.5-5-.6.6,2,3.2,1.6,3.7,5.5,6.4,2.1,1.5,2.1-.7,2.6.7,1.5,1.8-2,5.5-1.3,3.8,1.7,4.9,4.9,2.5-.3-6.2-22.8,11.9-3.6,1.1.5,9.1,4.5,4.8,2.3,6.5,5.5,5.7-.9,8.6-.5,7.5,4.5,1.5,6.2,2.5.1,2.6,5,6.6.2,2.3,3h1.9l.9-4.5,5.4-4.3,2.5-1.2.3-2.7,3.1-.8,9.1,2.1-.5-3.6,2.5-1.3,8.1,2.6,1.6-.7,8.6.2,7.8.6,3.3,2.2,3.5.9-1.7-3.5,2.9-1.6-8.7-10.7,9-2.4,2-1.4-1-11.1,10.7,2,1.6-2.8-2.5-6.2,3.8-.6,1.8-4.2-4.3-3.8-6,.9-3.3-2.6-3.9-1.2-4.1-3.6-3.2-1.1-6.2,1.6-8.3-3.6-1.1,3.3-18.1-15.5-8.3-4.7.8-1.9-9.1,5.7-4.4.4-1.2-3.3-7-2.1-4.3,1.5-4.3-6.3Z"/><path id="KE" class="cls-1" d="M1211.7,547.2h-3.8l-2.3-2.1-5.1,2.6-1.6,2.7-3.8-.5-1.2-.7-1.3.1h-1.8l-7.2-5.4h-3.9l-2-2.1v-3.6l-2.9-1.1-3.8,4.2-3.4,3.8,2.7,4.4.7,3.2,2.6,7.3-2.1,4.7-2.7,4.2-1.6,2.6v.3l1.4,2.4-.4,4.7,20.2,13,.4,3.7,8,6.3,2.2-2.1,1.2-4.2,1.8-2.6.9-4.5,2.1-.4,1.4-2.7,4-2.5-3.3-5.3-.2-23.2,4.8-7.2Z"/><path id="KG" class="cls-1" d="M1387.2,302.6l-3.5-.9-3.3-2.2-7.8-.6-8.6-.2-1.6.7-8.1-2.6-2.5,1.3.5,3.6-9.1-2.1-3.1.8-.3,2.7,1.8.6-3.1,4.1,4.6,2.3,3.2-1.6,7.1,3.3-5.2,4.5-4.1-.6-1.4,2-5.9-1.1.6,3.7,5.4-.5,7.1,2,9.5-.9,1-1.5-1.1-1.5,4-3,3.2-1.2,5.7.9.6-4,6.4-.8,1-2.4,6.8-3.4.2-1.4Z"/><path id="KH" class="cls-1" d="M1574.8,481.8l-5.2-2.3-2,4.3-4.9-2.4-5.3-1-7.1,1.3-3,5.2,2.1,7.7,3.4,6.6,2.6,3.3,4.7.9,4.7-2.5,5.8-.5-2.8-3.8,8.9-4.9-.1-7.7-1.8-4.2Z"/><path id="KR" class="cls-1" d="M1637.3,331.7l6.2,5.5-3.4,1.1,5.2,6.8,1.1,4.8,2.1,3.5,4.5-.5,3.2-2.7,4.2-1.2.5-3.6-3.4-7.5-3.3-4.2-8.2-7.6.1,1.6-2.1.4-3.5.3-.7,2.9-2.4-.2-.1.6Z"/><path id="KW" class="cls-1" d="M1235.6,381.4l-3.7-.5-3.2,6.1,4.9.6,1.7,3.1,3.8-.2-2.4-4.8.3-1.5-1.4-2.8Z"/><path id="LA" class="cls-1" d="M1574.8,481.8l.2-6.4-2-4.5-4.8-4.4-4.3-5.6-5.7-7.5-7.3-3.8,1.3-2.3,3.3-1.7-3-5.5-6.8-.1-3.4-5.7-4-5.1-2.7,1,1.9,7.2-2.9-.1-.7-1.5-4.1,4.1-.8,2.4,2.6,1.9.9,3.8,3.8.3-.4,6.7,1,5.7,5.3-3.8,1.8,1.2,3.2-.2.8-2.2,4.3.4,4.9,5.2,1.3,6.3,5.2,5.5.5,5.4-1.5,2.9,4.9,2.4,2-4.3,5.2,2.3Z"/><path id="LB" class="cls-1" d="M1167.8,360.5l.9-3.5,2.6-2.4-1.2-2.5-2.4-.3-.1.2-2.1,4.5-1.3,5.2h1.8l.4-1.1,1.4-.1Z"/><path id="LR" class="cls-1" d="M929.4,523.3l-1.6-.2-1.1,2.6-1.6-.1-1.1-1.3.4-2.6-2.3-3.9-1.5.7-1.2.2-2.6,3-2.6,3.4-.3,1.9-1.3,2,3.7,4.1,4.8,3.5,5.1,4.8,5.7,3.1,1.5-.1.5-5.2.5-.8-.2-2.5-2.3-2.7-1.8-.4-1.6-1.8,1.2-2.8-.6-3.1.3-1.8Z"/><path id="LY" class="cls-1" d="M1111.8,371.4l-1.5-2.1-5.4-.8-1.8-1.1h-2l-2-2.8-7.3-1.3-3.6.8-3.7,3-1.5,3.1,1.5,4.8-2.4,3-2.5,1.6-5.9-3.1-7.7-2.7-4.9-1.2-2.8-5.7-7.2-2.8-4.5-1.1-2.2.6-6.4-2.2-.1,4.9-2.6,1.8-1.5,2-3.7,2.5.7,2.6-.4,2.7-2.6,1.4,1.9,5.6.4,3-.9,5.2.5,2.9-.6,3.5.5,4-2.1,2.6,3.4,4.7.2,2.7,2,3.6,2.6-1.2,4.3,2.9,2.5,4,8.8,2.8,3.1,3.5,3.9-2.4,5.4-3.5,22.3,12.2,22.4,12.2v-2.7h6.3l-.5-12.7-1-23.4-1.3-22.7-2-5.1,1.2-3.9-1.1-2.7,1.8-3Z"/><path id="LK" class="cls-1" d="M1432.2,532.7l2.3-1.8.6-6.6-3-6.6-2.9-4.5-4.1-3.5-1.9,10.3,1.4,9.1,2.8,5.1,4.8-1.5Z"/><path id="LS" class="cls-1" d="M1128.1,766.5l1.1-2,3.1-1,1.1-2.1,1.9-3.1-1.7-1.9-2.3-2-2.6,1.3-3.1,2.5-3.2,4,3.7,4.9,2-.6Z"/><path id="LT" class="cls-1" d="M1100.4,221.2l-5-2.9-2.5-.4-.9-1.3-4.4.6-7.9-.4-5,1.9,1.7,5,5,1.1,2.2.9-.2,1.7.6,1.5,2.5.6,1.4,1.9h4.6l4.8-2.2.5-3.4,3.5-2-.9-2.6Z"/><path id="LU" class="cls-1" d="M1007,258.6l.2-2.7-1-1.4-1.3.2-.4,3.5,1.1.5Z"/><path id="LV" class="cls-1" d="M1102.1,210.1h-3.8l-4.4-2.2-2.1-.7-3.7,1-.2,4.6-3.6.1-4.4-4.5-4,2.1-1.7,3.7.5,4.5,5-1.9,7.9.4,4.4-.6.9,1.3,2.5.4,5,2.9,2.6-1,4.6-2.3-2.1-3.6-1-2.8-2.4-1.4Z"/><path id="MA" class="cls-1" d="M965.2,348.4l-2.3-.1-5.5-1.4-5,.4-3.1-2.7h-3.9l-1.8,3.9-3.7,6.7-4,2.6-5.4,2.9L927,365l-.9,3.4-2.1,5.4,1.1,7.9-4.7,5.3-2.7,1.7-4.4,4.4-5.1.7-2.8,2.4-.1.1-3.6,6.5-3.7,2.3-2.1,4-.2,3.3-1.6,3.8-1.9,1-3.1,4-2,4.5.3,2.2-1.9,3.3-2.2,1.7-.3,3h.1l12.4-.5.7-2.3,2.3-2.9,2-8.8,7.8-6.8,2.8-8.1,1.7-.4,1.9-5,4.6-.7,1.9.9h2.5l1.8-1.5,3.4-.2-.1-3.4h.8l.1-7.5,8.9-4.7,5.4-1,4.4-1.7,2.1-3.2,6.3-2.5.3-4.7,3.1-.5,2.5-2.4,7-1,1-2.5-1.4-1.4-1.8-6.7-.3-3.9-2-4.1Z"/><path id="MD" class="cls-1" d="M1118.5,283.3l1.2-.7.5-2.1,1.1-2-.5-1.1,1-.5.6.9,3,.2,1.2-.5-1-.6.2-1-2-1.5-1.1-2.6-1.9-1.1v-2.1l-2.5-1.6-2-.3-3.9-1.9-3.2.6-1.1.9,1.6.6,1.8,1.9,1.9,2.6,3.4,3.7.6,2.7-.2,2.7Z"/><path id="MG" class="cls-1" d="M1255.7,658.4l-1.1-4.2-1.4-2.7-1.8-2.7-2,2.8-.3,3.8-3.3,4.5-2.3-.8.6,2.7-1.8,3.2-4.8,3.9-3.4,3.7h-2.4l-2.2,1.2-3.1,1.3-2.8.2-1,4.1-2.2,3.5.1,5.9.8,4,1.1,3-.8,4.1-2.9,4.8-.2,2.1-2.6,1.1-1.3,4.6.2,4.6,1.6,5-.1,5.7,1.2,3.3,4.2,2.3,3,1.7,5-2.7,4.6-1.5,3.1-7.4,2.8-8.9,4.3-12,3.3-8.8,2.7-7.4.8-5.4,1.6-1.5.7-2.7-.8-4.7,1.2-1.9,1.6,3.8,1.1-1.9.8-3.1-1.3-2.9-.5-7.7Z"/><path id="MX" class="cls-1" d="M444.4,407.8l-3.6-1.4-3.9-2-.8-3-.2-4.5-2.4-3.6-1-3.7-1.6-4.4-3.1-2.5-4.4.1-4.8,5-4-1.9-2.2-1.9-.4-3.5-.8-3.3-2.4-2.8-2.1-2-1.3-2.2h-9.3l-.8,2.6h-15l-10.7-4.4-7.1-3.1,1-1.3-7,.7-6.3.5.2,5.7.7,5.1.7,4.1.8,4,2.6,1.8,2.9,4.5-1,2.9-2.7,2.3-2.1-.3-.6.5,2.3,3.7,2.9,1.5,1,1.7.9-.9,3.1,2.9,2.1,2,.1,3.4-1.2,4.7,2.5,1.6,3.3,3.1,2.9,3.6.7,3.9h1l2.7-2.3.4-1.2-1.5-2.8-1.6-2.9-2.6-.2.4-3.4-.9-3-1-2.8-.5-5.9-2.6-3.2-.6-2.3-1.2-1.6v-4.1l-1,.1-.1-2.2-.7-.5-.4-1.4-2.7-4.4-1.1-2.6,1-4.8.1-3,1.8-2.6,2.4,1.7,1.9-.2,3.1,2.5-.9,2.4.4,4.9,1.5,4.7-.4,2,1.7,3.1,2.3,3.4,2.7.5.3,4.4,2.4,3.1,2.5,1.5-1.8,4,.7,1.5,4.1,2.6,1.9,4,4.5,4.9,3.8,6.4,1.3,3.2V433l1.4,2.9-.3,2.2-1.6,1.6.3,1.8-1.9.7.8,3.1,2.2,4,5.3,3.6,1.9,2.9,5.4,2,3,.4,1.2,1.7,4.2,3,5.9,3,4,.9,4.8,2.9,4,1.2,3.7,1.7,2.9-.7,4.8-2.4,3.1-.4,4.4,1.6,2.6,2.1,5.5,6.9.4-1.9.8-1.5-.7-1.2,3.3-5.2h7.1l.4-2.1-.8-.4-.5-1.4-1.9-1.5-1.8-2.1h2.6l.4-3.6h5.2l5.1.1.1-1,.7-.3.9.8,2.5-3.9h1l1.2-.1,1.2,1.6,2-5,1.2-2.7-.9-1.1,1.8-3.9,3.5-3.8.6-3.1-1.2-1.3-3.4.5-4.8-.2-6,1.5-4,1.7-1.2,1.8-1.2,5.4-1.8,3.7-3.9,2.6-3.6,1.1-4.3,1.1-4.3.6-5.1,1.8-1.9-2.6-5.6-1.7-1.8-3.2-.7-3.6-3-4.7-.4-5-1.2-3.1-.5-3.4,1.1-3.1,1.8-8.6,1.8-4.5,3.1-5.6-2.1.2Z"/><path id="MK" class="cls-1" d="M1094,304.8l-2.8-2-2.4.1-1.7.4-1.1.2-2.9,1-.1,1.2h-.7l-.4,2.1.9,2.6,2.3,1.6,3.3-.6,1.9-1.3,2.8.1.7-1.1,1-.2-.8-4.1Z"/><path id="ML" class="cls-1" d="M1000.3,450.3l-6.1.6-.1-4-2.6-1.1-3.4-1.8-1.3-3-18.6-13.8-18.4-13.9-8.4.1,2.4,27.4,2.4,27.5,1,.8-1.3,4.4-22.3.1-.9,1.4-2.1-.4-3.2,1.3-3.8-1.8-1.8.2-1,3.7-1.9,1.2.2,3.9,1.1,3.7,2.1,1.8.4,2.4-.3,2,.3,2.3h.9l1.5-.8.9.2,1.5,1.6,2.4.5,1.6-1.4,1.8-.8,1.3-.9,1.1.2,1.3,1.4.6,1.7,2.3,2.7-1.2,1.6-.2,2.1,1.2-.6.7.7-.3,1.9,1.7,1.8.7-.6,1.6,1,4.3.1,1-1.9,1,.1,1.6-.7.9,2.7,1.3-.8,2.3-.9-.4-3.7,1.6-2.7-.2-2.2,4.5-5.2.8-4.4,1.6-1.6,2.7.9,2.3-1.3.8-1.6,4.3-2.9,1.1-2,5.2-2.6,3-.9,1.4,1.2h3.6l3.6-.3,2-2.2,7.6-.6,4.9-1,.5-3.9,3-4.3-.1-14.6Z"/><path id="MM" class="cls-1" d="M1533.9,435.8l-.6-2.6-3.8,1.8-2.5-1.2-4.5-2.4.8-5.2-3.7-1.3-2.3-5.8-5.6,1-.7-7.5,4.1-5.3-.8-5.3-1.3-4.9-2.7-1.5-2.7-3.7-3,.4.9,2.4-1.6,1.2,1.3,3.9-4.1-1.1-6.1,4.4.9,3.6-2.1,5.4.3,3.1-1.5,5.2L1488,419l.9,6.6-.9,2.1.9,2.7-2.4,1.5.5,4.6-2.1-1,1.1,5.1,4.6,5.2,3.4.9-.4,2.2,5.4,7.4,1.9,5.9-.9,7.9,3.6,1.5,3.2.6,5.8-4.6,3.2-3.1,3.1,5.2,2,8.1,2.6,7.6,2.6,3.3.2,6.9,2.2,3.8-1.3,4.8.9,4.8,2.2-6.6,2.6-5.9-2.8-5.8-.2-3-1-3.5-4.2-5.1-1.7-3.2,1.7-1.1,1.4-5.6-2.9-4.2-4.1-4.6-3.5-5.6,2.2-1.1,1.5-6.9,3.9-.3,2.8-2.8,3-1.4.8-2.4,4.1-4.1Z"/><path id="ME" class="cls-1" d="M1080,299.8l.4-.6-2-1.2-1.8-.7-.8-.8-1.5-1.1-.9.6-1.5,1.4-.4,3.4-.5,1h0l2.3,1.2,1.6,2.1,1.1.4h0l-.5-1.9,2-3.1.4,1.2,1.3-.5Z"/><path id="MN" class="cls-1" d="M1473.7,252.1l-3.7-4.6-6.6-1.5-4.8-.8-6.9-2.5-1.3,6.4,4,3.6L1452,257l-7.9-1.6-5-.2-4.7-2.9-5.1-.1-5.3-1.9-5.9,2.9-6.6,5.4-4.7,1,3.3,4.4,5.7,3.3,8.1,2.3,5.8,5,1.3,7.3,3,2.7,6.4,1,7.2.9,7.9,3.8,3.4.7,4.9,5.7,4.7,3.6,5.5-.1,11.2,1.3,6.4-.8,5.5.9,9.3,3.8,6.2-.1,3.2,2,4.4-3.3,7.2-2.2,7.5-.2,4.9-2.2,1.9-3.3,2.5-2-1.9-2.1-2.9-2.3.4-4,3.2.5,5.9,1.3,3.1-3.3,6.3-2.4,1.4-4.1,2.4-1.8,6.8-.8,4.3.7-.7-2.2-7.2-4.3-5.1-2-2.5,2.3-5.4-1-2.4.8-2.7-2.6-.3-6.2-.6-4.6-5.5.5-3.9-2.1-3.3-.7-4.5,4.4-5.8,1-3.6,1.6-6.7-1h-4.5l-4.9-3.1-6.5-3-5.4-.8-5.7.8-3.9,1.1-8.4-2.6Z"/><path id="MZ" class="cls-1" d="M1203,640.7l-.8-2.9h0l-4.6,3.7-6.2,2.5-3.3-.1-2.1,1.9-3.9.1-1.4.8-6.7-1.8-2.1.3-1.6,6,.7,7.3h.3l1.9,2,2.2,4.6.1,8.2-2.5,1.3-1.9,4.5-3.4-4-.2-4.5,1.3-2.9-.3-2.6-2.1-1.6-1.6.6-3-3-17.1,5.2.3,4.5.3,2.4,4.6-.1,2.6,1.3,1.1,1.6,2.6.5,2.8,2-.3,8.1-1.3,4.4-.5,4.7.8,1.9-.8,3.7-.9.6-1.6,4.6-6.2,7.2,2.2,9,1.1,4.5-1.4,7.1.4,2.3.6,2.9.3,2.8h4.1l.7-3.3-1.4-.5-.3-2.6,2.6-2.4,6.8-3.4,4.6-2.2,2.5-2.3.9-2.6-1.2-1.1,1.1-3,.5-6.2-1,.3v-1.9l-.8-3.7-2.4-4.8.7-4.6,2.3-1.4,4.1-4.6,2.2-1.1,6.7-6.8,6.4-3.1,5.2-2.5,3.7-3.9,2.4-4.4,1.9-4.6-.9-3.1.2-9.9-.4-5.6.4-6.3Z"/><path id="MR" class="cls-1" d="M949.8,413.3l-20.3-15.5-.2,9.7-17.9-.3-.2,16.3-5.2.5-1.4,3.3.9,9.2-21.6-.1-1.2,2.2,2.8,2.7,1.4,3-.7,3.2.6,3.2.5,6.3-.8,5.9-1.7,3.2.4,3.4,2-2,2.7.5,2.8-1.4h3.1l2.6,1.8,3.7,1.7,3.2,4.7,3.6,4.4,1.9-1.2,1-3.7,1.8-.2,3.8,1.8,3.2-1.3,2.1.4.9-1.4,22.3-.1,1.3-4.4-1-.8-2.4-27.5-2.4-27.4,8.4-.1Z"/><path id="MW" class="cls-1" d="M1169.2,661.5l.1-2.3-1.2-1.9.1-2.8-1.5-4.7,1.7-3.5-.1-7.7-1.9-4.1.2-.7h0l-1.1-1.7-5.4-1.2,2.6,2.8,1.2,5.4-1,1.8-1.2,5.1.9,5.3-1.8,2.2-1.9,5.9,2.9,1.7,3,3,1.6-.6,2.1,1.6.3,2.6-1.3,2.9.2,4.5,3.4,4,1.9-4.5,2.5-1.3-.1-8.2-2.2-4.6-1.9-2h-.3v.8l1.1.3,1,3.4-.2.8-1.9-2.5-1,1.6-.8-1.4Z"/><path id="MY" class="cls-1" d="M1543.6,532.7l-4.7-2.8-.9,1.1,1.4,2.7-.4,4.7,2.1,3.4,1,5.3,3.4,4.3.8,3.2,6.7,5,5.4,4.8,4-.5.1-2.1-2.3-5.6-2.1-1.8-.5-3.8-.6-2.1.5-2.9-.5-4.3-2.6-4.3-3.5-3.8-1.3-.6-1.7,2.6-3.7.8-.6-3.3Zm99,11-1.2-3.1,3.8-.4.3-2.4-4.8-2-3.8-1.7-.4-2.8-3.1-3.2h-2.3l-2.5,5-4.1,4.4-.1,3.1-.1,4.1-2.7-.2-1.1,2.2-2.7-3.3-2.6,4-3.8,5-6.7,1.4-2.4,1.2-.9,5.4-4.4,1.2-4.1-2.2,1,4.3,3.9,3.5,3.6-1.2,3.6.4,3.2-3.2,2.7-.6,5.4,1.8,4.5-1.3,2.7-8.9,2-2.2,1.7-7.2h6.4l5,1Z"/><path id="NA" class="cls-1" d="M1105.4,683.7l-10.3,2.5-13.4-.9-3.7-3-22.5.3-.9.4-3.2-2.9-3.6-.1-3.3,1-2.7,1.2.2,4.9,4.4,6.2,1.1,4,2.8,7.7,2.7,5.2,2.1,2.6.6,3.5v7.6l1.6,9.8,1.2,4.6,1,6.2,1.9,4.7,3.9,4.8,2.7-3.2,2.1,1.8.8,2.7,2.4.5,3.3,1.2,2.9-.5,5-3.2,1.1-23.6.6-18.5,5.4-.2.9-22.7,4.1-.2,8.6-2.2,2,2.6,3.7-2.5h1.6l3.2-1.5V684l-2.1-1.4-3.6-.4-4.6,1.5Z"/><path id="NE" class="cls-1" d="M1051.3,425.6l-8.8-2.8L1023.9,435l-15.8,12.5-7.8,2.8.1,14.6-3,4.3-.5,3.9-4.9,1-7.6.6-2,2.2-3.6.3-.5,3.1.8,2.9,3.1,4.1.2,3.1,6.4,1.4-.1,4.4,1.9-1.9h2l4.3,3.7.3-5.7,1.6-2.6.8-3.6,1.4-1.4,6-.8,5.6,2.4,2.1,2.4,2.9.1,2.6-1.5,6.8,3.3,2.8-.2,3.3-2.7,3.3.2,1.6-.9,3,.4,4.3,1.8,4.3-3.5,1.3.2,3.9,7,1-.2.2-2,1.6-.4.5-2.9-3.6-.2v-4.1l-2.4-2.3,2.3-8.4,6.9-6,.2-8.3,1.8-12.9,1.1-2.7-2.3-2.2-.2-2.1-2-1.6-1.6-9.9-3.9,2.4-3.1-3.5Z"/><path id="NG" class="cls-1" d="M1055.8,492.7l-1,.2-3.9-7-1.3-.2-4.3,3.5-4.3-1.8-3-.4-1.6.9-3.3-.2-3.3,2.7-2.8.2-6.8-3.3-2.6,1.5-2.9-.1-2.1-2.4-5.6-2.4-6,.8-1.4,1.4-.8,3.6-1.6,2.6-.3,5.7-.2,2.1,1.2,3.8-1.1,2.5.6,1.7-2.7,4L993,514l-1,4,.1,4.1-.3,10.2h9.2l3.9,4.2,1.9,4.6,3,3.9,4.5.2,2.2-1.4,2.1.3,5.8-2.3,1.4-4.5,2.7-6.1,1.6-.1,3.3-3.7,2.1-.1,3.2,2.6,3.9-2.2.5-2.6,1.2-2.6.8-3.2,3-2.6,1.1-4.5,1.2-1.4.7-3.3,1.5-4,4.6-5,.3-2.1.6-1.1-2.3-2.6Z"/><path id="NI" class="cls-1" d="M514.1,476.8l-1.9-.2-.9.9-2,.8h-1.4l-1.3.8-1.1-.3-.9-.9-.6.2-.8,1.5-.5-.1-.3,1.3-2.1,1.8-1.1.7-.6.8-1.5-1.3-1.4,1.7h-1.2l-1.3.2-.2,3.1h-.8l-.8,1.5-1.8.3-.4.4-.9-1-.7,1,2.6,2.9,2.2,2,1,2.1,2.5,2.6,1.8,2,.9-.8,3.5,1.7,1.4-.8,1.7.5.8,1.3,1.7.4,1.4-1.3-.8-1.1-.1-1.7,1.2-1.6-.2-1.7.7-2.7.9-.7.1-2.8-.2-1.7.4-2.8.9-2.5,1.4-2.2-.3-2.3.4-1.4.6-.6Z"/><path id="NL" class="cls-1" d="M1005.5,243.9h2.9l1.1-2.3,1-5.6-1-2-3.9-.2-6.5,2.6-3.9,8.9-2.5,1.7h0l3.6.5,4.4-1.3,3.1,2.7,2.8,1.4-1.1-6.4Z"/><path id="NO" class="cls-1" d="M1088.8,133.1l-6.9,1.1-7.3-.3-5.1,4.4-6.7-.3-8.5,2.3-10.1,6.8-6.4,4-8.8,10.7-7.1,7.8-8.1,5.8-11.2,4.8-3.9,3.6,1.9,13.4,1.9,6.3,6.4,3,6-1.4,8.5-6.8,3.3,3.6,1.7-3.3,3.4-4,.9-6.9-3.1-2.9-1-7.6,2.3-5.3,4.3.1,1.3-2.2-1.8-1.9,5.7-7.9,3.4-6.1,2.2-3.9,4,.1.6-3.1,7.9.9v-3.5l2.5-.3,2.1-1.4,5.1,2.9,5.3-.3,4.7,1.3,3.4-2.4,1.1-3.9,5.8-1.8,5.7,2.1-.8,3.8,3.2-.5,6.4-2.2h0l-5.4-3.3,4.8-1.4-13.6-3.9Zm-22.6-33.3-5.6-1-1.9-1.7-7.2.9,2.6,1.5-2.2,1.2,6.7,1.1Zm-25.4-8.3-4.8-1.6-5.1.2-1,1.5h-5l-2.2-1.5-9.3,1.6,3.2,3.5,7.6,3.8,5.7,1.4-3,1.7,8.4,2.9,4.4-.2.9-3.9,3-.9,1.2-3.4,8.5-1.8Zm24.2-3.1-9.1-1-3.2,1.2-5.3-1L1037,88.8l4.3,2h5.1l.9,1.3,10.6.7,10.1-.5,4.3-2.4Z"/><path id="NP" class="cls-1" d="M1455.2,394.8l-6.5-.6-6.4-1.5-5-2.8-4.5-1.2-2.5-3.1-3.2-.9-6.4-4.1-4.7-2-1.9,1.5-2.8,2.9-.9,5.9,5.7,2.5,5.8,3.1,7.7,3.5,7.6.9,3.8,3.2,4.3.6,6.8,1.5,4.6-.1.1-2.5-1.5-4.1-.1-2.7Z"/><path id="NZ" class="cls-1" d="M1868.6,832.8l.9-2.6-5.8,2.9-3.4,3.4-3.2,1.6-5.9,4.6-5.6,3.2-7,3.2-5.5,2.4-4.3,1.1-11.3,6.1-6.4,4.6-1.1,2.3,5.1.4,1.5,2.1,4.5.1,4-1.8,6.3-2.8,8.1-6.2,4.7-4.1,6.2-2.3,4-.1.6-2.9,4.6-2.5,7-4.5,4.2-2.9,2.1-2.6.5-2.6-5.6,2.5.8-2.6Zm28.8-30.5,1.9-5.7-3.1-1.7-.8-3.6-2.3.5-.4,4.6.8,5.7.9,2.7-.9,1.1-.6,4.4-2.4,4.1-4.2,5-5.3,2.2-1.7,2.4,3.7,2.5-.8,3.5-6.9,5.1,1.4.9-.4,1.6,5.9-2.5,5.9-4.2,4.5-3.4,1.6-1.2,1.5-2.7,2.8-2,3.8.2,4.2-3.8,5.1-5.7-2.1-.8-4.6,2.5-3.2-.5-2.9-2.1,2.3-4.9-1.2-1.8-2.9,4.4.4-6.8Z"/><path id="OM" class="cls-1" d="M1301,437.8l2.1-2,.8-1.8,1.6-3.8-.1-1.4-2.1-.8-1.6-2.1-2.9-3.7-3.3-1.1-4.1-.9-3.3-2.3-2.9-4.3h-2.8l-.1,4.2,1.1.8-2.4,1.3.3,2.6-1.4,2.6.1,2.6,2.9,4.5-2.6,12.7-16.1,6.4,5.2,10.5,2.1,4.4,2.5-.3,3.6-2.2,3.1.6,2.5-1.8-.2-2.5,2.1-1.6h3.4l1.2-1.3.2-3.1,3.3-2.4h2.6l.4-.8-1-4.2.6-3.2,1-1.5,2.5.3,1.7-4.4Zm-16.6-30.4.2-2.6-.7-.6-1.3,2.2,1.3,2.2Z"/><path id="PK" class="cls-1" d="M1388.3,346.3l-9.4-2.6-2.9-5-4.7-3-2.8.7-2.4,1.2-5.8.8-5.3,1.3-2.4,2.8,1.9,2.8,1.4,3.2-2,2.7.8,2.5-.9,2.3-5.1-.2,3,4.2-3,1.6-1.5,3.8,1.1,3.8-1.7,1.8-2.1-.6-4,.9-.2,1.7h-4l-2.3,3.6.8,5.4-6.6,2.6-3.8-.5-.9,1.4-3.3-.8-5.3.9-9.6-3.2,3.2,3.3,2.8,3.9,5.6,2.7,1,5.7,2.7,1,.9,2.9-7.4,3.3-1.2,7.4,7.6-.9,8.9-.1,9.9-1.2,4.9,4.8,2.1,4.6,4.2,1.6,3.2-4.2h12l-1.8-5.5-3.5-3.2-1.3-4.9-4-2.9,4.9-6.6,6.4.5,4.5-6.7,2.1-6.5,3.9-6.3-1-4.5,3.7-3.7-5-3.1-2.9-4.3-3.2-5.6,1.9-2.8,8.5,1.6,5.7-1,3.7-5.4Z"/><path id="PA" class="cls-1" d="M543.5,517l-2-1.8-1.7-1.9-2.5-1.1-3.1-.2.3-.6-3.1-.4-2,1.9-3.5,1.3-2.5,1.6-2.7.5-1.5-1.6-.5.5-2.3-.3.2-1.3-1.9-2.3-2.2.6-.1,2.5,1.1,1-.8.7.1,1.2-.5,1.3-.4,1.2.6,1,.3-1.4h2.4l1.4.7,2.3.5,1,2.5,1.8.4.8-1.1.8,3.8,2.6-.3.9-.9,1.5-.9-2.5-3.4.6-1.3,1.3-.3,2.3-1.6,1.2-2.2,2.5-.4,2.7,1.8,1,2.1,1.4.4-1.5,1.7,1,3.5,1.8,1.8.9-3.1,1.8.5,1.1-1.9-1.1-3.8Z"/><path id="PE" class="cls-1" d="M584.3,599.5l-2.9-3.4-1.7-.1,3.5-6.5-4.4-3-3.3.6-2.1-1.1-3,1.7-4.2-.8-3.4-6.7-2.7-1.7-1.8-3-3.7-3-1.5.6.8,4.9-1.7,4.1-6,6.7-6.7,2.5-3.3,5.5-.9,4.3-3.1,2.6-2.5-3.2-2.3-.7-2.3.5-.2-2.3,1.5-1.5-.7-2.7-4.4,4-1.6,4.5,3,6.1-1.7,2.8,4.1,2.6,4.5,4.1,2,4.7,2.4,2.9,6,12.7,6.2,11.7,5.4,8.4-.8,1.8,2.8,5.3,4.6,3.9,10.7,6.9,11.6,6.4.7,2.6,5.9,3.7,2.7-1.6L591,684l2.8-6.9-2.8-5.3,1.1-2.1-1.2-2.4,1.9-3.2-.3-5.4-.1-4.5,1.1-2.1L588,641.8l-3,1.1-2.6-.7-.2-9.7-4.4,3.8-4.9-.2-2.3-3.4-3.7-.3,1-2.8-3.3-3.8L562,620l1.5-1.1-.1-2.7,3.3-1.9-.7-3.4,1.3-2.2.4-3,6.2-4.3,4.6-1.2.7-1,5.1.3Z"/><path id="PH" class="cls-1" d="M1684.6,518.6l-.6-2.3-.8-3.2-4.8-3,.8,4.9-3.9.2-.7,2.8-4.2,1.7-2.2-2.8-2.8,2.4L1662,521l-1.9,5.4,1.1,1.9,3.9-3.6,2.7.3,1.5-2.7,3.8,3-1.5,3.1,1.9,4.6,6.8,3.7,1.4-3-2.1-4.7,2.4-3.2,2.5,6.4,1.5-5.8-.6-3.5-.8-4.3Zm-14.5-11.8v-6.1l-3.6,6.1.5-4.2-3,.3-.3,4-1.2,1.8-1,1.7,3.8,4.4,1.6-1.9,1.4-4,1.8-2.1Zm-30.1,6.1,2.6-4.4,3.4-3.5-1.5-5.2-2.4,6.3-2.9,4.4-3.8,4-2.4,4.4,7-6Zm17.4-16.4,1.2,3-.1,3.3.5,2.9,3.3-1.9,2.4-2.7-.2-2.6h-3.6l-3.5-2Zm20-1.7-1.8-2.4-5.4-.1,4,4.8.3,2.4-3.3-.5,1.2,3.9,1.7.3.7,4.5,2.5-1.4-1.7-4-.4-2.1,4.5,1.7-2.3-7.1Zm-22.9-5.8-2.2-2.3-4.8-.2,3.4,4.8,2.8,3.2.8-5.5Zm-6.4-34.6h-3.3l-.9,5.8,1.1,9.9-2.6-2,1.2,6,1.2,2.8,3.3,3.7.4-2.3,1.8,1.4-1.5,1.7.1,2.6,2.9,1.4,5-.9,4,3.8,1.1-2.4,2.5,3.4,4.8,3.1.2-2.9-2-1.6.1-3.4-7.5-3.6-2.3.8-3.1-.7-2-5.1.1-5.1,3-2.1.6-5.3-2.7-4.6.4-2.6-.7-1.6-1.5,1.6-3.7-1.8Z"/><path id="PG" class="cls-1" d="M1850.7,615.6l.9-1.8-2.4-2.2-2.5-4-1.6-1.5-.5-1.9-.8.7.9,4.8,2.2,4,2.2,2.5,1.6-.6Zm-21.2-8.6,2.1-3.9.4-3.5-1.1-1-3.4.1.4,3.7-3.3,2.3-1.7,2.2-3.2.5-.4-3.4-.8.1-1,3.1-3.1.5-5-.9-.6,1.9,3.1,1.8,4.5,1.9h2.9l3-1.5,3.2-1.6,1-1.8,3-.5Zm-27.8,12.2-.9-4.3,5.2-.7-1.1-3.3-9.1-4-.6-3.7-2.9-3.2-3.7-3.3-10.2-3.6-9.6-4.4-1,20.7-1.5,20.8,5.7.2,3.1,1.1,4.6-2.2-.3-4.7,3.6-2.1,4.9-1.8,7,2.8,2.4,5.6,2.9,3.5,3.9,4,5.5,1,4.8.7,1.1,1.6,3.8-.4.8-1.8-5.6-2.7,1.8-1.2-4.2-1.1.5-2.8-3.2.2-3-6.8-4.7-4.1Zm34.7-18.4-.5-3.3-2-2.1-2.1-2.6-2.3-1.5-1.9-1.4-2.9-1.8-1.6,1.5,3.9,1.9,3.1,2.7,2.4,2.1,1.2,2.4.8,3.8,1.9-1.7Z"/><path id="PL" class="cls-1" d="M1069.4,228.3l-4.6-.1-.5-1.4-4.8-1.1-5.7,2.1-7.1,2.8-3.1,1.7,1.4,3.1-1.2,1.6,2,2.2,1.4,3.3-.1,2.1,2.3,3.9,2.4,1.9,3.7.6-.1,1.7,2.7,1.2.6-1.5,3.4.6.7,2,3.6.3,2.6,3.1.3.4,1.9-.9,2.7,2.2,2.8-1.3,2.4.6,3.4-.8,4.9,2.3,1.1.4-1.6-2.8,3.8-5.1,2.3-.7.3-1.8-3.1-5.3-.5-2.7-1.9-2.9,2.7-1.2-.3-2.4-1.7-2.3-.6-2.7-1.4-1.9-2.5-.6-8.7.1-5.9-.7Z"/><path id="KP" class="cls-1" d="M1644.7,302.3h0l-5.5-3.6.1,3.5-6.3,2.6,2.7,3.3-4.6-.2-3.6-2-1,4.4-3.8,3.4-2.1,4,3.3,1.7,3.4.7.8,1,.4,3.5,1.1,1.2-.9.7-.1,2.9,1.9,1,1.6.6.8,1.2,1.3-.5v-1.3l3.1,1.3.1-.6,2.4.2.7-2.9,3.5-.3,2.1-.4-.1-1.6-4.3-2.8-2.6-1,.2-.7-1.2-2.8,1.3-1.7,2.9-1,1-1.9.3-1.1,1.9-1.4-2.8-4.5.3-2.1.9-2,2.2.3h0l-1.4-1.1Z"/><path id="PT" class="cls-1" d="M937.6,335.9l-.4-2.1,2-2.5.8-1.7-1.8-1.9,1.6-4.3-2-3.8,2.2-.5.3-3,.9-.9.2-4.9,2.4-1.7-1.3-3.1-3-.2-.9.8h-3l-1.2-3.1-2.1.9-1.9,1.6.1,2.1.9,2.2.1,2.7-1.3,3.8-.4,2.5-2.2,2.3-.6,4.2,1.2,2.4,2.3.6.4,4-1,5.1,2.8-.7,2.7.9,2.2-1.7Z"/><path id="PY" class="cls-1" d="M655.7,700.5l-.3-1.9-5.4-3.3-5.1-.1-9.5,1.9-2.1,5.6.2,3.4-1.5,7.6,11.2,10.4,4.6,1,7.2,4.7,5.9,2.5,1.1,2.8-4.2,9.6,5.7,1.8,6.2,1,4.2-1.1,4.3-4.8.3-5.7.7-3.6.3-3.8-.3-3.5-2.1-1.2-2,1.1-2-.3-.9-2.5-1-5.8-1.2-1.9-3.9-1.7-2.1,1.2-6-1.2-.4-8.6-1.9-3.6Z"/><path id="PS" class="cls-1" d="M1166.9,366.1l-2-.9-.7,4.3,1.4.7-1.2.8-.1,1.7,2.4-.8.6-1.9-.4-3.9Z"/><path id="QA" class="cls-1" d="M1258,415.5l.8-3.8-.5-3.7-1.9-2-1.4.7-1.1,3.3.8,4.7,1.8,1.2,1.5-.4Z"/><path id="RO" class="cls-1" d="M1108.1,266.3H1106l-1,1.5-3.6.6-1.6.9-2.4-1.5h-3.2l-3.2-.7-1.9,1.3-2.9,1.3-1.9,4.2-2.6,4.3-3.8,1.1,2.9,2.5.8,1.9,3.2,1.5.7,2.5,3.1,1.8,1.4-1.3,1.4.7-1.1,1.1,1,1,1.8,2.6,1.9-.5,4,1,7.5.3,2.3-1.6,5.8-1.4,4,2.2,3,.7.4-7.4,1.6.5,2.3-1.3-.4-1.6-2.4-1.1-2.2,1-2.4-1.1-1.3-2.8.2-2.7-.6-2.7-3.4-3.7-1.9-2.6-1.8-1.9-1.6-.6Z"/><path id="RU" class="cls-1" d="M1332.3,95.1l-4.5-4L1314.2,87l-9.4-2.1-6.2.9-5.3,2.9,5.8.8,6.6,3.2,8,1.7,11.5,1.3Zm-178.7-7.3.9-.6-5.7-.9-2.8.7-1.3,1-1.5-1.2-5.2.1-6.2.8,7.7.1-1.1,1.3,4.4,1,3.6-.7.1-.7,2.9-.3Zm200.5,9.9-1.5-1.8-12.5-2.6-3-.3-2.2.5,1.2,6Zm15.2,6.3-9.2-.7,3.4-1.2-8.2-1.5-6.1,1.9-1,2,1.5,2.1-6.9-.1-5.3,2.6-4.3-1.1-9.3.5.3,1.3-9.2.7-4.9,2.4-4.2.2-1.2,3.3,5.5,2.6-7.7.7-9.5-.3-5.8,1.1,4.8,5.4,6.9,4.3-9.6-3-7.9.3-5.1,2,4.5,3.8-4.9-1-2.1-5-4.2-2.8-1.8.1,3.6,3.7-4.6,3.5,8.1,4.2.4,5.4,2.9,2.9,4.7.5.4,3.5,4.4,3.1-1.9,2.6.5,2.7-3.7,1.4-.5,2-5.3-.8,3.5-7.8-.5-3.6-6.7-3.3-3.8-7.3-3.7-3.7L1262,132l.8-4.2-2.9-2.9-11.3-1.4-2.1,1,.5,4.7-4.3,4.7,1.2,1.7,4.7,4.1.1,2.6,5.3.5.8,1.1,5.8,2.9-1,2.8-18.5-6.1-6.6-1.7-12.8-1.6-1.2,1.7,5.9,3.1-2.7,3.6-6.4-3.2-5,2.2-7.6.1-2.1,1.9-5.3-.6,2.5-3.3-3.2-.2-12.3,4.6-7.6,2.6.4,3.5-6,1.2-4-1.9-1.2-3,5-.7-3.6-3-12.2-1.8,4.3,3.4-.8,3.2,4.7,3.3-1.1,3.8-4.6-1.9-4-.3-8,5.4,4.2,4.1-3.2,1.4-11.4-3.5-2.1,2.1,3.3,2.4.2,2.7-3.8-1.4-6-1.7-1.9-5.8-1-2.6-8-4,2.9-.7,20.1,4.2,6.4-1.5,3.7-2.9-1.6-3.6-4-2.6-17.6-6.1-11.6-1.3-7.6-3.2-3.6,1.8h0l-6.4,2.2-3.2.5.4,3.7,7.2,3.7-2.8,4.1,6.4,6.3-1.7,4.8,4.9,4.1-.9,3.7,7.3,3.9-.9,2.9-3.3,3.3-7.9,7.4h0l5.3,2.8-4.5,3.2h0l.9,1-2.6,3.4,2.5,5.5-1.6,1.9,2.4,1.4,1,2.8,2.1,3.6,5.2,1.5,1,1.4,2.3-.7,4.8,1.4,1,2.9-.6,1.6,3.7,3.9,2.2,1.1-.1,1.1,3.4,1.1,1.7,1.6-1.6,1.3-3.9-.2-.8.6,1.5,2,2,3.9h0l1.8.2,1-1.4,1.5.3,4.8-.5,3.8,3.4-.9,1.3.7,1.9,4,.2,2.2,2.7.2,1.2,6.6,2.2,3.5-1,3.6,2.9,2.9-.1,7.6,2,.4,1.9-1.3,3.2,1.8,3.4-.3,2.1-4.7.5-2.2,1.7.4,2.8,4.2-1,.4,1.3-6.8,2.6,3.2,2.4-3.2,5.2-3.4,1,5,3.6,6.2,2.4,7.4,5.1.5-.7,4.5,1.1,7.7,1,7.5,2.9,1.1,1.2,2.9-1,5.1,1.3,2.1,2.5,3.5,1.4,1.5.2,4.3,3.8,2.4.4.5-1.5,2.6-2.5h0l-7.3-7.3-.4-4.1-5.9-5.9,3.5-6.3,4.6-1.1,1.4-3.7-2.8-1-.2-3.2-4.2-4.1-3.6.2-5.3-4.3,1.7-4.7-1.7-1.2,2.1-6.8,6,3.6-.7-4.6,8.1-6.6,7.5-.2,11.9,4.3,6.6,2.4,4.3-2.5,7.6-.2,7.3,3.2.8-1.8,6.9.3.2-3-9.4-4.2,3.6-2.9-1.5-1.7,3.9-1.6-5-4.1,1.4-2.1,16.8-2.1,1.7-1.5,10.8-2.2,3.1-2.5,9,1.3,4.3,6.3,4.3-1.5,7,2.1,1.2,3.3,4.4-.4,9.1-5.7-.8,1.9,8.3,4.7,18.1,15.5,1.1-3.3,8.3,3.6,6.2-1.6,3.2,1.1,4.1,3.6,3.9,1.2,3.3,2.6,6-.9,4.3,3.8,1.7-.5,4.7-1,6.6-5.4,5.9-2.9,5.3,1.9,5.1.1,4.7,2.9,5,.2,7.9,1.6,2.4-4.3-4-3.6,1.3-6.4,6.9,2.5,4.8.8,6.6,1.5,3.7,4.6,8.4,2.6,3.9-1.1,5.7-.8,5.4.8,6.5,3,4.9,3.1h4.5l6.7,1,3.6-1.6,5.8-1,4.5-4.4,3.3.7,3.9,2.1,5.5-.5,7.3,2.3,4.4-3.9-1.9-2.7-.1-6.5,1.2-2-2.5-3.3-3.7-1.5,1.7-3,5.1-1.1,6.2-.2,8.5,1.8,5.9,2.3,7.7,6.1,3.8,2.7,4.4,3.7,6.1,6.1,9.9,1.9,8.9,4.5,6,5.8h7.5l2.6-2.5,6.9-1.8,1.3,5.6-.4,2.3,2.8,6.8.6,6-6.8-1.1-2.9,2.2,4.7,5.3,3.8,7.3-2.5.1,1.9,3.1h0l1.4,1.1h0l-.4-2,4-4.5,5.1,3,3.2-.1,4.4-3.6,1-3.7,2.1-7.1,1.9-7.2-1.3-4.3,1-9-5.2-9.9-5.5-7.3-1.3-6.2-4.7-5.1-12.7-6.7-5.6-.4-.3,3L1626,231l-5.7-3.8-8-.7,4.9-14.1,3.5-11.5,13.1-1.8,14.9,1,2.5-2.8,7.9.8,4.3,4.3,6.4-.6,8.4-1.6-7.7-3.5v-9.8l9.1-1.9,12.1,7.1,3.6-6.4-3.2-4.7,4.7-.5,6.5,8.1-2.4,4.6-.8,6,.3,7.5-5.7,1.3,2.8,2.7-.1,3.6,6.4,8.3,16,13.4,10.5,8.8,5.7,4.3,1.6-5.7-4.5-6.2,5.7-1.5-5.4-6.9,5-3.1-4.7-2.6-3.4-5,4.1-.2-9-8.6-6.7-1.4-2.9-2.4-1.1-5.6-3.1-3.9,7,.8,1.3-2.5,4.7,2.2,6.1-4.6,11.4,4-1.7-2.6,2-3.6,1.5-4,3.1-.7,6.5-4.3,9.8,1.2-.9-1.5-3.8-2.3-4.1-1.6-9.1-4.6-8.1-3,6.1.4,2-2.5h0l-32.9-21.9-9.4-2.3-15.7-2.6-7.9.3-15.2-1.4,1.8,2.3,8.5,3.4-2.5,1.8-14.2-4.8-6.8.6-9.2-1.1-7,.2-3.9,1.1-7.2-1.6-5.1-3.8-6.5-2.2-9.2-.9-14.7,1-16.1-4-7.8-3-40.1-3.4-2.1,2.2,9.3,4.8-7.5-.7-1,1.5-9.7-1.6-5,1.4-9.3-2.4,3,5.5-8.9-2.1-10-4.1-.4-2.2-6-3.3-9.8-2.6h-6.1l-9.3-.9,4.7,3.9-17.2-.8-3.9-2.3-13.3-.9-5.3.8-.1,1.3-5.8-3.2-2.3.9-7.2-1.2-5.6-.7,1.1-1.5,6.6-2.8,2.3-1.5-2.4-2.5-5.5-1.9-11.5-2.3-10.8-.1-1.9,1.2-4.1-2.4Zm-162.2,31.6-9.9-4.3-3.1-4.3,3.3-4.9,2.8-5,8.6-4.7,9.8-2.4,11.3-2.4,1.3-1.5-4.2-1.9-6.6.6-4.9,1.8-11.7.9-10.1,3.1-6.8,2.7,2.5,2.2-6.6,4.4,3.9.7-5.4,4.3,1.6,2.8-3.4,1.1,1.9,2.8,7.9,1.4,2.2,2.3,13.4.7,2.2-.4Zm314-24.7-17.9-2.6-10.2-.2-3.4.9,3.4,3.4,12.4,3.2,4.5-1.2,14.2.2Zm25.2,2.3-11.7-1.3-8.2-.7,1.7,1.6,10.3,2,6.8.4,1.1-2Zm-12.5,9.5-2.5-1.4-8.3-1.9-4.1.5-.8,2,1.1.2,8.8.6ZM1696.4,135l-6-3.6-1.4,2.2,3.5,1.6ZM1084,228.9l-.6-1.5.2-1.7-2.2-.9-5-1.1-6.3,2-.7,2.6,5.9.7Zm589.7,21.8-7.2-6.2-5.1-6-6.8-5.8-4.9-4-1.3.8,4.4,2.8-1.9,2.8,6.8,8.3,7.8,6,6.4,8.3,2.4,4.6,5.5,6.8,3.8,6,4.6,5.2-.1-4.8,6.5,3.8-3-4.4-9.5-6.3-3.7-9,8.9,2-13.6-10.9Z"/><path id="RW" class="cls-1" d="M1147.6,579.4l-3.3,1.9-1.4-.6-1.6,1.8-.2,3.8-.8.4-.6,3.5,3.5.5,1.7-3.6,3,.4h0l1.6-.8.4-3.7-2.3-3.6Z"/><path id="EH" class="cls-1" d="M929.6,396.2h-.8l.1,3.4-3.4.2-1.8,1.5h-2.5l-1.9-.9-4.6.7-1.9,5-1.7.4-2.8,8.1-7.8,6.8-2,8.8-2.3,2.9-.7,2.3-12.4.5H883l-.3,2.7,1.2-2.2,21.6.1-.9-9.2L906,424l5.2-.5.2-16.3,17.9.3.2-9.7.1-1.2v-.4Z"/><path id="SA" class="cls-1" d="M1228.7,387l-10.2-.5-16.7-12.7-8.5-4.5-6.7-1.7-.9,1-10.4,3.1,6.1,6.4-1.7,1-.7,2.2-4,.8-1.1,2.3-2.1,2-6.1-1-.5,2.5v2.2l-.6,3.5h2.7l3.2,4.4,3.7,5.1,2.5,4.7,1.7,1.5,1.7,3.3-.2,1.4,2.1,3.7,3,1.3,2.8,2.5,3.6,7v3.8l.9,4.4,4,6.1,2.5,1,4.1,4.4,1.9,5.2,3.2,5.3,3,2.3.6,2.5,1.8,1.9.9,2.8,2.3-2.1-.7-2.7,1.2-3.1,2.4,1.7,1.5-.6,6.4-.2,1,.7,5.4.6,2.1-.3,1.6,2.1,2.5-1,3.5-6.7,5-2.9,15.7-2.4,16.1-6.4,2.6-12.7-2.9-4.5-1,1.3-16.8-3.2-2.6-6.4-.4-1.5-1.2-2.4-1.5.4-1.8-1.2-1-1.6-.9-2.1-1.7-1.8-1-2.1.4-2.1-.6-2.7-4-2.6-1.2-2.3-2.9-1.4-2.7-5.5-3.8.2-1.7-3.1-4.9-.6Z"/><path id="SD" class="cls-1" d="M1180.8,468.5l.4-4.2,1.6-2,4-1,2.6-3.6-3.1-2.4-2.2-1.6-2.5-7.6-1.1-6.5,1.1-1.2-2.1-6.2h-65.3l.5,12.7h-6.3v2.7l1.1,25.2-4.8-.4-2.4,4.7-1.4,3.9,1.2,1.5-1.8,1.9.7,2.7-1.4,2.6-.5,2.4,2-.4,1.2,2.5.1,3.7,2.1,1.8v1.6l.7,2.7,3.3,4v2.6l-.8,2.6.3,2,2,1.8.5.3,1.7-.7,1.9-1.2,1.3-5.7,1.5-2.9,4-.9,1,1.8,3,3.7,1.5.5,2-1.1,4.1.3.8,1.3h5.5l.2-1.3,2.9-1.2.5-1.9,2.1-1.3,4.8,3.7,2.8-.7,2.7-4.5,3-3.5-.6-3.9-1.4-1.8,3.4-.3.3-1.5,2.6.5-.5,4.7.8,4.6,2.9,2.5.7,2.2v3.1l.8.1v-.7l1.4-6.7,2.6-1.8.5-2.6,2.3-4.8,3.2-3.2,2.1-6.2.7-5.5-.7-2.5,1.9-9.4Z"/><path id="SS" class="cls-1" d="M1166,508.7l-.7-2.2-2.9-2.5-.8-4.6.5-4.7-2.6-.5-.3,1.5-3.4.3,1.4,1.8.6,3.9-3,3.5-2.7,4.5-2.8.7-4.8-3.7-2.1,1.3-.5,1.9-2.9,1.2-.2,1.3h-5.5l-.8-1.3-4.1-.3-2,1.1-1.5-.5-3-3.7-1-1.8-4,.9-1.5,2.9-1.3,5.7-1.9,1.2-1.7.7,3.8,2.5,3.1,2.6.1,2,3.8,3.4,2.4,2.7,1.5,3.8,4.2,2.5.9,2.1,3.5,5.2,2.5.8,1.5-1.1,2.6.4,3.1-1.3,1.4,2.7,5,4.2h0l2.3-1.7,3.5,1.4,4.5-1.5,4,.1,3.4-3,3.4-3.8,3.8-4.2-3.5-6.9-2.6-1.5-1-2.5-2.9-3.1-3.4-.5,1.8-3.6,3-.1.8-2-.2-5-.8-.1v-3.1Z"/><path id="SN" class="cls-1" d="M908.9,479.2l-3.6-4.4-3.2-4.7-3.7-1.7-2.6-1.8h-3.1l-2.8,1.4-2.7-.5-2,2-1.3,3.3-2.8,4.4-2.5,1.2,2.7,2.3,2.2,5,6.1-.2,1.3-1.5,1.8-.1,2.1,1.5,1.8.1,1.8-1.1,1.1,1.8-2.4,1.5-2.4-.1-2.4-1.4-2.1,1.5h-1l-1.4.9-5-.1.8,4.9,3-1.1,1.8.2,1.5-.7,10.3.3,2.7.1,4,1.5,1.3-.1.4-.7,3,.5.8-.4.3-2-.4-2.4-2.1-1.8-1.1-3.7-.2-3.9Z"/><path id="SL" class="cls-1" d="M919.4,518.7l-1.5.3v-2.3L917,515l.2-1.8-1.2-2.7-1.5-2.3H910l-1.3,1.2-1.5.2-1,1.4-.7,1.7-3,2.8.7,4.7.9,2.3L907,526l4.1,2.5,1.5.5,1.3-2,.3-1.9,2.6-3.4,2.6-3Z"/><path id="SV" class="cls-1" d="M487.2,487l.6-2.5-.7-.7-1.1-.5-2.5.8-.1-.9-1.6-1-1.1-1.3-1.5-.5-1.4.4.2.7-1.1.7-2.1,1.6-.2,1,1.4,1.3,3.1.4,2.2,1.3,1.9.6,3.3.1.7-1.5Z"/><path id="RS" class="cls-1" d="M1084.8,285.2l-3.2-1.5-.8-1.9-2.9-2.5-3.2-.2-3.7,1.6h0l1.5,2.4,1.7,1.8-1.7,2.3h1.8l-1,2.7,2.7,2.3-.5,2.9-1.2.3,1.5,1.1.8.8,1.8.7,2,1.2-.4.6,1.2-.5.5-2,.9-.4.8.9,1,.4.8,1,.8.3,1.1,1.1h.8l-.5,1.5-.5.7.2.5,1.7-.4,2.4-.1.7-.9-.6-.7.7-2,1.7-1.9-2.8-2.6-.7-2.3,1.1-1.4-1-1,1.1-1.1-1.4-.7-1.4,1.3-3.1-1.8-.7-2.5Z"/><path id="SR" class="cls-1" d="M668,533.8l-4.6.5-.6,1.1-6.7-1.2-1,5.7-3.5,1.6.3,1.5-1.1,3.3,2.4,4.6,1.8.1.7,3.5,3.3,5.6,3.1.5.5-1.3-.9-1.3.5-1.8,2.3.6,2.7-.7,3.2,1.4,1.4-2.7.6-2.9,1-2.8-2.1-3.7-.4-4.4,3.1-5.5-6-1.7Z"/><path id="SK" class="cls-1" d="M1087.4,260.9l-4.9-2.3-3.4.8-2.4-.6-2.8,1.3-2.7-2.2-1.9.9-.3-.4h-1.5l-.6,1.1-1.1.3-.2,1.4-.9.3-.1.6-1.6.6-2.2-.1-.6,1.4-.3.8.7,2.1,2.6,1.6,1.9.7,4.1-.8.3-1.2,1.9-.2,2.3-1,.6.4,2.2-.7,1-1.5,1.6-.4,5.5,1.9,1-.6.7-2.5,1.1-1.7Z"/><path id="SI" class="cls-1" d="M1059.4,277l-1.2-2.1-.8-.1-.9,1.1-4.3.1-2.4,1.4-4.2-.4-.3,3,1.4,2.7-1.1.5,3.5.2.8-1,1.8,1,2,.1-.2-1.7,1.7-.6.3-2.5,3.9-1.7Z"/><path id="SE" class="cls-1" d="M1077.7,161.1l-1.9-2.2-1.7-8.4-7.2-3.7-5.9-2.7-2.5.3v3.5l-7.9-.9-.6,3.1-4-.1-2.2,3.9-3.4,6.1-5.7,7.9,1.8,1.9-1.3,2.2-4.3-.1-2.3,5.3,1,7.6,3.1,2.9-.9,6.9-3.4,4-1.7,3.3,4.2,8.4,4.4,6.7,2,5.7,5.3-.3,2.2-4.7,5.7.5,2-5.5.6-10,4.6-1.3,3.3-6.6-4.8-3.3-3.6-4,2.1-8.1,7.7-4.9,6.1-4.5-1.2-3.5,3.4-3.9,7-1.5Z"/><path id="SZ" class="cls-1" d="M1150.5,736.6l-2.7-1.2-1.6.5-.7,1.8-1.6,2.4-.1,2.2,3,3.5,3.3-.7,1.3-2.8-.3-2.8-.6-2.9Z"/><path id="SY" class="cls-1" d="M1183.5,359.9l11-6.7.9-7.8-1.2-4.7,2.7-1.6,2.1-4.1-5.9,1.1-2.8-.2-5.7,2.5h-4.3l-3-1.2-5.5,1.8-1.9-1.3.1,3.6-1.2,1.5-1.2,1.4-1,2.6,1.1,5,2.4.3,1.2,2.5-2.6,2.4-.9,3.5.3,2.6-.6,1h.1l6.3,2.5,9.6-6.7Z"/><path id="TD" class="cls-1" d="M1108.4,447.6,1086,435.4l-22.3-12.2-5.4,3.5,1.6,9.9,2,1.6.2,2.1,2.3,2.2-1.1,2.7-1.8,12.9-.2,8.3-6.9,6-2.3,8.4,2.4,2.3v4.1l3.6.2-.5,2.9,2.2,4.1.5,4.2-.2,4.3,3.1,5.8-3.1-.1-1.6.4-2.5-.6-1.2,3,3.3,3.7,2.5,1.1.8,2.6,1.8,4.4-.9,1.7,4.7-.4,1-1.7.9.2,1.4,1.4,7.1-2.4,2.3-2.5,2.9-2.2-.6-2.3,1.6-.6,5.4.4,5.2-2.9,4-7,2.8-2.5,3.5-1.1v-1.6l-2.1-1.8-.1-3.7-1.2-2.5-2,.4.5-2.4,1.4-2.6-.7-2.7,1.8-1.9-1.2-1.5,1.4-3.9,2.4-4.7,4.8.4-1.1-25.2Z"/><path id="TG" class="cls-1" d="M981.7,502.2l-4.9-.1-.4,1.9,2.4,3.3-.1,4.6.6,5.1,1.4,2.3-1.2,5.7.4,3.2,1.5,4,1.2,2.2,4.6-1.3-1.4-4.4.2-14.6-1.1-1.3-.2-3.1-2-2.3-1.7-1.9.7-3.3Z"/><path id="TH" class="cls-1" d="M1562.7,481.4l1.5-2.9-.5-5.4-5.2-5.5-1.3-6.3-4.9-5.2-4.3-.4-.8,2.2-3.2.2-1.8-1.2-5.3,3.8-1-5.7.4-6.7-3.8-.3-.9-3.8-2.6-1.9-3,1.4-2.8,2.8-3.9.3-1.5,6.9-2.2,1.1,3.5,5.6,4.1,4.6,2.9,4.2-1.4,5.6-1.7,1.1,1.7,3.2,4.2,5.1,1,3.5.2,3,2.8,5.8-2.6,5.9-2.2,6.6-1.3,6.1-.3,3.9,1.2,3.6.7-3.8,2.9,3.1,3.2,3.5,1.1,3.2,2.4,2.4.9-1.1,4.7,2.8.6,3.3,3.7-.8,1.7-2.6-3.1-3.3-3.4-.8-3.3-3.6-1.4-5.5-2.6-5.8-3.7-.2-.7-4.6,1.4-5.6,2.2-9.3-.2-7,4.9-.1-.3,5,4.7-.1,5.3,2.9-2.1-7.7,3-5.2,7.1-1.3,5.3,1Z"/><path id="TJ" class="cls-1" d="M1344.1,315.7l-2.1.2-1.3-1.8.2-2.9-6.4,1.5-.5,4-1.5,3.5-4.4-.3-.6,2.8,4.2,1.6,2.4,4.7-1.3,6.6,1.8.8,3.3-2.1,2.1,1.3.9-3,3.2.1.6-.9-.2-2.6,1.7-2.3,3.2,1.5v2l1.6.3,1,5.4,2.6,2.1,1.5-1.3,2.1-.7,2.5-2.9,3.8.5h5.4l-1.8-3.7-.6-2.5-3.5-1.4-1.6.6-3-5.9-9.5.9-7.1-2-5.4.5-.6-3.7,5.9,1.1,1.4-2Z"/><path id="TM" class="cls-1" d="M1325.6,334.2l-.8-4-7.7-2.7-6.2-3.2-4.2-3-7-4.4-4.3-6.4-2-1.2-5.5.3-2.3-1.3-1.9-4.9-7.8-3.3-3.3,3.6-3.8,2.2,1.6,3.1-5.8.1-2.5.3-4.9-4.9-3.8-1.7-5.5,1.3-1.8,2,2.5,4-.5-4.5,3.7-1.6,2.4,3.6,4.6,3.7-4,2-5.3-1.5.1,5.2,3.5.4-.4,4.4,4.5,2.1.7,6.8,1.8,4.5,4.4-1.2,3-3.7,3.5.2,2.1-1.2,3.8.6,6.5,3.3,4.3.7,7.3,5.7,3.9.2,1.6,5.5,5.9,2.4,3.9-.8.4-3,4-.9,2.5-2-.1-5.2,4.1-1.2.3-2.3,2.9,1.7,1.6.2Z"/><path id="TL" class="cls-1" d="M1676.8,631.9l4.9-1.8,6-2.8,2.2-1.7-2-.8-1.8.8-4,.2-4.9,1.4-.8,1.5.5,1.3-.1,1.9Z"/><path id="TN" class="cls-1" d="M1038,361.4l-2-1-1.5-3-2.8-.1-1.1-3.5,3.4-3.2.5-5.6-1.9-1.6-.1-3,2.5-3.2-.4-1.3-4.4,2.4.1-3.3-3.7-.7-5.6,2.6-1,3.3,1,6.2-1.1,5.3-3.2,3.6.6,4.8,4.5,3.8v1.5l3.4,2.6,2.6,11.3,2.6-1.4.4-2.7-.7-2.6,3.7-2.5,1.5-2,2.6-1.8.1-4.9Z"/><path id="TR" class="cls-1" d="M1166.6,308.9l-9.7-4.4-8.5.2-5.7,1.7-5.6,4-9.9-.8-1.6,4.8-7.9.2-5.1,6.1,3.6,3-2,5,4.2,3.6,3.7,6.4,5.8-.1,5.4,3.5,3.6-.8.9-2.7,5.7.2,4.6,3.5,8-.7,3.1-3.7,4.6,1.5,3.2-.6-1.7,2.4,2.3,3,1.2-1.4,1.2-1.5-.1-3.6,1.9,1.3,5.5-1.8,3,1.2h4.3l5.7-2.5,2.8.2,5.9-1.1,2.1-1,6.2.9,2.1,1.6,2.3-1.1h0l-3.7-5.2.7-2-2.9-7.3,3.3-1.8-2.4-1.9-4.2-1.5v-3.1l-1.3-2.2-5.6-3-5.4.3-5.5,3.2-4.5-.6-5.8,1-7.8-2.4Zm-49.6,4,2-1.9,6.1-.4.7-1.5-4.7-2-.9-2.4-4.5-.8-5,2,2.7,1.6-1.2,3.9-1.1.7.1,1.3,1.9,2.9,3.9-3.4Z"/><path id="TW" class="cls-1" d="M1642.3,427.2l1.2-10.2.1-3.9-2.9-1.9-3.3,4.8-1.9,6.3,1.5,4.7,4,5.4,1.3-5.2Z"/><path id="TZ" class="cls-1" d="M1149.6,578.6l-2,.8,2.3,3.6-.4,3.7-1.6.8h0l.3,2.5,1.2,1.5v2l-1.4,1.4-2.2,3.3-2.1,2.3-.6.1-.3,2.7,1.1.9-.2,2.7,1,2.6-1.3,2.4,4.5,4.3.3,3.9,2.7,6.5h0l.3.2,2.2,1.1,3.5,1.1,3.2,1.9,5.4,1.2,1.1,1.7h0l.4-1.2,2.8,3.4.3,6.7,1.8,2.4v.1l2.1-.3,6.7,1.8,1.4-.8,3.9-.1,2.1-1.9,3.3.1,6.2-2.5,4.6-3.7h0l-2-1.4-2.2-6.3-1.8-3.9.4-3.1-.3-1.9,1.7-3.9-.2-1.6-3.5-2.3-.3-3.6,2.8-7.9-8-6.3-.4-3.7-20.2-13h0l-2.8,2.8-1.9,2.9,2.2,2.2-3.2,1.6-.7-.8-3.2.4-2.5,1.4-1.6-2.4,1.1-4.5.2-3.8h0l-6.2-.1Z"/><path id="UG" class="cls-1" d="M1167.6,545.1l-3.4,3-4-.1-4.5,1.5-3.5-1.4-2.3,1.7h0l-.3,7.5,2.3.8-1.8,2.3-2.2,1.7-2.1,3.3-1.2,3-.3,5.1-1.3,2.4-.1,4.8,1.4.6,3.3-1.9,2-.8,6.2.1h0l-.3-2.5,2.6-3.7,3.5-.9,2.4-1.5,2.9,1.2.3.5v-.3l1.6-2.6,2.7-4.2,2.1-4.7-2.6-7.3-.7-3.2-2.7-4.4Z"/><path id="UA" class="cls-1" d="M1138.5,241l-4.8.5-1.5-.3-1,1.4-1.8-.2h0l-4.1.3-1.2,1.4.2,3.1-2-.6-4.3.3-1.5-1.5-1.6,1.1-2-.9-3.8-.1-5.6-1.5-5-.5-3.7.2-2.4,1.6-2.2.3,3.1,5.3-.3,1.8-2.3.7-3.8,5.1,1.6,2.8-1.1-.4-1.1,1.7-.7,2.5,2.9,1.7.6,1.6,1.9-1.3,3.2.7h3.2l2.4,1.5,1.6-.9,3.6-.6,1-1.5h2.1l1.1-.9,3.2-.6,3.9,1.9,2,.3,2.5,1.6v2.1l1.9,1.1,1.1,2.6,2,1.5-.2,1,1,.6-1.2.5-3-.2-.6-.9-1,.5.5,1.1-1.1,2-.5,2.1-1.2.7,2.4,1.1,2.2-1,2.4,1.1,3.3-4.6,1.3-3.4,4.5-.8.7,2.4,8,1.5,1.7,1.4-4.5,2.1-.7,1.2,5.8,1.8-.6,2.9,3,1.3,6.3-3.6,5.3-1.1.6-2.2-5.1.4-2.7-1.5-1-3.9,3.9-2.3,4.6-.3,3-2,3.9-.5-.4-2.8,2.2-1.7,4.7-.5.3-2.1-1.8-3.4,1.3-3.2-.4-1.9-7.6-2-2.9.1-3.6-2.9-3.5,1-6.6-2.2-.2-1.2-2.2-2.7-4-.2-.7-1.9.9-1.3-3.8-3.4Z"/><path id="UY" class="cls-1" d="M692.5,787l-2.1-3.7,1.9-3-3.8-4.3-4.8-3.5-6.2-4.1-1.9.2-6.2-4.9-3.4.7-.5,5.1-.3,6.5,1.1,6.3-.9,1.4.4,4.2,3.9,3.5,3.6-.2,5.4,2.7,2.7-.6,4.2,1.2,5.3-3.5,1.6-4Z"/><path id="US" class="cls-1" d="M116.7,450.7l2-.9,2.5-1.4.2-.4-.9-2.2-.7-.8-.8-.6-1.9-1.1-.4-.1-.4.6v1.3l-1.2,1-.4.7.4,2.3-.6,1.8,1.2.9,1-1.1Zm-.6-9.9.6-.7-1.2-1-1.8-.6-.7.5v.4l.5.5.6,1.4,2-.5Zm-3-3.4-2.6-.2-.6.7,2.9.2Zm-4.7-.9-1.1-2.1-.3-.4-1.7.9.1.2.4,1.5,1.8.2.4.1.4-.4Zm-8.3-4.2.3-1.5-1.3-.1-1,.6-.4.5,1.6,1.1ZM512.2,259.1h-1.6l-1.3,2.4H373.4l-1.6,5.1-2.4,5.1-2.3,1.6,1.1-5.9-5.8-2.1-1.4,1.2-.4,2.9-1.8,5.4-4.2,8.3-4,5.6-4,5.6-5.4,5.8-1.1,4.7-2.8,5.3-3.9,5.2,1,3.4-1.9,5.2,1.5,5.4,1.3,2.2-.8,1.5.4,9,2.5,6.5-.8,3.5,1,1,4.6.7,1.3,1.7,2.8.3-.1,1.9,2.2.7,2.1,3.7-.3,3.2,6.3-.5,7-.7-1,1.3,7.1,3.1,10.7,4.4h15l.8-2.6h9.3l1.3,2.2,2.1,2,2.4,2.8.8,3.3.4,3.5,2.2,1.9,4,1.9,4.8-5,4.4-.1,3.1,2.5,1.6,4.4,1,3.7,2.4,3.6.2,4.5.8,3,3.9,2,3.6,1.4,2.1-.2-.6-2.2.4-3.1,1-4.4,1.9-2.8,3.7-3.1,6-2.7,6.1-4.7,4.9-1.5,3.5-.4,3.5,1.4,4.9-.8,3.3,3.4,3.8.2,2.4-1.2,1.7.9,1.3-.8-.9-1.3.7-2.5-.5-1.7,2.4-1,4.2-.4,4.7.7,6.2-.8,3,1.5,2,3,.9.3,6.1-2.9,1.9,1,3,5.3.8,3.5-2,4.2.4,2.5,1.6,4.9,2,5.5,1.8,1.4.4,2.8,2.6.8,1.7-.8,2-3.9.7-2.5.9-4.3-1.2-7.4.5-2.7-1.5-4.5-.7-5.4.1-4.4,1.8-4.5,3.5-3.8,3.7-3,6.9-4.1,1.3-2.2,3.3-2.3,2.8-.4,4.4-3.8,6-1.9,4.6-4.8.9-6.5.1-2.2-1.4-.4,1.5-6.2-3-2.1,3.2,1v-4.1l1.9-2.7-1,5.3,2,2.5-2.9,4.4.4.2,4.4-5.1,2.4-2.5.6-2.5-.9-1.1-.1-3.5,1.2,1.6,1.1.4-.1,1.6,5.2-4.9,2.5-4.5-1.4-.3,2.1-1.8-.4.8H598l7.8-1.9-1.1-1.2-7.9,1.2,4.8-1.8,3.1-.3,2.4-.3,4.1-1.1,2.4.1,3.8-1,1-1.7-1.1-1.4-.2,2.2L615,306l-.6-3.3,1.1-3.3,1.4-1.3,3.9-3.7,5.9-1.8,6-2.1,6.3-3-.2-2-2.1-3.5,2.8-8.5-1.5-1.8-3.7,1.1-1.1-1.7-5.5,4.7-3.2,4.9-2.7,2.8-2.5.9-1.7.3-1,1.6h-17l-2.7,1.2-6.7,4.2.2.9-.6,2.4-4.6,2-3.9-.5-4-.2-2.6.7-.3,1.8h0l-.1.6-5.8,3.7-4.5,1.8-2.9.8-3.7,1.7-4,.9-2.5-.3-2.7-1.3,2.7-2.4h0l2-2.2,3.7-3.4h0l.7-2.5.5-3.5-1.6-.7-4.3,2.8-.9-.1.3-1.5,3.8-2.5,1.6-2.8.7-2.8-2.7-2.4-3.7-1.3-1.7,2.4-1.4.6-2.2,3.1.4-2.1-2.6,1.5-2.1,2-2.6,3.1-1.3,2.6.1,3.8-1.8,4-3.3,3-1.4.9-1.6.7h-1.8l-.3-.4-.1-3.3.7-1.6.7-1.5.6-3,2.5-3.5,2.9-4.3,4.6-4.7h-.7l-5.4,4-.4-.7,2.9-2.3,4.7-4,3.7-.5,4.4-1.3,3.7.7h.1l4.7-.5-1.5-2.5h0l-1.2-.2h0l-1.4-.3-.4-1.7-5.1.5-5,1.4-2.5-2.3-2.5-.8,3.1-3.3-5.3,2-4.9,2.1-4.6,1.5-2.1-2.1-5.5,1.3.4-.9,4.6-2.6,4.7-2.5,5.9-2.1h0l-5.3-1.6-4.4.8-3.8-1.9-4.6-1-3.2-.4-1-1,.8-3.4ZM271.6,212.2l6.9-2.8v-1.8l-2.6-.4-3.4.9-6.4,2.1-2.2,2.7.7,1.6Zm-38.7-16.4,2.3-2.3-2.9-.5-5.7,1,.8,1.6,1.6,1.1,3.9-.9Zm1.2-22.3-3.1,2.2.4.5,4.2-.4.3,1.1,1.7,1.2,4.9-1.2,1.2-.6-3.3-.8-1.6-1.5-3.4.6-1.3-1.1ZM359,133.3l-4.4-1.1L344.4,135l-3.2-.3-11,2.3-4.8.6-7.8,2.5-4.8,2.6-8.6,2.5-7.6.1-6.3,2.9,3.2,1.7.7,2.3-.8,2.7,2.3,2.1-1.2,3.5-9.2.2,4.3-2.8h-3.4l-13.1,2.7-9.1,2.3,1,3.3-1.2,2.2,4.5,1.4,6.9-.7,1.8,1.3,2.9-1.3,6.1-1.2h2.7l-5.9,2.1,1.1,1-2.5,2.6-5.5,1.8-2.5-.5-7,2.7-1.8-.9-4.1.4-5.3,3-7.6,3.1-5.8,3.4.3,2.4-4,3.3,1.4,1.4.5,2.7,7.2-1.1.4,2.1-3.3,2.1-3.6,3.5h2.8l7.2-2.3-1.6,2.9,3.6-2.1-.4,3,4.8-2.2.4,1.1,7.2-1.8-6.2,3.4-5.7,4.5-5.7,2.1-2.3,1.2-10.3,3.6-4.9,2.4-6.5.7-8.5,3.3-6.6,1.8-8.1,2.8-.4,1,10-1.7,6-2,6.9-2,6.1-1.7,2.8.5,8.1-2.6,4.5-2.8,10.5-3.1,3.9-2.6,6.6-1.8,7.6-2.5,8.9-4.2-.2-2.9,11.1-4.1,7.4-3.9,9.2-3.2-.4,1.4-6.7,1.8-8.3,5.7-3.2,3.5,6.4-1.3,6.1-1.9,6.5-1.3,2.9-.3,3.5-4.1,6.3-1.2,2.6,2.5,6,2.7,6.7-.5,5.7,2,3.2,1.1,3.3,6.1,3.7,1.7,7.1.2,4.1.4-2.7,5.5,1.6,4.9-3.3,5.2,2.5,1.9.6,2.2h0l5.1-2.9,3.1-3.7-4.6-3.8,1.5-6.8,1.1-4.2-1.7-2.7-.7-2.4.5-3-6.4,1.9-7.6,3.3-.2-3.9-.6-2.6-2.7-1.6-4.2-.1,35.4-32.4,24.3-20.2h0l-3.5-.7-4.1-1.6-6.5.8-2.2-.7-7.1-.5-6.2-1.6-4.8.5-4.9-.9,2-1.2-6.3-.3-3.3,1,.5-2.4Z"/><path id="UZ" class="cls-1" d="M1339.8,303.1l-2.5,1.2-5.4,4.3-.9,4.5h-1.9l-2.3-3-6.6-.2-2.6-5-2.5-.1-1.5-6.2-7.5-4.5-8.6.5-5.7.9-6.5-5.5-4.8-2.3-9.1-4.5-1.1-.5-11.9,3.6,6.2,22.8,5.8-.1-1.6-3.1,3.8-2.2,3.3-3.6,7.8,3.3,1.9,4.9,2.3,1.3,5.5-.3,2,1.2,4.3,6.4,7,4.4,4.2,3,6.2,3.2,7.7,2.7.8,4h2.9l4.3,1.4,1.3-6.6-2.4-4.7-4.2-1.6.6-2.8,4.4.3,1.5-3.5.5-4,6.4-1.5-.2,2.9,1.3,1.8,2.1-.2,4.1.6,5.2-4.5-7.1-3.3-3.2,1.6-4.6-2.3,3.1-4.1-1.8-.6Z"/><path id="VE" class="cls-1" d="M642,518.9l-2.2-1.5-2.9.2-.7-5.1-4.1-3.2-4.4-.4-1.8-3,4.8-1.9-6.7.1-6.9.4-.2,1.6-3.2,1.9-4.2-.7-3.1-2.9-6,.7-5-.1-.1-2.1-3.5-3.5-3.9-.1-1.7-4.5-2.1,2,.6,3-7.1,2.6v4.8l1.6,2.2-1.5,4.6-2.4.4-1.9-5,2.7-3.7.3-3.3-1.7-2.9,3.3-.8.3-1.5-3.7,1.1-1.6,3.2-2.2,1.8-1.8,2.4-.9,4.5-1.8,3.7,2.9.5.6,2.9,1.1,1.4.4,2.5-.8,2.4.2,1.3,1.3.6,1.3,2.2,7.2-.6,3.2.8,3.8,5.5,2.3-.7,4,.3,3.2-.7,2,1.1-1.2,3.4-1.3,2.1-.5,4.6,1,4.2,1.5,1.9.2,1.5-2.9,3.1,2,1.4,1.4,2.2,1.7,6.4,3,3.4,4.4-.5,1.1-1.9,4.2-1.5,2.3-1,.7-2.7,4.1-1.8-.3-1.4-4.8-.5-.7-4,.3-4.3-2.4-1.6,1-.6,4.2.8,4.4,1.6,1.7-1.5,4-1,6.4-2.4,2.1-2.4-.7-1.8-3.7-4.8,1.6-1.8v-2.9l3.4-1.1,1.5-1.2-1.9-2.3.6-2.3,4.6-3.8Z"/><path id="VN" class="cls-1" d="M1571.6,435l-5.9-1.6-3-2.6.2-3.7-5.2-1.1-3-2.4-4.1,3.4-5.3.7H1541l-2.7,1.5,4,5.1,3.4,5.7,6.8.1,3,5.5-3.3,1.7-1.3,2.3,7.3,3.8,5.7,7.5,4.3,5.6,4.8,4.4,2,4.5-.2,6.4,1.8,4.2.1,7.7-8.9,4.9,2.8,3.8-5.8.5-4.7,2.5,4.5,3.7-1.3,4.3,2.3,4,6.6-5.9,4.1-5.3,6.1-4.1,4.3-4.2-.4-11.2-4-11.7-4.1-5.1-5.6-4-6.4-8.3-5.3-6.7.5-4.4,3.7-6Z"/><path id="VU" class="cls-1" d="M1908.6,676.9l-2.7-3.6-.6,1.7,1.3,2.8,2-.9Zm-2-9.7-2.3-2-.9,4.9.5,1.8,1.2-.4,1.3.8.2-5.1Z"/><path id="YE" class="cls-1" d="M1271.5,466.2l-2.1-4.4-5.2-10.5-15.7,2.4-5,2.9-3.5,6.7-2.5,1-1.6-2.1-2.1.3-5.4-.6-1-.7-6.4.2-1.5.6-2.4-1.7-1.2,3.1.7,2.7-2.3,2.1.4,2.7-.6,1.3.7,2.9-1.1.3,1.7,2.6,1.3,4.7,1,1.9V488l1.6,3.8,3.9.3,1.8-.9,2.7.2.8-1.7,1.5-.4,1.1-1.7,1.4-.4,4.7-.3,3.5-1.2,3.1-2.7,1.7.4,2.4-.3,4.7-4.5,8.8-3,5.3-2.7v-2.1l.9-2.9,3.9-1.7Z"/><path id="ZA" class="cls-1" d="M1148.2,713.7l-2.9-.6-1.9.8-2.6-1.1-2.2-.1-8,4.7-5.2,4.7-2,4.3-1.7,2.4-3,.5-1.2,3-.6,2-3.6,1.5-4.4-.3-2.5-1.8-2.3-.8-2.7,1.5-1.5,3.1-2.7,1.9-2.8,2.8-4,.7-1.1-2.3.7-3.8-3-6.1-1.4-1-1.1,23.6-5,3.2-2.9.5-3.3-1.2-2.4-.5-.8-2.7-2.1-1.8-2.7,3.2,3.5,8.2v.1l2.5,5.3,3.2,6-.2,4.8-1.7,1.2,1.4,4.2-.2,3.8.6,1.7.3-.9,2.1,2.9,1.8.1,2.1,2.3,2.4-.2,3.5-2.4,4.6-1,5.6-2.5,2.2.3,3.3-.8,5.7,1.2,2.7-1.2,3.2,1,.8-1.8,2.7-.3,5.8-2.5,4.3-2.9,4.1-3.8,6.7-6.5,3.4-4.6,1.8-3.2,2.5-3.3,1.2-.9,3.9-3.2,1.6-2.9,1.1-5.2,1.7-4.7h-4.1l-1.3,2.8-3.3.7-3-3.5.1-2.2,1.6-2.4.7-1.8,1.6-.5,2.7,1.2-.4-2.3,1.4-7.1-1.1-4.5-2.2-9Zm-20.1,52.8-2,.6-3.7-4.9,3.2-4,3.1-2.5,2.6-1.3,2.3,2,1.7,1.9-1.9,3.1-1.1,2.1-3.1,1-1.1,2Z"/><path id="ZM" class="cls-1" d="M1149.2,626.7l-1.9-.5.4-1.3-1-.3-7.5,1.1-1.6.7-1.6,4.1,1.2,2.8-1.2,7.5-.8,6.4,1.4,1.1,3.9,2.5,1.5-1.2.3,6.9H1138l-2.1-3.5-2-2.8-4.3-.8-1.2-3.4-3.4,2-4.5-.9-1.8-2.8-3.5-.6-2.6.1-.3-2-1.9-.1.5,2-.7,3,.9,3-.9,2.4.5,2.2-11.6-.1-.8,20.3,3.6,5.2,3.5,4,4.6-1.5,3.6.4,2.1,1.4v.5l1,.5,6.2.7,1.7.7,1.9-.1,3.2-4.1,5.1-5.3,2-.5.7-2.2,3.3-2.5,4.2-.9-.3-4.5,17.1-5.2-2.9-1.7,1.9-5.9,1.8-2.2-.9-5.3,1.2-5.1,1-1.8-1.2-5.4-2.6-2.8-3.2-1.9-3.5-1.1-2.2-1.1-.3-.2h0l.5,1.1-1,.4-1.2-1.4Z"/><path id="ZW" class="cls-1" d="M1148.2,713.7l6.2-7.2,1.6-4.6.9-.6.8-3.7-.8-1.9.5-4.7,1.3-4.4.3-8.1-2.8-2-2.6-.5-1.1-1.6-2.6-1.3-4.6.1-.3-2.4-4.2.9-3.3,2.5-.7,2.2-2,.5-5.1,5.3-3.2,4.1-1.9.1-1.7-.7-6.2-.7,1.9,5.1,1.1,1.1,1.6,3.7,6,7,2.3.7-.1,2.2,1.5,4.1,4.2.9,3.4,2.9,2.2.1,2.6,1.1,1.9-.8,2.9.6Z"/><path id="SO" class="cls-1" d="M1223.4,505.7l-2.6-2.7-1.2-2.6-1.8-1.2-2,3.4-1.1,2.3,2.2,3.5,2.1,3.1,2.2,2.2,18.5,7.6,4.8-.1-15.4,19.1-7.4.3-4.9,4.5-3.6.1-1.5,2-4.8,7.2.2,23.2,3.3,5.3,1.3-1.5,1.3-3.4,6.1-7.7,5.3-4.8,8.3-6.4,5.6-5.1,6.4-8.7,4.7-7.1,4.6-9.3,3.2-8.2,2.5-7.1,1.3-6.8,1.1-2.3-.2-3.4.4-3.7-.2-1.7H1260l-2.6,2.2-2.9.6-2.5.9-1.8.2h0l-3.2.2-1.9,1.1-2.8.5-4.8,1.9-6.1.8-5.2,1.6h-2.8Z"/><path id="GF" class="cls-1" d="M681.4,556.2l1.8-4.7,3.5-5.8-.9-2.6-5.8-5.4-4.1-1.5-1.9-.7-3.1,5.5.4,4.4,2.1,3.7-1,2.7-.6,2.9-1.4,2.8,2.4,1.3,1.8-1.8,1.2.3.8,1.8,2.7-.5Z"/><path id="FR" class="cls-1" d="M1025.7,303.8l-1.1-5.2-3.2,2.3-1,2.3,1.4,4.2,2.4,1.2Zm-31.5-50.9-2.4-2.4-2.2-.1-.7-2.2-4.3,1.2-1.4,5.1-11.3,4.8-4.6-2.6,1.4,7-8.2-1.6-6.4,1.3.4,4.6,7.5,2.4,3.6,3.1,5.1,6.5-1,12.3L967,296l2,2.4,9.4,2.8,1.9-1.3,5.7,2.8,6-.8.5-3.7,7.4-2,10,1.6,4.5-3.4.5-2.7-2.7-.8-1.5-4.8,1.7-1.8-1.6-2.4.2-1.7-1.8-2.7-2.4.9v-2.8l3.5-3.5-.2-1.6,2.3.6,1.3-1,.5-4.5,2.3-4.2-7.1-1.2-2.4-1.6-1.4.1-1.1-.5-4.4-2.8-2.5.4-3.4-2.9Z"/><path id="ES" class="cls-1" d="M985,325.7v-.2h-.5l-.3-.4-.1.2-.1.2v.2h.5l.4.1.1-.1Zm-.8-1.6h.3l.6-.7v-.3l-.3-.2-1.1.2-.2.3v.3l-.3.1-.1.4.1.2.8.1ZM967,296l-8.2-.2-4.2.3-5.4-1h-6.8l-6.2-1.1-7.4,4.5,2,2.6-.4,4.4,1.9-1.6,2.1-.9,1.2,3.1h3l.9-.8,3,.2,1.3,3.1-2.4,1.7-.2,4.9-.9.9-.3,3-2.2.5,2,3.8-1.6,4.3,1.8,1.9-.8,1.7-2,2.5.4,2.1,4.8,1,1.4,3.7,2,2.2,2.5.6,2.1-2.5,3.3-2.3,5,.1h6.7l3.8-5,3.9-1.3,1.2-4.2,3-2.9-2-3.7,2-5.1,3.1-3.5.5-2.1,6.6-1.3,4.8-4.2-.3-3.5-6,.8-5.7-2.8-1.9,1.3-9.4-2.8-2-2.4Zm26,22.6.1-.3.1-.2.1-.1-.2-.2v-.1l.2-.2-.2-.1-1.3.4-.7.4-2.1,1.5v.3l.1.2h.4l.2.4.4-.4.3-.1.3.1.3.2.1.6.1.2.6.1.9.4.4-.2.5-.3.2-.6.3-.5.3-.5.3-.4-.1-.4-.3-.1-.3-.1-.5.2-.5-.2Zm6-.3.1-.4v-.1l-.5-.7-.9-.3-1,.1-.1.1v.4l.1.1.6.1,1.6.7h.1Z"/><path id="AW" class="cls-1" d="M586.6,492.9l-.1-.1-.3-.6-.3-.3-.1.1-.1.3.3.3.3.4.3.1v-.2Z"/><path id="AI" class="cls-1" d="M627.9,456.2l.1-.2-.2-.1-.8.5v.1Z"/><path id="AD" class="cls-1" d="M985.4,301.7l.1-.2.1-.2v-.1l-.2-.1-.7-.2-.3-.1-.2.1-.2.2-.1.3.1.1v.4l.1.2h.4l.3-.1.5-.3h.1Z"/><path id="AG" class="cls-1" d="M634.3,463.8l.2-.1v-.3l-.1-.1-.1-.2-.4-.2-.5.5v.2l.1.3.6.1.2-.2Zm.2-3.5v-.5l-.1-.2h-.3l-.1-.1h-.1l-.1.1.1.6.5.3.1-.2Z"/><path id="BS" class="cls-1" d="M574.4,437.3l.2-.6-.3-.1-.5.7-.6.3h-.3l-.7-.3h-.5l-.4.5-.6.1.1.1v.2l-.2.3v.2l.1.3,1.5-.1,1.3-.2.7-.9Zm.8-2-.4-.3-.4.3.1.3.7-.3Zm0-5.8-.4-.2-.3.5.3.1.7-.1.5.1.5.4.3-.2-.1-.1-.4-.3-.6-.1h-.2l-.3-.1Zm-6.6,1.3.7-.6.7-.3.9-1.1-.1-.9.2-.4-.6.1-.1.3-.1.3.3.4v.2l-.2.4-.3.1-.1.2-.3.1-.4.5-.8.6-.2.3.4-.2Zm1.2-3.2-.6-.2-.2-.4-.4-.1-.1.2v.2l.1.4.2-.1.8.4.4-.3Zm-4.1-1.1v-.7l-.4-.5-.6-.4-.1-1.2-.3-.7-.2-.6-.4-.8v.5l.1.1.1.6.4.9.1.4-.1.4-.4.1-.1.2.5.3.8.3.5,1.3.1-.2Zm-4.1-3.5-.5-.3-.2-.3-.7-.7-.3-.1-.2.4.4.1.9.7.4.2h.2Zm7.3-4-.1-.3h-.1l-.3.1-.3.9h.3l.5-.7Zm-17.6-1.1-.2-.3-.3.2h-.5l-.2.1h-.4l-.3.2.4.8.3.3.1,1,.2.1-.1.7,1.1.1.4-.8v-1.7l-.3-.5-.4.6-.4-.3.6-.4v-.1Zm12.9.3-1-1.4v-.2l-.5-1.5-.3-.1-.1.1-.1.2.4.4v.4l.3.2.4,1.1.4.4-.1.3-.4.3-.1.2h.1l.6-.1h.4v-.3ZM553.7,413l.5-.2h0l-.3-.2h-.7l-.4.1-.2.2.1.1.4.1.6-.1Zm-2.4,2-.5-.6-.3-.9-.2-.4.1-.5-.3-.4-.6-.4-.3.1.1,1.1-.2.6-.8,1.1.1.4h0l.1.2-.5.4v-.3l-.6.1.3.5.6.4.3.1.3-.2v.5l.3.4.1.4.3-.3.6-.2.2-.2.7-.4v-.2l.1-.6.1-.7Zm6.7-5-.3-.5-.1.1-.1.4-.3.4.5-.1.4.1.6.5.7.2.3.6.6.6v.6l-.4.6-.1.7-.6.1.1.1.3.3.1.4.2.2v-.7l.3-.8.4-1.3-.1-.3-.3-.3-.7-.9-.7-.3-.8-.7Zm-8.8-7.9-.5-.4-.2.4v.1l-.1.3-.5.4-.5.1-.7-.6-.2-.1.8,1.1.3.1h.4l.9-.3,1.6-.5,1.7-.2.1-.2-.1-.3-.8.2-1-.1-.2.2h-.4Zm6.1,5.2.2-.3.4-1.8.8-.6.1-1.2-.5-.5-.4-.2-.1-.2.1-.2-.2-.1-.3-.2-.4-.6-.4-.4-.7-.1-.6-.1-.4-.1-.5.3h.8l1.5.3.7,1.5.5.4.1.4-.2.4v.4l-.3.5-.1.8-.3.4-.7.5.4.2.3.6.2-.1Z"/><path id="BM" class="cls-1" d="M630.2,366.8l.4-.6h-.1l-.5.5-.6.2.1.1h.1Z"/><path id="BB" class="cls-1" d="M644.9,488.9l.4-.4-.3-.3-.6-.8-.3.1v1l.1.3.5.3.2-.2Z"/><path id="KM" class="cls-1" d="M1221.1,650.5l-.4-.4h-.4v.2l.1.4,1.1.2-.4-.4Zm3.9-1.5h-.1l-.2.1-.1.2-.1.3h-.9l.8.5.5.5.2.2.1-.2.1-.7-.3-.9Zm-5.6-1.1.2-.3-.2-.7-.4-.8.1-1.4-.2-.2h-.3l-.1.1-.1.3-.3,2,.4.6.3.1.5.4.1-.1Z"/><path id="CV" class="cls-1" d="M841.4,477.6l.1-.4-.2-.6-.3-.1-.6.4-.1.3.1.3.3.3.3.1.4-.3Zm6.3-1.7.4-.2V475l-.1-.3h-.4l-.2.4v.5l.2.3h.1Zm-1.4.8-.5-.9-.3-.1-.6-.7v-.3l-.3-.1v.6l-.2.5v.5l.4.8.4.2.7.1.4-.6Zm3.1-7.8v.5l-.3.7.5.3.3.1.6-.4.2-.5-.1-.3-.3-.3-.3-.1-.1.1-.5-.1Zm-6.4-2.5-1-.1-.6-.2h-.1v.3l.4.8.2-.5.2-.1.8.2.4-.1-.1-.1-.2-.2Zm6.7-.2-.1-.5V465h-.2l-.3.2.1.7.1.1.2.5.2-.3Zm-11.1-1V465l-.3-.5-.3.1-.4.2-.1.3.4.2h.2l.5-.1Zm-1.5-.9.8-.6.2-.3-.2-.5-.5-.1-1.2.6-.1.2.1.3.1.5.2.1.6-.2Z"/><path id="KY" class="cls-1" d="M527,449.1l-.1-.3-.1.1v.6h.7l.3-.2h.6l-.1-.2-.8-.1-.1.1-.2.1-.2-.1Zm8-2.3h0l-.1-.1h-.1l-.3.1h-.2l-.1.1-.1.1h.2l.4-.2h.3Zm.8-.1.5-.2h0l-.1-.1h-.1l-.1.1h-.1l-.5.3h.2l.2-.1Z"/><path id="DM" class="cls-1" d="M635.8,475.1l.3-.7-.1-1-.2-.4-.8-.3v.2l-.1.5.3.8.1,1.1Z"/><path id="FK" class="cls-1" d="M690.3,902.7l-.1-.3-.4-.2-.2-.1.1.2.1.3.1.2.2.1.2-.2Zm5.5-1.3-.1-.1h-.2l-.1.2.2.3.4.1-.2-.5ZM682.9,900l-.1.2-.4.1.2.3.6.4h.4l.1-.3-.1-.6h-.3l-.4-.1Zm2.8-2-.9-.3-.4-.3h-.3l.4.4.1.2.1.2.6.3.6.3.4.3-.1.1-.8.3h-.3l-.2.1.4.2.6-.1.2-.1h.2l.3.1v.2l-.1.2-.2.2-.4.3-.6.4h-.8l-.7.7.9.5.7.3h.9v-.1l.2-.1h.3l.1-.1.2-.4v-.6h.2l.3.1.7-.1.3-.1.6-.9.4-.8.2-.4.3-.2.1-.2.1-.3.3-.2v-.3l-.4-.2-.3-.2-.3.3-.2-.1-.9.3h-.4l-.3-.2-.4-.1-.4.1-.5.5-.8-.2Zm.7-.4.1-.3-.1-.2-.5-.2h-.5l.2.5.2.2Zm5.9-.7h-.4l.4.5-.8.8.2.6.3.4.1.2-.1.1-.4.1-.3.1-.2.3-.9.9.2.2-.3.7.2.3.8.7.8.4v-.7l.4-.1.4.2.4-.2-.9-1h.3l2.5.5-.1-.4-.1-.2-.3-.4,1.5-.4.5-.3.2-.3.6-.1.8-.3-.1-.1.1-.3-.4-.2-.5-.1.1-.3.5-.1-.8-.7-.3-.1-1,.1-.3.1v.2l.1.3.3.3.1.2-.2-.1-1.1-.4-.2-.1-.2-.4.2-.1.3.1.1-.3-.4-.3-.4-.1-.9.1-.8-.3Z"/><path id="FO" class="cls-1" d="M947,186.9v-.3l-.1-.3v-.2h-.1l-.5-.1-.1-.2h-.1v.2l.1.4.5.4.3.2h.1l-.1-.1Zm.5-2.1v-.1l-.2-.2-.5-.2-.2-.1-.2.1v.2l.1.1.4.1.4.3h.1l.1-.2Zm-2.4-1.9-.2-.1-.5.1h-.3l.1.3.6.2h.6l.2-.1-.1-.2-.4-.2Zm2.5-.5-.8-.2-.6-.3-1,.1.7,1.1.8.7.4.2v-.3l-.4-.5-.1-.1V183l.1-.1h.2l.3.2h.2l.2-.7Zm1-.2-.3-.2-.4-.4v.9h.1l.3.1.3-.4Z"/><path id="GD" class="cls-1" d="M632.1,495.7l.5-.2.2-1.1-.3-.1-.3.3-.3.5v.4l-.2.3.4-.1Z"/><path id="HK" class="cls-1" d="M1604.9,430.9v-.4l-.4-.2h-.3l.1.2.4.5.2-.1Zm-1.3,0-.1-.5.2-.3-.9.3-.1.3v.1l.2.1h.7Zm1.6-1.2-.1-.3-.2-.1-.1-.3-.1-.2h0l-.3-.1-.2-.1h-.4l-.1.1h-.2l-.2.2h0v.2l-.5.4v.2l.3.2.5-.1.6.2.8.3v-.5l.2-.1Z"/><path id="KN" class="cls-1" d="M629.9,463.2v-.3l-.2-.2h-.3v.5l.2.2Zm-.5-.7-.1-.2-.1-.1-.2-.4-.4-.4-.2.1-.1.2v.1h0l.3.3.4.1.2.4.2-.1Z"/><path id="LC" class="cls-1" d="M637.4,484.2l.1-1.2-.1-.5-.2.1-.3.4-.4.6-.1.3v.6l.6.4.4-.7Z"/><path id="LI" class="cls-1" d="M1024.4,273.6v-.2l.1-.2-.1-.1-.1-.2-.1-.1v-.2l-.1-.1v-.2l-.1-.1-.2.6v.5l.1.2h.1l.4.1Z"/><path id="MV" class="cls-1" d="M1389.1,551.6l.1-.1v-.2l-.1-.1h-.1l-.1.2v.2Zm.3-5.9.1-.2v-.4l-.1.1-.1.2v.1l-.1.1v.1h.2Z"/><path id="MT" class="cls-1" d="M1053.6,344l-.2-.2-.5-.5-.5-.1.1.6.4.4h.5l.2-.2Zm-1.4-1.2h0v-.2l-.3-.1-.4.1.1.1.3.2Z"/><path id="MS" class="cls-1" d="M631.8,465.7l-.1-.5h-.1l-.2.4v.3l.3.1Z"/><path id="MU" class="cls-1" d="M1294.7,702.5l.3-.3.2-.4.3-.3.1-.7-.2-.8-.4-.7-.5.1-.3.4-.2.5-.5.3-.1.3-.2.7-.1.4-.2.1v.2l.3.3.8.1.7-.2Z"/><path id="NC" class="cls-1" d="M1897.3,716.1v-.3l-.4-.2-.2.5v.1l.2.1h.2l.2-.2Zm4.6-7.6-.1-.1v-.3l.1-.2-.4.2-.6.2.1.8-.1.4.3.1.1.3h.2l.7-.2.3-1.1h-.4l-.2-.1Zm-3-1.7.3-.5.1-.2-.2-.7-.3-.3.3-1-.1-.2-.4-.2-.9.3-.1.2.5.1.2.2-.5.7-.5.1.1.5.2.4.7.2.3.4Zm-3.9-2.9.3-.3.3-.4-.1-.1v-.3l.2-.4.3-.1-.2-.2-.2-.1v.3l-.3.7-.1.3-.5.6h.3Zm-12.3-2.9-.6-.7-.1.2-.1.4v.3l.3.2.1.2-.1.5v.4l.6.9.1.7.3.6.5.5.4.5.8,1.4.2.5.4.3,1,1.2.4.4.4.2.9.7.6.3.3.5.6.3.8.4.1.2v.3l.1.3.5.4.6.3.1.2.1.2.3-.1.3.1.9.7.4-.1h.3l.5-.2.3-.4-.1-1.1-.5-.5-.7-.4-.4-.5-.4-.5-.8-1-1.1-1-.5-.2-.3-.4-.3-.1-.2-.3-.5-.3-.3-.6-.6-.6-.1-.3.1-.3-.1-.3-.4-.3-.2-.5-.2-.3-.4-.2-.7-.4-1.6-1.9-.7-.6-.7.2-.6-.4Zm-22-6,.2-.4.1-.8-.2.4-.2,1Z"/><path id="NR" class="cls-1" d="M1915,575.5v-.2h-.2l-.1.2.1.1.1.1.1-.2Z"/><path id="PN" class="cls-1" d="M274.2,727.4v-.2l-.1-.2-.2-.1-.1.1.1.2.2.2.1.1Z"/><path id="PR" class="cls-1" d="M600.8,457.3v-.1h.1v-.1l.1-.1h0v-.1h-.5v.2l.2.1h0v.1Zm13.6-.3.7-.2v-.1l-.4-.1h-.6l-.5.2.1.2h.7Zm-3.7-2.2-.1-.2h-.2l-3.5-.1-1.3-.2-.3.1-.3.1-.1.4-.2.2-.3.2.1.3.1.2.2.4-.1.5-.2,1,.3.2.7-.1.3.1.3.1.4-.1.4-.2.9.1.5-.1.6.3.4-.1.2.1h.9l.9-.2.8-.5.3-.5.4-.3.6-.4v-.9l-.7-.1-.6-.3-1.1-.1h-.1l.1.2h-.1l-.2-.1Z"/><path id="PF" class="cls-1" d="M213.2,704.9l-.1-.3-.2-.3-.1.1.1.1.2.3v.2Zm9.3-14.7-.2-.2-.4-.2-.2-.1-.2-.1-.1.1.1.1h.1l.3.2.3.1.2.1v.1l.1-.1ZM198,689.1l-.6-.3.1.2.4.2.2.1-.1-.2Zm20.5-.2-.4-.5h-.3l.7.6Zm-21.6-1-.4-.4-.2-.3-.3-.1.1.1.4.4.3.4.2.1Zm-.3-2.1-.1-.1h0v-.3l.2-.3.6-.4v-.1h0l-.2.1-.4.2-.2.2-.1.2-.1.3.1.2.1.1h.2l-.1-.1Zm-47.4-1.1-.2-.6-.3-.5-.8-.1-.5.2-.1.2.1.4.5.7.5.1.8-.1.4.6.2.1.4.1.1-.3-.2-.5-.9-.3Zm-2.9-.9.1-.4-.2-.1h-.5v.2l.1.2.1.1.3.2.1-.2Zm-9.7-4.3h.2l-.4-.6-.3-.2v.8l.3.1Zm43.9-1.6h-.6l.5.1.4.2-.3-.3Zm-.7.1-.3-.1-.3-.2h-.3l.7.3h.2Zm-43.8.1.1-.2-.1-.1-.4-.2.1.3v.2l.2.1.1-.1Zm32.8-2-.3-.4-.2-.3-.2-.4-.4-.5.1.3.1.2.2.2.2.4.1.2.3.4h.1v-.1Zm16.2-1.5.1-.5h-.2v.5h.1ZM170.6,673l-.6-.6h-.1l.1.2.5.5.1.2V673Zm30.8-33.9.1-.2v-.2l-.1-.1-.3-.1.1.7.2-.1Zm-2.7-3.7-.1-.2h-.2l-.1.1v.5l.4-.4Zm.1-1.6-.8.5.2.4.4.1.2-.2.8-.1.3-.4-.3.1-.8-.4Zm-6.1-1.7.2-.5-.2-.1-.4.2v.2l.3.4.1-.2Zm2.6-3.1.3-.1v-.1l-.2-.2-.3-.1-.1.1-.1.2.1.3.3-.1Zm-2.9-.1.1-.3v-.2l-.1-.2-.9-.2-.1.1v.4l.2.5h.3Z"/><path id="SG" class="cls-1" d="M1561,563.7l.1-.2-.2-.2-.3-.1-.5-.2-.6.1-.3.6.9.4.9-.4Z"/><path id="SB" class="cls-1" d="M1909.1,646.4l-.2-.2-.1-.4h-.3l-.3.1.2.6h.2l.5-.1Zm-35.6.8-.1-.2-.5-.4-1.9-1.3-.4-.1-.1.1-.1.3.1.2.5.1v.1l.3.2.7.2.4.3.1.5.3.1.3.1.4-.2Zm32-6.6v-.1l.2-.3-.2-.1-.5-.1-.7.1-.3.2-.2.3h-.2v.2l.1.4.2-.1.2.1.5-.5h.4l.5-.1Zm-24.4-2.3-.1-.2-.2-.1-.9-.7-.5-.2h-.5l-.1.5v.3h.6l.4.2v.6l.2.2v.5l1.2.9.7.4.7.1.4.2.5-.1.5.2.4-.1-.4-.3v-.4l-.5-1.3-.3-.3-.5.1-.5-.2h-.4l-.7-.3Zm-.4-4.9-.6-1.6-.2-.1.1.6.1.4-.1.5-.1.6.2.2.2-.2.4.5v-.9Zm-9.8-2.2-.3-.1-.4.3-.1.3-.1.7v.4l.3.7.3.5.3.3.2.2.9.1,1.7.1.9.4.9.2.4-.1.5-.2.1-.1-.1-.6-.2-.3-.4-.2-.2-.6-.5-.4-.9-.7h-1.6l-.6.1-1.1-1Zm2.6-1.8-.5.2v.3l.4.1.4.2.1.3h0l.2-.1.4.2.2-.3-.4-.5-.4-.3h-.1l-.3-.1Zm-5.6.8.3-.2v-.4h-.3l-.1-.2h-.2l-.3.2-.2.3.1.2h.4l.2.1h.1Zm-8.4-2.3-.1-.2-.3-.2h-.2l-.5.1.1.1.6.3.3.1.1-.2Zm3.1.4.3-.2-.1-.2-.1-.5-.4.7.1.2Zm-.5-.9V627l-.2-.1.4-.3-.1-.1-.6-.2-.2.2-.2.1-.1.1-.1.1-.1.5.2.4.4.2.6-.5Zm-4,.2-.3-.4.1-.5.2-.1.2-.5-.1-.4-.2.1-.7.6-.1.3.6.8.3.2v-.1Zm13-1.3-.2-.4v-.2l-.3-.2-.2.1-.1.3.1.2.4.3.3-.1Zm6-1.2h-.2l-.1.1h-.5l-.1.2.6,1.1-.3.5.4,2.2.4,1.2.8.8v.2l.8.5.6,1.3.2.1.1-.2v-.6l-.5-1.1.1-.8-.2-.3V630l-.2-.8-.6-.7-.3-.1-.2-.3.2-.6.2-.2.1-.3-1.3-1.9Zm-16.6-.5-.6-.2-.2-.3v-1l-.6-.3-.3.2-.6.7-.2.4-.5.3-.1.3v.4l.4.1.3-.4.9-.1.3.1v.4l.1.7.3.3.5.2.4.6.1-.3h.2l.2-.4-.3-1.2-.3-.5Zm-6.5-.4.1-.5-.1-.9-.2.1v.2l-.1.4.2.8Zm3.2-.4.2-.2v-.9l-.2-.4-.2-.2-.5.1-.4.5v.5l.4.6h.7Zm-2.6-1.2.2-.3.5-.7.1-.3-.5-.2-.4-.5-.4-.2-.3.4v.4l.5.6-.1.4.2.1.1.4.1-.1Zm17.5,3.9-.1-.5-.3-.4.4-.5-2.2-1.9-.3-.2-.4-.1-.5-.4-.5-.1-.5-.4-.2-.3-.6-.4-.6-.8-1.5-.3.1.2.4.4.1.7.5.4.5.6.2.1.2.2.4.5.8.4.8.6.3.1.3.3,1.5.7.5.7.7.5v-.1Zm-21.8-9.2.2-.3-.7-.5-.2.3-.2.5.4.2.5-.2Zm9.1,1.5-.1-.1h-.3l-.4-.2-.7-.8-.2-.3-.2-1-.4-.4-1.4-.8-.8-.8-.7-.2-.2.2v.5l.2.3,1,.9,1.1,1.7,1,1,.8.1h.4v.1l.1.2.5.2.5-.4-.2-.2Z"/><path id="ST" class="cls-1" d="M1014.1,571.4l.5-.8v-.5l-.3-.5h-.4l-.5.4-.3.4v.3l.1.7.1.3.3.2.5-.5Zm4.3-9.2.2-.4v-.2l-.1-.1-.1-.1-.2.1-.3.5.1.2.2.2.2-.2Z"/><path id="SX" class="cls-1" d="M627.1,457.2h0l.2.2.3.1.1-.1v-.2Z"/><path id="SC" class="cls-1" d="M1288.5,602l-.5-.8-.4.3.2.3.3.2.1.4.3.2V602Z"/><path id="TC" class="cls-1" d="M578.7,433.1l-.1.4v.2l.2.1.6-.1.1-.1.2-.1v-.1l-.4.1Zm3.6.6.2-.2-.2-.2-.7-.2-.2.1v.3h.6l.3.3v-.1Zm-1.1-.5-.1-.1-.1-.6h-.5v.2l.1.2h.1l.1.2.3.2.1-.1Z"/><path id="TO" class="cls-1" d="M13.3,707.7h0l-.2.3v.2l.4.4Zm-1.6-.9h-.2l.2-.1-.4-.2h-.4l-.2-.1v-.2l-.2.3.2.3.9.4.3.2.2-.6v-.2l-.3.1v.1Zm2.5-16,.1-.2v-.2l-.3-.1h-.1l-.3.5.1.1.3.2h.1Z"/><path id="TT" class="cls-1" d="M635.4,507.7l.1-.2v-.6l.2-.4-.2-.4-.1-.6.1-.5v-.7l.2-.3.5-.8h-.9l-.6.2-1.1.1-.5.2-.7.1-.4.2.1.1.5.2.2.2.1.2.1.4-.3,1.7-.1.1-.6.1-.2.3-1.4.8.8-.1.9.1,2.4-.1.9-.3Zm1.8-6.7,1.2-.5.1-.4h-.2l-.8.3-.6.5v.2Z"/><path id="VC" class="cls-1" d="M634.5,491.4h0v-.1h.1v-.1h0v-.1h-.1v.1h0v.1h-.1v.1h.1Zm.7-1.9.1-.2.1-.1h0l-.1-.1h0v.1l-.2.1h0v.1h0v.1H635l.1.1h0l.1-.1Zm.3-1.1.3-.2.1-.6-.1-.4h-.2l-.3.1-.2.3-.1.5.4.4.1-.1Z"/><path id="VG" class="cls-1" d="M619.2,455.1l.3-.2-.2-.1h-.4l-.3.2.1.1h.5Zm1.1-.4.4-.4-.5.1-.2.2.1.1h.2Zm.8-1.8h-.7l.1.1h.3l.3.1h0v-.2Z"/><path id="VI" class="cls-1" d="M617.9,458.9l-.7.2-.1.4h1.1l.7-.3h-.6l-.4-.3Zm.9-3.5-.5-.1-.2.2h0l.3.1Zm-1.1.1-.2-.2-.3-.1-.4.1.5.3.4-.1Z"/><path id="CY" class="cls-1" d="M1149.9,348.4l-.3-.1-.5.2-.4.4-.4.3-.5-.3.2.9.6,1.1.2.3.3.2,1.1.3h.9l.2.1.2.4h.4v-.4l.2-.2.3-.2h.3l.6-.1.6-.2.5-.4.9-1h1.2l.6-.1-.2-.4-.1-.1-.4-.5-.2-.4.1-.6,2.5-1.9.5-.5-.8.2-.6.4-.4.2-.7.4-2.3.8-.8.1h-.8l-1-.1-.9-.2v.7l-.2.6-.6.2-.3-.1Z"/><path id="RE" class="cls-1" d="M1284,707.9l.2-.4.1-.8-.4-.8-.4-.7-.4-.2-.8-.1-.7.3-.4.6-.2.3.4,1.1.2.3,1.1.6h.5l.8-.2Z"/><path id="YT" class="cls-1" d="M1228.7,654.7v-.3l.2-.5v-.1l.1-.5-.3-.3h-.2l-.2-.3-.3.3.3.5-.1.3-.1.4.1.4.2.2.3-.1Z"/><path id="MQ" class="cls-1" d="M638,479.9l-.2-.7-.1-.2-.2-.3.1-.3v-.1h-.2l-.3-.5-.6-.3h-.3l-.2.2v.3l.3.9.2.2.5.2-.4.4v.1l.1.3h.9l.2.3.1-.1.1-.4Z"/><path id="GP" class="cls-1" d="M636.4,471.1l.2-.2v-.3l-.2-.3-.2.1-.2.3v.3l.1.1h.3Zm-1.9-.8.2-.2v-1.2l.1-.3-.2-.1-.2-.2-.6-.2-.1.1-.2.3.1,1.5.2.5.2.1.5-.3Zm1.6-1.4.8-.2-.9-.6-.2-.4v-.3l-.4-.3-.2.2-.1.3.1.5-.3.4.1.4.4.1.7-.1Z"/><path id="CW" class="cls-1" d="M595.9,494.9v-.6l-.9-.4v.3l.1.2.3.1.1.2-.1.6.2.3.3-.7Z"/><path id="IC" class="cls-1" d="M879.6,395.2l-.2-.2-.7.5h-.6l.1.2.1.2.7.4.6-1.1Zm13.5-2.1V393H893l-.1.1-1.3-.1-.2.6-.5.4v.7l.5.7.3.1.5.1.7-.4.2-.4.1-.8-.1-.4v-.5Zm-9.7.8.5-.4v-.2l-.1-.3-.5-.3h-.2l-.2.2-.2.4.3.5.2.1h.2Zm4.7-2.3,1.2-1v-.3l-1,.1-1.1,1-.3.1-1,.1h-.5l-.4.2.2.3.4,1,.7.9.6-.2.3-.2.4-.6.5-1.4Zm11.6,1.3,1.5-.5.3-1,.3-1.1v-.7l-.2-.3h-.5l-.3.2-.1.6-.7,1.3-.5,1.2-.7.6-.7.2.1.1.7.1.8-.7Zm-19.7-2,.5-.5.1-.3-.1-.5.2-.2-.1-.4-.3-.4h-.7l-.4.6.6,1.2.1.5h.1Zm22.4-2.7.9-.3.5-.3.1-.9.2-.3-.2-.3-.2.2-.2.4-.6.2-.8.4-.2.3-.2.9.4.1.3-.4Z"/></svg>
+                </div>
+                <!-- /.container -->
+
+            </section>
+            <!-- /.countries-section -->
+
+            <section class="section companies-section">
+                <div class="container">
+                    <h1 class="section__title">Our Clients</h1>
+                    <div class="companies-list row">
+                        <div class="companies-list__column">
+                            <img class="companies-list__column__img" src="images/logo-adobe-2x.jpg" alt="Adobe" width="38">
+                        </div><!-- /.companies-list__column -->
+                        <div class="companies-list__column">
+                            <img class="companies-list__column__img" src="images/logo-la-republica-2x.jpg" alt="La Repubblica" width="102">
+                        </div><!-- /.companies-list__column -->
+                        <div class="companies-list__column">
+                            <img class="companies-list__column__img" src="images/logo-asu-libraries-2x.jpg" alt="ASU Libraries" width="125">
+                        </div><!-- /.companies-list__column -->
+                        <div class="companies-list__column">
+                            <img class="companies-list__column__img" src="images/Intercontinental-Singapore-bw.jpg" alt="International Singapore " width="120">
+                        </div><!-- /.companies-list__column -->
+                        <div class="companies-list__column">
+                            <img class="companies-list__column__img" src="images/logo-crs-2x.jpg" alt="CRS" width="80">
+                        </div><!-- /.companies-list__column -->
+                        <div class="companies-list__column">
+                            <img class="companies-list__column__img" src="images/lapl-logo.jpg" alt="LA Public Library" width="100">
+                        </div><!-- /.companies-list__column -->
+                        <div class="companies-list__column">
+                            <img class="companies-list__column__img" src="images/logo-ets-2x.jpg" alt="ETS" width="68">
+                        </div><!-- /.companies-list__column -->
+                        <div class="companies-list__column">
+                            <img class="companies-list__column__img" src="images/logo-abt-2x.jpg" alt="ABT" width="62">
+                        </div><!-- /.companies-list__column -->
+                    </div>
+                    <!-- /.companies-list -->
+                </div>
+                <!-- /.container -->
+            </section>
+
+            <section class="section faq-section">
+                <div class="container">
+                    <div class="faq-accordian">
+                        <h3 class="faq-accordian__title">Frequently Asked Questions</h3>
+
+                        <h4 class="faq-accordian__question faq-question faq-question-1">What is a group subscription?</h4>
+                        <p class="faq-accordian__answer faq-answer">A group subscription to The New York Times provides unlimited access to NYTimes.com for your group of five or more users. Group subscriptions also include access from any device, 100 archival articles per month for any user and dedicated customer support.</p>
+
+                        <h4 class="faq-accordian__question faq-question faq-question-2">What is the minimum number of users necessary to purchase a group subscription?</h4>
+                        <p class="faq-accordian__answer faq-answer">A minimum of five users is required to purchase a group subscription. If you&rsquo;re a student or an educator interested in a subscription for yourself, please click <a href="http://www.nytimes.com/subscriptions/edu/lp8LQFK.html?campaignId=6X8RL" class="faq-accordian__answer__text-link faq-question-2__link1" target="_blank">here.</a> All other individuals can purchase a subscription <a href="https://www.nytimes.com/subscription/multiproduct/lp8HYKU.html" class="faq-accordian__answer__text-link faq-question-2__link2" target="_blank">here.</a></p>
+
+                        <h4 class="faq-accordian__question faq-question faq-question-3">What is the cost of a group subscription?</h4>
+                        <p class="faq-accordian__answer faq-answer">Pricing depends on the number of users who will have access, and the price per user generally decreases with volume.</p>
+
+                        <h4 class="faq-accordian__question faq-question faq-question-4">What payment options are available?</h4>
+                        <p class="faq-accordian__answer faq-answer">Group subscriptions are billed annually and can be paid via credit card, direct debit, check or electronic bank payment.</p>
+
+                        <h4 class="faq-accordian__question faq-question faq-question-5"> What educational resources does a New York Times group subscription offer to schools and universities?</h4>
+                        <p class="faq-accordian__answer faq-answer">University subscriptions include full access to The New York Times inEducation — a resource to help educators teach with The Times. Click <a href="http://nytimesineducation.com/" class="faq-accordian__answer__text-link pass-pardot-campaign faq-question-5__link1" target="_blank">here</a> for more information. The Learning Network is an excellent resource that offers K&ndash;12 institutions a wide array of teaching and learning  materials using New York Times content. Click <a href="https://learning.blogs.nytimes.com/about-the-learning-network/?mcubz=1&_r=0" class="faq-accordian__answer__text-link faq-question-5__link2" target="_blank">here</a> to learn more.
+</p>
+
+                        <h4 class="faq-accordian__question faq-question faq-question-6">Is the print edition of The New York Times included with a group subscription?</h4>
+                        <p class="faq-accordian__answer faq-answer">Print copies of The New York Times are available at a discounted rate when purchased with a group subscription.</p>
+
+                        <h4 class="faq-accordian__question faq-question faq-question-7">My school already has a subscription. How do I access my school&rsquo;s subscription?</h4>
+                        <p class="faq-accordian__answer faq-answer">If your school already has a subscription, you can activate your complimentary access <a href="http://nytimesineducation.com/access-nyt/" class="faq-accordian__answer__text-link faq-question-7__link1" target="_blank">here.</a></p>
+
+                        <h4 class="faq-accordian__question faq-question faq-question-8">Are discounted rates available for individual students and educators?</h4>
+                        <p class="faq-accordian__answer faq-answer">Yes. You can find exclusive academic rates for students and educators <a href="https://www.nytimes.com/subscriptions/edu/lp8LQFK.html?campaignId=6W6XL" class="faq-accordian__answer__text-link faq-question-8__link1" target="_blank">here.</a></p>
+
+                        <h4 class="faq-accordian__question faq-question faq-question-9">How can I obtain permission to republish content from The New York Times?</h4>
+                        <p class="faq-accordian__answer faq-answer">The New York Times Licensing Group grants permission to republish our quality journalism at an exceptional value. For reprint permissions and content licensing inquiries, visit <a href="https://nytlicensing.com/license-our-content/" class="faq-accordian__answer__text-link faq-question-9__link1" target="_blank">nytlicensing.com.</a></p>
+                    </div>
+                    <!-- /.faq-accordian -->
+                </div>
+                <!-- /.container -->
+            </section>
+
+            <footer class="section footer">
+                <div class="container">
+                    <!-- 
+                    <div class="phone-list">
+                        <div class="phone-list__column">
+                            <h4 class="phone-list__column__title">The Americas</h4>
+                            <a class="phone-list__column__number" href="tel:18446982688">1-844-NYT-CORP</a>
+                            <a class="phone-list__column__number" href="tel:18446982688">1-844 (698-2688)</a>
+                        </div>
+                    
+                        <div class="phone-list__column">
+                            <h4 class="phone-list__column__title">Europe</h4>
+                            <a class="phone-list__column__number" href="tel:+33141439356">+33 141 439 356</a>
+                        </div>
+                       
+                        <div class="phone-list__column">
+                            <h4 class="phone-list__column__title">Middle East &amp; Africa</h4>
+                            <a class="phone-list__column__number" href="tel:+971442289457">+971 442 289 457</a>
+                        </div>
+                        
+                        <div class="phone-list__column">
+                            <h4 class="phone-list__column__title">Asia Pacific</h4>
+                            <a class="phone-list__column__number" href="tel:+6563919627">+65 6391 9627</a>
+                        </div>
+                        
+                    </div>
+                    -->
+                    <!-- /.phone-list -->
+
+                    <div class="footer-holder">
+
+                        <svg style="display:none" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+                            <symbol viewBox="0 0 30 30" preserveAspectRatio="xMinYMin meet" id="icon-plus-toggle-svg">
+                                <title>plus-icon</title><g id="Working" class="cls-1 footer_plus"><g id="PA-Why-Desktop"><g id="_01-Journ.-Videos" data-name="01-Journ.-Videos"><g id="Instagrams"><g id="Caption-01"><g id="Blue-Plus"><g id="Combined-Shape"><g class="cls-2"><path id="path-1" d="M22,20V14H20v6H14v2h6v6h2V22h6V20ZM21,36A15,15,0,1,1,36,21,15,15,0,0,1,21,36Z" transform="translate(-6 -6)"/></g><path id="path-1-2" data-name="path-1" class="cls-3" d="M22,20V14H20v6H14v2h6v6h2V22h6V20ZM21,36A15,15,0,1,1,36,21,15,15,0,0,1,21,36Z" transform="translate(-6 -6)"/></g></g></g></g></g></g></g>
+                            </symbol>
+                        </svg>
+            
+                        <div class="col">   
+                            <a href="https://www.nytimes.com/" class="logo">
+                                <img src="https://www.nytimes.com/subscriptions/Multiproduct/assets_pa2017/images/logo_nyt_white.svg" width="200">
+                            </a>
+                            <p>Copyright &copy; 2018</p>
+                        </div><!-- END of col -->
+                            
+                        <div class="col">
+                            <h3>
+                                About <i><svg height="22px" width="22px"><use xlink:href="#icon-plus-toggle-svg"></use></svg></i> 
+                                <button class="footer_toggle"></button>
+                            </h3>   
+                            <div class="footer_links">
+                                <a href="http://www.nytco.com/" target="_blank">The New York Times Company </a> <br>
+                                <a href="https://www.nytimes.com/privacy" target="_blank">Privacy Policy</a> <br>
+                                <a href="https://www.nytimes.com/content/help/rights/sale/terms-of-sale.html" target="_blank">Terms of Sale</a>
+                            </div><!-- END of footer_links -->
+                        </div><!-- END of col -->
+                        
+                        <div class="col">
+                            <h3>
+                                Help <i><svg height="22px" width="22px"><use xlink:href="#icon-plus-toggle-svg"></use></svg></i> 
+                                <button class="footer_toggle"></button>
+                            </h3>   
+                            <div class="footer_links">
+                                <a href="https://www.nytimes.com/content/help/subscriptions/purchases/subscriptions-and-purchases.html" target="_blank">Frequently Asked Questions</a> <br>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#contact-form" class="contact-link">Contact Us</a> <br>
+                                <a href="http://www.nytimes.com/help/index.html?redir=myacc" target="_blank">Feedback</a>
+                            </div><!-- END of footer_links -->
+                        </div><!-- END of col -->
+                            
+                        <div class="col">
+                            <h3>
+                                Ways to Subscribe <i><svg height="22px" width="22px"><use xlink:href="#icon-plus-toggle-svg"></use></svg></i>
+                                <button class="footer_toggle"></button> 
+                            </h3>   
+                            <div class="footer_links">
+                                <a href="https://www.nytimes.com/subscription/multiproduct/lp8HYKU.html?campaignId=6JUHR" class="link_newreader" target="_blank">Digital + Home Delivery</a> <br>
+                                <a href="https://www.nytimes.com/subscriptions/edu/lp8LQFK.html?campaignId=6RR8R" class="link_education" target="_blank">Education Rates</a> <br>
+                                <!-- <a href="http://nytimesgroupsubscriptions.com/?Pardot_Campaign_Code_Form_Input=6XUJR" class="link_corporate" target="_blank">Group Subscriptions</a> <br> -->
+                                <a href="https://www.nytimes.com/subscription/games/lp897H9.html?campaignId=6RRWR" class="link_crosswords" target="_blank">NYTimes Crossword</a> <br>
+                                <a href="https://www.nytimes.com/subscription/multiproduct/lp8R34X.html?campaignId=3FQ4Y" class="link_gift" target="_blank">Gift Subscriptions</a>
+                            </div><!-- END of footer_links -->
+                        </div><!-- END of col -->
+                    
+                        <p class="mobile_copyright">Copyright ©2018</p>
+                    
+                    </div><!-- /. footer-holder -->
+                    
+                </div>
+                <!-- /.container -->
+            </footer>
+            <!-- /.wrapper -->
+
+        </main><!-- /.wrapper -->
+
+        <script type="text/javascript">
+		var axel = Math.random() + "";
+		var a = axel * 10000000000000;
+		document.write('<iframe src="https://5290727.fls.doubleclick.net/activityi;src=5290727;type=landi0;cat=b2b-l0;u1=[Campaign Code];u2=[Offer Chain ID];u3=[Order ID];u4=[WAT Segment];u5=[Subscription Bundle];u6=[Propensity Score];u7=[Agent ID];u8=[Regi ID];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1;num=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+		</script>
+		<noscript>
+		<iframe src="https://5290727.fls.doubleclick.net/activityi;src=5290727;type=landi0;cat=b2b-l0;u1=[Campaign Code];u2=[Offer Chain ID];u3=[Order ID];u4=[WAT Segment];u5=[Subscription Bundle];u6=[Propensity Score];u7=[Agent ID];u8=[Regi ID];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1;num=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
+		</noscript>
+        <!-- End of DoubleClick Floodlight Tag: Please do not remove -->
+        
+        <!-- BEGIN LivePerson Monitor. -->
+        <script type="text/javascript">window.lpTag=window.lpTag||{},"undefined"==typeof window.lpTag._tagCount?(window.lpTag={site:'17743901'||"",section:lpTag.section||"",tagletSection:lpTag.tagletSection||null,autoStart:lpTag.autoStart!==!1,ovr:lpTag.ovr||{},_v:"1.8.0",_tagCount:1,protocol:"https:",events:{bind:function(t,e,i){lpTag.defer(function(){lpTag.events.bind(t,e,i)},0)},trigger:function(t,e,i){lpTag.defer(function(){lpTag.events.trigger(t,e,i)},1)}},defer:function(t,e){0==e?(this._defB=this._defB||[],this._defB.push(t)):1==e?(this._defT=this._defT||[],this._defT.push(t)):(this._defL=this._defL||[],this._defL.push(t))},load:function(t,e,i){var n=this;setTimeout(function(){n._load(t,e,i)},0)},_load:function(t,e,i){var n=t;t||(n=this.protocol+"//"+(this.ovr&&this.ovr.domain?this.ovr.domain:"lptag.liveperson.net")+"/tag/tag.js?site="+this.site);var a=document.createElement("script");a.setAttribute("charset",e?e:"UTF-8"),i&&a.setAttribute("id",i),a.setAttribute("src",n),document.getElementsByTagName("head").item(0).appendChild(a)},init:function(){this._timing=this._timing||{},this._timing.start=(new Date).getTime();var t=this;window.attachEvent?window.attachEvent("onload",function(){t._domReady("domReady")}):(window.addEventListener("DOMContentLoaded",function(){t._domReady("contReady")},!1),window.addEventListener("load",function(){t._domReady("domReady")},!1)),"undefined"==typeof window._lptStop&&this.load()},start:function(){this.autoStart=!0},_domReady:function(t){this.isDom||(this.isDom=!0,this.events.trigger("LPT","DOM_READY",{t:t})),this._timing[t]=(new Date).getTime()},vars:lpTag.vars||[],dbs:lpTag.dbs||[],ctn:lpTag.ctn||[],sdes:lpTag.sdes||[],hooks:lpTag.hooks||[],ev:lpTag.ev||[]},lpTag.init()):window.lpTag._tagCount+=1;</script>
+        <!-- END LivePerson Monitor. -->
+        
+        <!-- Conversion Extension -->
+        <script type="text/javascript">
+        window.liQ = window.liQ || [];
+        window.liQ.push(
+        {"event": "conversion", 
+        "email": "allison@liveintent.com", 
+        "amount": 64.99,
+        "currency": "USD",        
+        "transactionId": "foduze9rew9r0",
+        });
+        </script>
+
+	</body>
+</html>

@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<!--[if (gt IE 9)|!(IE)]> <!--> <html lang="en" class="no-js edition-domestic"  itemscope xmlns:og="http://opengraphprotocol.org/schema/"> <!--<![endif]-->
+<!--[if IE 9]> <html lang="en" class="no-js ie9 lt-ie10 edition-domestic" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<!--[if IE 8]> <html lang="en" class="no-js ie8 lt-ie10 lt-ie9 edition-domestic" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<!--[if (lt IE 8)]> <html lang="en" class="no-js lt-ie10 lt-ie9 lt-ie8 edition-domestic" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<head>
+    <title>Your Real Estate - NYTimes.com</title>
+
+    
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="shortcut icon" href="https://static01.nyt.com/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="144×144" href="https://static01.nyt.com/images/icons/ios-ipad-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114×114" href="https://static01.nyt.com/images/icons/ios-iphone-114x144.png" />
+<link rel="apple-touch-icon-precomposed" href="https://static01.nyt.com/images/icons/ios-default-homescreen-57x57.png" />
+<meta name="sourceApp" content="nyt-v5" />
+<meta id="applicationName" name="applicationName" content="realestate" />
+<meta id="foundation-build-id" name="foundation-build-id" content="" />
+<link rel="alternate" href="https://m.realestatelistings.nytimes.com/savedlistings" media="only screen and (max-width: 759px)" />
+<meta property="fb:app_id" content="9869919170" />
+<meta property="og:url" content="https://www.nytimes.com/real-estate" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="New York Times Real Estate: To Rent. To Buy. To Love." />
+<meta property="og:description" content="Find thousands of homes for sale or rent with New York Times Real Estate, on the web and on the go. Find the latest open houses, price reductions and homes new to the market with guidance from experts who live here too." />
+<meta property="og:image" content="https://static01.nyt.com/images/icons/t_logo_291_black.png" />
+<meta property="og:site_name" content="NYT Real Estate" />
+<meta property="twitter:card" value="summary" />
+<meta property="twitter:site" value="@nytrealestate" />
+<meta property="twitter:url" content="https://www.nytimes.com/real-estate" />
+<meta property="twitter:title" content="New York Times Real Estate: To Rent. To Buy. To Love." />
+<meta property="twitter:description" content="Find thousands of homes for sale or rent with New York Times Real Estate, on the web and on the go. Find the latest open houses, price reductions and homes new to the market with guidance from experts who live here too." />
+<meta property="twitter:image" content="https://static01.nyt.com/images/icons/t_logo_291_black.png" />
+<meta name="dfp-ad-unit-path" content="" />
+<meta name="CG" content="realestate" />
+    
+            <link id="legacy-zam5nzz" rel="stylesheet" type="text/css" href="https://typeface.nyt.com/css/zam5nzz.css" media="all" />
+<!--[if (gt IE 9)|!(IE)]> <!-->
+<link rel="stylesheet" type="text/css" media="screen" href="https://g1.nyt.com/assets/realestate/20190111-213308/css/realestate/styles.css" />
+<!--<![endif]-->
+<!--[if lte IE 9]>
+<link rel="stylesheet" type="text/css" media="screen" href="https://g1.nyt.com/assets/realestate/20190111-213308/css/realestate/styles-ie.css" />
+<![endif]-->
+<link rel="stylesheet" type="text/css" media="print" href="https://g1.nyt.com/assets/realestate/20190111-213308/css/realestate/styles-print.css">
+        
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700' rel='stylesheet' type='text/css'>
+<!--  begin abra  -->
+<!--esi
+<esi:include src="http://wp-aballoc-service/v9/document-setup.html-esi?apps=www-realestate+ecomm-fe&amp;etUrl=prd" />
+-->
+<!--  end abra  -->
+
+<!--esi
+<script id="user-info-data" type="application/json">
+<esi:include src="/svc/web-products/userinfo-v3.json" />
+</script>
+-->
+<script id="magnum-feature-flags" type="application/json">["newMasthead","floatingMap","listingPriceMapMarkers","listingContentFilter","newListingAPI","alternateMapResize","publicTransportFilter","dfpAds","foursquareMaxiMap","personalization","shareSavedSearch","showStJohnAds","allowAnonAgentContact","highendAds","trackListingImpressions","mapPolygonSearch","mapNeighborhoodBoundaries","nearbySchoolsModule","showTooltips","agentSearch","NYTExperiment","recaptchaAgentForm","salesActivity","mortgageCalculator","newMobileReleased","piiBlockDFP","headerScrolling","slideShowAds","advancedFilterSets","recentSales","foursquareUpdate","indexAsHeaderBidder","caslOpt","jkiddScript","reGdpr"]</script>
+<script>
+var require = {
+    baseUrl: 'https://g1.nyt.com/assets/',
+    waitSeconds: 20,
+    paths: {
+        'foundation': 'realestate/20190111-213308/js/foundation',
+        'shared': 'realestate/20190111-213308/js/shared',
+        'realestate': 'realestate/20190111-213308/js/realestate',
+        'application': 'realestate/20190111-213308/js/realestate/',
+        'videoFactory': 'https://static01.nyt.com/js2/build/video/2.0/videofactoryrequire',
+        'videoPlaylist': 'https://static01.nyt.com/js2/build/video/players/extended/2.0/appRequire',
+        'auth/mtr': 'https://static01.nyt.com/js/mtr',
+        'auth/growl': 'https://static01.nyt.com/js/auth/growl/default',
+        'vhs': 'https://static01.nyt.com/video/vhs/build/vhs-2.x.min',
+        'vhs3': 'https://static01.nyt.com/video-static/vhs3/vhs.min'
+    }
+};
+</script>
+<!--[if (gte IE 9)|!(IE)]> <!-->
+<script data-main="foundation/main" src="https://g1.nyt.com/assets/realestate/20190111-213308/js/foundation/lib/framework.js"></script>
+<!--<![endif]-->
+<!--[if lt IE 9]>
+<script>
+    require.map = { '*': { 'foundation/main': 'foundation/legacy_main' } };
+</script>
+<script data-main="foundation/legacy_main" src="https://g1.nyt.com/assets/realestate/20190111-213308/js/foundation/lib/framework.js"></script>
+<![endif]-->
+</head>
+<body>
+    
+    <style>
+    .lt-ie10 .messenger.suggestions {
+        display: block !important;
+        height: 50px;
+    }
+
+    .lt-ie10 .messenger.suggestions .message-bed {
+        background-color: #f8e9d2;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .lt-ie10 .messenger.suggestions .message-container {
+        padding: 11px 18px 11px 30px;
+    }
+
+    .lt-ie10 .messenger.suggestions .action-link {
+        font-family: "nyt-franklin", arial, helvetica, sans-serif;
+        font-size: 10px;
+        font-weight: bold;
+        color: #a81817;
+        text-transform: uppercase;
+    }
+
+    .lt-ie10 .messenger.suggestions .alert-icon {
+        background: url('https://static01.nyt.com/images/icons/icon-alert-12x12-a81817.png') no-repeat;
+        width: 12px;
+        height: 12px;
+        display: inline-block;
+        margin-top: -2px;
+        float: none;
+    }
+
+    .lt-ie10 .masthead,
+    .lt-ie10 .navigation,
+    .lt-ie10 .comments-panel {
+        margin-top: 50px !important;
+    }
+
+    .lt-ie10 .ribbon {
+        margin-top: 97px !important;
+    }
+</style>
+<div id="suggestions" class="suggestions messenger nocontent robots-nocontent" style="display:none;">
+    <div class="message-bed">
+        <div class="message-container last-message-container">
+            <div class="message">
+                <span class="message-content">
+                    <i class="icon alert-icon"></i><span class="message-title">NYTimes.com no longer supports Internet Explorer 9 or earlier. Please upgrade your browser.</span>
+                    <a href="http://www.nytimes.com/content/help/site/ie9-support.html" class="action-link">LEARN MORE »</a>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div id="shell" class="shell">
+                <header id="masthead" class="realestate-masthead">
+        <div class="container">
+        <a class="section-front-link" href="https://www.nytimes.com/section/realestate"><span class="visually-hidden">Real Estate</span></a>
+        <div class="search-info">
+            <i class="sprite-icon icon-magnifying-glass"></i>
+            <span class="locations"></span>
+        </div>
+        <div class="user-tools">
+            <a class="button homes-for-sale-button" href="/real-estate/homes-for-sale">BUY</a>
+            <a class="button homes-for-rent-button" href="/real-estate/homes-for-rent">RENT</a>
+            <a class="button real-estate-ads-button" href="https://nytimesads.gtspayments.com">LIST A HOME</a>
+                            <a class="button mortgage-calculator-button" href="/real-estate/mortgage-calculator">
+                    MORTGAGE CALCULATOR
+                </a>
+                        <button class="button register-button hidden">SIGN UP</button>
+            <button class="button my-real-estate-button" data-href="https://www.nytimes.com/real-estate/my-real-estate">
+                <span class="label">
+                    YOUR REAL ESTATE
+                    <i class="chevron chevron-up "><i class="chevron-conceal"></i></i>
+                    <i class="chevron chevron-down "><i class="chevron-conceal"></i></i>
+                </span>
+                <span class="mobile-label hidden">
+                    LOG IN
+                </span>
+                <span class="sub-label hidden">Log in</span>
+            </button>
+            <div id="menu-notification" class="menu-notification">
+                <div class="triangle"></div>
+                <div class="notification-text"></div>
+            </div>
+        </div>
+    </div>
+</header>
+                            <div id="page" class="page">
+                <main id="main" class="main" role="main">
+                                    <div id="personalization" class="personalization">
+    <div class="personalization-bar">
+        <ul class="tabs">
+            <li data-name="saved-homes">Saved Homes</li>
+            <li data-name="saved-searches">Saved Searches</li>
+        </ul>
+    </div>
+
+    <div class="personalization-container">
+        <div class="loader-container">
+            <div class="loader loader-t-logo-32x32-ecedeb-ffffff"><span class="visually-hidden">Loading...</span></div>
+        </div>
+    </div>
+</div>
+<div id="realestate-footer" class="realestate-footer">
+            <div class="footer-column">
+            <h3>Manhattan Real Estate</h3>
+            <ul>
+            
+                                <li class="realestate-footer-link">
+                    <a href="/real-estate/usa/ny/new-york/upper-east-side/homes-for-sale">
+                        Upper East Side                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link">
+                    <a href="/real-estate/usa/ny/new-york/midtown-east/homes-for-sale">
+                        Midtown East                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link">
+                    <a href="/real-estate/usa/ny/new-york/upper-west-side-%2872nd-96th-street%29/homes-for-sale">
+                        Upper West Side (72nd - 96th Street)                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link">
+                    <a href="/real-estate/usa/ny/new-york/lincoln-square/homes-for-sale">
+                        Lincoln Square                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link">
+                    <a href="/real-estate/usa/ny/new-york/financial-district/homes-for-sale">
+                        Financial District                    </a>
+                </li>
+            
+                                    <li class="realestate-footer-link show-more">
+                        Show More
+                    </li>
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-york/chelsea/homes-for-sale">
+                        Chelsea                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-york/midtown/homes-for-sale">
+                        Midtown                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-york/west-village/homes-for-sale">
+                        West Village                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-york/hell-s-kitchen/homes-for-sale">
+                        Hell'S Kitchen                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-york/tribeca/homes-for-sale">
+                        Tribeca                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-york/gramercy-park/homes-for-sale">
+                        Gramercy Park                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-york/midtown-south/homes-for-sale">
+                        Midtown South                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-york/murray-hill/homes-for-sale">
+                        Murray Hill                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-york/greenwich-village/homes-for-sale">
+                        Greenwich Village                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-york/harlem/homes-for-sale">
+                        Harlem                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-york/soho/homes-for-sale">
+                        Soho                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-york/sutton-place/homes-for-sale">
+                        Sutton Place                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-york/carnegie-hill/homes-for-sale">
+                        Carnegie Hill                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-york/east-village/homes-for-sale">
+                        East Village                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-york/east-harlem/homes-for-sale">
+                        East Harlem                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-york/kips-bay/homes-for-sale">
+                        Kips Bay                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-york/manhattan-valley/homes-for-sale">
+                        Manhattan Valley                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-york/battery-park-city/homes-for-sale">
+                        Battery Park City                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-york/lower-east-side/homes-for-sale">
+                        Lower East Side                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-york/washington-heights/homes-for-sale">
+                        Washington Heights                    </a>
+                </li>
+                        </ul>
+        </div>
+            <div class="footer-column">
+            <h3>Brooklyn Real Estate</h3>
+            <ul>
+            
+                                <li class="realestate-footer-link">
+                    <a href="/real-estate/usa/ny/brooklyn/bedford-stuyvesant/homes-for-sale">
+                        Bedford Stuyvesant                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link">
+                    <a href="/real-estate/usa/ny/brooklyn/sheepshead-bay/homes-for-sale">
+                        Sheepshead Bay                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link">
+                    <a href="/real-estate/usa/ny/brooklyn/williamsburg/homes-for-sale">
+                        Williamsburg                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link">
+                    <a href="/real-estate/usa/ny/brooklyn/gravesend/homes-for-sale">
+                        Gravesend                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link">
+                    <a href="/real-estate/usa/ny/brooklyn/downtown-brooklyn/homes-for-sale">
+                        Downtown Brooklyn                    </a>
+                </li>
+            
+                                    <li class="realestate-footer-link show-more">
+                        Show More
+                    </li>
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/brooklyn/midwood/homes-for-sale">
+                        Midwood                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/brooklyn/fort-hamilton/homes-for-sale">
+                        Fort Hamilton                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/brooklyn/bay-ridge/homes-for-sale">
+                        Bay Ridge                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/brooklyn/east-flatbush/homes-for-sale">
+                        East Flatbush                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/brooklyn/park-slope/homes-for-sale">
+                        Park Slope                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/brooklyn/brighton-beach/homes-for-sale">
+                        Brighton Beach                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/brooklyn/brooklyn-heights/homes-for-sale">
+                        Brooklyn Heights                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/brooklyn/crown-heights/homes-for-sale">
+                        Crown Heights                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/brooklyn/prospect-heights/homes-for-sale">
+                        Prospect Heights                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/brooklyn/bensonhurst/homes-for-sale">
+                        Bensonhurst                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/brooklyn/bushwick/homes-for-sale">
+                        Bushwick                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/brooklyn/flatlands/homes-for-sale">
+                        Flatlands                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/brooklyn/sunset-park/homes-for-sale">
+                        Sunset Park                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/brooklyn/borough-park/homes-for-sale">
+                        Borough Park                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/brooklyn/clinton-hill/homes-for-sale">
+                        Clinton Hill                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/brooklyn/kensington/homes-for-sale">
+                        Kensington                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/brooklyn/dyker-heights/homes-for-sale">
+                        Dyker Heights                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/brooklyn/canarsie/homes-for-sale">
+                        Canarsie                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/brooklyn/east-new-york/homes-for-sale">
+                        East New York                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/brooklyn/flatbush/homes-for-sale">
+                        Flatbush                    </a>
+                </li>
+                        </ul>
+        </div>
+            <div class="footer-column">
+            <h3>New York Real Estate</h3>
+            <ul>
+            
+                                <li class="realestate-footer-link">
+                    <a href="/real-estate/usa/ny/new-york/homes-for-sale">
+                        Manhattan                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link">
+                    <a href="/real-estate/usa/ny/brooklyn/homes-for-sale">
+                        Brooklyn                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link">
+                    <a href="/real-estate/usa/ny/queens/homes-for-sale">
+                        Queens                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link">
+                    <a href="/real-estate/usa/ny/staten-island/homes-for-sale">
+                        Staten Island                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link">
+                    <a href="/real-estate/usa/ny/bronx/homes-for-sale">
+                        Bronx                    </a>
+                </li>
+                        </ul>
+        </div>
+            <div class="footer-column">
+            <h3>More Real Estate Nearby</h3>
+            <ul>
+            
+                                <li class="realestate-footer-link">
+                    <a href="/real-estate/usa/ny/new-york/homes-for-sale">
+                        Homes For Sale In New York                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link">
+                    <a href="/real-estate/usa/ny/brooklyn/homes-for-sale">
+                        Homes For Sale In Brooklyn                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link">
+                    <a href="/real-estate/usa/ny/queens/homes-for-sale">
+                        Homes For Sale In Queens                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link">
+                    <a href="/real-estate/usa/ny/bronx/homes-for-sale">
+                        Homes For Sale In Bronx                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link">
+                    <a href="/real-estate/usa/ny/staten-island/homes-for-sale">
+                        Homes For Sale In Staten Island                    </a>
+                </li>
+            
+                                    <li class="realestate-footer-link show-more">
+                        Show More
+                    </li>
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/nj/jersey-city/homes-for-sale">
+                        Homes For Sale In Jersey City                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/great-neck/homes-for-sale">
+                        Homes For Sale In Great Neck                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/nj/newark/homes-for-sale">
+                        Homes For Sale In Newark                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/bronxville/homes-for-sale">
+                        Homes For Sale In Bronxville                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/nj/fort-lee/homes-for-sale">
+                        Homes For Sale In Fort Lee                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/nj/hoboken/homes-for-sale">
+                        Homes For Sale In Hoboken                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-rochelle/homes-for-sale">
+                        Homes For Sale In New Rochelle                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/chelsea/homes-for-sale">
+                        Homes For Sale In Chelsea                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/nj/clifton/homes-for-sale">
+                        Homes For Sale In Clifton                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/larchmont/homes-for-sale">
+                        Homes For Sale In Larchmont                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/nj/west-orange/homes-for-sale">
+                        Homes For Sale In West Orange                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/nj/west-new-york/homes-for-sale">
+                        Homes For Sale In West New York                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/nj/edgewater/homes-for-sale">
+                        Homes For Sale In Edgewater                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/nj/tenafly/homes-for-sale">
+                        Homes For Sale In Tenafly                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/nj/weehawken/homes-for-sale">
+                        Homes For Sale In Weehawken                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/sands-point/homes-for-sale">
+                        Homes For Sale In Sands Point                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/nj/north-bergen/homes-for-sale">
+                        Homes For Sale In North Bergen                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/yonkers/homes-for-sale">
+                        Homes For Sale In Yonkers                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/nj/cliffside-park/homes-for-sale">
+                        Homes For Sale In Cliffside Park                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/nj/englewood/homes-for-sale">
+                        Homes For Sale In Englewood                    </a>
+                </li>
+                        </ul>
+        </div>
+        <div class="clearfix"></div>
+</div>
+                    <div class="search-overlay"></div>
+                    <div id="HighEndpaid-post-1" class="ad paid-post-1 nocontent robots-nocontent"></div>
+            </main><!-- close main -->
+            
+            <footer id="page-footer" class="page-footer" role="contentinfo">
+    <nav>
+        <h2 class="visually-hidden">Site Information Navigation</h2>
+         <ul>
+             <li>
+                <a href="https://help.nytimes.com/hc/en-us/articles/115014792127-Copyright-notice" itemprop="copyrightNotice">
+                    &copy; <span itemprop="copyrightYear">2019</span><span itemprop="copyrightHolder provider sourceOrganization" itemscope itemtype="http://schema.org/Organization" itemid="http://www.nytimes.com"><span itemprop="name"> The New York Times Company</span><meta itemprop="tickerSymbol" content="NYSE NYT"/></span>
+                </a>
+            </li>
+            <li class="visually-hidden"><a href="https://www.nytimes.com">Home</a></li>
+            <li class="visually-hidden"><a href="http://query.nytimes.com/search/sitesearch/#/">Search</a></li>
+            <li class="visually-hidden">Accessibility concerns? Email us at <a href="mailto:accessibility@nytimes.com">accessibility@nytimes.com</a>. We would love to hear from you.</li>
+            <li class="wide-viewport-item"><a href="https://www.nytimes.com/ref/membercenter/help/infoservdirectory.html">Contact Us</a></li>
+            <li class="wide-viewport-item"><a href="http://www.nytco.com/careers">Work With Us</a></li>
+            <li class="wide-viewport-item"><a href="http://nytmediakit.com/">Advertise</a></li>
+            <li class="wide-viewport-item"><a href="https://www.nytimes.com/content/help/rights/privacy/policy/privacy-policy.html#pp">Your Ad Choices</a></li>
+            <li><a href="https://www.nytimes.com/privacy">Privacy</a></li>
+            <li><a href="https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-service" itemprop="usageTerms">Terms of Service</a></li>
+            <li class="wide-viewport-item last-item"><a href="https://help.nytimes.com/hc/en-us/articles/115014893968-Terms-of-sale">Terms of Sale</a></li>
+         </ul>
+    </nav>
+    <nav class="last-nav">
+        <h2 class="visually-hidden">Site Information Navigation</h2>
+        <ul>
+            <li><a href="http://spiderbites.nytimes.com">Site Map</a></li>
+            <li><a href="https://help.nytimes.com/hc/en-us">Help</a></li>
+            <li><a href="https://help.nytimes.com/hc/en-us/articles/115015385887-Contact-us">Site Feedback</a></li>
+            <li class="wide-viewport-item last-item"><a href="https://www.nytimes.com/subscriptions/Multiproduct/lp5558.html?campaignId=37WXW">Subscriptions</a></li>
+        </ul>
+    </nav>
+</footer>
+        </div><!-- close page -->
+    </div><!-- close shell -->
+        <script src="https://cdn.optimizely.com/public/3013110282/s/gm.js" type="text/javascript" async></script>
+
+<script type="text/javascript" src="https://myaccount.nytimes.com/svc/account/auth/v1/lire-ui?clientId=real.estate.ui"></script>
+
+<script>
+require(['foundation/main'], function () {
+    require(['realestate/main']);
+    require(['jquery/nyt', 'foundation/views/page-manager'], function ($, pageManager) {
+        if (window.location.search.indexOf('disable_tagx') > 0) {
+            return;
+        }
+        $(document).ready(function () {
+            require(['https://a1.nyt.com/analytics/json-kidd.min.js'], function () {
+                pageManager.trackingFireEventQueue();
+            });
+        });
+    });
+});
+</script>
+
+    <div id="Inv1" class="ad inv1-ad hidden"></div>
+<div id="Inv2" class="ad inv2-ad hidden"></div>
+<div id="Inv3" class="ad inv3-ad hidden"></div>
+<div id="ab1" class="ad ab1-ad hidden"></div>
+<div id="ab2" class="ad ab2-ad hidden"></div>
+<div id="ab3" class="ad ab3-ad hidden"></div>
+<div id="prop1" class="ad prop1-ad hidden"></div>
+<div id="prop2" class="ad prop2-ad hidden"></div>
+<div id="Anchor" class="ad anchor-ad hidden"></div>
+<div id="ADX_CLIENTSIDE" class="ad adx-clientside-ad hidden"></div>
+    <!-- Include: newrelic_get_browser_timing_footer() -->
+    <script>
+        if (typeof NYTD === 'object' && NYTD.Abra && NYTD.Abra("WWW_NewRelicFooter")) {
+                    }
+    </script>
+</body>
+</html>

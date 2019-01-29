@@ -1,0 +1,75 @@
+/* $Id: $
+   /css/styles.css
+   (c)2006 - 2013 The New York Times Company  */ 
+
+body { 
+	margin:0px;
+}
+
+.contentRowhero {
+	width:845px;
+	height:100%;
+	display:block;
+	margin: 0 auto;
+	padding: 52px 0 40px 0;
+}
+
+.contentRow {
+	width:845px;
+	height:auto;
+	display:block;
+	margin: 0 auto;
+	padding: 46px 0 40px 0;
+	border-top:1px solid #e6e6e6;
+}
+
+.contentRowherophoto {
+	width:390;
+	height:306px;
+	margin:0 35px 0 0;
+	float:left;
+}
+
+.contentRowphoto {
+	width:390;
+	height:220px;
+	margin:0 34px 0 0;
+	float:left;
+}
+
+.contentRowtext p {
+	font-family:"nyt-franklin", arial, sans-serif;
+	width:415px;
+	font-weight:500;
+	font-size:16px;
+	color:#969696;
+	line-height:22px;
+	word-spacing:1px;
+	float: left;
+	display: block;
+}
+
+.contentRowheadline {
+	font-family:"nyt-franklin", arial, sans-serif;
+	font-size:20px;
+	font-weight:800;
+	width: 355px;
+	height: 24px;
+	display:block;
+	vertical-align: middle;
+}
+
+.rightArrow {
+	display:inline;
+	font-family:"nyt-franklin", arial, sans-serif;
+	font-size:15px;
+	font-weight:500;
+}
+
+.contentRowheadline a, .contentRowheadline a:visited {
+	color:#000;
+}
+
+.clearBoth {
+	clear:both;
+}

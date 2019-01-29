@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<!--[if (gt IE 9)|!(IE)]> <!--><html lang="en" class="no-js page-interactive section-nytnow page-theme-standard tone-news page-interactive-embedded page-embedded-top limit-small layout-sub-medium app-interactive" itemid="null" itemtype="http://schema.org/NewsArticle" itemscope xmlns:og="http://opengraphprotocol.org/schema/"><!--<![endif]-->
+<!--[if IE 9]> <html lang="en" class="no-js ie9 lt-ie10 page-interactive section-nytnow page-theme-standard tone-news page-interactive-embedded page-embedded-top limit-small layout-sub-medium app-interactive" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<!--[if IE 8]> <html lang="en" class="no-js ie8 lt-ie10 lt-ie9 page-interactive section-nytnow page-theme-standard tone-news page-interactive-embedded page-embedded-top limit-small layout-sub-medium app-interactive" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<!--[if (lt IE 8)]> <html lang="en" class="no-js lt-ie10 lt-ie9 lt-ie8 page-interactive section-nytnow page-theme-standard tone-news page-interactive-embedded page-embedded-top limit-small layout-sub-medium app-interactive" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<head>
+<script>
+if (document.location.search.indexOf('nytapp=true') > -1) document.documentElement.classList.add('nyt-hide-shell');
+var userAgent = window.navigator.userAgent || window.navigator.vendor || window.opera;
+var inAndroid = userAgent.indexOf('nyt_android') !== -1;
+var iniOS = userAgent.indexOf('nytios') !== -1;
+if (inAndroid || iniOS) document.documentElement.classList.add('nyt-hide-shell');
+</script>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="shortcut icon" href="https://static01.nyt.com/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="144×144" href="https://static01.nyt.com/images/icons/ios-ipad-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114×114" href="https://static01.nyt.com/images/icons/ios-iphone-114x144.png" />
+<link rel="apple-touch-icon-precomposed" href="https://static01.nyt.com/images/icons/ios-default-homescreen-57x57.png" />
+<meta property="fb:app_id" content="9869919170" />
+<meta name="twitter:site" value="@nytimes" />
+<meta name="sourceApp" content="nyt-v5" />
+<meta name="applicationName" content="interactive" id="applicationName" />
+<meta name="foundation-build-id" content="nyt-v5" id="foundation-build-id" />
+
+<meta name="PT" content="Multimedia" />
+<meta name="PST" content="Interactive" />
+<meta name="tom" content="interactive_feature" />
+<meta name="hdl" content="Market Snapshot" />
+<meta name="slug" content="briefing-market-module" />
+<meta name="lp" content="" />
+<meta name="col" content="" id="column-name" />
+<meta name="dfp-ad-unit-path" content="nytnow" />
+<meta name="keywords" content="" />
+
+<meta property="article:collection" content="https://static01.nyt.com/services/json/sectionfronts/nytnow/index.jsonp" />
+<meta name="DISPLAYDATE" content="May 6, 2016" />
+<meta name="dat" content="May 6, 2016" />
+
+<title data-rh="true">Market Snapshot - The New York Times</title><meta data-rh="true" itemprop="inLanguage" content="en-US"/><meta data-rh="true" property="article:published" itemprop="datePublished" content="2016-05-06T18:00:03.000Z"/><meta data-rh="true" property="article:modified" itemprop="dateModified" content="2018-12-06T14:18:52.861Z"/><meta data-rh="true" http-equiv="Content-Language" content="en"/><meta data-rh="true" name="articleid" itemprop="identifier" content="100000004384473"/><meta data-rh="true" name="nyt_uri" itemprop="identifier" content="nyt://embeddedinteractive/de85eee6-b4ba-5533-8c67-9b9e7ddbd1f1"/><meta data-rh="true" name="pubp_event_id" itemprop="identifier" content="pubp://event/ec21d08086b3435188fd2bf473c951a3"/><meta data-rh="true" name="description" itemprop="description" content=""/><meta data-rh="true" name="image" itemprop="image" content="https://static01.nyt.com/images/2016/05/06/nytnow/briefing-market-module-1462554904136/briefing-market-module-1462554904136-facebookJumbo-v3.png"/><meta data-rh="true" name="byl" content/><meta data-rh="true" name="thumbnail" itemprop="thumbnailUrl" content="https://static01.nyt.com/images/2016/05/06/nytnow/briefing-market-module-1462554904136/briefing-market-module-1462554904136-thumbStandard-v3.png"/><meta data-rh="true" name="news_keywords" content=""/><meta data-rh="true" name="pdate" content="20160506"/><meta data-rh="true" property="og:type" content="article"/><meta data-rh="true" property="og:title" content="Market Snapshot"/><meta data-rh="true" property="og:image" content="https://static01.nyt.com/images/2016/05/06/nytnow/briefing-market-module-1462554904136/briefing-market-module-1462554904136-facebookJumbo-v3.png"/><meta data-rh="true" property="og:description" content=""/><meta data-rh="true" property="twitter:title" content="Market Snapshot"/><meta data-rh="true" property="twitter:description" content=""/><meta data-rh="true" property="twitter:image" content="https://static01.nyt.com/images/2016/05/06/nytnow/briefing-market-module-1462554904136/briefing-market-module-1462554904136-videoSixteenByNineJumbo1600-v3.png"/><meta data-rh="true" property="twitter:image:alt" content=""/><meta data-rh="true" property="twitter:card" content="summary_large_image"/><meta data-rh="true" property="article:section" itemprop="articleSection" content="NYT Now"/><meta data-rh="true" name="CG" content="nytnow"/><meta data-rh="true" name="SCG" content=""/><meta data-rh="true" name="CN" content=""/><meta data-rh="true" name="CT" content=""/><meta data-rh="true" name="hostApp" content="vi"/><meta data-rh="true" name="robots" content="noarchive, noindex"/><meta data-rh="true" name="typ" content="int"/><meta data-rh="true" name="template" content="interactive"/><meta data-rh="true" name="ver" content="mvi"/><meta data-rh="true" name="sov" content="2"/><meta data-rh="true" name="sub" content="anon"/><meta data-rh="true" name="vp" content="small"/><meta data-rh="true" name="test" content="projectvi"/><meta data-rh="true" name="ref" content=""/><meta data-rh="true" name="refdom" content=""/><meta data-rh="true" name="abra_dfp" content=""/><meta data-rh="true" name="gpt-beta" content="vqwdtftx"/><meta data-rh="true" name="page_view_id" content/><meta data-rh="true" name="topref" content/><meta data-rh="true" name="prop" content="mnyt"/><meta data-rh="true" name="plat" content="mweb"/><meta data-rh="true" name="edn" content="us"/><link data-rh="true" rel="canonical" href=""/>
+<link id="legacy-zam5nzz" rel="stylesheet" type="text/css" href="https://typeface.nyt.com/css/zam5nzz.css" media="all" />
+<link rel="stylesheet" type="text/css" media="screen" href="/vi-assets/static-assets/nyt5/20180802/css/styles.css" />
+
+<style>.interactive-graphic > iframe { margin-left: auto !important; margin-right: auto !important; }</style>
+
+<script id="page-config-data" type="text/json">{"pageconfig":{"collections":{}}}</script>
+<script id="display_overrides">[]</script>
+
+<script>
+(function() {
+    var s = document.getElementsByTagName('script')[0];
+    var mediaDotNet = 'https://contextual.media.net/bidexchange.js?cid=8CU2553YN&amp;https=1';
+    var indexBid = 'https://js-sec.indexww.com/ht/p/183760-203795517182556.js';
+    var gptScript = '//www.googletagservices.com/tag/js/gpt.js';
+    var timeout = 300;
+    var abra = window.NYTD && typeof window.NYTD.Abra === 'function' && window.NYTD.Abra || function () { return null; };
+
+    function loadScript(tagSrc) {
+        if (tagSrc.substr(0, 4) !== 'http') {
+            var isSSL = 'https:' == document.location.protocol;
+            tagSrc = (isSSL ? 'https:' : '') + tagSrc;
+        }
+        var scriptTag = document.createElement('script');
+        scriptTag.type = 'text/javascript';
+        scriptTag.async = true;
+        scriptTag.src = tagSrc;
+        s.parentNode.insertBefore(scriptTag, s);
+    }
+
+    function loadGPT() {
+        if (!window.advBidxc.isAdServerLoaded) {
+            loadScript(gptScript);
+            window.advBidxc.isAdServerLoaded = true;
+        }
+    }
+
+    function testCookie(name) {
+        var match = document.cookie.match(new RegExp(name + '=([^;]+)'));
+        if (match) return match[1];
+    }
+
+    if (testCookie('nyt-gdpr') === '1') {
+        if (testCookie('NYT-T') !== 'out') {
+            loadScript(gptScript);
+        } else {
+            document.documentElement.className += ' no-ads';
+        }
+        return;
+    }
+
+    window.advBidxc = window.advBidxc || {};
+    window.advBidxc.renderAd = function () {};
+    window.advBidxc.startTime = new Date().getTime();
+    window.advBidxc.customerId = '8CU2553YN'; //Media.net Customer ID
+    window.advBidxc.timeout = timeout;
+    window.advBidxc.loadGPT = setTimeout(loadGPT, window.advBidxc.timeout);
+
+    if (window.parent) {
+      if (!window.parent.headertag && abra('index_toggle') !== '1_block') {
+        // append index
+        var a = document.createElement('script');
+        a.type = 'text/javascript';
+        a.async = true;
+        a.src = indexBid;
+        s.parentNode.insertBefore(a, s);
+      }
+
+      if (!window.parent.advBidxc.isLoaded && abra('medianet_toggle') !== '1_block') {
+        // append media.net
+        var b = document.createElement('script');
+        b.type = 'text/javascript';
+        b.async = true;
+        b.src = mediaDotNet;
+        s.parentNode.insertBefore(b, s);
+      }
+
+      if (!window.parent.apstag && abra('amazon_toggle') !== '1_block') {
+        // Load the ApsTag JavaScript Library
+        !function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q('i',arguments)},fetchBids:function(){q('f',arguments)},setDisplayBids:function(){},targetingKeys:function(){return[]},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(A,g)}('apstag',window,document,'script','//c.amazon-adsystem.com/aax2/apstag.js');
+
+        window.apstag.init({
+            pubID: '3030',
+            adServer: 'googletag'
+        });
+      }
+    }
+})();
+</script>
+<script>
+var require = {
+  baseUrl: '/vi-assets/static-assets/nyt5/20180802/js/',
+  waitSeconds: 20,
+  paths: {
+    'videoFactory': 'https://static01.nyt.com/js2/build/video/2.0/videofactoryrequire',
+    'videoPlaylist': 'https://static01.nyt.com/js2/build/video/players/extended/2.0/appRequire',
+    'auth/mtr': 'https://static01.nyt.com/js/mtr',
+    'auth/growl': 'https://static01.nyt.com/js/auth/growl/default',
+    'vhs': 'https://static01.nyt.com/video/vhs/build/vhs-2.x.min',
+    'vhs3': 'https://static01.nyt.com/video-static/vhs3/vhs.min'
+  }
+};
+
+window.NYT_PLATFORM = 'nyt5';
+window.NYT_CONTEXT = 'iframe';
+window.NYT_ENVIRONMENT = 'prd';
+document.domain = 'nytimes.com';
+</script>
+<base target="_top">
+<!--[if (gte IE 9)|!(IE)]> <!-->
+<script data-main="foundation/main" src="/vi-assets/static-assets/nyt5/20180802/js/framework.js"></script>
+<!--<![endif]-->
+<!--[if lt IE 9]>
+<script>require.map = { '*': { 'foundation/main': 'foundation/legacy_main' } };</script>
+<script data-main="foundation/legacy_main" src="/vi-assets/static-assets/nyt5/20180802/js/framework.js"></script>
+<![endif]-->
+<script>
+require(['foundation/main']);
+</script>
+<style>
+.nyt-hide-shell #masthead, .nyt-hide-shell #ribbon, .nyt-hide-shell #TopAd, .nyt-hide-shell #page-footer, .nyt-hide-shell .growl-wrapper, .nyt-hide-shell #Growl_optly { display: none !important;  }
+.nyt-hide-shell #shell {padding: 0;}
+</style>
+</head>
+  <body>
+    <div id="shell" class="shell">
+      <main id="main" class="main" role="main">
+        <article id="story" class="story interactive theme-interactive theme-main interactive-embedded">
+          <header class="story-header interactive-header">
+            
+          </header>
+          
+          <div id="briefing-market-module" class="interactive-graphic"><!--
+
+======================================================
+
+THIS IS A GENERATED TEMPLATE FILE. DO NOT EDIT.
+
+======================================================
+
+-->
+
+<style>html,body{margin:0;padding:0}.page-interactive-embedded{margin:0 8px}.page-interactive-mobile .story.theme-main,.page-interactive-app .story.theme-main,.page-interactive-embedded .story.theme-main{margin:0}.nyt-markets{min-height:60px;padding-top:16px;padding-bottom:14px;color:#333;position:relative}.viewport-medium .nyt-markets{min-height:40px}.nyt-markets[data-status="loading"]{position:relative}.nyt-markets[data-status="loading"]:after{content:"";display:block;position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);height:32px;width:32px;background-repeat:no-repeat;background-image:url(data:image/gif;base64,R0lGODlhIAAgAMQAAP///+zt6/7+/vHy8PDw7/j4+Pr7+v39/e3u7Pb29fLz8fT19PP08+7v7vb39vv8++7u7fT08/X29Pn5+ff39u/w7vz8/Pr6+fz8+/Lz8vj49/z9/P39/P7+/f7//vDx8CH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ1dWlkOjFEMjM1OEQ1OEU2OURGMTE5RkI4QTQ4OURBRjgwMkZGIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjUxNDlFQjM1MjMyOTExRTNBOEU5ODQ3NjI0QTBCRjFEIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjUxNDlFQjM0MjMyOTExRTNBOEU5ODQ3NjI0QTBCRjFEIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzUgTWFjaW50b3NoIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RkM3RjExNzQwNzIwNjgxMTg3MUZFRkRGODdG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)}.nyt-markets .mkt-headline{font-family:"nyt-franklin", Helvetica, sans-serif;font-weight:500;font-size:12px;line-height:1.3;text-transform:uppercase;margin-bottom:0.8em;color:#333}.nyt-markets .mkt-headline time{color:#999;margin-left:2px}.nyt-markets .mkt-headline a{display:inline-block;text-transform:none;border-left:1px solid #ddd;padding-left:10px;margin-left:10px}.viewport-medium .nyt-markets .mkt-headline a{padding-left:15px;margin-left:15px}.nyt-markets .mkt-index-list{margin:0;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-ms-flex-align:start;align-items:flex-start;-ms-flex-pack:start;justify-content:flex-start;-ms-flex-direction:column;flex-direction:column}@media all and (min-width: 500px){.nyt-markets .mkt-index-list{-ms-flex-direction:row;flex-direction:row}}.nyt-markets .mkt-index-list .mkt-index{font-family:"nyt-franklin", Helvetica, sans-serif;font-size:15px;font-weight:500;line-height:1.5;text-transform:uppercase;display:inline-block;vertical-align:top;margin-left:0;margin-right:20px}.viewport-medium .nyt-markets .mkt-index-list .mkt-index{font-size:16px;width:auto;margin-right:1.6em}.nyt-markets .mkt-index-list .mkt-index .percent{font-weight:400;margin-left:0.4em;color:#777}.nyt-markets .mkt-index-list .mkt-index .percent:before{content:"";display:inline-block;border-left:.375em solid transparent;border-right:.375em solid transparent}.nyt-markets .mkt-index-list .mkt-index .status{margin-left:8px;font-size:10px}.viewport-medium .nyt-markets .mkt-index-list .mkt-index .status{display:block;margin-left:0px}.nyt-markets .mkt-index-list .mkt-index.up .percent{color:#3C8A37}.nyt-markets .mkt-index-list .mkt-index.up .percent:before{margin-right:0.2em;border-bottom:.75em solid #2CB224;border-top:0 solid transparent}.nyt-markets .mkt-index-list .mkt-index.down .percent{color:#A81817}.nyt-markets .mkt-index-list .mkt-index.down .percent:before{margin-right:0.15em;border-top:.75em solid #BF0100;border-bottom:0 solid transparent}.nyt-markets .mkt-index-list .mkt-index.closed{color:#777}.nyt-markets .mkt-index-list .mkt-index.closed .percent{color:inherit}.nyt-markets .mkt-index-list .mkt-index.closed .percent:before{border-bottom-color:#BBB;border-top-color:#BBB}
+</style>
+<style>
+#briefing-market-module.interactive-embedded {
+  min-width: 0;
+  /* max-width: 500px; */
+  margin-top: 4px;
+  padding: 0;
+}
+
+#briefing-market-module.interactive-embedded .interactive-graphic {
+  margin: 0;
+}
+
+#briefing-market-module.interactive-embedded .interactive-caption {
+  display: none;
+}
+</style>
+<div id="nyt-markets" data-preview-slug="2016-05-04-markets-module" class="nyt-markets" data-status="loading">
+  <h4 class="mkt-headline">Market Snapshot <time></time><a href="//markets.on.nytimes.com/research/markets/overview/overview.asp">View Full Overview</a></h4>
+  <ul class="mkt-index-list"></ul>
+</div>
+<script>onMarketModuleData=function(e){var t=[{time:"9:00",offset:-9,locale:"Asia/Tokyo",indexes:["S. & P. 500","Dow","Nikkei"]},{time:"9:15",offset:-8,locale:"Asia/Shanghai",indexes:["Nikkei","Shanghai","S. & P. 500"]},{time:"8:00",offset:0,dst:[[0,2],[-1,9]],locale:"Europe/London",indexes:["FTSE 100","Nikkei","Shanghai"]},{time:"9:30",offset:5,dst:[[1,2],[0,10]],locale:"America/New_York",indexes:["S. & P. 500","Dow","Nasdaq"]}],n={};for(var r=0;r<e.Tabs.length;r++)for(var i=0;i<e.Tabs[r].Items.length;i++){var s=e.Tabs[r].Items[i];n[s.Label]=s}var o=function(e,t,n){var r=e.split(":"),i=parseInt(r[0]),s=parseInt(r[1]),o=(i+24+t)%24*36e5;return o+=s*6e4,o},u=function(e,t){if(t){var n=t[0],r=t[1],i=e.getUTCMonth(),s=e.getUTCFullYear(),o=e.getUTCDate();if(i>n[1]&&i<r[1])return-1;if(i==n[1]){var u=new Date(s,n[1]+(n[0]<0?1:0),n[0]<0?0:1),a=u.getUTCDate()+(0-u.getUTCDay()+7)%7+n[0]*7;if(o>=a)return-1}else if(i==r[1]){var f=new Date(s,r[1]+(r[0]<0?1:0),r[0]<0?0:1),l=f.getUTCDate()+(0-f.getUTCDay()+7)%7+r[0]*7;if(o<l)return-1}}return 0},a=function(e,n){var r=e.getUTCHours()*36e5+e.getUTCMinutes()*6e4;for(var i=0;i<t.length;i++){var s=t[i],a=t[i+1<t.length?i+1:0],f=o(s.time,s.offset+u(e,s.dst)),l=o(a.time,a.offset+u(e,a.dst));if(r>=f&&r<l)break}return s},f=function(e){return e=e.replace("S. & P.","S.&amp;&thinsp;P."),e},l=function(e){var t=e>=0?e>0?"+":"":"&ndash;";return t+Math.abs(e.toFixed(2))+"%"},c=function(e){var t=e.getHours(),n=t<12?"am":"pm";t=t%12||12;var r=e.getMinutes();return r=r<10?"0"+r:r,t+":"+r+" "+n},h="",p=new Date,d=a(p,t);for(var r=0;r<d.indexes.length;r++){var v=n[d.indexes[r]],m=v.IsOpen==="True"?" open":" closed",g=v.PercentChange>=0?v.PercentChange>0?" up":" same":" down";h+='<li class="mkt-index'+m+g+'">'+'<span class="name">'+f(v.Label)+"</span>"+'<span class="percent">'+l(v.PercentChange)+"</span>"+(v["IsOpen"]!="True"?'<span class="status">closed</span>':"")+"</li>"}document.documentElement.querySelector("#nyt-markets .mkt-headline time").innerHTML=c(p),document.documentElement.querySelector("#nyt-markets .mkt-index-list").innerHTML=h,document.getElementById("nyt-markets").setAttribute("data-status","ready")},define("script",function(){});</script>
+<script src="//markets.on.nytimes.com/research/Net/SectionFrontAPI/MarketModuleData/jsonp?callback=onMarketModuleData" type="text/javascript" async=“async” defer=“defer”></script>
+<!-- Pipeline: 2016-05-04-markets-module | August 14, 2018, 12:29PM | d436009850d64e5b2d32fb354c10bb96d155875f -->
+</div>
+          
+          
+        </article>
+        <div class="search-overlay"></div>
+      </main>
+    </div>
+    <script>
+(function (w, d){
+    try {
+      if (w && w.parent && w.parent.location.search.match(/disableIframeResize/)) {
+        return;
+      }
+    } catch (error) {
+      // window.parent is not available
+    }
+
+    // scoped state
+    var MutationObserver = w.MutationObserver || w.WebKitMutationObserver || w.MozMutationObserver;
+    var hasResized = false;
+    var resizeFallbackDelay = 1500;
+    var resizeInterval = 3000;
+    var interactive = {
+        id: '100000004384473',
+        slug: 'briefing-market-module',
+    };
+    var resizeIntervalId;
+    // vanilla JS $(document).ready()
+    function ready(fn) {
+        if (d.readyState != 'loading'){
+            fn();
+        } else {
+            d.addEventListener('DOMContentLoaded', fn);
+        }
+    }
+    // send resize message to parent
+    function sendResizeMessage(opts){
+        if (!(w.parent && w.parent.postMessage)) { return; }
+        var rect, width, height, message;
+        rect = d.documentElement.getBoundingClientRect();
+        width = Math.ceil(rect.width);
+        height = Math.ceil(rect.height);
+        message = {
+            type: 'resize',
+            id: interactive.id,
+            width: width,
+            height: height
+        };
+        w.parent.postMessage(message, '*');
+        // don't update hasResized if this message was forced
+        if (opts && opts.forced) { return; }
+        hasResized = true;
+    }
+    // send message to parent to indicate that this interactive is listening for messages
+    function sendListeningMessage(){
+        if (!(w.parent && w.parent.postMessage)) { return; }
+        var message = {
+            type: 'listening',
+            id: interactive.id,
+        };
+        w.parent.postMessage(message, '*');
+    }
+    // observe mutations to the interactive graphics node and send resize message
+    function initializeMutationObservers(){
+        if (!MutationObserver) { return; }
+
+        // select the target node
+        var target = d.getElementById(interactive.slug);
+        if (!target) { return; }
+        // create an observer instance
+        var observer = new MutationObserver(sendResizeMessage.bind(null, null));
+        // configuration of the observer
+        var config = {
+            attributes: true,
+            childList: true,
+            characterData: true,
+            subtree: true,
+        };
+        // pass in the target node, as well as the observer options
+        observer.observe(target, config);
+    }
+    // update theme in response to message from parent
+    function updateTheme(previous, current){
+        var root = d.documentElement;
+        if (!(previous && current && root)) { return; }
+        root.classList.remove(previous);
+        root.classList.add(current);
+    }
+    // handle messages from parent
+    function onMessage(event) {
+        var data = event.data;
+        var type = data.type;
+        if (type === 'themechange') {
+            if (data.previous && data.current) {
+                updateTheme(data.previous, data.current);
+            }
+        }
+    }
+    // hook into the resizedcontent event that some embedded interactives dispatch
+    function attachEventListeners(){
+        d.documentElement.addEventListener('resizedcontent', sendResizeMessage.bind(null, null));
+    }
+    // always resize at least once
+    // @see https://a1.nyt.com/assets/interactive/20170123-034410/js/shared/interactive/views/app-communicator.js
+    function initializeResizeFallback(){
+        if (!hasResized) {
+            setTimeout(sendResizeMessage.bind(null, null), resizeFallbackDelay);
+        }
+    }
+    // try to resize every resizeInterval ms
+    function initializeResizeInterval() {
+      return setInterval(sendResizeMessage.bind(null, { forced: true }), resizeInterval);
+    }
+    // initialize the interactive if it has been embedded
+    function init() {
+        if (w.parent) {
+            sendResizeMessage({ forced: true });
+            attachEventListeners();
+            initializeMutationObservers();
+            initializeResizeFallback();
+            resizeIntervalId = initializeResizeInterval();
+        }
+    }
+    // initialization that should occur before DOMContentLoaded
+    function preReady() {
+        if (w.parent) {
+            w.addEventListener('load', sendResizeMessage.bind(null, { forced: true }));
+            w.addEventListener('message', onMessage, false);
+            sendListeningMessage();
+            w.addEventListener('unload', function (){ if (resizeIntervalId) { clearInterval(resizeIntervalId); } });
+        }
+    }
+    preReady();
+    ready(init);
+})(window, document);
+</script>
+            <script>
+  (function resizeInteractive() {
+    try {
+      if (window && window.parent && window.parent.location.search.match(/disableIframeResize/)) {
+        return;
+      }
+    } catch (error) {
+      // window.parent is not available
+    }
+
+    var previousHeight;
+    function triggerResize() {
+      // client rect more reliable than offsetHeight:
+      // https://stackoverflow.com/questions/294250/how-do-i-retrieve-an-html-elements-actual-width-and-height
+      const currentHeight =
+        document.documentElement.getBoundingClientRect().height ||
+        document.documentElement.offsetHeight;
+      // skip if we don't need to resize, i.e., the height hasn't changed
+      if (previousHeight && currentHeight && previousHeight === currentHeight) {
+        return setTimeout(triggerResize, 250);
+      }
+      previousHeight = currentHeight;
+      // resize mobile web
+      try {
+        if (window.parent && window.parent.$) {
+          // Triggered mobile web resize
+          window.parent.$('body').trigger('resizedcontent', [window]);
+        } else {
+          // Not in a mobile web context
+        }
+      } catch (error) {
+        // Couldn't trigger resize for mobile web
+      }
+      // resize apps
+      try {
+        // should we replace the query string with user agent detection?
+        // how do we know we're in an embedded interactive on Vi?
+        if (window.location.search.match(/nytapp/)) {
+          window.location = 'nytinteractive://resizedcontent?height=' + currentHeight;
+        } else {
+          // Not in an app context
+        }
+      } catch (error) {
+        // Could not trigger resize for NYT apps
+      }
+      // resize AMP
+      // documentation: https://ampbyexample.com/components/amp-iframe/
+      if (window.parent && window.parent.postMessage) {
+        try {
+            var ampHeight = currentHeight;
+            // AMP ignores resize requests smaller than 100px.
+            if (ampHeight < 100) ampHeight = 100;
+            window.parent.postMessage({
+                sentinel: 'amp',
+                type: 'embed-size',
+                height: ampHeight,
+            }, '*');
+        } catch (error) {
+            // Cannot resize on AMP
+        }
+      }
+      // run every 250 ms
+      return setTimeout(triggerResize, 250);
+    }
+
+    triggerResize();
+  })();
+</script>
+  </body>
+  </html>

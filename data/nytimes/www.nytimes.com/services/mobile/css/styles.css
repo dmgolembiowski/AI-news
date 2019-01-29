@@ -1,0 +1,1092 @@
+/* styles.css */
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	/*font-family: "nyt-franklin", helvetica,arial,sans-serif;*/
+}
+
+a {
+	text-decoration: none;
+	color: #0181c3;
+}
+
+a, p, li, h1, h2, h3, h4 {
+	font-family: "nyt-franklin", helvetica,arial,sans-serif;
+}
+
+header, section, nav, footer {
+	width: 100%;
+	/*height: 200px;*/
+}
+
+.l {
+	float: left;
+}
+
+.r {
+	float: right;
+}
+
+.sm {
+	font-size: 0.6em;
+}
+
+/* REUSED ELEMENTS */
+
+/* dividers */
+
+.sectionwrapper {
+	position: relative;
+	margin: 0 auto;
+	height: 100%;
+	max-width: 54em;
+}
+
+#moreapps .sectionwrapper {
+	height: auto;
+}
+
+.divider {
+	height: 16px;
+	margin: 20px 0;
+
+	background: url("../img/divider_up_2.png") repeat-x;
+	background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), #e5e5e5);
+	background: -moz-linear-gradient(top, rgba(255, 255, 255, 0), #e5e5e5);
+	background: -ms-linear-gradient(top, rgba(255, 255, 255, 0), #e5e5e5);
+	background: -o-linear-gradient(top, rgba(255, 255, 255, 0), #e5e5e5);
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #e5e5e5);
+}
+
+.divider.top {
+	background: url("../img/divider_down_1.png") repeat-x;
+	background: -webkit-linear-gradient(top, #e5e5e5, rgba(255, 255, 255, 0));
+	background: -moz-linear-gradient(top, #e5e5e5, rgba(255, 255, 255, 0));
+	background: -ms-linear-gradient(top, #e5e5e5, rgba(255, 255, 255, 0));
+	background: -o-linear-gradient(top, #e5e5e5, rgba(255, 255, 255, 0));
+	background: linear-gradient(to bottom, #e5e5e5, rgba(255, 255, 255, 0));
+}
+
+#main .divider {
+	position: absolute;
+	width: 100%;
+	margin: 0;
+}
+
+#main .divider.bottom {
+	position: absolute;
+	width: 100%;
+	margin: 0;
+	bottom: 0;
+
+	background: url("../img/divider_up_1.png") repeat-x;
+	background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), #e5e5e5);
+	background: -moz-linear-gradient(top, rgba(255, 255, 255, 0), #e5e5e5);
+	background: -ms-linear-gradient(top, rgba(255, 255, 255, 0), #e5e5e5);
+	background: -o-linear-gradient(top, rgba(255, 255, 255, 0), #e5e5e5);
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #e5e5e5);
+}
+
+/* main copy */
+
+.maincontent h2 {
+	margin: 0 0 10px;
+	/*font-size: 2em;*/
+	font-size: 1.875em;
+	font-weight: 500;
+}
+	
+	/* special case: scale entire #main .maincontent section down to allow dual app buttons to fit (in above rule) but not on product pages */
+	.prod-page .maincontent h2 {
+		font-size: 2em;
+	}
+
+.maincontent h3 {
+	margin: 0 0 10px;
+	font-size: 0.625em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.maincontent h4 {
+	margin: 0 0 26px;
+	font-size: 1.5em;
+	font-weight: 300;
+}
+
+.maincontent p {
+	margin: 0 0 26px;
+	font-size: 1em;
+	line-height: 1.3em;
+	color: #666;
+}
+
+#proddetails .maincontent p.disclaimer{
+	font-size: .7em;
+	text-align: right;
+	margin: 60px -20% -25px 0;	
+}
+
+/* new dual buttons */
+
+#dual-buttons .button-holder {
+	padding-right: 20px;
+}
+
+#dual-buttons h5 {
+	margin: 0 0 8px;
+	font-weight: normal;
+}
+
+#dual-buttons .learnmore {
+	display: block;
+	margin-top: 10px;
+	font-size: 0.875em;
+}
+
+#dual-buttons .learnmore:hover {
+	text-decoration: underline;
+}
+
+#main-btn-1 a, #main-btn-2 a {
+	/*width: auto;*/
+	margin: 0;
+	padding: 0;
+}
+
+@media all and (max-width: 52em) {
+	#dual-buttons .button-holder {
+		margin-right: 20px;	}
+}
+
+
+/* CONTAINER */
+
+.container {
+	/*max-width: 64em;*/
+	min-width: 20em;
+	/*margin: 0 auto;*/
+	overflow: hidden;
+}
+
+/* ALL MAIN */
+
+#header, #main, #proddetails, #moreapps, #footer {
+	padding: 0 2em;
+}
+
+
+/* HEADER */
+
+#header {
+	position: relative;
+	height: 70px;
+	/*margin: 0 0 10px;*/
+}
+
+	#header .sectionwrapper {
+		border-bottom: 1px solid #ccc;
+	}
+
+	#masthead {
+		position: absolute;
+		left: 0;
+		bottom: 10px;
+		width: 158px;
+		height: 23px;
+	}
+
+	#maintitle {
+		position: absolute;
+		display: block;
+		left: 50%;
+		bottom: 12px;
+		margin: 0 0 0 -120px;
+		width: 240px;
+		text-align: center;
+		font-size: 1.2em;
+		/*font-family: "nyt-karnak-display-130124",helvetica,arial,sans-serif; /* in lieu of image fallback, use sans */
+		font-weight: 700;
+	}
+
+	#maintitle a {
+		color: #000;
+	}
+
+	.social {
+		position: absolute;
+		right: 0;
+		bottom: 9px;
+	}
+
+	.social a {
+		display: inline-block;
+		width: 22px;
+		height: 22px;
+	}
+
+	.social a, .social a:hover {
+		-moz-transition: opacity 0.3s;
+		-webkit-transition: opacity 0.3s;
+		-o-transition: opacity 0.3s;
+		transition: opacity 0.3s;
+	}
+
+	.social a:hover {
+		opacity: 1;
+	}
+
+	#twshare {
+		background: url("../img/icon-gray-twitter.png");
+		opacity: 0.5;
+	}
+
+	#fbshare {
+		margin-left: 15px;
+		background: url("../img/icon-gray-facebook.png");
+		opacity: 0.5;
+	}
+
+
+/* MAIN */
+
+#main {
+	position: relative;
+	z-index: 10;
+	height: 270px;
+	margin: 100px 0 114px;
+	/*overflow: hidden;*/
+	background-color: #f6f6f6;
+}
+
+	/*#mainbg {
+		padding: 0 9%;
+		background-color: #f6f6f6;
+	}*/
+		
+	#main .maincontent {
+		margin: 30px 0;
+		padding-right: 20px;
+	}
+
+	#device {
+		position: absolute;
+		top: -35px;
+		z-index: 10;
+		/*width: 440px;*/
+		height: 340px;
+	}
+
+	#device-img {
+		position: relative;
+		max-width: 100%;
+		max-height: 100%;
+		max-width: none;
+		float: right;
+		top: 0;
+	}
+
+	.button-badge {
+		display: block;
+		color: transparent;
+	}
+
+	.button-badge.googleplay {
+		width: 129px;
+		height: 45px;
+		background: url("../img/google_play_badge.png") 100% 100% no-repeat;
+	}
+
+	.button-badge.appstore {
+		width: 135px;
+		height: 40px;
+		background: url("https://static01.nyt.com/services/mobile/img/appstore_download_apple.svg") 100% 100% no-repeat;
+	}
+
+	.button-badge.amazonapps {
+		width: 118px;
+		height: 41px;
+		background: url("../img/amazon_apps_badge.png") 100% 100% no-repeat;
+	}
+
+	.button-badge.windows {
+		width: 200px;
+		height: 51px;
+		background: url("https://static01.nytimes.com/subscriptions/components/img/icons/windows-download-black.png") 100% 100% no-repeat;
+	}
+/* PRODDETAILS */
+
+#proddetails {
+	display: none;
+	padding-bottom: 40px;
+}
+
+	.prod-page #proddetails {
+		display: block;
+	}
+
+#proddetails .sectionwrapper {
+	max-width: 37.5em;
+}
+
+#proddetails .maincontent {
+	height: auto;
+}
+
+	#proddetails h2 {
+		font-size: 1.5em;
+		font-weight: 100;
+		/*text-align: center;*/
+	}
+
+	#proddetails h2 strong {
+		font-weight: 400;
+	}
+
+	#proddetails p, #proddetails ul li {
+		/*font-size: 0.95em;*/
+		font-size: 1.2em;
+		font-weight: 100;
+	}
+
+	#proddetails a:hover {
+		text-decoration: underline;
+	}
+
+	#proddetails ul {
+		margin-bottom: 28px;
+	}
+
+	#proddetails ul li {
+		color: #666;
+		list-style-type: disc;
+		margin-bottom: 12px;
+	}
+
+	#proddetails ul li strong {
+		font-weight: 400;
+	}
+
+	/* thumbnails for modal popups */
+
+	#proddetails .thumbscontainer {
+		margin-top: 20px;
+	}
+
+	#proddetails .thumbscontainer article {
+		height: auto;
+		padding: 0 15px;
+	}
+
+	#proddetails .thumbscontainer article.first {
+		padding: 0 31px 0 0;
+	}
+
+	#proddetails .thumbscontainer article.last {
+		padding: 0 0 0 31px;
+	}
+
+		#proddetails .thumbscontainer article a {
+			display: block;
+			height: 205px;
+			width: 100%;
+			background: #f6f6f6;
+		}
+
+		#proddetails .thumbscontainer article h3 {
+			margin: 20px 0;
+			padding: 0 2em;
+			text-align: center;
+			font-size: 1em;
+			font-weight: 500;
+		}
+
+div.heading {
+	display: none;
+	height: auto;
+	padding: 42px 8px 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+	.prod-page div.heading {
+		display: block;
+	}
+
+	div.heading span {
+		font-size: 0.85em;
+	}
+
+/* MOREAPPS */
+
+.prod-page #moreapps {
+	background: #f6f6f6;
+}
+
+/* APPSCONTAINER */
+
+#appscontainer {
+	float: left;
+	height: auto;
+	margin-left: 25%;
+	/*padding-top: 24px;*/
+	padding-bottom: 6px;
+	min-height: 380px;
+}
+
+	.prod-page #appscontainer {
+		float: none;
+		width: 100%;
+		margin-left: 0;
+		background: #f6f6f6;
+	}
+
+#appscontainer article {
+	height: 380px;
+	padding: 0 8px 30px;
+}
+
+	.prod-page #appscontainer article {
+		width: 25%;
+	}
+
+	/* APP BOX */
+
+	.app-box {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		background: #fff;
+		-webkit-box-shadow: 0 0 7px #dddbdb;
+		-moz-box-shadow: 0 0 7px #dddbdb;
+		box-shadow: 0 0 7px #dddbdb;
+	}
+
+	.app-box-header {
+		/*height: 80px;*/
+		height: 95px;
+		border-bottom: 1px solid #e2e2e2;
+		font-weight: bold;
+	}
+
+	.app-box-header-content {
+		float: left;
+		max-width: 55%;
+		margin-top: 15px;
+	}
+
+	.model {
+		font-size: 0.625em;
+		/*text-transform: uppercase;	*/
+	}
+
+	.appsrc {
+		margin-top: 3px;
+		font-size: 0.875em;
+	}
+
+	.app-box-img {
+		float: left;
+		width: 50px;
+		height: 50px;
+		margin: 15px;
+	}
+
+	.app-box-main {
+		padding: 15px;
+		font-size: 0.8125em;	
+		color: #666;
+	}
+
+	.app-box-main ul {
+		padding-left: 15px;
+		/*margin-top: 10px;*/
+		margin-top: 0;
+	}
+
+	.app-box-main ul li {
+		margin-bottom: 6px;
+		/*font-size: 0.923em;*/
+		line-height: 1.231em;
+	}
+
+	.app-box-main ul li.learnmore {
+		list-style: none;
+	}
+
+	.app-box-main ul li.learnmore:hover {
+		text-decoration: underline;
+	}
+
+	.app-box-main div {
+		margin-bottom: 15px;
+	}
+
+	.app-box-button {
+		display: block;
+		position: relative;
+		width: 200px;
+		height: 40px;
+		line-height: 40px;
+		background: #27b0f7;
+		background: url("../img/button_bg.png") 100% 100% repeat-x;
+		background: -webkit-linear-gradient(top, #51bff7, #05a4f7);
+		background: -moz-linear-gradient(top, #51bff7, #05a4f7);
+		background: -ms-linear-gradient(top, #51bff7, #05a4f7);
+		background: -o-linear-gradient(top, #51bff7, #05a4f7);
+		background: linear-gradient(to bottom, #51bff7, #05a4f7);
+
+
+		border: 1px solid #0181c3;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+
+		text-align: center;
+		/*font-size: 0.6875em;*/
+		font-size: 0.75em;
+		color: #fff;
+		text-shadow: 1px 1px 4px #1f95d2;
+		cursor: pointer;
+	}
+
+	.app-box .app-box-button {
+		position: absolute;
+		bottom: 0;
+		left: 7%;
+		width: 86%;
+		margin: 0 auto 15px auto;
+	}
+
+
+/* NAV */
+
+#nav {
+	height: auto;
+	float: left;
+	margin-left: -100%;
+	padding-right: 20px;
+}
+
+	.prod-page #nav {
+		display: none;
+	}
+
+	#nav ul {
+		margin-top: 0;
+		padding-left: 5px;
+	}
+
+	#nav li {
+		display: block;
+		height: 40px;
+		padding: 4px 0;
+		border-bottom: 1px solid #e2e2e2;
+		font-size: 0.8em;
+	}
+
+	#nav li.heading {
+		height: auto;
+		font-size: 0.75em;
+		padding-top: 0;
+		font-weight: bold;
+		text-transform: uppercase;
+		border-bottom: 1px solid #000;
+	}
+
+	#nav li.sub {
+		padding-left: 10px;
+	}
+
+	#nav li a {
+		display: block;
+		height: 32px;
+		line-height: 32px;
+		padding-left: 5px;
+		color: #333;
+	}
+
+	#nav li.active a {
+		background: #eee;
+		font-weight: bold;	
+	}
+
+	#nav li:hover:not(.active) a {
+		background: #fafafa;
+	}
+
+
+/* FOOTER */
+
+#footer {
+	clear: both;
+	height: 60px;
+	color: #666;
+}
+
+	.prod-page #footer {
+		background: #f6f6f6;
+	}
+
+	#footer .sectionwrapper {
+		padding: 10px 0 0;
+		border-top: 1px solid #ccc;
+	}
+
+	#footer .sectionwrapper div {
+		margin-bottom: 10px;
+	}
+
+	#footer ul {
+		margin: 0 0 20px;
+		padding: 0;
+		list-style: none;
+	}
+
+	#footer ul li {
+		display: inline;
+	}
+
+	#footer a {
+		padding: 0 5px 0 2px;
+		font-size: 0.6875em;
+		border-right: 1px solid #666;
+		color: #666;
+	}
+
+	#footer a.first {
+		padding-left: 0;
+	}
+
+	#footer a.last {
+		padding-right: 0;
+		border: none;
+	}
+
+.m {
+	display: none;
+}
+
+
+/* MEDIA QUERIES */	
+
+/* special case: scale entire #main .maincontent section down to allow dual app buttons to fit */
+@media all and (max-width: 60em) and (min-width: 52.5em) {
+	#main .maincontent {
+		font-size: 0.85em;
+	}
+
+	.prod-page #main .maincontent {
+		font-size: 1em;
+	}
+
+	#proddetails .maincontent p.disclaimer{
+		margin: 60px 0 -20px;
+	}
+
+}
+
+@media all and (max-width: 58em) {
+
+	/* app cards to two-column layout */
+
+	#appscontainer {
+		width: 66.66666%;
+		margin-left: 33.33333%;
+	}
+
+	#appscontainer article {
+		width: 50%;
+	}
+
+	#nav {
+		width: 33.33333%;
+	}
+
+		/* product page 'more apps' cards to two-column layout */
+
+		.prod-page #appscontainer article {
+			width: 50%;
+		}
+
+
+}
+
+
+@media all and (max-width: 50em) {
+
+	/* copy sizing/spacing adjustments */
+
+	/*#main {
+		margin-bottom: 60px;
+	}*/
+
+	/*#main .maincontent {
+		margin-top: 50px;
+		margin-bottom: 30px;
+	}*/
+
+	#main {
+		height: 210px;
+	}
+
+	#device {
+		top: -35px;
+		height: 280px;
+	}
+
+	#main .maincontent h4 {		
+		font-size: 1.375em;
+	}
+
+	.maincontent h2 {
+		font-size: 1.875em;
+	}
+
+
+	#proddetails .maincontent p.disclaimer{
+		margin: 60px 0 10px;
+	}
+
+}
+
+@media all and (max-width: 45em) {
+
+	/* app cards to one-column layout */
+
+	#appscontainer {
+		width: 60%;
+		margin-left: 40%;
+	}
+
+	#appscontainer article {
+		width: 100%;
+	}
+
+	#nav {
+		width: 40%;
+	}
+}
+
+/* "mobile" cutoff */
+/*@media all and (max-width: 40em) { ORIGINAL CUTOFF */
+@media all and (max-width: 52.5em) {
+
+	.d {
+		display: none;
+	}
+
+	.m {
+		display: block;
+	}
+
+	.social.m{
+		display: none;
+	}
+
+	#header, #main, #proddetails, #moreapps, #footer {
+		padding: 0 1em;
+	}
+
+	#header {
+		height: auto;
+		/*padding: 0;*/
+	}
+
+		#header .sectionwrapper {
+			padding: 16px 0;
+		}
+
+		#masthead-mob {
+			display: block;
+			margin: 0 auto 8px;
+			width: 158px;
+			height: 23px;
+			background: url("../img/NYT_logo_sm.png") center no-repeat;
+			background-size: 100%;
+		}
+
+		#maintitle {
+			position: relative;
+			left: 50%;
+			margin: 0 0 0 -100px;
+			top: 0;
+			font-size: 0.95em;
+			width: 200px;
+		}
+
+
+	#main {
+		position: relative;
+		/*height: auto;*/
+		height: 180px;
+		margin: 30px 0;
+		margin-top: 180px;
+		/*margin-bottom: 310px;*/ /* FOR DUAL MAIN BUTTONS */
+		margin-bottom: 160px;
+		/*padding: 0 0 80px;*/
+		padding-bottom: 80px; /* MATCH divider.bottom POSITION BELOW */
+		/*background: none;*/
+	}
+
+	.prod-page #main {
+		margin-bottom: 160px;
+	}
+
+	#main .sectionwrapper {
+		position: static;
+		text-align: center;
+	}
+
+		#main .divider.bottom {
+			bottom: 80px; /* MATCH #main PADDING ABOVE */
+		}
+
+		/*#mainbg {
+			padding-top: 1em;
+		}*/
+
+/*		#device {
+			width: 100%;
+			padding: 0 4em;
+		}
+
+		#device-img {
+			position: relative;
+			width: 100%;
+			max-width: none;
+			left: 0;
+			top: 25px;
+		}*/
+
+		#device {
+			position: relative;
+			top: -22px;
+			height: 224px;
+			width: auto;
+			/*margin-top: 20px;*/
+			padding: 0;
+		}
+
+		#device-img {
+		}
+
+		#main .maincontent {
+			position: absolute;
+			top: -160px;
+			left: 0;
+			width: 100%;
+			margin-top: 0;
+			margin-bottom: 0;
+			padding: 0 1em;
+			text-align: center;
+		}
+
+		#main .maincontent h2 {
+			margin-bottom: 10px;
+			font-size: 1.5em;
+			font-weight: 500;
+		}
+
+		#main .maincontent h4 {		
+			font-size: 0.95em;
+			font-weight: 100;
+			margin-bottom: 0;
+		}
+
+		 #main .app-box-button, #main .button-badge { /*REVERT TO THIS when removing dual buttons */
+		/*.prod-page #main .app-box-button, .prod-page #main .button-badge {*/
+			position: absolute;
+			left: 50%;
+			/*bottom: 0;*/
+			top: 410px;
+			margin-left: -100px;
+		}
+
+		#main .button-badge.googleplay {
+			margin-left: -65px;
+		}
+
+		#main .button-badge.appstore {
+			margin-left: -68px;
+		}
+
+		#main .button-badge.amazonapps {
+			margin-left: -59px;
+		}
+
+		.maincontent h2 {
+			font-size: 1.25em;
+			font-weight: normal;
+		}
+
+		.maincontent h3 {
+			margin: 0 0 3px;
+		}
+
+		#proddetails .maincontent {
+			margin-top: 0;
+			width: 100%;
+		}
+
+		#proddetails .maincontent h2 {
+			font-size: 1.125em;
+			text-align: center;
+		}
+
+		#proddetails .maincontent p, #proddetails .maincontent ul li {
+			font-size: 0.875em;
+		}
+
+		a.subscribelink {
+			width: 100%;
+			height: 100px;
+			background-color: #fafafa;
+		}
+
+		/* new dual buttons */
+
+		#dual-buttons {
+			position: absolute;
+			top: 410px;
+			width: 200px;
+			left: 50%;
+			margin-left: -100px;
+		}
+
+		#dual-buttons .button-holder {
+			width: 100%;
+			margin: 0 0 25px;
+			padding: 0;
+		}
+
+	#proddetails {
+		padding-bottom: 0;
+	}
+
+	.social {
+		position: relative;
+		right: auto;
+		bottom: auto;
+		width: 59px;
+		height: 22px;
+		margin: 0 auto;
+	}
+
+	.prod-page .social {
+		margin: 0 auto 24px;		
+	}
+
+	#appscontainer, #nav {
+		width: 100%;
+		margin: 0;
+	}
+
+		#appscontainer article, .prod-page #appscontainer article {
+			width: 100%;
+			height: auto;
+			padding-bottom: 14px;
+		}
+
+			.prod-page .appsrc {
+				font-weight: normal;
+				font-size: 0.937em;
+			}
+
+		.app-box .app-box-button {
+			display: inline-block;
+			position: relative;
+			margin-left: 15px;
+			margin-right: 0;
+			padding: 0 15px;
+			left: 0;
+			width: auto;
+		} 
+
+		.app-box .app-box-button.m {
+			display: none; /* hide button unless on product page */
+		}
+
+			/*.prod-page .app-box .app-box-button.m {*/
+			.app-box .app-box-button.m {
+				/*display: block;*/
+				float: right;
+				height: 30px;
+				line-height: 30px;
+				margin-top: 25px;
+				margin-left: 0;
+				margin-right: 15px;
+			}
+
+			/*.prod-page .app-box-main, .prod-page .app-box .app-box-button {*/
+			.app-box-main, .app-box .app-box-button {
+				display: none;
+			}
+
+			/* overlay link on each app bucket */
+			.app-box a.app-box-full-link {
+				display: block;
+				position: absolute;
+				z-index: 10;
+				width: 100%;
+				height: 100%;
+			}
+
+	div.heading {
+		display: none;
+	}
+
+		/*.prod-page div.heading {*/
+		div.heading {
+			display: block;
+			/*margin: 0 8px 20px;*/
+			/*padding: 0 0 5px;*/
+			padding-top: 24px;
+			padding-bottom: 24px;
+		}
+
+	#nav {
+		padding: 0 10px;
+	}
+
+		#nav ul {
+			padding: 0;
+		}
+
+	#footer {
+		padding-top: 16px;
+		height: 80px;
+	}
+
+		#footer .sectionwrapper {
+			padding: 0;
+			border: none;
+		}
+
+			#footer .m {
+				text-align: center;
+			}
+
+			#footer ul.m {
+				margin-bottom: 10px;
+			}
+}
+
+/* narrow screen cutoff */
+@media all and (max-width: 30em) {
+
+	/*#device {
+		padding: 0 1em;
+	}*/
+
+	/*.prod-page .app-box-header-content {*/
+	.app-box-header-content {
+		/*max-width: 35%;*/
+	}
+}
+

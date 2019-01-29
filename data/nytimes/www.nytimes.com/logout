@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" class="desktop">
+<head>
+    <title>Logoff - New York Times</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="sourceApp" content="myaccount">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="/lire_ui/css/auth/auth.css">
+
+    <script>
+        /* Cross frame scripting prevention */
+        if ((top.location != location) || (top.frames.length != 0)) {
+            location = top.location;
+        }
+    </script>
+
+    <script>
+        var isMobile = false;
+    </script>
+
+    
+    
+</head>
+<body>
+    <div id="container">
+        <div id="page">
+            <header class="clearfix">
+                <div class="container">
+                    <a href="https://www.nytimes.com" class="logo"><img src="/lire_ui/img/nyt-logo-379x64.svg" alt="New York Times" id="NYTLogo"></a>
+                                    </div>
+            </header>
+
+            
+<div class="formBox">
+    <h2>You are now logged out of NYTimes.com</h2>
+    <p class="row auth-link-text"> </p>
+
+    <p class="row auth-link-text">To use another account <a href="https://myaccount.nytimes.com/auth/login" class="auth-link">Log in here &raquo;</a></p>
+    <p class="row auth-link-text">To register a new account <a href="https://myaccount.nytimes.com/register" class="auth-link">Sign up here &raquo;</a></p>
+   
+    <div class="row center buttons">
+        <button id="continue-button" class="button primary auth-button" type="submit" onClick="window.location.href = 'https://www.nytimes.com'"><span>Continue</span></button>
+    </div>
+
+    <div class="center row terms">
+        <a href="https://www.nytimes.com/content/help/rights/terms/terms-of-service.html" target="_blank">Terms of Service</a>
+        <a href="https://www.nytimes.com/content/help/rights/privacy/policy/privacy-policy.html" target="_blank">Privacy Policy</a>
+    </div>
+</div>
+
+    <img src="https://markets.on.nytimes.com/research/logout/logout.asp" height="1" width="1"/>
+
+<script>
+    (function() {
+        /* Smartlock Logout */
+        if (window.navigator.credentials) {
+            if (window.navigator.credentials.preventSilentAccess) {
+                window.navigator.credentials.preventSilentAccess();
+            } else {
+                window.navigator.credentials.requireUserMediation();
+            }
+        }
+    })();
+</script>
+
+
+            <footer>
+                <a href="https://www.nytimes.com/content/help/rights/copyright/copyright-notice.html">&copy; 2019 The New York Times Company</a>
+                <ul>
+                    <li><a href="https://www.nytimes.com/membercenter/sitehelp.html">Help</a></li>
+                    <li><a href="https://www.nytimes.com/help/index.html">Feedback</a></li>
+                </ul>
+            </footer>
+        </div>
+    </div>
+    <script src="https://a1.nyt.com/analytics/json-kidd.min.js" defer></script>
+</body>
+</html>

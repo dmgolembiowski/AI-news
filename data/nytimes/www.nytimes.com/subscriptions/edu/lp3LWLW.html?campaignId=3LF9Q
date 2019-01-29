@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>The New York Times Give an Education Subscription</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Give a Gift of The New York Times Edu Subscription">
+    <meta name="sourceApp" content="MOPS"/>
+    <link rel="stylesheet" href="2244/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+ 
+    <script src="https://a1.nyt.com/analytics/json-kidd-no-ender.min.js" ></script>
+    <!-- NYTimes typekit -->
+    <script type="text/javascript" src="https://typeface.nytimes.com/mrn6omn.js?version=0.0.4"></script>
+    <script type="text/javascript">try {
+        Typekit.load();
+    } catch (e) {
+    }</script>
+
+    <script src="https://static01.nytimes.com/subscriptions/components/js/common.js"></script>
+    <script src="https://static01.nytimes.com/subscriptions/components/js/html5shiv.js"></script>
+    <script>
+        
+
+        $(document).ready(function () {
+            var params = unescape(window.location.search.replace('?', '&').replace(/OC=\d+&/, ''));
+            var url_checkout = 'https://myaccount.nytimes.com/gst/purchase_gc.html';
+
+            var target = url_checkout; 
+            
+            var data = {}; //data is top level object
+
+            var url_checkout = '';
+            data.basic = {}; //
+            data.basic.l1 = {};
+            data.basic.l1.sale = '143.00';
+            data.basic.l1.reg = '195.00';
+            data.basic.l1.oc = '20000059220';
+            data.basic.l4 = {};
+            data.basic.l4.sale = '399.00';
+            data.basic.l4.reg = '780.00';
+            data.basic.l4.oc = '20000059280';
+
+            data.ada = {};
+            data.ada.l1 = {};
+            data.ada.l1.sale = '195.00';
+            data.ada.l1.reg = '325.00';
+            data.ada.l1.oc = '20000058840';
+            data.ada.l4 = {};
+            data.ada.l4.sale = '599.00';
+            data.ada.l4.reg = '1300.00';
+            data.ada.l4.oc = '20000059320';
+
+            data.hd = {};
+            data.hd.l1 = {};
+            data.hd.l4 = {};
+            
+            $('#step1 button').on("click", function () {
+                $('#step1 button.active').removeClass('active');
+                $(this).addClass('active');
+                var len = $(this).data('len');
+                var timeUnit = $(this).data('unit');
+                $('.num-weeks').html(len +" "+ timeUnit);
+                
+                
+                if(len=="4"){
+                    $(".hdBundle").hide();
+                    $("#step2").addClass("two_bundles");
+                    $(".displacimer_bundle").show();
+                }else{
+                    $(".hdBundle").show();
+                    $("#step2").removeClass("two_bundles");
+                    $(".displacimer_bundle").hide();
+                }
+
+                $('div.productbox').each(function () { //smart, tablet, ada
+                    var continue_target = ''; 
+                    if($(this).hasClass("hdBundle")) {
+                        //find cta and give CMP = 
+                        continue_target = 'https://www.nytimes.com/subscription/hd/363.html?campaignId='+getParameterByName("campaignId"); 
+                       
+                    } else {
+                        var prod = $(this).attr("data-prod");
+                        $(this).find('.sale').html(data[prod]["l"+len]['sale'])  //set value of sale price
+                        $(this).find('.reg').html(data[prod]["l"+len]['reg'])  //set value of reg price
+                        var continue_target = target +'?OC=' + data[prod]["l"+len]['oc']+'&campaignId='+getParameterByName("campaignId");
+                        
+                    }
+
+                    $(this).find('a.cta').attr('href', continue_target);
+
+
+                    $(this).off().on('click', function () {
+
+                        if ($(window).width()<640) {
+                            setTimeout(goToURL(continue_target), 100);
+                           
+                        }
+
+                    })
+
+
+
+                    function goToURL(url) {
+                        window.location.href = url;
+                    }
+
+                })
+
+            })
+
+            $('#step1 button:first').click();
+
+
+        });
+    </script>
+    <!--[if lt IE 9]>
+    <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+<div class="wrapper">
+
+    <header>
+        <div id="logoplus">
+            <img src="https://static01.nytimes.com/subscriptions/components/img/logos/logo_nyt.svg" width="163" height="22"/>
+        </div>
+
+        <h1>Give students the world<br class="desktop_br"> with Times digital subscriptions.</h1>
+
+        <h2>Save over 50% at the exclusive Academic Rate.</h2>
+
+
+        <section id="step1" class="clearfix">
+            <h3>Choose a 1 year or 4 year subscription</h3>
+            <h4><sup>*</sup>For new subscribers only</h4>
+            <button id="len-1-y" data-len="1" data-unit="year">1 Year</button>
+            <button id="len-4-y" data-len="4" data-unit="years">4 Years<sup>*</sup></button>
+        </section>
+    </header>
+
+    <section id="step2" class="clearfix">
+        <div class="productbox" data-prod="basic">
+            <h4 class="num-weeks"> </h4>
+            <div class="right-angle"></div>
+            <h3>Basic <br/> &nbsp;</h3>
+            <img src="https://static01.nyt.com/subscriptions/edu/2244/smartphone_device.png">
+            <h5>$<span class="sale"></span></h5>
+            <h6>Regularly $<span class="reg"></span></h6> 
+            <a class="cta" href="#">Continue</a>
+            <ul>
+                <li>Basic Digital Access includes: access to NYTimes.com and all NYT apps</li>
+                <li>Unlimited article access, anytime, anywhere</li>
+                <li>Discounts to The Times Store, Film Club, Wine Club and TimesTalks</li>
+            </ul>
+        </div>
+
+        <div class="productbox" data-prod="ada">
+            <h4 class="num-weeks"></h4>
+            <div class="right-angle"></div>
+            <h3>All Access <br/> &nbsp;</h3>
+            <img src="https://static01.nyt.com/subscriptions/edu/2244/tablet_device.png">
+            <h5>$<span class="sale"></span></h5>
+            <h6>Regularly $<span class="reg"></span></h6>
+            <a class="cta" href="#">Continue</a>
+            <ul>
+                <li>Basic Digital Access Features +<br> Times Experiences</li>
+                <li>Engage directly through subscriber-only calls, chats and live streams with journalists and newsmakers, and enjoy special discounts and behind-the-scenes access</li>
+                <li>Attend live panel discussions and special events hosted by Times editors and journalists</li>
+                <li>Access to a weekly "Inside the Times" podcast series and a collection of 120+ e-books &mdash; collections of our most important stories &mdash; curated by Times editors</li>
+            </ul>
+        </div>
+
+        <div class="productbox last hdBundle" data-prod="hd">
+            <h4 class="num-weeks"></h4>
+            <div class="right-angle"></div>
+            <h3>Home Delivery +<br/> All Access</h3>
+            <img src="https://static01.nyt.com/subscriptions/edu/2244/basic_device.png">
+             <h5>$<span class="sale">258<sup style="top:-6px">*</sup></span></h5>
+            <h6>Regularly $<span class="reg">515</span></h6> 
+            <a class="cta" href="#">Continue</a>
+            <ul>
+                <li>Basic Digital Access Features + <span class="oneWord joinWords">Home Delivery</span></li>
+                <li>Convenient and reliable delivery. Guaranteed</li>
+                <li>Customized delivery options such as Sunday only, Fri.&ndash;Sun., weekday delivery or daily delivery</li>
+                <li>Includes weekly Sunday magazine and monthly T Magazine</li>
+            </ul>
+            <p class="disclaimer_hd"><br/><br/><sup>*</sup>Home delivery price based on Sunday delivery.<br/>
+Prices vary based on delivery location and frequency. </p>
+        </div>
+        
+        <p class="displacimer_bundle"><sup>*</sup>4 year gift subscriptions at the academic rate are available for digital products only. Print gift subscription at the academic rate is only available for a 1 year duration.</p>
+    
+        <style>
+p.disclaimer_hd {
+  background: #fff none repeat scroll 0 0;
+  color: #000;
+  font-size: 12px;
+  margin-top: 30px;
+  line-height: 15px;
+  width: 100%;
+  text-align: left;
+  padding-left: 18px;
+  clear:both;
+}
+
+        </style>
+
+    </section>
+
+    <section id="faq">
+        <div class="left-column">
+            <h3>What are gift subscriptions?</h3>
+
+            <p>Gift subscriptions are a way for you to give the gift of The New York Times. A gift subscription at
+                the education rate is for one year or four years, and your one-time payment covers the full subscription period.
+                If gift recipients choose to extend access beyond the gift subscription period, they will enter their
+                own billing information and pay for continued service.</p>
+
+            <p>Choose one of these three packages for your gift subscription:</p>
+            <strong>Basic:</strong>
+            <ul>
+                <li>Access to NYTimes.com and all NYTimes apps.</li>
+                <li>Unlimited article access, anytime, anywhere.</li>
+                <li>Discounts to The Times Store, Film Club, Wine Club and TimesTalks.</li>
+            </ul>
+            <strong>All Access:</strong>
+            <ul>
+                <li>Access to exclusive, behind-the-scenes stories, photos and videos from our journalists inside the newsroom.</li>
+                <li>Attend live panel discussions and special events hosted by Times editors and journalists.</li>
+                <li>Access to a weekly “Inside The Times” podcast series and a collection of 120+ e-books — collections of our most important stories — curated by Times editors.</li>
+            </ul>
+            <strong>Home Delivery + All Access:</strong>
+            <ul style="margin-bottom: 10px;">
+                <li>Convenient and reliable delivery. Guaranteed.</li>
+                <li>Customized delivery options such as Sunday only, Fri.–Sun., weekday delivery or daily delivery.</li>
+                <li>Includes weekly Sunday magazine and monthly T Magazine.</li>
+            </ul>
+            <p>*Gift subscriptions do not include e-reader editions or digital versions of The New York Times Crossword. Mobile apps are not supported on all devices. Offer not available for current subscribers. Home Delivery offer valid for new subscribers in areas served by The New York Times Delivery Service. All subscriptions will automatically renew and your credit card or PayPal account will be charged in advance of each four-week billing period unless canceled. Other restrictions and taxes may apply.</p>
+
+            <p>Please note, gift subscriptions are for new subscribers only, the recipient cannot have an
+                existing digital or home delivery subscription.</p>
+
+            <h3>Can I purchase a gift subscription for someone who is already a subscriber?</h3>
+
+            <p>No. You can only give a gift subscription to a new subscriber. If the intended recipient is an
+                existing digital or home delivery subscriber, they won’t be able to redeem the gift.</p>
+        </div>
+        <div class="right-column">
+            <h3>How is the gift subscription delivered?</h3>
+
+            <p>You will be required to supply the recipient's school email address and a delivery date during the
+                purchase. An email containing a redemption code is sent to the recipient email address you provide on
+                the date you specify. You will also have the option to include a short message that will be in the
+                redemption email.</p>
+
+            <h3>Can I purchase multiple gift subscriptions?</h3>
+
+            <p>Yes. After completing a gift purchase, press the Buy Another Gift button. Please note, a single recipient
+                cannot redeem multiple gift subscriptions at once.</p>
+
+            <h3>Can I schedule the delivery of my gift?</h3>
+
+            <p>Yes — you can set the date the gift email will be sent to the recipient during the order process. The
+                gift email will not be sent until processing is complete. Processing of a gift subscription purchase
+                normally takes 24 hours and may take up to 72 hours.</p>
+
+            <h3>What are the terms of sale for gift subscriptions?</h3>
+
+            <p>The full purchase price for gift subscriptions will be charged at the time of purchase and is
+                nonrefundable.</p>
+
+            <p>Gift subscriptions are discussed under one-time purchases in the NYTimes Terms of Sale. Redemption codes
+                are not replaceable and will expire if not redeemed within five years of the purchase date.</p>
+
+            <a href="https://www.nytimes.com/content/help/account/purchases/subscriptions-and-purchases.html"
+               target="_blank">View our complete FAQ section &#187;</a>
+
+        </div>
+    </section>
+
+
+    <section id="legal">
+        <sup>*</sup>
+        Gift subscriptions can only be purchased for users who are not currently subscribed. Please allow 24 hours for
+        gift subscription order processing. Promotional offers for new subscribers only. As part of the order process,
+        you must provide the recipient's valid school email address. Smartphone and tablet apps are not supported on all
+        devices. Subscriptions do not include e-reader editions, Times Experience content or digital version of The New
+        York Times Crossword. Prices shown are in U.S. dollars. Gift subscription period begins the day of redemption.
+        Redemption codes expire five years after date of purchase. Other restrictions apply. To learn about all of our
+        education rates, please visit <a href="https://www.nytimes.com/subscriptions/edu/lp3HLK4.html?campaignId=3J97Q"
+                                         target="_blank">nytimes.com/EDUOFFERS</a>. To order at our regular low rate,
+        please visit <a href="https://www.nytimes.com/subscriptions/Multiproduct/lp839RF.html?campaignId=46YQW"
+                        target="_blank">nytimes.com/ACCESS</a>. Apple and the Apple logo are trademarks of Apple Inc.,
+        registered in the U.S. and other countries. iPhone is a trademark of Apple Inc.
+
+    </section>
+
+    <section id="corp_links" class="clearfix">
+
+        <a href="https://www.nytimes.com/" class="nyt-logo"><img
+                src="https://graphics8.nytimes.com/subscriptions/Multiproduct/assets/img/nyt-logo.png"
+                title="The New York Times"/></a>
+
+        <div class="footer_links">
+            <a href="http://www.nytimes.com/content/help/rights/copyright/copyright-notice.html" target="_blank">&copy; <span class="copyrightYear">2018</span></a>
+            <a href="http://www.nytco.com/" target="_blank">The New York Times Company</a>
+            <a href="http://www.nytimes.com/content/help/rights/privacy/policy/privacy-policy.html" target="_blank">Privacy Policy</a>
+            <a href="https://www.nytimes.com/content/help/contact/directory.html" target="_blank">Contact Us</a>
+            <a href="https://www.nytimes.com/content/help/front.html" target="_blank">Help</a> 
+        </div>
+
+    </section>
+
+</div>
+
+</body>
+</html>

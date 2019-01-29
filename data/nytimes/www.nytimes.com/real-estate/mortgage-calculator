@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<!--[if (gt IE 9)|!(IE)]> <!--> <html lang="en" class="no-js realestate-answers"  itemscope xmlns:og="http://opengraphprotocol.org/schema/"> <!--<![endif]-->
+<!--[if IE 9]> <html lang="en" class="no-js ie9 lt-ie10 realestate-answers" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<!--[if IE 8]> <html lang="en" class="no-js ie8 lt-ie10 lt-ie9 realestate-answers" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<!--[if (lt IE 8)]> <html lang="en" class="no-js lt-ie10 lt-ie9 lt-ie8 realestate-answers" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<head>
+    <title>Mortgage Calculator - Estimate Mortgage Payments</title>
+
+    
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="shortcut icon" href="https://static01.nyt.com/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="144×144" href="https://static01.nyt.com/images/icons/ios-ipad-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114×114" href="https://static01.nyt.com/images/icons/ios-iphone-114x144.png" />
+<link rel="apple-touch-icon-precomposed" href="https://static01.nyt.com/images/icons/ios-default-homescreen-57x57.png" />
+<meta name="sourceApp" content="nyt-v5" />
+<meta id="applicationName" name="applicationName" content="realestate" />
+<meta id="foundation-build-id" name="foundation-build-id" content="" />
+<meta name="description" content="Our mortgage calculator can help you determine what your monthly mortgage may be. Use this calculator to figure out what you will pay each month for your mortgage &mdash; the amount of money you intend to borrow to buy your new home." />
+<meta property="fb:app_id" content="9869919170" />
+<meta property="og:url" content="https://www.nytimes.com/real-estate/mortgage-calculator" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Mortgage Calculator - Estimate Mortgage Payments" />
+<meta property="og:description" content="Our mortgage calculator can help you determine what your monthly mortgage may be. Use this calculator to figure out what you will pay each month for your mortgage &mdash; the amount of money you intend to borrow to buy your new home." />
+<meta property="og:image" content="https://static01.nyt.com/images/icons/t_logo_291_black.png" />
+<meta property="og:site_name" content="NYT Real Estate" />
+<meta property="twitter:card" value="summary" />
+<meta property="twitter:site" value="@nytrealestate" />
+<meta property="twitter:url" content="https://www.nytimes.com/real-estate/mortgage-calculator" />
+<meta property="twitter:title" content="I've been checking out the new mortgage calculator from The New York Times:" />
+<meta property="twitter:description" content="Our mortgage calculator can help you determine what your monthly mortgage may be. Use this calculator to figure out what you will pay each month for your mortgage &mdash; the amount of money you intend to borrow to buy your new home." />
+<meta property="twitter:image" content="https://static01.nyt.com/images/icons/t_logo_291_black.png" />
+<meta name="dfp-ad-unit-path" content="realestate/mortgagecalculator" />
+<meta name="CG" content="realestate" />
+    
+            <link id="legacy-zam5nzz" rel="stylesheet" type="text/css" href="https://typeface.nyt.com/css/zam5nzz.css" media="all" />
+<!--[if (gt IE 9)|!(IE)]> <!-->
+<link rel="stylesheet" type="text/css" media="screen" href="https://g1.nyt.com/assets/realestate/20190111-213308/css/realestate/styles-answers.css" />
+<!--<![endif]-->
+<!--[if lte IE 9]>
+<link rel="stylesheet" type="text/css" media="screen" href="https://g1.nyt.com/assets/realestate/20190111-213308/css/realestate/styles-ie.css" />
+<![endif]-->
+<link rel="stylesheet" type="text/css" media="print" href="https://g1.nyt.com/assets/realestate/20190111-213308/css/realestate/styles-print.css">
+                <script type="text/javascript">var googletag=googletag||{};googletag.cmd=googletag.cmd||[],function(){var t=document.createElement("script");t.async=!0,t.type="text/javascript";var e="https:"==document.location.protocol;t.src=(e?"https:":"http:")+"//www.googletagservices.com/tag/js/gpt.js";var o=document.getElementsByTagName("script")[0];o.parentNode.insertBefore(t,o)}();</script>
+
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700' rel='stylesheet' type='text/css'>
+<!--  begin abra  -->
+<!--esi
+<esi:include src="http://wp-aballoc-service/v9/document-setup.html-esi?apps=www-realestate+ecomm-fe&amp;etUrl=prd" />
+-->
+<!--  end abra  -->
+
+<!--esi
+<script id="user-info-data" type="application/json">
+<esi:include src="/svc/web-products/userinfo-v3.json" />
+</script>
+-->
+<script id="magnum-feature-flags" type="application/json">["newMasthead","floatingMap","listingPriceMapMarkers","listingContentFilter","newListingAPI","alternateMapResize","publicTransportFilter","dfpAds","foursquareMaxiMap","personalization","shareSavedSearch","showStJohnAds","allowAnonAgentContact","highendAds","trackListingImpressions","mapPolygonSearch","mapNeighborhoodBoundaries","nearbySchoolsModule","showTooltips","agentSearch","NYTExperiment","recaptchaAgentForm","salesActivity","mortgageCalculator","newMobileReleased","piiBlockDFP","headerScrolling","slideShowAds","advancedFilterSets","recentSales","foursquareUpdate","indexAsHeaderBidder","caslOpt","jkiddScript","reGdpr"]</script>
+<script>
+var require = {
+    baseUrl: 'https://g1.nyt.com/assets/',
+    waitSeconds: 20,
+    paths: {
+        'foundation': 'realestate/20190111-213308/js/foundation',
+        'shared': 'realestate/20190111-213308/js/shared',
+        'realestate': 'realestate/20190111-213308/js/realestate',
+        'application': 'realestate/20190111-213308/js/realestate/',
+        'videoFactory': 'https://static01.nyt.com/js2/build/video/2.0/videofactoryrequire',
+        'videoPlaylist': 'https://static01.nyt.com/js2/build/video/players/extended/2.0/appRequire',
+        'auth/mtr': 'https://static01.nyt.com/js/mtr',
+        'auth/growl': 'https://static01.nyt.com/js/auth/growl/default',
+        'vhs': 'https://static01.nyt.com/video/vhs/build/vhs-2.x.min',
+        'vhs3': 'https://static01.nyt.com/video-static/vhs3/vhs.min'
+    }
+};
+</script>
+<!--[if (gte IE 9)|!(IE)]> <!-->
+<script data-main="foundation/main" src="https://g1.nyt.com/assets/realestate/20190111-213308/js/foundation/lib/framework.js"></script>
+<!--<![endif]-->
+<!--[if lt IE 9]>
+<script>
+    require.map = { '*': { 'foundation/main': 'foundation/legacy_main' } };
+</script>
+<script data-main="foundation/legacy_main" src="https://g1.nyt.com/assets/realestate/20190111-213308/js/foundation/lib/framework.js"></script>
+<![endif]-->
+</head>
+<body>
+    
+    <style>
+    .lt-ie10 .messenger.suggestions {
+        display: block !important;
+        height: 50px;
+    }
+
+    .lt-ie10 .messenger.suggestions .message-bed {
+        background-color: #f8e9d2;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .lt-ie10 .messenger.suggestions .message-container {
+        padding: 11px 18px 11px 30px;
+    }
+
+    .lt-ie10 .messenger.suggestions .action-link {
+        font-family: "nyt-franklin", arial, helvetica, sans-serif;
+        font-size: 10px;
+        font-weight: bold;
+        color: #a81817;
+        text-transform: uppercase;
+    }
+
+    .lt-ie10 .messenger.suggestions .alert-icon {
+        background: url('https://static01.nyt.com/images/icons/icon-alert-12x12-a81817.png') no-repeat;
+        width: 12px;
+        height: 12px;
+        display: inline-block;
+        margin-top: -2px;
+        float: none;
+    }
+
+    .lt-ie10 .masthead,
+    .lt-ie10 .navigation,
+    .lt-ie10 .comments-panel {
+        margin-top: 50px !important;
+    }
+
+    .lt-ie10 .ribbon {
+        margin-top: 97px !important;
+    }
+</style>
+<div id="suggestions" class="suggestions messenger nocontent robots-nocontent" style="display:none;">
+    <div class="message-bed">
+        <div class="message-container last-message-container">
+            <div class="message">
+                <span class="message-content">
+                    <i class="icon alert-icon"></i><span class="message-title">NYTimes.com no longer supports Internet Explorer 9 or earlier. Please upgrade your browser.</span>
+                    <a href="http://www.nytimes.com/content/help/site/ie9-support.html" class="action-link">LEARN MORE »</a>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div id="shell" class="shell">
+                <header id="masthead" class="realestate-masthead">
+        <div class="container">
+        <a class="section-front-link" href="https://www.nytimes.com/section/realestate"><span class="visually-hidden">Real Estate</span></a>
+        <div class="search-info">
+            <i class="sprite-icon icon-magnifying-glass"></i>
+            <span class="locations"></span>
+        </div>
+        <div class="user-tools">
+            <a class="button homes-for-sale-button" href="/real-estate/homes-for-sale">BUY</a>
+            <a class="button homes-for-rent-button" href="/real-estate/homes-for-rent">RENT</a>
+            <a class="button real-estate-ads-button" href="https://nytimesads.gtspayments.com">LIST A HOME</a>
+                            <a class="button mortgage-calculator-button" href="/real-estate/mortgage-calculator">
+                    MORTGAGE CALCULATOR
+                </a>
+                        <button class="button register-button hidden">SIGN UP</button>
+            <button class="button my-real-estate-button" data-href="https://www.nytimes.com/real-estate/my-real-estate">
+                <span class="label">
+                    YOUR REAL ESTATE
+                    <i class="chevron chevron-up "><i class="chevron-conceal"></i></i>
+                    <i class="chevron chevron-down "><i class="chevron-conceal"></i></i>
+                </span>
+                <span class="mobile-label hidden">
+                    LOG IN
+                </span>
+                <span class="sub-label hidden">Log in</span>
+            </button>
+            <div id="menu-notification" class="menu-notification">
+                <div class="triangle"></div>
+                <div class="notification-text"></div>
+            </div>
+        </div>
+    </div>
+</header>
+                            <div id="page" class="page">
+                <main id="main" class="main" role="main">
+                                    <div id="MortgageCalcTopAd1" class="ad rank-ad nocontent robots-nocontent"></div>
+<div class="mortgage-calculator-container">
+    <div class="answers-header">
+        <div class="headings">
+            <span class="kicker answers-subheading">BUYING</span>
+            <h1 class="answers-heading">Mortgage Calculator</h1>
+            <h2 class="visually-hidden">Mortgage</h2>
+        </div>
+        <div
+            id="sharetools-answers"
+            aria-label="tools"
+            class="sharetools-answers theme-classic"
+            role="group"
+            data-shares="facebook,twitter,email"
+            data-url="https://www.nytimes.com/real-estate/mortgage-calculator"
+            data-title="Mortgage Calculator - Estimate Mortgage Payments"
+            data-media=""
+            data-description="Description Here"
+        >
+            <span class="sharetools-label visually-hidden">Share This Page</span>
+        </div>
+    </div>
+
+    <div class="answers-section-container">
+        <div class="answers-section calculator-description">
+
+            <p class="description">
+                Use this calculator to figure out what you will pay each month for
+                your mortgage &mdash; the amount of money you intend to borrow to buy
+                your new home. Enter the numbers in the box for each item, or use
+                the slider. Your monthly payment will appear on the right.
+            </p>
+            <p class="description">
+                That monthly payment includes repaying what you've borrowed (the
+                principal) as well as the bank's fee for borrowing the money (the
+                interest).
+            </p>
+            <div class="answers-section related-articles">
+                <h2>Guides To Getting A Mortgage</h2>
+                <ul>
+                    <li><a href="https://www.nytimes.com/interactive/2017/realestate/Can-I-Afford-to-Buy-a-Home.html">Can I Afford to Buy a Home?</a></li>
+                    <li><a href="https://www.nytimes.com/interactive/2017/realestate/How-Do-I-Get-a-Mortgage.html">How Do I Get a Mortgage?</a></li>
+                    <li><a href="https://www.nytimes.com/interactive/2017/realestate/What-Kind-of-Mortgage-Should-I-Get.html">What Kind of Mortgage Should I Get?</a></li>
+                    <li><a href="https://www.nytimes.com/interactive/2017/realestate/How-Do-I-Get-a-Good-Interest-Rate.html">How Do I Get a Good Interest Rate?</a></li>
+                    <li><a href="https://www.nytimes.com/interactive/2017/realestate/what-are-closing-costs.html">What Are Closing Costs?</a></li>
+                    <li><a href="https://www.nytimes.com/interactive/2017/realestate/Down-payments.html">How Do Down Payments work?</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="mortgage-calculator-react-root">
+        </div>
+    </div>
+</div>                    <div class="search-overlay"></div>
+                    <div id="HighEndpaid-post-1" class="ad paid-post-1 nocontent robots-nocontent"></div>
+            </main><!-- close main -->
+            
+            <footer id="page-footer" class="jetblack-realestate-footer" role="contentinfo">
+    <nav>
+        <h2 class="visually-hidden">Site Information Navigation</h2>
+         <ul>
+            <li><a href="https://www.nytimes.com">NYTimes.com</a></li>
+            <li><a href="https://www.nytimes.com/section/realestate">Real Estate</a></li>
+            <li><a href="https://www.nytimes.com/real-estate/find-a-home">Find A Home</a></li>
+            <li><a href="https://itunes.apple.com/us/app/nytimesrealestate/id337316535">iPhone App</a></li>
+            <li><a href="https://help.nytimes.com/hc/en-us/articles/115015385887-Contact-us">Send Us Feedback</a></li>
+        </ul>
+    </nav>
+    <nav class="last-nav">
+        <h2 class="visually-hidden">Site Information Navigation</h2>
+        <ul>
+            <li><a href="http://spiderbites.nytimes.com">Site Map</a></li>
+            <li><a href="https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-service" itemprop="usageTerms">Terms of Service</a></li>
+            <li>
+                <a href="https://help.nytimes.com/hc/en-us/articles/115014792127-Copyright-notice" itemprop="copyrightNotice">
+                    &copy; <span itemprop="copyrightYear">2019</span><span itemprop="copyrightHolder provider sourceOrganization" itemscope itemtype="http://schema.org/Organization" itemid="http://www.nytimes.com"><span itemprop="name"> The New York Times Company</span><meta itemprop="tickerSymbol" content="NYSE NYT"/></span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</footer>
+        </div><!-- close page -->
+    </div><!-- close shell -->
+        <script src="https://cdn.optimizely.com/public/3013110282/s/gm.js" type="text/javascript" async></script>
+
+<script type="text/javascript" src="https://myaccount.nytimes.com/svc/account/auth/v1/lire-ui?clientId=real.estate.ui"></script>
+
+<script>
+require(['foundation/main'], function () {
+    require(['realestate/main-answers']);
+    require(['jquery/nyt', 'foundation/views/page-manager'], function ($, pageManager) {
+        if (window.location.search.indexOf('disable_tagx') > 0) {
+            return;
+        }
+        $(document).ready(function () {
+            require(['https://a1.nyt.com/analytics/json-kidd.min.js'], function () {
+                pageManager.trackingFireEventQueue();
+            });
+        });
+    });
+});
+</script>
+
+    <div id="Inv1" class="ad inv1-ad hidden"></div>
+<div id="Inv2" class="ad inv2-ad hidden"></div>
+<div id="Inv3" class="ad inv3-ad hidden"></div>
+<div id="ab1" class="ad ab1-ad hidden"></div>
+<div id="ab2" class="ad ab2-ad hidden"></div>
+<div id="ab3" class="ad ab3-ad hidden"></div>
+<div id="prop1" class="ad prop1-ad hidden"></div>
+<div id="prop2" class="ad prop2-ad hidden"></div>
+<div id="Anchor" class="ad anchor-ad hidden"></div>
+<div id="ADX_CLIENTSIDE" class="ad adx-clientside-ad hidden"></div>
+    <!-- Include: newrelic_get_browser_timing_footer() -->
+    <script>
+        if (typeof NYTD === 'object' && NYTD.Abra && NYTD.Abra("WWW_NewRelicFooter")) {
+                    }
+    </script>
+</body>
+</html>

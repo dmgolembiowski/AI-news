@@ -1,0 +1,67 @@
+
+section#methods {
+	background-color: #fff;
+	color:#000;
+}
+
+section#methods .content {
+	text-align: center;
+}
+
+section#methods h2 {
+	max-width: 750px;
+}
+
+section#methods p {
+	color:#666;
+	margin-bottom:25px;
+    max-width: 690px;
+}
+
+section#methods .content img {
+	display:inline-block;
+}
+
+section#methods p.belowGraph {
+	font-size: 16px;
+	font-weight: 500;
+	font-family: "nyt-franklin",Arial; 
+	line-height: 1.33;
+	color:#252527;
+    text-align: center;
+    padding:  20px 0 0;
+    position: relative;
+    max-width: 580px;
+}
+
+section#methods p.belowGraph:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    width: 234px;
+    background: #9b9b9b;
+    margin: 0 auto;
+}
+
+section#methods p a, section#methods p a:visited {
+	text-decoration: underline;
+	color:#252527;
+}
+
+@media(max-width: 767px){
+    
+    section#methods .content img {
+        max-width: 375px;
+        width: 100%;
+    }
+    
+    
+}
+
+
+
+
+

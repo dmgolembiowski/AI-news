@@ -1,0 +1,1267 @@
+<!doctype html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#" class="no-js">
+	<head>
+		<meta charset="UTF-8">
+		<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MRJQKS6');</script>
+<!-- End Google Tag Manager -->
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link href="//www.google-analytics.com" rel="dns-prefetch">
+
+		<link rel="shortcut icon" href="https://www.timestalks.com/wp-content/themes/discourse/assets/img/favicons/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.timestalks.com/wp-content/themes/discourse/assets/img/favicons/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.timestalks.com/wp-content/themes/discourse/assets/img/favicons/favicon-32x32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.timestalks.com/wp-content/themes/discourse/assets/img/favicons/apple-touch-icon.png">
+<link rel="manifest" href="https://www.timestalks.com/wp-content/themes/discourse/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="https://www.timestalks.com/wp-content/themes/discourse/assets/img/favicons/safari-pinned-tab.svg%20color=#cd2228">
+<meta name="msapplication-TileColor" content="#b91d47">
+<meta name="msapplication-TileImage" content="https://www.timestalks.com/wp-content/themes/discourse/assets/img/favicons/mstile-144x144.png">
+<meta name="msapplication-config" content="https://www.timestalks.com/wp-content/themes/discourse/assets/img/favicons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+		<title>Home - TimesTalks » The New York Times</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v7.6 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Watch today&#039;s top talent and thinkers in conversation with New York Times journalists. Recent TimesTalks featured intimate discussions with the cast of &quot;Breaking Bad,&quot; &quot;Mad Men,&quot; artist Marina Abramovic, director Quentin Tarantino and fashion icon Marc Jacobs."/>
+<link rel="canonical" href="https://www.timestalks.com/" />
+<link rel="publisher" href="https://plus.google.com/u/0/110767943984365986089"/>
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Home - TimesTalks » The New York Times" />
+<meta property="og:description" content="Watch today&#039;s top talent and thinkers in conversation with New York Times journalists. Recent TimesTalks featured intimate discussions with the cast of &quot;Breaking Bad,&quot; &quot;Mad Men,&quot; artist Marina Abramovic, director Quentin Tarantino and fashion icon Marc Jacobs." />
+<meta property="og:url" content="https://www.timestalks.com/" />
+<meta property="og:site_name" content="TimesTalks » The New York Times" />
+<meta property="og:image" content="https://www.timestalks.com/wp-content/uploads/sites/4/2018/03/chairs.jpg" />
+<meta property="og:image:secure_url" content="https://www.timestalks.com/wp-content/uploads/sites/4/2018/03/chairs.jpg" />
+<meta property="og:image:width" content="900" />
+<meta property="og:image:height" content="500" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Watch today&#039;s top talent and thinkers in conversation with New York Times journalists. Recent TimesTalks featured intimate discussions with the cast of &quot;Breaking Bad,&quot; &quot;Mad Men,&quot; artist Marina Abramovic, director Quentin Tarantino and fashion icon Marc Jacobs." />
+<meta name="twitter:title" content="Home - TimesTalks » The New York Times" />
+<meta name="twitter:site" content="@timestalks" />
+<meta name="twitter:image" content="https://www.timestalks.com/wp-content/uploads/sites/4/2018/01/chairs-1.jpg" />
+<meta name="twitter:creator" content="@timestalks" />
+<script type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/www.timestalks.com\/","name":"TimesTalks \u00bb The New York Times","potentialAction":{"@type":"SearchAction","target":"https:\/\/www.timestalks.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":"Organization","url":"https:\/\/www.timestalks.com\/","sameAs":["http:\/\/www.facebook.com\/timestalks","https:\/\/www.instagram.com\/timestalks","https:\/\/plus.google.com\/u\/0\/110767943984365986089","http:\/\/www.youtube.com\/timestalks","https:\/\/twitter.com\/timestalks"],"@id":"https:\/\/www.timestalks.com\/#organization","name":"The New York Times","logo":""}</script>
+<meta name="msvalidate.01" content="1a0939bc8b804aa082a27fcb5bc819c0" />
+<meta name="google-site-verification" content="3lCbfm1PI-kAhgakpeABP6pxDxTX0_V5bd3JGW1HRyk" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//www.timestalks.com' />
+<link rel='dns-prefetch' href='//code.jquery.com' />
+<link rel='stylesheet' id='typekit-css'  href='https://use.typekit.net/kne0iep.css' media='all' />
+<link rel='stylesheet' id='tt_styles-css'  href='https://www.timestalks.com/wp-content/themes/discourse/assets/css/style.css' media='all' />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>(window.jQuery && jQuery.noConflict()) || document.write('<script src="https:\/\/www.timestalks.com\/wp-content\/themes\/discourse\/assets\/js\/lib\/jquery-3.3.1.min.js"><\/script>')</script>
+<script src="https://www.timestalks.com/wp-content/themes/discourse/assets/js/lib/modernizr-custom.js"></script>
+<script src="https://www.timestalks.com/wp-content/themes/discourse/assets/js/lib/cookieconsent-3.0.3.min.js"></script>
+<script src="https://www.timestalks.com/wp-content/themes/discourse/assets/js/lib/moment.min.js"></script>
+<script src="https://www.timestalks.com/wp-content/themes/discourse/assets/js/lib/owl.carousel.min.js"></script>
+	</head>
+	<!-- Version 3.0 -->
+
+	<!-- Home -->
+	<body class="home page-template page-template-page-templates page-template-page-home page-template-page-templatespage-home-php page page-id-34  tt-template-page-home tt-page-home   body--color-foreground-968241 body--footer-newsletter-form-visible">
+
+		<!-- Primary Menu -->
+		<div class="site-menu  js-site-menu-wrap">
+			<nav class="site-menu__nav " id="site-menu">
+	<!-- Close button section -->
+	<div class="site-menu__section-menu-controls ">
+		<button class="btn btn--close js-btn-close-nav" aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="close-title" viewBox="0 0 35 35" role="img">
+  <title id="close-title">Close</title>
+  <path d="M15.4 17.5L.2 32.7l2.1 2.1 15.2-15.2 15.2 15.2 2.1-2.1-15.2-15.2L34.8 2.3 32.7.2 17.5 15.4 2.3.2.2 2.3l15.2 15.2z"/>
+</svg>
+</button>
+
+	</div>
+
+	<!-- Primary Section: Primary nav -->
+	<div class="site-menu__section-primary site-menu__column site-menu__column--primary site-menu__column--right site-menu__column--nav ">
+		<!-- Primary nav -->
+		<div class="site-menu__section-nav ">
+			<ul class="menu-primary-nav "><li class="menu-primary-nav__item  menu-primary-nav__item--38  menu-primary-nav__item--upcoming-talks  menu-primary-nav__item--first"><a href="https://www.timestalks.com/upcoming/" class="menu-primary-nav__link  menu-primary-nav__link--upcoming-talks">Upcoming Talks</a></li>
+<li class="menu-primary-nav__item  menu-primary-nav__item--36  menu-primary-nav__item--watch-now"><a href="https://www.timestalks.com/watch-now/" class="menu-primary-nav__link  menu-primary-nav__link--watch-now">Watch Now</a></li>
+<li class="menu-primary-nav__item  menu-primary-nav__item--40  menu-primary-nav__item--guests"><a href="https://www.timestalks.com/guests/" class="menu-primary-nav__link  menu-primary-nav__link--guests">Guests</a></li>
+<li class="menu-primary-nav__item  menu-primary-nav__item--42  menu-primary-nav__item--moderators"><a href="https://www.timestalks.com/moderators/" class="menu-primary-nav__link  menu-primary-nav__link--moderators">Moderators</a></li>
+<li class="menu-primary-nav__item  menu-primary-nav__item--44  menu-primary-nav__item--about-us  menu-primary-nav__item--last"><a href="https://www.timestalks.com/about-us/" class="menu-primary-nav__link  menu-primary-nav__link--about-us">About Us</a></li>
+</ul>		</div>
+		<!-- /site-menu__section-nav -->
+	</div>
+	<!-- /site-menu__column -->
+
+	<!-- Secondary Section: Newsletter subscription link, social media menu, sponsors -->
+	<div class="site-menu__section-secondary site-menu__column site-menu__column--left site-menu__column--secondary ">
+
+		<!-- Newsletter Subscription -->
+		<div class="site-menu__section-newsletter site-menu__section--half-height ">
+			<a href="https://www.timestalks.com/newsletter/" class="site-menu__newsletter-subscribe-link ">Sign up for our newsletter</a>
+		</div>
+		<!-- /site-menu__section-email -->
+
+		<!-- Tertiary Section: Social media menu, sponsors -->
+		<div class="site-menu__section-tertiary site-menu__section--half-height ">
+			<!-- Social Media Menu -->
+			<div class="site-menu__section-social ">
+				<ul class="menu-social-media "><li class="menu-social-media__item  menu-social-media__item--12  menu-social-media__item--instagram  menu-social-media__item--first"><a href="https://www.instagram.com/timestalks" class="menu-social-media__link  menu-social-media__link--instagram">Instagram</a></li>
+<li class="menu-social-media__item  menu-social-media__item--13  menu-social-media__item--twitter"><a href="http://twitter.com/timestalks" class="menu-social-media__link  menu-social-media__link--twitter">Twitter</a></li>
+<li class="menu-social-media__item  menu-social-media__item--14  menu-social-media__item--facebook"><a href="http://www.facebook.com/timestalks" class="menu-social-media__link  menu-social-media__link--facebook">Facebook</a></li>
+<li class="menu-social-media__item  menu-social-media__item--15  menu-social-media__item--youtube  menu-social-media__item--last"><a href="http://www.youtube.com/timestalks" class="menu-social-media__link  menu-social-media__link--youtube">YouTube</a></li>
+</ul>			</div>
+
+					</div>
+		<!-- /site-menu__section-tertiary -->
+	</div>
+	<!-- /site-menu__column -->
+</nav>
+		</div>
+		<!-- /site_header__menu -->
+
+		<!-- Site Wrapper -->
+		<div class="site-wrapper">
+
+			<!-- Site header -->
+<header class="site-header site-header--absolute site-header--home" role="banner">
+	<div class="tt-container">
+		<div class="site-header__inner">
+
+			<!-- Primary Logo -->
+			<h1 class="site-header__logo">
+				<a class="site-header__logo-link" href="https://www.timestalks.com">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 44" preserveAspectRatio="none" aria-labelledby="primary-logo-title" role="img">
+	<title id="primary-logo-title">TimesTalks</title>
+	<g class="word-talks">
+		<path d="M71.2 27.3H66v15.9h-5.2V27.3h-5.2v-4.2h15.6"/>
+		<path d="M82.9 43.2H78l-.2-1.5c-1.8 1.3-3.3 1.7-4.7 1.7-2.4 0-4.1-1.7-4.1-4.1 0-2.7 2.2-5 8.7-5.2v-.9c0-1.3-.7-1.9-1.7-1.9-1.1 0-1.9.6-2.2 2l-4.3-.9c.9-2.7 2.9-4.1 6.4-4.1 2.5 0 4.1.4 5.2 1.3 1 .9 1.4 1.9 1.4 3.4v7.1c0 .8.1 2 .4 2.7v.4zm-5.3-6.7c-2.2 0-3.7.7-3.7 2.4 0 .9.7 1.6 1.5 1.6.9 0 1.2-.2 2.2-.8v-3.2zm7.4 6.7h4.9v-20H85m21.6 20h-5.3l-2.6-6.6-2 2.5v4.1h-4.8v-20h4.9v11.5l4.8-6.1h4.8l-4.2 4.7"/>
+		<path d="M112.9 43.5c-3 0-5.2-.7-6.7-3.2l2.9-1.8c.6 1.1 1.8 2 3.7 2 1.6 0 2.4-.7 2.4-1.3 0-.5-.3-.9-1.4-1.1-1.4-.2-3-.4-4.1-.7-1.7-.6-3.2-1.7-3.2-4 0-3.4 3.3-5 6.4-5 3 0 4.5.8 6 2.9L116 33c-.6-1.1-1.6-1.7-3.2-1.7s-2 .7-2 1.1c0 .6.5.9 1.5 1.1 1.2.2 1.8.3 3.3.6 1.8.4 4 1.7 4 4.3 0 3.1-2.6 5.1-6.7 5.1"/>
+	</g>
+	<g class="word-times">
+		<path d="M16.2 4.6c-.5 0-.9-.3-1-.6-.5-1.5-1.2-2.1-2.4-2.1H10v16.7c0 .7.2.8.9 1.1.6.3.7.3.7.7v.8H5.2v-.8c0-.3.1-.4.7-.7.7-.4.9-.5.9-1.1V1.8H3.9c-1.1 0-1.7.6-2.3 2.2-.1.3-.5.6-1 .6H0V0c.5.1 2.1.2 2.8.2H14c.7 0 2.3-.1 2.8-.2v4.6h-.6zm.5 16.4v-.7c0-.3.1-.2.6-.5.6-.3.6-.3.6-1.1v-7.3c0-.7-.1-.9-.7-1.2-.5-.2-.6-.3-.6-.5V9l4.1-.3v10c0 .8 0 .8.7 1.1.5.3.6.3.6.5v.7h-5.3zm2.4-16c-1 0-1.8-.8-1.8-1.8s.8-1.8 1.8-1.8 1.8.8 1.8 1.8c.1 1-.7 1.8-1.8 1.8zm19.3 16v-.7c0-.3.1-.2.6-.5.6-.3.6-.3.6-1.1v-5.8c0-1.5-.8-2.4-2.3-2.4-.9 0-2 .5-2.5 1.3v6.9c0 .8 0 .8.7 1.1.5.3.6.3.6.5v.7h-5.3v-.7c0-.3.1-.2.6-.5.7-.3.7-.3.7-1.1v-5.8c0-1.5-.8-2.4-2.2-2.4-.9 0-2.1.5-2.6 1.3v6.9c0 .8 0 .8.7 1.1.5.3.6.3.6.5v.7H23v-.7c0-.3.1-.2.6-.5.6-.3.6-.3.6-1.1v-7.3c0-.7-.1-.9-.7-1.2-.4-.2-.5-.2-.5-.5V9l4.1-.3v1.6c.8-.8 1.8-1.7 3.7-1.7 1.7 0 2.8.7 3.5 1.9 1.2-1.2 2.3-1.9 4-1.9 2.6 0 4.2 1.6 4.2 4.1v5.9c0 .8 0 .8.7 1.1.5.3.6.3.6.5v.8h-5.4zm22.6.4c-2.8 0-4.7-1.3-4.7-2.7 0-.8.5-1.6 1.5-1.6 1.3 0 1.5 1.1 1.5 1.4 0 .4-.1.8-.1.9.5.3 1.4.5 2.1.5 1.2 0 2.2-.7 2.2-1.8s-1.4-1.6-3.3-2.3c-2.5-.9-3.2-2.1-3.2-3.7 0-1.9 2.1-3.5 4.3-3.5 2.7 0 3.9 1.1 3.9 2.1s-.7 1.5-1.4 1.5c-.8 0-1.4-.5-1.4-1.3 0-.2 0-.5.1-.7-.4 0-.8-.2-1.5-.2-.9 0-1.8.6-1.8 1.5 0 1 .9 1.4 3.3 2.3 2.5.9 3.3 1.9 3.3 3.7 0 1.7-1.7 3.9-4.8 3.9m-10.3-1.7c-2.5 0-3.6-2.2-3.7-5h8.5c0-2.9-1.5-6.1-5.4-6.1-3.9 0-6 3.3-6 6.6 0 3.2 2.1 6.2 6.1 6.2 2.7 0 4.7-1.8 5.3-2.9l-.9-1c-.9 1.2-2.2 2.2-3.9 2.2zm-.7-9.5c1.9 0 2.5 1.4 2.6 3.1h-5.5c.3-1.8 1.5-3.1 2.9-3.1z"/>
+	</g>
+</svg>
+				</a>
+			</h1>
+			<!-- /site-header__logo -->
+
+			<!-- Menu Toggle Button -->
+			<div class="site-header__menu-toggle">
+				<button class="site-header__menu-toggle-btn jshook-menu-toggle-btn" aria-controls="site-menu" aria-expanded="false" aria-label="Menu">
+	<span class="site-header__menu-toggle-btn-line site-header__menu-toggle-btn-line--first"></span>
+	<span class="site-header__menu-toggle-btn-line site-header__menu-toggle-btn-line--middle"></span>
+	<span class="site-header__menu-toggle-btn-line site-header__menu-toggle-btn-line--last"></span>
+</button>
+
+			</div>
+			<!-- /site-header__menu-toggle -->
+		</div>
+		<!-- /site-header__inner -->
+	</div>
+	<!-- /tt-container -->
+</header>
+<!-- Home -->
+<main class="tt-page-main " role="main" aria-label="Content">
+
+	<!-- Featured Talks -->
+	<header class="section-home section-home--featured-talks">
+			<section class="section-featured-talks js-carousel-featured-talks owl-theme">
+		
+<!-- Featured Talk 1: Jackie Chan -->
+<div class="talk-feature  talk-feature--home  talk-feature--4095  talk-feature--past  talk-feature--closed  talk-feature__background  color--background-3246a0  talk-feature__option-title-size--sm  talk-feature__option-title-style--serif  talk-feature__option-title-weight--bold  talk-feature__option-title-case--none  talk-feature--first  js-talk-feature" itemscope itemtype="http://schema.org/Event" data-post-id="4095" data-title="Jackie Chan" data-title-size="sm" data-title-style="serif" data-title-weight="bold" data-title-case="none" data-foreground-color="968241" data-background-color="3246a0" data-status="past" data-date="2019-01-25T11:30:00-05:00" data-is-paid="1" data-video-id="4sbz60j1ce8">
+
+	<div class="talk-feature__wrapper">
+
+		<!-- Title -->
+		<div class="talk-feature__title-wrap talk-feature__foreground talk-feature__layout-section talk-feature__layout-section--title-wrap ">
+			<h2 class="talk-feature__title talk-feature__title--size-sm talk-feature__title--style-serif talk-feature__title--weight-bold talk-feature__title--case-none color--foreground-968241  " itemprop="name">Jackie Chan</h2>
+
+
+			<!-- /.talk-feature__title -->
+		</div>
+		<!-- /.talk-feature__title-wrap -->
+
+		<!-- Spacer (Empty) -->
+		<div class="talk-feature__title-spacer talk-feature__layout-section talk-feature__layout-section--title-spacer "></div>
+
+		<!-- Thumbnail(s) -->
+		<div class="talk-feature__thumbnail-wrap">
+
+						<div class="talk-feature__thumbnail ">
+
+														<img itemprop="image" class="talk-feature__thumbnail-img talk-feature__thumbnail-img--00 img-fluid" src="https://www.timestalks.com/wp-content/uploads/sites/4/2019/01/Digital-IMG_8761.jpg" alt="Digital-IMG_8761">
+				
+			</div>
+			<!-- /.talk-feature__thumbnail -->
+
+
+		</div>
+		<!-- /.talk-feature__thumbnail-wrap -->
+
+		<!-- Details -->
+		<div class="talk-feature__details talk-feature__foreground  talk-feature__layout-section color--foreground-968241 ">
+			<!-- Date and time -->
+			<div class="talk-feature__datetime" itemprop="startDate" content="2019-01-25T11:30:00-05:00">
+				<div class="talk-feature__date">01.25.19</div>
+				<div class="talk-feature__time">11:30AM&ndash;12:30PM</div>
+			</div>
+
+			<!-- Location -->
+			<div class="talk-feature__venue" itemprop="location" itemscope itemtype="http://schema.org/Place">
+				<div class="talk-feature__location-name" itemprop="name">Filmmaker Lodge</div>
+				<!-- Address -->
+				<div class="talk-feature__address address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+					<div class="talk-feature__street" itemprop="streetAddress">550 Main Street</div>
+					<div class="talk-feature__locality-region">
+					
+						
+							<!-- Address city/locality -->
+							<span class="talk-details__address-locality"  itemprop="addressLocality">Park City</span><span class="talk-details__address-locality-combinator">, </span>
+							<!-- /.talk-details__address-locality -->
+						
+													<!-- Address state/region -->
+							<span class="talk-details__address-region" itemprop="addressRegion">UT</span>
+							<!-- /.talk-details__address-region -->
+																</div>
+					<!-- Address ZIP/postal code -->
+					<span class="talk-feature__postal-code" itemprop="postalCode">82930</span>
+				</div>
+				<!-- /.talk-feature__address -->
+			</div>
+			<!-- /.talk-feature__venue -->
+
+							<!-- Permalink -->
+				<div class="talk-feature__permalink-wrap">
+					<a class="talk-feature__permalink  color--foreground-968241  jshook-permalink" itemprop="url" href="https://www.timestalks.com/talks/timestalkssundance-jackie-chan/">More Details</a>
+				</div>
+				<!-- /.talk-feature__permalink-wrap -->
+			
+			<!-- Price -->
+			<div class="talk-feature__offer" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+									<span class="talk-feature__price" itemprop="price" content=""></span>
+					<span class="talk-feature__currency"  itemprop="priceCurrency" content="usd"></span>
+							</div>
+			<!-- /.talk-feature__offer -->
+		</div>
+		<!-- /.talk-feature__details -->
+
+		
+			<!-- Status description -->
+			<div class="talk-feature__cta-wrap talk-feature__foreground talk-feature__layout-section color--foreground-968241 ">
+
+				
+					<!-- "Watch now"/Post permalink -->
+					<a href="https://www.timestalks.com/talks/timestalkssundance-jackie-chan/" class="talk-feature__cta color--foreground-968241 "><span class="talk-feature__cta-line talk-feature__cta-line--first">Watch</span> <span class="talk-feature__cta-line talk-feature__cta-line--last">Now</span></a>
+
+							</div>
+			<!-- /.talk-feature__cta-wrap -->
+
+		
+	</div>
+	<!-- /.talk-feature__wrapper -->
+</div>
+<!-- /.talk-feature -->
+
+<!-- Featured Talk 2: Ashton Sanders &amp; KiKi Layne -->
+<div class="talk-feature  talk-feature--home  talk-feature--4110  talk-feature--past  talk-feature--sold_out  talk-feature__background  color--background-3246a0  talk-feature__option-title-size--sm  talk-feature__option-title-style--serif  talk-feature__option-title-weight--bold  talk-feature__option-title-case--none  js-talk-feature" itemscope itemtype="http://schema.org/Event" data-post-id="4110" data-title="Ashton Sanders &amp; KiKi Layne" data-title-size="sm" data-title-style="serif" data-title-weight="bold" data-title-case="none" data-foreground-color="968241" data-background-color="3246a0" data-status="past" data-date="2019-01-26T13:00:00-05:00" data-is-paid="1" data-video-id="TJ7pQi7xAU0">
+
+	<div class="talk-feature__wrapper">
+
+		<!-- Title -->
+		<div class="talk-feature__title-wrap talk-feature__foreground talk-feature__layout-section talk-feature__layout-section--title-wrap ">
+			<h2 class="talk-feature__title talk-feature__title--size-sm talk-feature__title--style-serif talk-feature__title--weight-bold talk-feature__title--case-none color--foreground-968241  " itemprop="name">Ashton <br />
+Sanders &amp; <br />
+KiKi Layne</h2>
+
+
+			<!-- /.talk-feature__title -->
+		</div>
+		<!-- /.talk-feature__title-wrap -->
+
+		<!-- Spacer (Empty) -->
+		<div class="talk-feature__title-spacer talk-feature__layout-section talk-feature__layout-section--title-spacer "></div>
+
+		<!-- Thumbnail(s) -->
+		<div class="talk-feature__thumbnail-wrap">
+
+						<div class="talk-feature__thumbnail ">
+
+														<img itemprop="image" class="talk-feature__thumbnail-img talk-feature__thumbnail-img--00 img-fluid" src="https://www.timestalks.com/wp-content/uploads/sites/4/2019/01/Webp.net-gifmaker-49.gif" alt="Webp.net-gifmaker-49">
+				
+			</div>
+			<!-- /.talk-feature__thumbnail -->
+
+
+		</div>
+		<!-- /.talk-feature__thumbnail-wrap -->
+
+		<!-- Details -->
+		<div class="talk-feature__details talk-feature__foreground  talk-feature__layout-section color--foreground-968241 ">
+			<!-- Date and time -->
+			<div class="talk-feature__datetime" itemprop="startDate" content="2019-01-26T13:00:00-05:00">
+				<div class="talk-feature__date">01.26.19</div>
+				<div class="talk-feature__time">1&ndash;2PM</div>
+			</div>
+
+			<!-- Location -->
+			<div class="talk-feature__venue" itemprop="location" itemscope itemtype="http://schema.org/Place">
+				<div class="talk-feature__location-name" itemprop="name">Filmmaker Lodge</div>
+				<!-- Address -->
+				<div class="talk-feature__address address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+					<div class="talk-feature__street" itemprop="streetAddress">550 Main Street</div>
+					<div class="talk-feature__locality-region">
+					
+						
+							<!-- Address city/locality -->
+							<span class="talk-details__address-locality"  itemprop="addressLocality">Park City</span><span class="talk-details__address-locality-combinator">, </span>
+							<!-- /.talk-details__address-locality -->
+						
+													<!-- Address state/region -->
+							<span class="talk-details__address-region" itemprop="addressRegion">UT</span>
+							<!-- /.talk-details__address-region -->
+																</div>
+					<!-- Address ZIP/postal code -->
+					<span class="talk-feature__postal-code" itemprop="postalCode">82930</span>
+				</div>
+				<!-- /.talk-feature__address -->
+			</div>
+			<!-- /.talk-feature__venue -->
+
+							<!-- Permalink -->
+				<div class="talk-feature__permalink-wrap">
+					<a class="talk-feature__permalink  color--foreground-968241  jshook-permalink" itemprop="url" href="https://www.timestalks.com/talks/timestalkssundance-ashton-sanders-and-kiki-layne/">More Details</a>
+				</div>
+				<!-- /.talk-feature__permalink-wrap -->
+			
+			<!-- Price -->
+			<div class="talk-feature__offer" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+									<span class="talk-feature__price" itemprop="price" content=""></span>
+					<span class="talk-feature__currency"  itemprop="priceCurrency" content="usd"></span>
+							</div>
+			<!-- /.talk-feature__offer -->
+		</div>
+		<!-- /.talk-feature__details -->
+
+		
+			<!-- Status description -->
+			<div class="talk-feature__cta-wrap talk-feature__foreground talk-feature__layout-section color--foreground-968241 ">
+
+				
+					<!-- "Watch now"/Post permalink -->
+					<a href="https://www.timestalks.com/talks/timestalkssundance-ashton-sanders-and-kiki-layne/" class="talk-feature__cta color--foreground-968241 "><span class="talk-feature__cta-line talk-feature__cta-line--first">Watch</span> <span class="talk-feature__cta-line talk-feature__cta-line--last">Now</span></a>
+
+							</div>
+			<!-- /.talk-feature__cta-wrap -->
+
+		
+	</div>
+	<!-- /.talk-feature__wrapper -->
+</div>
+<!-- /.talk-feature -->
+
+<!-- Featured Talk 3: Chiwetel Ejiofor &amp; Boots Riley -->
+<div class="talk-feature  talk-feature--home  talk-feature--4128  talk-feature--past  talk-feature--sold_out  talk-feature__background  color--background-3246a0  talk-feature__option-title-size--sm  talk-feature__option-title-style--serif  talk-feature__option-title-weight--bold  talk-feature__option-title-case--none  js-talk-feature" itemscope itemtype="http://schema.org/Event" data-post-id="4128" data-title="Chiwetel Ejiofor &amp; Boots Riley" data-title-size="sm" data-title-style="serif" data-title-weight="bold" data-title-case="none" data-foreground-color="968241" data-background-color="3246a0" data-status="past" data-date="2019-01-27T13:30:00-05:00" data-is-paid="1" data-video-id="G8KgUuclcNA">
+
+	<div class="talk-feature__wrapper">
+
+		<!-- Title -->
+		<div class="talk-feature__title-wrap talk-feature__foreground talk-feature__layout-section talk-feature__layout-section--title-wrap ">
+			<h2 class="talk-feature__title talk-feature__title--size-sm talk-feature__title--style-serif talk-feature__title--weight-bold talk-feature__title--case-none color--foreground-968241  " itemprop="name">Chiwetel <br />
+Ejiofor &amp; <br />
+Boots Riley</h2>
+
+
+			<!-- /.talk-feature__title -->
+		</div>
+		<!-- /.talk-feature__title-wrap -->
+
+		<!-- Spacer (Empty) -->
+		<div class="talk-feature__title-spacer talk-feature__layout-section talk-feature__layout-section--title-spacer "></div>
+
+		<!-- Thumbnail(s) -->
+		<div class="talk-feature__thumbnail-wrap">
+
+						<div class="talk-feature__thumbnail ">
+
+														<img itemprop="image" class="talk-feature__thumbnail-img talk-feature__thumbnail-img--00 img-fluid" src="https://www.timestalks.com/wp-content/uploads/sites/4/2019/01/Webp.net-gifmaker-50.gif" alt="Webp.net-gifmaker-50">
+				
+			</div>
+			<!-- /.talk-feature__thumbnail -->
+
+
+		</div>
+		<!-- /.talk-feature__thumbnail-wrap -->
+
+		<!-- Details -->
+		<div class="talk-feature__details talk-feature__foreground  talk-feature__layout-section color--foreground-968241 ">
+			<!-- Date and time -->
+			<div class="talk-feature__datetime" itemprop="startDate" content="2019-01-27T13:30:00-05:00">
+				<div class="talk-feature__date">01.27.19</div>
+				<div class="talk-feature__time">1:30&ndash;2:30PM</div>
+			</div>
+
+			<!-- Location -->
+			<div class="talk-feature__venue" itemprop="location" itemscope itemtype="http://schema.org/Place">
+				<div class="talk-feature__location-name" itemprop="name">Filmmaker Lodge</div>
+				<!-- Address -->
+				<div class="talk-feature__address address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+					<div class="talk-feature__street" itemprop="streetAddress">550 Main Street</div>
+					<div class="talk-feature__locality-region">
+					
+						
+							<!-- Address city/locality -->
+							<span class="talk-details__address-locality"  itemprop="addressLocality">Park City</span><span class="talk-details__address-locality-combinator">, </span>
+							<!-- /.talk-details__address-locality -->
+						
+													<!-- Address state/region -->
+							<span class="talk-details__address-region" itemprop="addressRegion">UT</span>
+							<!-- /.talk-details__address-region -->
+																</div>
+					<!-- Address ZIP/postal code -->
+					<span class="talk-feature__postal-code" itemprop="postalCode">82930</span>
+				</div>
+				<!-- /.talk-feature__address -->
+			</div>
+			<!-- /.talk-feature__venue -->
+
+							<!-- Permalink -->
+				<div class="talk-feature__permalink-wrap">
+					<a class="talk-feature__permalink  color--foreground-968241  jshook-permalink" itemprop="url" href="https://www.timestalks.com/talks/timestalkssundance-chiwetel-ejiofor-and-boots-riley/">More Details</a>
+				</div>
+				<!-- /.talk-feature__permalink-wrap -->
+			
+			<!-- Price -->
+			<div class="talk-feature__offer" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+									<span class="talk-feature__price" itemprop="price" content=""></span>
+					<span class="talk-feature__currency"  itemprop="priceCurrency" content="usd"></span>
+							</div>
+			<!-- /.talk-feature__offer -->
+		</div>
+		<!-- /.talk-feature__details -->
+
+		
+			<!-- Status description -->
+			<div class="talk-feature__cta-wrap talk-feature__foreground talk-feature__layout-section color--foreground-968241 ">
+
+				
+					<!-- "Watch now"/Post permalink -->
+					<a href="https://www.timestalks.com/talks/timestalkssundance-chiwetel-ejiofor-and-boots-riley/" class="talk-feature__cta color--foreground-968241 "><span class="talk-feature__cta-line talk-feature__cta-line--first">Watch</span> <span class="talk-feature__cta-line talk-feature__cta-line--last">Now</span></a>
+
+							</div>
+			<!-- /.talk-feature__cta-wrap -->
+
+		
+	</div>
+	<!-- /.talk-feature__wrapper -->
+</div>
+<!-- /.talk-feature -->
+
+<!-- Featured Talk 4: Ed Helms &amp; Jenny Slate -->
+<div class="talk-feature  talk-feature--home  talk-feature--4138  talk-feature--past  talk-feature--sold_out  talk-feature__background  color--background-3246a0  talk-feature__option-title-size--md  talk-feature__option-title-style--serif  talk-feature__option-title-weight--bold  talk-feature__option-title-case--none  talk-feature--last  js-talk-feature" itemscope itemtype="http://schema.org/Event" data-post-id="4138" data-title="Ed Helms &amp; Jenny Slate" data-title-size="md" data-title-style="serif" data-title-weight="bold" data-title-case="none" data-foreground-color="968241" data-background-color="3246a0" data-status="past" data-date="2019-01-28T13:30:00-05:00" data-is-paid="1" data-video-id="-cOkKXjSJa8">
+
+	<div class="talk-feature__wrapper">
+
+		<!-- Title -->
+		<div class="talk-feature__title-wrap talk-feature__foreground talk-feature__layout-section talk-feature__layout-section--title-wrap ">
+			<h2 class="talk-feature__title talk-feature__title--size-md talk-feature__title--style-serif talk-feature__title--weight-bold talk-feature__title--case-none color--foreground-968241  " itemprop="name">Ed Helms &amp; <br />
+Jenny Slate</h2>
+
+
+			<!-- /.talk-feature__title -->
+		</div>
+		<!-- /.talk-feature__title-wrap -->
+
+		<!-- Spacer (Empty) -->
+		<div class="talk-feature__title-spacer talk-feature__layout-section talk-feature__layout-section--title-spacer "></div>
+
+		<!-- Thumbnail(s) -->
+		<div class="talk-feature__thumbnail-wrap">
+
+						<div class="talk-feature__thumbnail ">
+
+														<img itemprop="image" class="talk-feature__thumbnail-img talk-feature__thumbnail-img--00 img-fluid" src="https://www.timestalks.com/wp-content/uploads/sites/4/2019/01/Webp.net-gifmaker-51.gif" alt="Webp.net-gifmaker-51">
+				
+			</div>
+			<!-- /.talk-feature__thumbnail -->
+
+
+		</div>
+		<!-- /.talk-feature__thumbnail-wrap -->
+
+		<!-- Details -->
+		<div class="talk-feature__details talk-feature__foreground  talk-feature__layout-section color--foreground-968241 ">
+			<!-- Date and time -->
+			<div class="talk-feature__datetime" itemprop="startDate" content="2019-01-28T13:30:00-05:00">
+				<div class="talk-feature__date">01.28.19</div>
+				<div class="talk-feature__time">1:30&ndash;2:30PM</div>
+			</div>
+
+			<!-- Location -->
+			<div class="talk-feature__venue" itemprop="location" itemscope itemtype="http://schema.org/Place">
+				<div class="talk-feature__location-name" itemprop="name">Filmmaker Lodge</div>
+				<!-- Address -->
+				<div class="talk-feature__address address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+					<div class="talk-feature__street" itemprop="streetAddress">550 Main Street</div>
+					<div class="talk-feature__locality-region">
+					
+						
+							<!-- Address city/locality -->
+							<span class="talk-details__address-locality"  itemprop="addressLocality">Park City</span><span class="talk-details__address-locality-combinator">, </span>
+							<!-- /.talk-details__address-locality -->
+						
+													<!-- Address state/region -->
+							<span class="talk-details__address-region" itemprop="addressRegion">UT</span>
+							<!-- /.talk-details__address-region -->
+																</div>
+					<!-- Address ZIP/postal code -->
+					<span class="talk-feature__postal-code" itemprop="postalCode">82930</span>
+				</div>
+				<!-- /.talk-feature__address -->
+			</div>
+			<!-- /.talk-feature__venue -->
+
+							<!-- Permalink -->
+				<div class="talk-feature__permalink-wrap">
+					<a class="talk-feature__permalink  color--foreground-968241  jshook-permalink" itemprop="url" href="https://www.timestalks.com/talks/timestalkssundance-ed-helms-and-jenny-slate/">More Details</a>
+				</div>
+				<!-- /.talk-feature__permalink-wrap -->
+			
+			<!-- Price -->
+			<div class="talk-feature__offer" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+									<span class="talk-feature__price" itemprop="price" content=""></span>
+					<span class="talk-feature__currency"  itemprop="priceCurrency" content="usd"></span>
+							</div>
+			<!-- /.talk-feature__offer -->
+		</div>
+		<!-- /.talk-feature__details -->
+
+		
+			<!-- Status description -->
+			<div class="talk-feature__cta-wrap talk-feature__foreground talk-feature__layout-section color--foreground-968241 ">
+
+				
+					<!-- "Watch now"/Post permalink -->
+					<a href="https://www.timestalks.com/talks/timestalkssundance-ed-helms-and-jenny-slate/" class="talk-feature__cta color--foreground-968241 "><span class="talk-feature__cta-line talk-feature__cta-line--first">Watch</span> <span class="talk-feature__cta-line talk-feature__cta-line--last">Now</span></a>
+
+							</div>
+			<!-- /.talk-feature__cta-wrap -->
+
+		
+	</div>
+	<!-- /.talk-feature__wrapper -->
+</div>
+<!-- /.talk-feature -->
+	</section>
+		</header>
+
+				<!-- Promoted talk is in the past -->
+		
+				<!-- Section: Recent Talks -->
+		<section class="section-home section-home--recent-talks">
+			<!-- Container -->
+			<div class="tt-container">
+				<!-- Section Title -->
+				<div class="section-title section-title--recent-talks"><h2 class="section-title__text section-title__text--recent-talks">Recent Talks</h2></div>				<!-- Talk Excerpts -->
+<div class="talk-excerpts talk-excerpts--double">
+	<!-- Each post in category -->
+	<!-- Talk Excerpts -->
+<div class="talk-excerpts__column talk-excerpts__column--first ">
+	
+<!-- Talk: Ed Helms &amp; Jenny Slate -->
+<div class="talk-excerpt talk-excerpt--past talk-excerpt--home " data-status="past" data-id="4138" data-is-paid="1" itemscope itemtype="http://schema.org/Event">
+
+	<!-- Title -->
+	<h3 class="talk-excerpt__title talk-excerpt__title--home "  itemprop="name">
+			<a href="https://www.timestalks.com/talks/timestalkssundance-ed-helms-and-jenny-slate/" class="talk-excerpt__permalink">Ed Helms &amp; Jenny Slate</a>
+	</h3>
+
+	<!-- Thumbnail -->
+	<div class="talk-excerpt__img-wrap talk-excerpt__img-wrap--home ">
+									<a href="https://www.timestalks.com/talks/timestalkssundance-ed-helms-and-jenny-slate/" class="talk-excerpt__permalink" itemprop="url">
+					<img src="https://www.timestalks.com/wp-content/uploads/sites/4/2019/01/slatehelms.png" alt="Ed Helms &amp; Jenny Slate" class="talk-excerpt__img talk-excerpt__img--home " itemprop="image">
+				</a>
+						</div>
+
+	<!-- Description and Details -->
+	<!-- Description -->
+	<div class="talk-excerpt__description talk-excerpt__description--past talk-excerpt__description--home ">
+
+					<h4 class="talk-excerpt__description-short talk-excerpt__description-short--home " >The comedic actors talk to Carpetbagger Kyle Buchanan			</h4>
+			</div>
+	<!-- /.talk-excerpt__description -->
+
+</div>
+<!-- /.talk-excerpt -->
+</div>
+<!-- /.talk-excerpts__column -->
+	<!-- Talk Excerpts -->
+<div class="talk-excerpts__column talk-excerpts__column--last ">
+	
+<!-- Talk: Chiwetel Ejiofor &amp; Boots Riley -->
+<div class="talk-excerpt talk-excerpt--past talk-excerpt--home " data-status="past" data-id="4128" data-is-paid="1" itemscope itemtype="http://schema.org/Event">
+
+	<!-- Title -->
+	<h3 class="talk-excerpt__title talk-excerpt__title--home "  itemprop="name">
+			<a href="https://www.timestalks.com/talks/timestalkssundance-chiwetel-ejiofor-and-boots-riley/" class="talk-excerpt__permalink">Chiwetel Ejiofor &amp; Boots Riley</a>
+	</h3>
+
+	<!-- Thumbnail -->
+	<div class="talk-excerpt__img-wrap talk-excerpt__img-wrap--home ">
+									<a href="https://www.timestalks.com/talks/timestalkssundance-chiwetel-ejiofor-and-boots-riley/" class="talk-excerpt__permalink" itemprop="url">
+					<img src="https://www.timestalks.com/wp-content/uploads/sites/4/2019/01/Boots.png" alt="Chiwetel Ejiofor &amp; Boots Riley" class="talk-excerpt__img talk-excerpt__img--home " itemprop="image">
+				</a>
+						</div>
+
+	<!-- Description and Details -->
+	<!-- Description -->
+	<div class="talk-excerpt__description talk-excerpt__description--past talk-excerpt__description--home ">
+
+					<h4 class="talk-excerpt__description-short talk-excerpt__description-short--home " >The duo on creativity with Carpetbagger Kyle Buchanan			</h4>
+			</div>
+	<!-- /.talk-excerpt__description -->
+
+</div>
+<!-- /.talk-excerpt -->
+</div>
+<!-- /.talk-excerpts__column -->
+	</div>
+<!-- /.talk-excerpts -->
+
+				<!-- "More..." Link -->
+				<div class="more-in-category more-in-category--recent-talks">
+					<a class="more-in-category__link" href="https://www.timestalks.com/watch-now/">More Recent Talks</a>
+				</div>
+				<!-- /.more-in-category -->
+			</div>
+			<!-- /.tt-container -->
+		</section>
+			
+	<!-- Featured Categories -->
+				<!-- Section: Cultural Arts -->
+		<section class="section-home section-home--cultural-arts">
+			<!-- Container -->
+			<div class="tt-container">
+				<!-- Section Title -->
+				<div class="section-title section-title--cultural-arts"><h2 class="section-title__text section-title__text--cultural-arts">Cultural Arts</h2></div>				<!-- Talk Excerpts -->
+<div class="talk-excerpts talk-excerpts--double">
+	<!-- Each post in category -->
+	<!-- Talk Excerpts -->
+<div class="talk-excerpts__column talk-excerpts__column--first ">
+	
+<!-- Talk: John Krasinski -->
+<div class="talk-excerpt talk-excerpt--past talk-excerpt--home " data-status="past" data-id="3506" data-is-paid="1" itemscope itemtype="http://schema.org/Event">
+
+	<!-- Title -->
+	<h3 class="talk-excerpt__title talk-excerpt__title--home "  itemprop="name">
+			<a href="https://www.timestalks.com/talks/john-krasinski/" class="talk-excerpt__permalink">John Krasinski</a>
+	</h3>
+
+	<!-- Thumbnail -->
+	<div class="talk-excerpt__img-wrap talk-excerpt__img-wrap--home ">
+									<a href="https://www.timestalks.com/talks/john-krasinski/" class="talk-excerpt__permalink" itemprop="url">
+					<img src="https://www.timestalks.com/wp-content/uploads/sites/4/2018/12/john1.jpg" alt="John Krasinski" class="talk-excerpt__img talk-excerpt__img--home " itemprop="image">
+				</a>
+						</div>
+
+	<!-- Description and Details -->
+	<!-- Description -->
+	<div class="talk-excerpt__description talk-excerpt__description--past talk-excerpt__description--home ">
+
+					<h4 class="talk-excerpt__description-short talk-excerpt__description-short--home " >The actor talks "A Quiet Place" with Steven Kurutz			</h4>
+			</div>
+	<!-- /.talk-excerpt__description -->
+
+</div>
+<!-- /.talk-excerpt -->
+</div>
+<!-- /.talk-excerpts__column -->
+	<!-- Talk Excerpts -->
+<div class="talk-excerpts__column talk-excerpts__column--last ">
+	
+<!-- Talk: Steve Carell &amp; Robert Zemeckis -->
+<div class="talk-excerpt talk-excerpt--past talk-excerpt--home " data-status="past" data-id="3331" data-is-paid="1" itemscope itemtype="http://schema.org/Event">
+
+	<!-- Title -->
+	<h3 class="talk-excerpt__title talk-excerpt__title--home "  itemprop="name">
+			<a href="https://www.timestalks.com/talks/steve-carell-and-robert-zemeckis/" class="talk-excerpt__permalink">Steve Carell &amp; Robert Zemeckis</a>
+	</h3>
+
+	<!-- Thumbnail -->
+	<div class="talk-excerpt__img-wrap talk-excerpt__img-wrap--home ">
+									<a href="https://www.timestalks.com/talks/steve-carell-and-robert-zemeckis/" class="talk-excerpt__permalink" itemprop="url">
+					<img src="https://www.timestalks.com/wp-content/uploads/sites/4/2018/11/zemekis1.jpg" alt="Steve Carell &amp; Robert Zemeckis" class="talk-excerpt__img talk-excerpt__img--home " itemprop="image">
+				</a>
+						</div>
+
+	<!-- Description and Details -->
+	<!-- Description -->
+	<div class="talk-excerpt__description talk-excerpt__description--past talk-excerpt__description--home ">
+
+					<h4 class="talk-excerpt__description-short talk-excerpt__description-short--home " >The award-winning creative duo talk "Welcome to Marwen"			</h4>
+			</div>
+	<!-- /.talk-excerpt__description -->
+
+</div>
+<!-- /.talk-excerpt -->
+</div>
+<!-- /.talk-excerpts__column -->
+	</div>
+<!-- /.talk-excerpts -->
+
+				<!-- "More..." Link -->
+				<div class="more-in-category more-in-category--cultural-arts">
+					<a class="more-in-category__link" href="https://www.timestalks.com/watch-now/?category=cultural-arts">More in Cultural Arts</a>
+				</div>
+				<!-- /.more-in-category -->
+			</div>
+			<!-- /.tt-container -->
+		</section>
+						<!-- Section: Current Affairs -->
+		<section class="section-home section-home--current-affairs">
+			<!-- Container -->
+			<div class="tt-container">
+				<!-- Section Title -->
+				<div class="section-title section-title--current-affairs"><h2 class="section-title__text section-title__text--current-affairs">Current Affairs</h2></div>				<!-- Talk Excerpts -->
+<div class="talk-excerpts talk-excerpts--double">
+	<!-- Each post in category -->
+	<!-- Talk Excerpts -->
+<div class="talk-excerpts__column talk-excerpts__column--first ">
+	
+<!-- Talk: The Trump Midterm Maelstrom -->
+<div class="talk-excerpt talk-excerpt--past talk-excerpt--home " data-status="past" data-id="2758" data-is-paid="1" itemscope itemtype="http://schema.org/Event">
+
+	<!-- Title -->
+	<h3 class="talk-excerpt__title talk-excerpt__title--home "  itemprop="name">
+			<a href="https://www.timestalks.com/talks/the-trump-midterm-maelstrom/" class="talk-excerpt__permalink">The Trump Midterm Maelstrom</a>
+	</h3>
+
+	<!-- Thumbnail -->
+	<div class="talk-excerpt__img-wrap talk-excerpt__img-wrap--home ">
+									<a href="https://www.timestalks.com/talks/the-trump-midterm-maelstrom/" class="talk-excerpt__permalink" itemprop="url">
+					<img src="https://www.timestalks.com/wp-content/uploads/sites/4/2018/09/maelstrom1.jpg" alt="The Trump Midterm Maelstrom" class="talk-excerpt__img talk-excerpt__img--home " itemprop="image">
+				</a>
+						</div>
+
+	<!-- Description and Details -->
+	<!-- Description -->
+	<div class="talk-excerpt__description talk-excerpt__description--past talk-excerpt__description--home ">
+
+					<h4 class="talk-excerpt__description-short talk-excerpt__description-short--home " >Times journalists talk about the midterm elections.			</h4>
+			</div>
+	<!-- /.talk-excerpt__description -->
+
+</div>
+<!-- /.talk-excerpt -->
+</div>
+<!-- /.talk-excerpts__column -->
+	<!-- Talk Excerpts -->
+<div class="talk-excerpts__column talk-excerpts__column--last ">
+	
+<!-- Talk: Lynsey Addario -->
+<div class="talk-excerpt talk-excerpt--past talk-excerpt--home " data-status="past" data-id="2645" data-is-paid="1" itemscope itemtype="http://schema.org/Event">
+
+	<!-- Title -->
+	<h3 class="talk-excerpt__title talk-excerpt__title--home "  itemprop="name">
+			<a href="https://www.timestalks.com/talks/lynsey-addario/" class="talk-excerpt__permalink">Lynsey Addario</a>
+	</h3>
+
+	<!-- Thumbnail -->
+	<div class="talk-excerpt__img-wrap talk-excerpt__img-wrap--home ">
+									<a href="https://www.timestalks.com/talks/lynsey-addario/" class="talk-excerpt__permalink" itemprop="url">
+					<img src="https://www.timestalks.com/wp-content/uploads/sites/4/2018/09/addario1.jpg" alt="Lynsey Addario" class="talk-excerpt__img talk-excerpt__img--home " itemprop="image">
+				</a>
+						</div>
+
+	<!-- Description and Details -->
+	<!-- Description -->
+	<div class="talk-excerpt__description talk-excerpt__description--past talk-excerpt__description--home ">
+
+					<h4 class="talk-excerpt__description-short talk-excerpt__description-short--home " >The Pulitzer Prize winner talks to Rukmini Callimachi			</h4>
+			</div>
+	<!-- /.talk-excerpt__description -->
+
+</div>
+<!-- /.talk-excerpt -->
+</div>
+<!-- /.talk-excerpts__column -->
+	</div>
+<!-- /.talk-excerpts -->
+
+				<!-- "More..." Link -->
+				<div class="more-in-category more-in-category--current-affairs">
+					<a class="more-in-category__link" href="https://www.timestalks.com/watch-now/?category=current-affairs">More in Current Affairs</a>
+				</div>
+				<!-- /.more-in-category -->
+			</div>
+			<!-- /.tt-container -->
+		</section>
+						<!-- Section: ScreenTimes -->
+		<section class="section-home section-home--screentimes">
+			<!-- Container -->
+			<div class="tt-container">
+				<!-- Section Title -->
+				<div class="section-title section-title--screentimes"><h2 class="section-title__text section-title__text--screentimes">ScreenTimes</h2></div>				<!-- Talk Excerpts -->
+<div class="talk-excerpts talk-excerpts--double">
+	<!-- Each post in category -->
+	<!-- Talk Excerpts -->
+<div class="talk-excerpts__column talk-excerpts__column--first ">
+	
+<!-- Talk: Felicity Jones, Armie Hammer &amp; Mimi Leder -->
+<div class="talk-excerpt talk-excerpt--past talk-excerpt--home " data-status="past" data-id="3379" data-is-paid="1" itemscope itemtype="http://schema.org/Event">
+
+	<!-- Title -->
+	<h3 class="talk-excerpt__title talk-excerpt__title--home "  itemprop="name">
+			<a href="https://www.timestalks.com/talks/screentimes-on-the-basis-of-sex/" class="talk-excerpt__permalink">Felicity Jones, Armie Hammer &amp; Mimi Leder</a>
+	</h3>
+
+	<!-- Thumbnail -->
+	<div class="talk-excerpt__img-wrap talk-excerpt__img-wrap--home ">
+									<a href="https://www.timestalks.com/talks/screentimes-on-the-basis-of-sex/" class="talk-excerpt__permalink" itemprop="url">
+					<img src="https://www.timestalks.com/wp-content/uploads/sites/4/2018/11/otbos.jpg" alt="Felicity Jones, Armie Hammer &amp; Mimi Leder" class="talk-excerpt__img talk-excerpt__img--home " itemprop="image">
+				</a>
+						</div>
+
+	<!-- Description and Details -->
+	<!-- Description -->
+	<div class="talk-excerpt__description talk-excerpt__description--past talk-excerpt__description--home ">
+
+					<h4 class="talk-excerpt__description-short talk-excerpt__description-short--home " >The trio talks "On The Basis of Sex" with Melena Ryzik			</h4>
+			</div>
+	<!-- /.talk-excerpt__description -->
+
+</div>
+<!-- /.talk-excerpt -->
+</div>
+<!-- /.talk-excerpts__column -->
+	<!-- Talk Excerpts -->
+<div class="talk-excerpts__column talk-excerpts__column--last ">
+	
+<!-- Talk: Lin-Manuel Miranda, Emily Blunt &amp; Rob Marshall -->
+<div class="talk-excerpt talk-excerpt--past talk-excerpt--home " data-status="past" data-id="3362" data-is-paid="1" itemscope itemtype="http://schema.org/Event">
+
+	<!-- Title -->
+	<h3 class="talk-excerpt__title talk-excerpt__title--home "  itemprop="name">
+			<a href="https://www.timestalks.com/talks/screentimes-mary-poppins-returns/" class="talk-excerpt__permalink">Lin-Manuel Miranda, Emily Blunt &amp; Rob Marshall</a>
+	</h3>
+
+	<!-- Thumbnail -->
+	<div class="talk-excerpt__img-wrap talk-excerpt__img-wrap--home ">
+									<a href="https://www.timestalks.com/talks/screentimes-mary-poppins-returns/" class="talk-excerpt__permalink" itemprop="url">
+					<img src="https://www.timestalks.com/wp-content/uploads/sites/4/2018/11/BFA_26181_3219191.jpg" alt="Lin-Manuel Miranda, Emily Blunt &amp; Rob Marshall" class="talk-excerpt__img talk-excerpt__img--home " itemprop="image">
+				</a>
+						</div>
+
+	<!-- Description and Details -->
+	<!-- Description -->
+	<div class="talk-excerpt__description talk-excerpt__description--past talk-excerpt__description--home ">
+
+					<h4 class="talk-excerpt__description-short talk-excerpt__description-short--home " >The creative trio discuss "Mary Poppins Returns"			</h4>
+			</div>
+	<!-- /.talk-excerpt__description -->
+
+</div>
+<!-- /.talk-excerpt -->
+</div>
+<!-- /.talk-excerpts__column -->
+	</div>
+<!-- /.talk-excerpts -->
+
+				<!-- "More..." Link -->
+				<div class="more-in-category more-in-category--screentimes">
+					<a class="more-in-category__link" href="https://www.timestalks.com/watch-now/?category=screentimes">More in ScreenTimes</a>
+				</div>
+				<!-- /.more-in-category -->
+			</div>
+			<!-- /.tt-container -->
+		</section>
+						<!-- Section: Community -->
+		<section class="section-home section-home--community">
+			<!-- Container -->
+			<div class="tt-container">
+				<!-- Section Title -->
+				<div class="section-title section-title--community"><h2 class="section-title__text section-title__text--community">Community</h2></div>				<!-- Talk Excerpts -->
+<div class="talk-excerpts talk-excerpts--double">
+	<!-- Each post in category -->
+	<!-- Talk Excerpts -->
+<div class="talk-excerpts__column talk-excerpts__column--first ">
+	
+<!-- Talk: Jill Soloway &amp; Hannah Gadsby -->
+<div class="talk-excerpt talk-excerpt--past talk-excerpt--home " data-status="past" data-id="2782" data-is-paid="1" itemscope itemtype="http://schema.org/Event">
+
+	<!-- Title -->
+	<h3 class="talk-excerpt__title talk-excerpt__title--home "  itemprop="name">
+			<a href="https://www.timestalks.com/talks/jill-soloway/" class="talk-excerpt__permalink">Jill Soloway &amp; Hannah Gadsby</a>
+	</h3>
+
+	<!-- Thumbnail -->
+	<div class="talk-excerpt__img-wrap talk-excerpt__img-wrap--home ">
+									<a href="https://www.timestalks.com/talks/jill-soloway/" class="talk-excerpt__permalink" itemprop="url">
+					<img src="https://www.timestalks.com/wp-content/uploads/sites/4/2018/09/jill1.jpg" alt="Jill Soloway &amp; Hannah Gadsby" class="talk-excerpt__img talk-excerpt__img--home " itemprop="image">
+				</a>
+						</div>
+
+	<!-- Description and Details -->
+	<!-- Description -->
+	<div class="talk-excerpt__description talk-excerpt__description--past talk-excerpt__description--home ">
+
+					<h4 class="talk-excerpt__description-short talk-excerpt__description-short--home " >The award-winning duo talks to Jessica Bennett			</h4>
+			</div>
+	<!-- /.talk-excerpt__description -->
+
+</div>
+<!-- /.talk-excerpt -->
+</div>
+<!-- /.talk-excerpts__column -->
+	<!-- Talk Excerpts -->
+<div class="talk-excerpts__column talk-excerpts__column--last ">
+	
+<!-- Talk: Nan Goldin and Dr. Andrew Kolodny -->
+<div class="talk-excerpt talk-excerpt--past talk-excerpt--home " data-status="past" data-id="1039" data-is-paid="1" itemscope itemtype="http://schema.org/Event">
+
+	<!-- Title -->
+	<h3 class="talk-excerpt__title talk-excerpt__title--home "  itemprop="name">
+			<a href="https://www.timestalks.com/talks/nan-goldin-and-dr-andrew-kolodny-on-the-opioid-crisis/" class="talk-excerpt__permalink">Nan Goldin and Dr. Andrew Kolodny</a>
+	</h3>
+
+	<!-- Thumbnail -->
+	<div class="talk-excerpt__img-wrap talk-excerpt__img-wrap--home ">
+									<a href="https://www.timestalks.com/talks/nan-goldin-and-dr-andrew-kolodny-on-the-opioid-crisis/" class="talk-excerpt__permalink" itemprop="url">
+					<img src="https://www.timestalks.com/wp-content/uploads/sites/4/2018/04/NanGoldin400x225.jpg" alt="Nan Goldin and Dr. Andrew Kolodny" class="talk-excerpt__img talk-excerpt__img--home " itemprop="image">
+				</a>
+						</div>
+
+	<!-- Description and Details -->
+	<!-- Description -->
+	<div class="talk-excerpt__description talk-excerpt__description--past talk-excerpt__description--home ">
+
+					<h4 class="talk-excerpt__description-short talk-excerpt__description-short--home " >The artist &amp; scientist talk opioids with Katie Benner			</h4>
+			</div>
+	<!-- /.talk-excerpt__description -->
+
+</div>
+<!-- /.talk-excerpt -->
+</div>
+<!-- /.talk-excerpts__column -->
+	</div>
+<!-- /.talk-excerpts -->
+
+				<!-- "More..." Link -->
+				<div class="more-in-category more-in-category--community">
+					<a class="more-in-category__link" href="https://www.timestalks.com/watch-now/?category=community">More in Community</a>
+				</div>
+				<!-- /.more-in-category -->
+			</div>
+			<!-- /.tt-container -->
+		</section>
+			
+	<!-- Newsletter Subscription Form -->
+<div class="component-newsletter-subscription-form component-newsletter-subscription-form--footer ">
+	<div class="tt-container">
+		<!-- Newsletter subscription form -->
+<div class="form-newsletter form-newsletter--footer jshook-newsletter-form ">
+	<!-- Begin MailChimp Signup Form -->
+<div id="mc_embed_signup">
+	<form action="https://timestalks.us4.list-manage.com/subscribe/post?u=10ed9615db1b66974cce5340c&amp;id=be1ce55a34" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-newsletter__form" target="_blank" novalidate>
+		<div id="mc_embed_signup_scroll">
+			<fieldset>
+				<legend class="form-newsletter__title form-newsletter__title--footer ">Know what’s now. Know what’s next.</legend>
+				<p class="form-newsletter__description form-newsletter__description--footer ">Sign up for our newsletter to keep abreast of upcoming TimesTalks guests and programs.</p>
+				<input type="email" value="" name="EMAIL" class="email form-newsletter__input form-newsletter__input--footer " id="mce-EMAIL" placeholder="Enter your email." aria-label="email address" required>
+				<!-- Prevent bot signups -->
+				<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_10ed9615db1b66974cce5340c_be1ce55a34" tabindex="-1" value=""></div>
+				<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button form-newsletter__btn-submit form-newsletter__btn-submit--footer ">
+			</fieldset>
+		</div>
+	</form>
+</div>
+<!--End mc_embed_signup-->
+</div>
+<!-- /form-newsletter -->
+	</div>
+</div>
+<!-- /.tt-container -->
+
+</main>
+			<!-- Site Footer -->
+<footer class="site-footer" role="contentinfo">
+
+	<noscript>
+		<!-- Primary Menu (JS disabled) -->
+		<div class="site-menu site-menu--footer ">
+			<nav class="site-menu__nav " id="site-menu">
+	<!-- Close button section -->
+	<div class="site-menu__section-menu-controls ">
+		<button class="btn btn--close js-btn-close-nav" aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="close-title" viewBox="0 0 35 35" role="img">
+  <title id="close-title">Close</title>
+  <path d="M15.4 17.5L.2 32.7l2.1 2.1 15.2-15.2 15.2 15.2 2.1-2.1-15.2-15.2L34.8 2.3 32.7.2 17.5 15.4 2.3.2.2 2.3l15.2 15.2z"/>
+</svg>
+</button>
+
+	</div>
+
+	<!-- Primary Section: Primary nav -->
+	<div class="site-menu__section-primary site-menu__column site-menu__column--primary site-menu__column--right site-menu__column--nav ">
+		<!-- Primary nav -->
+		<div class="site-menu__section-nav ">
+			<ul class="menu-primary-nav "><li class="menu-primary-nav__item  menu-primary-nav__item--38  menu-primary-nav__item--upcoming-talks  menu-primary-nav__item--first"><a href="https://www.timestalks.com/upcoming/" class="menu-primary-nav__link  menu-primary-nav__link--upcoming-talks">Upcoming Talks</a></li>
+<li class="menu-primary-nav__item  menu-primary-nav__item--36  menu-primary-nav__item--watch-now"><a href="https://www.timestalks.com/watch-now/" class="menu-primary-nav__link  menu-primary-nav__link--watch-now">Watch Now</a></li>
+<li class="menu-primary-nav__item  menu-primary-nav__item--40  menu-primary-nav__item--guests"><a href="https://www.timestalks.com/guests/" class="menu-primary-nav__link  menu-primary-nav__link--guests">Guests</a></li>
+<li class="menu-primary-nav__item  menu-primary-nav__item--42  menu-primary-nav__item--moderators"><a href="https://www.timestalks.com/moderators/" class="menu-primary-nav__link  menu-primary-nav__link--moderators">Moderators</a></li>
+<li class="menu-primary-nav__item  menu-primary-nav__item--44  menu-primary-nav__item--about-us  menu-primary-nav__item--last"><a href="https://www.timestalks.com/about-us/" class="menu-primary-nav__link  menu-primary-nav__link--about-us">About Us</a></li>
+</ul>		</div>
+		<!-- /site-menu__section-nav -->
+	</div>
+	<!-- /site-menu__column -->
+
+	<!-- Secondary Section: Newsletter subscription link, social media menu, sponsors -->
+	<div class="site-menu__section-secondary site-menu__column site-menu__column--left site-menu__column--secondary ">
+
+		<!-- Newsletter Subscription -->
+		<div class="site-menu__section-newsletter site-menu__section--half-height ">
+			<a href="https://www.timestalks.com/newsletter/" class="site-menu__newsletter-subscribe-link ">Sign up for our newsletter</a>
+		</div>
+		<!-- /site-menu__section-email -->
+
+		<!-- Tertiary Section: Social media menu, sponsors -->
+		<div class="site-menu__section-tertiary site-menu__section--half-height ">
+			<!-- Social Media Menu -->
+			<div class="site-menu__section-social ">
+				<ul class="menu-social-media "><li class="menu-social-media__item  menu-social-media__item--12  menu-social-media__item--instagram  menu-social-media__item--first"><a href="https://www.instagram.com/timestalks" class="menu-social-media__link  menu-social-media__link--instagram">Instagram</a></li>
+<li class="menu-social-media__item  menu-social-media__item--13  menu-social-media__item--twitter"><a href="http://twitter.com/timestalks" class="menu-social-media__link  menu-social-media__link--twitter">Twitter</a></li>
+<li class="menu-social-media__item  menu-social-media__item--14  menu-social-media__item--facebook"><a href="http://www.facebook.com/timestalks" class="menu-social-media__link  menu-social-media__link--facebook">Facebook</a></li>
+<li class="menu-social-media__item  menu-social-media__item--15  menu-social-media__item--youtube  menu-social-media__item--last"><a href="http://www.youtube.com/timestalks" class="menu-social-media__link  menu-social-media__link--youtube">YouTube</a></li>
+</ul>			</div>
+
+					</div>
+		<!-- /site-menu__section-tertiary -->
+	</div>
+	<!-- /site-menu__column -->
+</nav>
+		</div>
+		<!-- /site_header__menu -->
+	</noscript>
+
+	<div class="tt-container">
+		<div class="site-footer__inner">
+			<!-- Instagram Callout -->
+			<div class="site-footer__section-instagram">
+	<!-- Instagram Callout -->
+	<div class="instagram-callout">
+			<!-- Error loading Instagram feed -->
+
+		<!-- Text Section -->
+		<div class="instagram-callout__text-section">
+			<p class="instagram-callout__title">Follow TimesTalks on Instagram.</p>
+			<p class="instagram-callout__account"><a class="instagram-callout__account-link" href="https://www.instagram.com/timestalks/">@timestalks</a></p>
+			<!-- Social Media Nav -->
+						<div class="instagram-callout__section-social-nav">
+				<ul class="menu-social-media menu-social-media--footer-instagram"><li class="menu-social-media__item  menu-social-media__item--12  menu-social-media__item--instagram  menu-social-media__item--first"><a href="https://www.instagram.com/timestalks" class="menu-social-media__link  menu-social-media__link--instagram">Instagram</a></li>
+<li class="menu-social-media__item  menu-social-media__item--13  menu-social-media__item--twitter"><a href="http://twitter.com/timestalks" class="menu-social-media__link  menu-social-media__link--twitter">Twitter</a></li>
+<li class="menu-social-media__item  menu-social-media__item--14  menu-social-media__item--facebook"><a href="http://www.facebook.com/timestalks" class="menu-social-media__link  menu-social-media__link--facebook">Facebook</a></li>
+<li class="menu-social-media__item  menu-social-media__item--15  menu-social-media__item--youtube  menu-social-media__item--last"><a href="http://www.youtube.com/timestalks" class="menu-social-media__link  menu-social-media__link--youtube">YouTube</a></li>
+</ul>			</div>
+			<!-- /.site-footer__section-social-nav -->
+		</div>
+		<!-- /.instagram-callout__text-section -->
+
+	</div>
+	<!-- /.instagram-callout -->
+
+</div>
+<!-- /.site-footer__section-instagram -->
+			<!-- Footer nav -->
+			<div class="site-footer__section-nav">
+				<!-- Copyright -->
+								<div class="site-footer__section-copyright site-footer__section-copyright--large">
+					<!-- Copyright -->
+<div class="copyright">
+	<p class="copyright__text">
+		&copy;2019 Copyright The New York Times. All Rights Reserved.	</p>
+</div>
+<!-- /.copyright -->
+				</div>
+				<!-- /.site-footer__section-copyright -->
+
+				<!-- Social Media Nav -->
+								<div class="site-footer__section-social-nav">
+					<ul class="menu-social-media menu-social-media--footer"><li class="menu-social-media__item  menu-social-media__item--12  menu-social-media__item--instagram  menu-social-media__item--first"><a href="https://www.instagram.com/timestalks" class="menu-social-media__link  menu-social-media__link--instagram">Instagram</a></li>
+<li class="menu-social-media__item  menu-social-media__item--13  menu-social-media__item--twitter"><a href="http://twitter.com/timestalks" class="menu-social-media__link  menu-social-media__link--twitter">Twitter</a></li>
+<li class="menu-social-media__item  menu-social-media__item--14  menu-social-media__item--facebook"><a href="http://www.facebook.com/timestalks" class="menu-social-media__link  menu-social-media__link--facebook">Facebook</a></li>
+<li class="menu-social-media__item  menu-social-media__item--15  menu-social-media__item--youtube  menu-social-media__item--last"><a href="http://www.youtube.com/timestalks" class="menu-social-media__link  menu-social-media__link--youtube">YouTube</a></li>
+</ul>				</div>
+				<!-- /.site-footer__section-social-nav -->
+
+				<!-- Secondary Nav Menu -->
+				<div class="site-footer__section-secondary-nav">
+					<ul class="menu-secondary-nav "><li class="menu-secondary-nav__item  menu-secondary-nav__item--26  menu-secondary-nav__item--privacy-policy  menu-secondary-nav__item--first"><a href="https://help.nytimes.com/hc/en-us/articles/115014892108-Privacy-policy" class="menu-secondary-nav__link  menu-secondary-nav__link--privacy-policy">Privacy Policy</a></li>
+<li class="menu-secondary-nav__item  menu-secondary-nav__item--27  menu-secondary-nav__item--contact-the-new-york-times"><a href="https://help.nytimes.com/hc/en-us" class="menu-secondary-nav__link  menu-secondary-nav__link--contact-the-new-york-times">Contact The New York Times</a></li>
+<li class="menu-secondary-nav__item  menu-secondary-nav__item--28  menu-secondary-nav__item--subscribe-to-the-new-york-times"><a href="https://www.nytimes.com/subscription/multiproduct/lp8HYKU.html?campaignId=4HK8F" class="menu-secondary-nav__link  menu-secondary-nav__link--subscribe-to-the-new-york-times">Subscribe to The New York Times</a></li>
+<li class="menu-secondary-nav__item  menu-secondary-nav__item--45  menu-secondary-nav__item--sponsorship  menu-secondary-nav__item--last"><a href="https://www.timestalks.com/sponsorship/" class="menu-secondary-nav__link  menu-secondary-nav__link--sponsorship">Sponsorship</a></li>
+</ul>				</div>
+				<!-- /.site-footer__section-secondary-nav -->
+
+				<!-- NYT Logo -->
+				<div class="site-footer__section-logo">
+					<!-- NYT Logo -->
+<div class="footer-nyt-logo">
+	<p class="footer-nyt-logo__img-wrap"><a class="footer-nyt-logo__link" href="https://www.nytimes.com/" rel="external"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 160 22" style="enable-background:new 0 0 160 22;" xml:space="preserve" aria-labelledby="nyt-logo-title" role="img">
+	<title id="nyt-logo-title">The New York Times</title>
+	<g>
+		<path d="M66.3,7.5L64.5,6l-2,1.8l0.8,0.8v6.7l-2-1.4V8.5L62,8l-2.1-2l-2,1.8l0.8,0.8v6.5l-0.1,0.1l-1.9-1.4V8.5
+			c0-1.2-0.6-1.6-1.4-2.1c-0.7-0.4-1-0.8-1-1.4c0-0.7,0.6-1,0.8-1.1c-0.7,0-2.6,0.7-2.7,2.4c0,0.9,0.4,1.3,0.9,1.7
+			c0.5,0.4,0.9,0.8,0.9,1.6v5.3l-0.9,0.7l0.1,0.1l0.9-0.7l2.3,1.9l2.2-1.5l2.4,1.5l4.7-2.8V8L67,7.2L66.9,7L66.3,7.5z"/>
+		<path d="M46.5,1.5c0-0.3-0.1-0.5-0.2-0.8h-0.1c-0.3,0.8-0.6,1.2-1.5,1.2c-0.8,0-1.4-0.5-1.7-0.8c0,0-2.6,3-2.6,3l0.1,0.1l0.7-0.8
+			c0.6,0.4,1.1,0.9,2.3,0.9v7.5l-5.3-9.2c-0.4-0.7-1.1-1.7-2.3-1.7c-1.4,0-2.5,1.2-2.3,3.3h0.1c0.1-0.5,0.4-1.2,1-1.2
+			c0.5,0,0.9,0.5,1.1,0.9v3c-1.6,0-2.6,0.8-2.6,2c0,0.5,0.4,1.7,1.5,1.9v-0.1c-0.2-0.2-0.3-0.3-0.3-0.6c0-0.5,0.4-0.8,1-0.8
+			c0.1,0,0.3,0,0.3,0v3.8c-1.9,0-3.4,1.1-3.4,2.9c0,1.7,1.5,2.5,3,2.4v-0.1c-1-0.1-1.5-0.6-1.5-1.3c0-0.8,0.6-1.2,1.3-1.2
+			c0.7,0,1.2,0.5,1.7,1l2.6-2.9l-0.1-0.1l-0.7,0.8c-1-0.9-1.6-1.3-2.8-1.5V4.2l7.3,12.7h0.4V4.2C45.2,4.1,46.5,3.1,46.5,1.5z"/>
+		<polygon points="128.8,3.5 127.1,1.7 125.2,3.2 126.9,5.1 	"/>
+		<path d="M12.3,2.3c0-1.8-1.7-2.3-3.1-2.2v0.2c0.8,0.1,1.5,0.4,1.5,1c0,0.4-0.3,0.9-1.1,0.9c-0.7,0-1.8-0.4-2.8-0.7
+			C5.6,1,4.6,0.6,3.7,0.6c-1.8,0-3.1,1.3-3.1,2.9c0,1.3,1,1.8,1.4,1.9l0-0.1C1.7,5.2,1.6,5,1.6,4.5c0-0.5,0.3-1.1,1.2-1.1
+			c0.8,0,1.9,0.4,3.3,0.8c1.2,0.3,2.5,0.7,3.3,0.8v2.9L8,8.9l1.4,1.2V14c-0.7,0.4-1.5,0.5-2.2,0.5c-1.3,0-2.5-0.4-3.5-1.5l3.7-1.8
+			V5.1l-4.5,2C3.3,5.9,4.2,5,5.2,4.4l0-0.1C2.5,5.1,0,7.6,0,10.6C0,14.3,2.9,17,6.3,17c3.7,0,5.8-2.9,5.8-5.9H12
+			c-0.5,1.2-1.4,2.3-2.4,2.8v-3.8L11,8.9L9.6,7.8V4.9C10.9,4.9,12.3,4,12.3,2.3z M2.5,9.4c0-0.6,0.1-1.5,0.3-2.1l1.9-0.8l0,5.9
+			L3.6,13C2.9,12.1,2.5,10.9,2.5,9.4z"/>
+		<path d="M20.9,7.9L18.8,6L16.3,8V0.5l-3.4,2.3c0.4,0.1,0.9,0.3,0.9,1.2v10.3l-1.2,0.9l0.1,0.1l0.6-0.4l2,1.9L18,15l-0.1-0.1
+			l-0.7,0.5l-0.9-0.9V8.2l0.6-0.5L18.4,9v5.4c0,3.4-0.8,4.1-2.3,4.7v0.1c2.6,0.1,4.9-0.8,4.9-5.1V8.1l0.8-0.6l-0.1-0.1L20.9,7.9z"/>
+		<path d="M28,15.1l-2.4-1.9v-1.2l4.1-2.9L27.6,6l-4.5,2.5v5.9l-0.9,0.7l0.1,0.1l0.8-0.7l3.1,2.2l3.9-3.2l-0.1-0.2L28,15.1z
+			M25.6,7.4l2,3.1l-2,1.4V7.4z"/>
+		<path d="M50.7,15.1l-2.4-1.9v-1.2l4.1-2.9L50.3,6l-4.5,2.5v5.9l-0.9,0.7l0.1,0.1l0.8-0.7l3.1,2.2l3.9-3.2l-0.1-0.2L50.7,15.1z
+			M48.3,7.4l2,3.1l-2,1.4V7.4z"/>
+		<path d="M74,15.7c0.8,0,1.7,0.1,2.7,0.4c1.1,0.2,1.9,0.6,2.8,0.6c1.3,0,2.4-0.5,2.4-2.4V2.9l1-0.9l-0.1-0.1l-0.9,0.8l-2-1.8
+			l-2.7,2.2V1.1h-0.2v14.8c-0.3,0-0.9-0.2-1.6-0.3V3.2C75.3,2.3,74.6,1,73,1c-1.7,0-2.6,1.4-2.6,2.5h0.1c0.1-0.5,0.5-1,1-1
+			c0.6,0,1,0.3,1,1.6v3.5c-1.5,0.1-2.5,1-2.5,2c0,0.6,0.4,1.7,1.5,1.7v-0.1c-0.4-0.2-0.5-0.4-0.5-0.6c0-0.5,0.5-0.7,1.2-0.7h0.2v5.7
+			c-1.3,0.5-1.9,1.3-1.9,2.4c0,1.5,1.2,2.7,3,2.7c1.2,0,2.1-0.2,3.3-0.5c0.9-0.2,1.9-0.4,2.5-0.4c0.7,0,1,0.3,1,0.8
+			c0,0.6-0.2,0.9-0.6,1.1v0.1c1.5-0.3,2.3-1.1,2.3-2.5c0-1.4-1.3-2.2-2.8-2.2c-0.8,0-2.1,0.2-3.3,0.5c-1.2,0.3-2.3,0.4-2.7,0.4
+			c-0.6,0-1.4-0.3-1.4-1.1C71.8,16.3,72.5,15.7,74,15.7z M77.1,3.4l0.6-0.5L79,4v3.9c-0.2,0.3-0.5,0.5-1,0.5c-0.5,0-0.8-0.3-1-0.5
+			V3.4z M77.1,8.1c0.2,0.2,0.5,0.4,1,0.4s0.8-0.2,1-0.4V10c-0.2-0.2-0.5-0.4-1-0.4s-0.8,0.2-1,0.4V8.1z M77.1,10.2
+			c0.2-0.2,0.5-0.5,1-0.5c0.5,0,0.7,0.2,1,0.5v4.2c0,0.7-0.4,1.6-1.3,1.6c-0.2,0-0.5,0-0.6,0V10.2z"/>
+		<polygon points="129.3,15.4 128.4,14.4 128.4,8.1 129.2,7.5 129.1,7.4 128.4,7.9 126.8,6 124.3,7.8 124.3,8 125,7.6 125.9,8.6
+			125.9,14.4 124.7,15.3 124.8,15.4 125.4,15 127.4,16.8 130.1,15 130,14.9 	"/>
+		<path d="M150,15.1l-2.4-1.9v-1.2l4.1-2.9L149.7,6l-4.5,2.5v6.1l3.1,2.3l3.9-3.2l-0.1-0.2L150,15.1z M147.7,7.4l2,3.1l-2,1.4V7.4z"
+			/>
+		<path d="M158.3,9.7c1.2-1,1.6-2.3,1.6-3.2c0-0.1,0-0.4,0-0.6h-0.1c-0.2,0.5-0.6,0.9-1.3,0.9c-0.7,0-1.1-0.4-1.5-0.9l-4,2.2v3.3
+			l1.5,1.2c-1.5,1.4-1.8,2.2-1.8,3c0,0.8,0.5,1.5,1.2,1.8l0.1-0.1c-0.2-0.2-0.4-0.3-0.4-0.7c0-0.3,0.3-0.8,1-0.8
+			c0.9,0,1.4,0.6,1.7,0.9c0,0,3.8-2.3,3.8-2.3V11L158.3,9.7z M157.4,15.5c-0.5-1-1.4-1.7-2.5-1.7c-0.3,0-1.1,0-1.7,0.4
+			c0.4-0.7,1.6-1.9,3.2-2.9l1.1,0.9V15.5z M156.4,11.1l-1-0.8V7.1c0.4,0.9,1.2,1.6,2.2,1.6c0.6,0,1-0.1,1.5-0.3
+			C158.5,9.4,157.2,10.5,156.4,11.1z"/>
+		<path d="M121.7,13.9v-3.8l1.4-1.2l-1.4-1.2V4.9c1.3,0,2.7-0.9,2.7-2.6c0-1.8-1.7-2.3-3.1-2.2v0.2c0.8,0.1,1.5,0.4,1.5,1
+			c0,0.4-0.3,0.9-1.1,0.9c-0.7,0-1.8-0.4-2.8-0.7c-1.1-0.4-2.2-0.8-3.1-0.8c-1.8,0-3.1,1.3-3.1,2.9c0,1.3,1,1.8,1.4,1.9l0-0.1
+			c-0.3-0.2-0.4-0.4-0.4-0.9c0-0.5,0.3-1.1,1.2-1.1c0.8,0,1.9,0.4,3.3,0.8c1.2,0.3,2.5,0.7,3.3,0.8v2.9l-1.4,1.1l1.4,1.2V14
+			c-0.7,0.4-1.5,0.5-2.2,0.5c-1.3,0-2.5-0.4-3.5-1.5l3.7-1.8V5.1l-4.5,2c0.5-1.2,1.4-2.1,2.3-2.7l0-0.1c-2.7,0.7-5.1,3.2-5.1,6.3
+			c0,3.7,2.9,6.4,6.3,6.4c3.7,0,5.8-2.9,5.8-5.9h-0.1C123.6,12.3,122.7,13.4,121.7,13.9z M114.6,9.4c0-0.6,0.1-1.5,0.3-2.1l1.9-0.8
+			l0,5.9l-1.1,0.5C115,12.1,114.6,10.9,114.6,9.4z"/>
+		<polygon points="143.9,15.2 142.9,14.3 142.9,8.1 143.7,7.5 143.6,7.4 142.9,7.9 140.7,6 138.3,7.9 136.2,6 133.8,7.9 132.2,6
+			129.6,7.8 129.7,8 130.3,7.6 131.2,8.6 131.2,14.4 130.5,15.1 132.6,16.8 134.6,15 133.8,14.3 133.8,8.1 134.3,7.7 135.8,9
+			135.8,14.4 135.1,15.1 137.2,16.8 139.2,15 138.3,14.3 138.3,8.1 138.9,7.7 140.4,9 140.4,14.3 139.8,14.9 141.9,16.8 144.7,14.9
+			144.6,14.8 	"/>
+		<path d="M109.1,15.2l-4.5-6.8l0.2-0.3c0.5,0.3,0.9,0.7,1.9,0.7c0.9,0,2.2-1,2.3-2.8c-0.2,0.3-0.7,0.7-1.5,0.7
+			c-0.6,0-1.1-0.4-1.5-0.7l-3.1,4.6l4.1,6.3l3-2l-0.1-0.2L109.1,15.2z"/>
+		<path d="M97.5,8.9c1.1,0,1.9-1.3,2-2.7c-0.3,0.2-0.6,0.4-1,0.4c-0.3,0-0.8-0.2-1-0.5c0,0-1.6,1.8-1.6,1.8L94.3,6l-2.7,1.9L91.7,8
+			l0.7-0.5l1,1.1v5.8l-1.2,0.9l0.1,0.1l0.6-0.4l2.2,1.9l2.8-1.8l-0.1-0.1L97,15.3l-1.1-1V7.9C96.4,8.4,96.9,8.9,97.5,8.9z"/>
+		<path d="M83.9,8.5v5.9L83,15.1l0.1,0.1l0.7-0.6l2.9,2.1l4.4-2.7v-6L88.3,6L83.9,8.5z M88.6,15.4l-2.2-1.6V7.3L88.6,9V15.4z"/>
+		<path d="M103.7,15.4l-0.9-0.9V0.5l-3.4,2.3c0.4,0.1,0.9,0.3,0.9,1.2v10.3L99,15.3l0.1,0.1l0.6-0.4l2,1.9l2.7-1.8l-0.1-0.1
+			L103.7,15.4z"/>
+	</g>
+</svg>
+</a></p>
+</div>
+<!-- /.nyt-logo-area -->
+				</div>
+				<!-- /.site-footer__section-logo -->
+			</div>
+			<!-- /.site-footer__section-nav -->
+
+			<!-- Legal -->
+			<div class="site-footer__section-legal">
+				<!-- Legal -->
+<div class="legal">
+	<p class="legal__text">No refunds on purchased tickets. Service fees and sales tax may apply. Seating is limited and on a first-come-first-served basis. Programs and speakers are subject to change. You may opt out of the TimesTalks newsletter at any time.</p>
+</div>
+<!-- /.nyt-logo-area -->
+			</div>
+			<!-- /.site-footer__section-legal -->
+
+			<!-- Copyright -->
+						<div class="site-footer__section-copyright site-footer__section-copyright--small">
+				<!-- Copyright -->
+<div class="copyright">
+	<p class="copyright__text">
+		&copy;2019 Copyright The New York Times. All Rights Reserved.	</p>
+</div>
+<!-- /.copyright -->
+			</div>
+			<!-- /.site-footer__section-copyright -->
+		</div>
+		<!-- /.site-footer__inner -->
+	</div>
+	<!-- /.tt-container -->
+
+</footer>
+<!-- /.site-footer -->
+
+		</div>
+		<!-- /.site-wrapper -->
+
+		<div class="newsletter-success js-hidden">
+	<div class="tt-container">
+		<div class="newsletter-success__inner ">
+			<div class="newsletter-success__title ">Thanks for your interest!</div>
+			<div class="newsletter-success__description ">We&rsquo;ll keep you updated</div>
+		</div>
+		<!-- /newsletter-success__inner -->
+	</div>
+	<!-- /tt-container -->
+</div>
+<!-- /newsletter-success -->
+
+
+		<div class="tt-modal tt-modal--newsletter js-hidden " tabindex="-1" role="dialog" id="newsletter-modal">
+	<div class="tt-modal__dialog " role="document">
+		<div class="tt-modal__content">
+			<header class="tt-modal__header">
+				<button type="button" class="tt-modal__close-btn tt-modal__close-btn--newsletter " data-dismiss="modal" aria-label="Close" aria-controls="newsletter-modal" aria-expanded="false">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</header>
+			<section class="tt-modal__body tt-modal__body--newsletter ">
+				<!-- Newsletter subscription form -->
+<div class="form-newsletter form-newsletter--default jshook-newsletter-form ">
+	<!-- Begin MailChimp Signup Form -->
+<div id="mc_embed_signup">
+	<form action="https://timestalks.us4.list-manage.com/subscribe/post?u=10ed9615db1b66974cce5340c&amp;id=be1ce55a34" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-newsletter__form" target="_blank" novalidate>
+		<div id="mc_embed_signup_scroll">
+			<fieldset>
+				<legend class="form-newsletter__title form-newsletter__title--default ">Know what’s now. Know what’s next.</legend>
+				<p class="form-newsletter__description form-newsletter__description--default ">Sign up for our newsletter to keep abreast of upcoming TimesTalks guests and programs.</p>
+				<input type="email" value="" name="EMAIL" class="email form-newsletter__input form-newsletter__input--default " id="mce-EMAIL" placeholder="Enter your email." aria-label="email address" required>
+				<!-- Prevent bot signups -->
+				<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_10ed9615db1b66974cce5340c_be1ce55a34" tabindex="-1" value=""></div>
+				<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button form-newsletter__btn-submit form-newsletter__btn-submit--default ">
+			</fieldset>
+		</div>
+	</form>
+</div>
+<!--End mc_embed_signup-->
+</div>
+<!-- /form-newsletter -->
+			</section>
+		</div>
+		<!-- /tt-modal__content -->
+	</div>
+	<!-- /tt-modal__dialog -->
+</div>
+<!-- /tt-modal -->
+<div class="tt-modal-backdrop js-hidden"></div>
+
+		<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MRJQKS6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+		<script src="https://www.timestalks.com/wp-includes/js/underscore.min.js"></script>
+<script src="https://www.timestalks.com/wp-content/themes/discourse/assets/js/app.min.js"></script>
+	</body>
+</html>

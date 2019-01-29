@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Button</title>
+    <meta http-equiv="Content-Language" content="en" />
+    <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="shortcut icon" href="/vi-assets/static-assets/favicon-4bf96cb6a1093748bf5b3c429accb9b4.ico" />
+<link rel="apple-touch-icon" href="/vi-assets/static-assets/apple-touch-icon-319373aaf4524d94d38aa599c56b8655.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144×144" href="/vi-assets/static-assets/ios-ipad-144x144-319373aaf4524d94d38aa599c56b8655.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114×114" href="/vi-assets/static-assets/ios-iphone-114x144-61d373c43aa8365d3940c5f1135f4597.png" />
+<link rel="apple-touch-icon-precomposed" href="/vi-assets/static-assets/ios-default-homescreen-57x57-7cccbfb151c7db793e92ea58c30b9e72.png" />
+<meta property="fb:app_id" content="9869919170" />
+<meta name="twitter:site" value="@nytimes" />
+    <link id="legacy-zam5nzz" rel="stylesheet" type="text/css" href="https://typeface.nyt.com/css/zam5nzz.css" media="all" />
+    <link rel="stylesheet" href="/vi-assets/static-assets/global-a2de946a9a0e78407da4b3405271f391.css" />
+    <style>
+      .button {
+        background-color: #fff;
+        border: 1px solid #e2e2e2;
+        border-radius: 3px;
+        color: #333;
+        cursor: pointer;
+        display: inline-block;
+        font-family: 'nyt-franklin',arial,helvetica,sans-serif;
+        font-size: 11px;
+        font-size: 0.6875rem;
+        font-weight: 500;
+        line-height: 13px;
+        line-height: 0.8125rem;
+        margin: 0;
+        padding: 7px 9px;
+        text-transform: uppercase;
+        transition: background-color .3s;
+      }
+
+      .button:active,
+      .button:hover,
+      .button.active {
+        background-color: #f7f7f5;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="/newsletters/signup/CT" target="_blank">
+      <button class="button">SIGN UP</button>
+    </a>
+  </body>
+</html>

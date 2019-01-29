@@ -1,0 +1,81 @@
+/* css for top section .. intro */ 
+
+
+section#accessdevice{
+  padding: 40px 0 0;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+section#accessdevice .content{
+    padding: 0 15px 40px;
+    max-width: 650px;
+}
+
+section#accessdevice .content h3 {
+    font-family: "nyt-franklin", helvetica,arial,sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1.25;
+	text-align: center;
+	color: #252527;
+    display: block;
+    margin: 15px auto 0;
+    max-width: 354px;
+}
+
+section#accessdevice .content p{
+    font-family: "nyt-franklin", helvetica,arial,sans-serif;
+	font-size: 14px;
+    vertical-align: text-top;
+}
+
+section#accessdevice ul.devices{
+    margin: 0 auto;
+    padding: 0;
+    max-width: 500px;
+}
+
+section#accessdevice ul.devices li{
+    display: inline-block;
+    margin: 0;
+    -moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+    padding: 0 6px 0 0;
+    vertical-align: top;
+    width: auto;
+}
+
+section#accessdevice ul.devices li i{
+    width: 100%;
+    vertical-align: bottom;
+    height: auto;
+    display: block;
+    min-height: 48px;
+    position: relative;
+    margin: 0 0 13px;
+}
+
+section#accessdevice ul.devices li i img{
+    vertical-align: baseline;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+section#accessdevice ul.devices li:last-of-type{
+    padding: 0;
+}
+
+@media(max-width: 767px){
+
+   section#accessdevice .content h3 {
+        font-size: 18px;
+        line-height: 1.22;
+    }
+    
+}
+

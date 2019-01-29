@@ -1,0 +1,555 @@
+/* custom css for NYT Cooking LP > Ever */ 
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+html {
+  font-family: "nyt-franklin", helvetica,arial,sans-serif;
+  height: 100%;
+  min-height: 100%;
+  -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
+}
+
+body{
+    margin: 0;
+    font-family: "nyt-franklin","Helvetica Neue",Arial,sans-serif;
+    background: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100%;
+    min-height: 100%;
+    
+}
+/* End of reset body */
+h1, h2, h3, h4, h5, h6, p, img, ul, ol, figure{
+    margin: 0;
+}
+
+a{
+    outline: none;
+    border: none;   
+}
+
+button{
+    border: none;
+    background: transparent;
+    padding: 0;
+}
+
+img{
+    vertical-align: bottom;
+    border: none;
+    /* outline: none; */
+}
+.clear{clear: both;}
+.together{/* words stay together to avoid orphan */
+    display: inline-block;
+}
+
+
+/*  Section styles */
+
+section{
+    display: block;
+    overflow: hidden;
+    height: auto;
+    width: 100%;
+    box-sizing: padding-box;
+    box-sizing: border-box;
+    padding: 75px;
+    background: transparent;
+    
+}
+
+/* wraps the content in the section center */
+.container{
+    max-width:1024px;
+    margin: 0 auto;
+    height: auto;
+    display: table;
+    width: 100%;
+}
+/* End of container */
+
+section {
+    position: relative;
+    /*padding: 40px 30px 30px 30px;*/
+    padding:0;
+}
+/* End of generic section */
+
+/* Mobile top nav start */
+.mobile-top-navbar{
+    display: none;
+    padding: 20px;
+    box-sizing: border-box;
+    height: auto;
+}
+.mobile-nyt-logo{
+    float: left;
+}
+.mobile-subscribe{
+    float: right;
+}
+.nyt-logo img{
+    max-width: 130px;
+}
+.cooking-logo img{
+    max-width: 210px;
+}
+/* End of mobile top nav */
+
+section#intro.loaded {
+    background-image: url(../images/background.png);
+    background-position: center;
+    background-size: cover;
+}
+/* End of header intro loaded */
+
+section#intro {
+    background: url(../images/background.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    height: 100%;
+    min-height: 501px;
+}
+/* End of top header intro  */
+
+section#intro .content {
+    position: absolute;
+    top:15px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+/* End of top header intro */
+
+img#cooking_intro_bg {
+    display:none;
+}
+
+.cooking-logo{
+    margin-top: 10px;
+}
+.cooking-header-title{
+    font-family: "nyt-cheltenham";
+    font-size: 44px;
+    color: #252527;
+    font-weight: 300;
+    margin: 15px 0;
+}
+/* End of cooking header title */
+
+.offer-price {
+    font-size: 24px;
+    color: #E33D26;
+    font-weight: 500;
+    max-width: 360px;
+    margin: 0 auto;
+}
+/* End of offer price */
+
+.subscribe-button{
+    margin: 30px 0 20px 0;
+}
+.subscribe-now{   
+    background: #E33D26;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding:12px 30px;
+    text-align: center;
+    text-transform: uppercase;    
+    border-radius: 3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    text-decoration: none;
+}
+.subscribe-now-mobile{   
+    background: #E33D26;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 7px 20px;
+    text-align: center;
+    text-transform: uppercase;    
+    border-radius: 3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    text-decoration: none;
+}
+/* End of subscribe now button */
+
+a.down_arrow {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    background: url(https://static01.nyt.com/subscriptions/Multiproduct/assets_pa2017/images/down-arrow.svg) no-repeat;
+    background-position: center;
+    background-size: 40px;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 27px;
+    margin: 0 auto;
+    -webkit-animation: bounce 2s infinite ease-in-out;
+    -moz-animation: bounce 2s infinite ease-in-out;
+    animation: bounce 2s infinite ease-in-out;
+    cursor: pointer;
+}
+
+a.down_arrow{
+    -webkit-animation: bounce 2s infinite ease-in-out;
+    cursor: pointer;
+}
+/* End of down arrow */
+
+@-webkit-keyframes bounce {
+	0%, 20%, 60%, 100%  { -webkit-transform: translateY(0); }
+    40%  { -webkit-transform: translateY(-10px); }
+	80% { -webkit-transform: translateY(-5px); }
+}
+/* End of bounce animation */
+
+.top-header{
+   width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.top-header img{
+    max-width: 100%;
+}
+/* End of top header */
+
+.recipe{
+    padding: 80px 0 0 0;
+    box-shadow: 4px 4px 4px #ccc;
+}
+.number:hover{
+    opacity:1 !important;
+}
+.number{
+    cursor:default;
+    max-width: 34px;
+}
+.expert-cooks-content h3,.recipe-guide-video h3,.recipe-box h3{
+    font-size: 27px;
+    font-weight: 300;
+    margin: 20px 0;
+    font-family: "nyt-cheltenham", serif;
+}
+.recipe-box-content h3{
+    max-width: 290px;
+    width: 100%;
+}
+.expert-cooks-content p,.recipe-guide-video p,.recipe-box p {
+    font-size: 17px;
+    font-weight: 300;
+    margin: 20px 0;
+    font-family: "nyt-franklin","Helvetica Neue",Arial,sans-serif;
+    color: #666;
+}
+.expert-cooks,.recipe-guide-video,.recipe-box{
+    max-width: 33.333%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+.recipe-img img{  
+    height: 212px;
+}
+.number{
+    max-width:100%;
+}
+.number img{
+    max-width: 34px;
+}
+.recipe-img{
+    margin-bottom: 20px;
+    max-width: 100%;
+    height: 185px;
+}
+img#cookingGuide{
+    min-height: 185px;
+}
+
+.expert-cooks img:hover, .recipe-guide-video img:hover, .recipe-box img:hover{
+    opacity: 0.8;
+}
+.recipe-guide-video img:hover{
+    cursor: pointer;
+}
+/*end of recipe guide video */
+
+.recipe-box{
+    float: left;
+}
+/* end of recipe box */
+.recipe-guide-title{   
+    padding-top: 0;
+}
+
+/* ############# Modal window start here ################### */
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.3); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: transparent;
+    margin: 0 auto;
+    max-width: 70%;
+    left: 15%;
+    top: 10%;
+    margin-left: 0;
+    margin-top: 0;
+    position: absolute;    
+}
+.modal-video-container{
+    
+}
+.cooking-guide-video{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+/* The Close Button */
+.close {
+    color: #000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* End of modal*/
+
+/* see more features */
+.see-more{
+    background: #F2F3EF;
+    height: 0;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0;
+}
+.see-more a{
+    color: #E33D26;
+    font-size: 22px;
+    text-decoration: none;
+    border-bottom: 1px solid #E33D26;
+}
+
+/* End of see more features */
+
+.subscribe-cooking-header{
+    margin: 50px auto;
+    font-size: 26px;
+    font-weight: 300;
+}
+.subscribe-nyt-cooking{
+    text-align: center;
+}
+.subscribe-nyt-cooking div.bundle{
+    width: 50%;
+    float: left;
+}
+.subscribe-cooking-bundle,.bundle-content{
+   max-width: 620px;
+    margin: 0 auto;
+}
+/* End of generic cooking bundle */
+
+.subscribe-nyt-cooking a.button{
+    background: #fff;
+    border: 1px solid #E33D26;    
+    padding: 7px 60px;
+    max-width: 200px;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+}
+
+a.button.first{
+    background:#E33D26;   
+}
+a.button.first{
+    background:#E33D26;
+    color: #fff;
+}
+a.button{
+    color: #E33D26;
+    text-decoration: none
+}
+a.button.last{
+    padding: 7px 65px;    
+}
+/* End of CTA button  */
+
+.bundle h3{
+    margin: 15px 0;
+    font-size: 26px;
+    color: #2C2C2C;
+}
+.bundle-price{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.billed-as{
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.bundle-content{
+    margin: 50px auto 120px auto;
+    max-width: 470px;
+}
+.bundle-content p{        
+    font-family: "nyt-franklin","Helvetica Neue",Arial,sans-serif;
+    color: #E33D26;
+    line-height: 1.2em;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 15px 0;
+}
+/* End of bundle content */
+
+.footer_links a{
+    text-decoration: none;
+}
+
+/* Apple pay */
+
+.bundle .applePayBtn{
+    max-width: 200px;
+    width: 100%;
+    background: #000;
+    color: #fff;
+}
+
+.bundle .apple-pay-button-with-text.apple-pay-button-white-with-text > .logo{
+    background: #000;
+}
+
+.bundle .apple_pay_holder p{
+    color: #000;
+    margin: 0 auto 10px;
+    max-width:  250px;
+    width: 100%;
+    text-align: center;
+}
+
+.bundle .apple_pay_holder p a{
+    color: #000;
+}
+
+
+.faq-section{
+    background-color:#EFEFEF;
+    padding: 82px 40px;
+    height: auto;
+    width: 100%;
+}
+
+.faq-section h2{
+    font-family: "nyt-franklin","Helvetica Neue",Arial,sans-serif;
+    color: #000;
+    line-height: 1.2em;
+    font-size: 26px;
+    font-weight: 200;
+    margin:  0 0 35px;
+}
+
+
+.faq-section .question{
+    font-family: "nyt-franklin","Helvetica Neue",Arial,sans-serif;
+    color: #E33D26;
+    line-height: 1.2em;
+    font-size: 16px;
+    font-weight: 700;
+    margin:  0 0 16px;
+    cursor: pointer;
+    padding: 0 0 0 20px;
+    position: relative;
+}
+
+.faq-section .question:before{
+    width: 20px;
+    height: auto;
+    content: "+";
+    font-family: "nyt-franklin","Helvetica Neue",Arial,sans-serif;
+    color: #E33D26;
+    line-height: 1.2em;
+    font-size: 16px;
+    font-weight: 700;
+    margin:  0 0 16px;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.faq-section .question.expanded:before{
+    content: "-";
+}
+
+.faq-section .answer{
+    font-family: "nyt-franklin","Helvetica Neue",Arial,sans-serif;
+    color: #000;
+    line-height: 1.2em;
+    font-size: 16px;
+    font-weight: 400;
+    margin:  0 0 32px;
+    padding: 0 100px;
+    display: none;
+}
+
+.faq-section .answer a{
+    color: #000;
+}
+
+.disclaimer{
+    width: 100%;
+    padding: 45px 0 0;
+    margin: 0 auto;
+}
+
+.disclaimer p{
+    color: rgb(74, 74, 74);
+    font-size: 12px;
+    line-height: 14px;
+    font-family: "nyt-franklin","Helvetica Neue",Arial,sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 200;
+    margin: 0;
+    text-align: center;
+}

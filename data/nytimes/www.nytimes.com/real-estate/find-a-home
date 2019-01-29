@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<!--[if (gt IE 9)|!(IE)]> <!--> <html lang="en" class="no-js edition-domestic"  itemscope xmlns:og="http://opengraphprotocol.org/schema/"> <!--<![endif]-->
+<!--[if IE 9]> <html lang="en" class="no-js ie9 lt-ie10 edition-domestic" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<!--[if IE 8]> <html lang="en" class="no-js ie8 lt-ie10 lt-ie9 edition-domestic" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<!--[if (lt IE 8)]> <html lang="en" class="no-js lt-ie10 lt-ie9 lt-ie8 edition-domestic" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<head>
+    <title>Find a Home - NYTimes.com</title>
+
+    
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="shortcut icon" href="https://static01.nyt.com/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="144×144" href="https://static01.nyt.com/images/icons/ios-ipad-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114×114" href="https://static01.nyt.com/images/icons/ios-iphone-114x144.png" />
+<link rel="apple-touch-icon-precomposed" href="https://static01.nyt.com/images/icons/ios-default-homescreen-57x57.png" />
+<meta name="sourceApp" content="nyt-v5" />
+<meta id="applicationName" name="applicationName" content="realestate" />
+<meta id="foundation-build-id" name="foundation-build-id" content="" />
+<link rel="alternate" href="https://m.realestatelistings.nytimes.com" media="only screen and (max-width: 759px)" />
+<meta name="description" content="Find thousands of homes for sale or rent with New York Times Real Estate, on the web and on the go. Find the latest open houses, price reductions and homes new to the market with guidance from experts who live here too." />
+<meta property="fb:app_id" content="9869919170" />
+<meta property="og:url" content="https://www.nytimes.com/real-estate/find-a-home" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="New York Times Real Estate: To Rent. To Buy. To Love." />
+<meta property="og:description" content="Find thousands of homes for sale or rent with New York Times Real Estate, on the web and on the go. Find the latest open houses, price reductions and homes new to the market with guidance from experts who live here too." />
+<meta property="og:image" content="https://static01.nyt.com/images/icons/t_logo_291_black.png" />
+<meta property="og:site_name" content="NYT Real Estate" />
+<meta property="twitter:card" value="summary" />
+<meta property="twitter:site" value="@nytrealestate" />
+<meta property="twitter:url" content="https://www.nytimes.com/real-estate/find-a-home" />
+<meta property="twitter:title" content="New York Times Real Estate: To Rent. To Buy. To Love." />
+<meta property="twitter:description" content="Find thousands of homes for sale or rent with New York Times Real Estate, on the web and on the go. Find the latest open houses, price reductions and homes new to the market with guidance from experts who live here too." />
+<meta property="twitter:image" content="https://static01.nyt.com/images/icons/t_logo_291_black.png" />
+<meta name="dfp-ad-unit-path" content="realestate/findahome/sectionfront" />
+<meta name="CG" content="realestate" />
+    
+            <link id="legacy-zam5nzz" rel="stylesheet" type="text/css" href="https://typeface.nyt.com/css/zam5nzz.css" media="all" />
+<!--[if (gt IE 9)|!(IE)]> <!-->
+<link rel="stylesheet" type="text/css" media="screen" href="https://g1.nyt.com/assets/realestate/20190111-213308/css/realestate/styles.css" />
+<!--<![endif]-->
+<!--[if lte IE 9]>
+<link rel="stylesheet" type="text/css" media="screen" href="https://g1.nyt.com/assets/realestate/20190111-213308/css/realestate/styles-ie.css" />
+<![endif]-->
+<link rel="stylesheet" type="text/css" media="print" href="https://g1.nyt.com/assets/realestate/20190111-213308/css/realestate/styles-print.css">
+                <script type="text/javascript">var googletag=googletag||{};googletag.cmd=googletag.cmd||[],function(){var t=document.createElement("script");t.async=!0,t.type="text/javascript";var e="https:"==document.location.protocol;t.src=(e?"https:":"http:")+"//www.googletagservices.com/tag/js/gpt.js";var o=document.getElementsByTagName("script")[0];o.parentNode.insertBefore(t,o)}();</script>
+
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700' rel='stylesheet' type='text/css'>
+<!--  begin abra  -->
+<!--esi
+<esi:include src="http://wp-aballoc-service/v9/document-setup.html-esi?apps=www-realestate+ecomm-fe&amp;etUrl=prd" />
+-->
+<!--  end abra  -->
+
+<!--esi
+<script id="user-info-data" type="application/json">
+<esi:include src="/svc/web-products/userinfo-v3.json" />
+</script>
+-->
+<script id="magnum-feature-flags" type="application/json">["newMasthead","floatingMap","listingPriceMapMarkers","listingContentFilter","newListingAPI","alternateMapResize","publicTransportFilter","dfpAds","foursquareMaxiMap","personalization","shareSavedSearch","showStJohnAds","allowAnonAgentContact","highendAds","trackListingImpressions","mapPolygonSearch","mapNeighborhoodBoundaries","nearbySchoolsModule","showTooltips","agentSearch","NYTExperiment","recaptchaAgentForm","salesActivity","mortgageCalculator","newMobileReleased","piiBlockDFP","headerScrolling","slideShowAds","advancedFilterSets","recentSales","foursquareUpdate","indexAsHeaderBidder","caslOpt","jkiddScript","reGdpr"]</script>
+<script>
+var require = {
+    baseUrl: 'https://g1.nyt.com/assets/',
+    waitSeconds: 20,
+    paths: {
+        'foundation': 'realestate/20190111-213308/js/foundation',
+        'shared': 'realestate/20190111-213308/js/shared',
+        'realestate': 'realestate/20190111-213308/js/realestate',
+        'application': 'realestate/20190111-213308/js/realestate/',
+        'videoFactory': 'https://static01.nyt.com/js2/build/video/2.0/videofactoryrequire',
+        'videoPlaylist': 'https://static01.nyt.com/js2/build/video/players/extended/2.0/appRequire',
+        'auth/mtr': 'https://static01.nyt.com/js/mtr',
+        'auth/growl': 'https://static01.nyt.com/js/auth/growl/default',
+        'vhs': 'https://static01.nyt.com/video/vhs/build/vhs-2.x.min',
+        'vhs3': 'https://static01.nyt.com/video-static/vhs3/vhs.min'
+    }
+};
+</script>
+<!--[if (gte IE 9)|!(IE)]> <!-->
+<script data-main="foundation/main" src="https://g1.nyt.com/assets/realestate/20190111-213308/js/foundation/lib/framework.js"></script>
+<!--<![endif]-->
+<!--[if lt IE 9]>
+<script>
+    require.map = { '*': { 'foundation/main': 'foundation/legacy_main' } };
+</script>
+<script data-main="foundation/legacy_main" src="https://g1.nyt.com/assets/realestate/20190111-213308/js/foundation/lib/framework.js"></script>
+<![endif]-->
+</head>
+<body>
+    
+    <style>
+    .lt-ie10 .messenger.suggestions {
+        display: block !important;
+        height: 50px;
+    }
+
+    .lt-ie10 .messenger.suggestions .message-bed {
+        background-color: #f8e9d2;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .lt-ie10 .messenger.suggestions .message-container {
+        padding: 11px 18px 11px 30px;
+    }
+
+    .lt-ie10 .messenger.suggestions .action-link {
+        font-family: "nyt-franklin", arial, helvetica, sans-serif;
+        font-size: 10px;
+        font-weight: bold;
+        color: #a81817;
+        text-transform: uppercase;
+    }
+
+    .lt-ie10 .messenger.suggestions .alert-icon {
+        background: url('https://static01.nyt.com/images/icons/icon-alert-12x12-a81817.png') no-repeat;
+        width: 12px;
+        height: 12px;
+        display: inline-block;
+        margin-top: -2px;
+        float: none;
+    }
+
+    .lt-ie10 .masthead,
+    .lt-ie10 .navigation,
+    .lt-ie10 .comments-panel {
+        margin-top: 50px !important;
+    }
+
+    .lt-ie10 .ribbon {
+        margin-top: 97px !important;
+    }
+</style>
+<div id="suggestions" class="suggestions messenger nocontent robots-nocontent" style="display:none;">
+    <div class="message-bed">
+        <div class="message-container last-message-container">
+            <div class="message">
+                <span class="message-content">
+                    <i class="icon alert-icon"></i><span class="message-title">NYTimes.com no longer supports Internet Explorer 9 or earlier. Please upgrade your browser.</span>
+                    <a href="http://www.nytimes.com/content/help/site/ie9-support.html" class="action-link">LEARN MORE »</a>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div id="shell" class="shell">
+                <header id="masthead" class="realestate-masthead">
+        <div class="container">
+        <a class="section-front-link" href="https://www.nytimes.com/section/realestate"><span class="visually-hidden">Real Estate</span></a>
+        <div class="search-info">
+            <i class="sprite-icon icon-magnifying-glass"></i>
+            <span class="locations"></span>
+        </div>
+        <div class="user-tools">
+            <a class="button homes-for-sale-button" href="/real-estate/homes-for-sale">BUY</a>
+            <a class="button homes-for-rent-button" href="/real-estate/homes-for-rent">RENT</a>
+            <a class="button real-estate-ads-button" href="https://nytimesads.gtspayments.com">LIST A HOME</a>
+                            <a class="button mortgage-calculator-button" href="/real-estate/mortgage-calculator">
+                    MORTGAGE CALCULATOR
+                </a>
+                        <button class="button register-button hidden">SIGN UP</button>
+            <button class="button my-real-estate-button" data-href="https://www.nytimes.com/real-estate/my-real-estate">
+                <span class="label">
+                    YOUR REAL ESTATE
+                    <i class="chevron chevron-up "><i class="chevron-conceal"></i></i>
+                    <i class="chevron chevron-down "><i class="chevron-conceal"></i></i>
+                </span>
+                <span class="mobile-label hidden">
+                    LOG IN
+                </span>
+                <span class="sub-label hidden">Log in</span>
+            </button>
+            <div id="menu-notification" class="menu-notification">
+                <div class="triangle"></div>
+                <div class="notification-text"></div>
+            </div>
+        </div>
+    </div>
+</header>
+                            <div id="page" class="page">
+                <main id="main" class="main" role="main">
+                                    <div class="discover">
+<div id="discover-hero" class="discover-hero" data-discover-type="hero" data-discover-id="489">
+    <div id="discover-search-bar" class="search-bar">
+        <fieldset class="hero-fieldset">
+            <div id="lozenge" class="lozenge-container">
+                <ul id="tagged-items" class="tagged-items"></ul>
+            </div>
+            <div class="channel-control">
+                <select id="channel-select" name="channel" class="hidden">
+                    <option value="SALES" selected="selected"></option>
+                    <option value="RENTALS"></option>
+                </select>
+                <div id="channel-selector" class="channel-select sales">
+                    <div id="channel-option-sales" class="channel-option channel-option-sales" data-channel="SALES">For Sale</div>
+                    <div id="channel-option-rentals" class="channel-option channel-option-rentals" data-channel="RENTALS">For Rent</div>
+                </div>
+                <i class="arrow arrow-down">
+                    <i class="arrow-conceal"></i>
+                </i>
+            </div>
+            <div id="input-container" class="input-container">
+                <label for="search-input" class="visually-hidden">Enter neighborhoods, zip codes or addresses</label>
+                <input type="text" id="listings-search-input" class="search-input" placeholder="Enter neighborhoods, zip codes or addresses" autocomplete="off" style="overflow: hidden;">
+            </div>
+            <button id="discover-submit" type="submit" class="search-submit submit-button disabled">
+                <i class="sprite-icon icon-magnifying-glass"></i>
+            </button>
+            <div class="auto-suggest" style="display: none;">
+                <ol></ol>
+            </div>
+        </fieldset>
+    </div>
+    <div class="realestate-carousel discover-carousel" data-show="random">
+        <div class="carousel-container shellwidth-module-container">
+            <div class="carousel-slide-container shellwidth-module">
+                                    <div class="carousel-slide">
+                        <a href="https://www.nytimes.com/2017/02/22/realestate/compare-homes-in-connecticut-minnesota-and-montana.html?rediscover=desktop&remoduletype=hero&remoduleid=489&remoduleitemid=333">
+                            <div class="image-container" data-hero-id="333">
+                                <div class="image" style="background-image: url('https://nytimes-realestate-conmio.s3.amazonaws.com/nyt/realestate/cms/prod/17-02-24-776410451/Hero_WhatYouGet_01_02242017.jpg')">
+                                <h1 class="title"></h1>
+                                <span class="caption">
+                                    Read: $1,700,000 Homes in Connecticut, Minnesota and Montana »                                </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="carousel-slide">
+                        <a href="https://www.nytimes.com/2017/02/22/realestate/compare-homes-in-connecticut-minnesota-and-montana.html?rediscover=desktop&remoduletype=hero&remoduleid=489&remoduleitemid=334">
+                            <div class="image-container" data-hero-id="334">
+                                <div class="image" style="background-image: url('https://nytimes-realestate-conmio.s3.amazonaws.com/nyt/realestate/cms/prod/17-02-24-776410451/Hero_WhatYouGet_02_02242017.jpg')">
+                                <h1 class="title"></h1>
+                                <span class="caption">
+                                    Read: $1,700,000 Homes in Connecticut, Minnesota and Montana »                                </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="carousel-slide">
+                        <a href="https://www.nytimes.com/2017/02/22/realestate/compare-homes-in-connecticut-minnesota-and-montana.html?rediscover=desktop&remoduletype=hero&remoduleid=489&remoduleitemid=335">
+                            <div class="image-container" data-hero-id="335">
+                                <div class="image" style="background-image: url('https://nytimes-realestate-conmio.s3.amazonaws.com/nyt/realestate/cms/prod/17-02-24-776410451/Hero_WhatYouGet_03_02242017.jpg')">
+                                <h1 class="title"></h1>
+                                <span class="caption">
+                                    Read: $1,700,000 Homes in Connecticut, Minnesota and Montana »                                </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="carousel-slide">
+                        <a href="https://www.nytimes.com/2017/02/22/realestate/compare-homes-in-connecticut-minnesota-and-montana.html?rediscover=desktop&remoduletype=hero&remoduleid=489&remoduleitemid=336">
+                            <div class="image-container" data-hero-id="336">
+                                <div class="image" style="background-image: url('https://nytimes-realestate-conmio.s3.amazonaws.com/nyt/realestate/cms/prod/17-02-24-776410451/Hero_WhatYouGet_04_02242017.jpg')">
+                                <h1 class="title"></h1>
+                                <span class="caption">
+                                    Read: $1,700,000 Homes in Connecticut, Minnesota and Montana »                                </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="carousel-slide">
+                        <a href="https://www.nytimes.com/2017/02/22/realestate/compare-homes-in-connecticut-minnesota-and-montana.html?rediscover=desktop&remoduletype=hero&remoduleid=489&remoduleitemid=337">
+                            <div class="image-container" data-hero-id="337">
+                                <div class="image" style="background-image: url('https://nytimes-realestate-conmio.s3.amazonaws.com/nyt/realestate/cms/prod/17-02-24-776410451/Hero_WhatYouGet_05_02242017.jpg')">
+                                <h1 class="title"></h1>
+                                <span class="caption">
+                                    Read: $1,700,000 Homes in Connecticut, Minnesota and Montana »                                </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="carousel-slide">
+                        <a href="https://www.nytimes.com/2017/02/22/realestate/compare-homes-in-connecticut-minnesota-and-montana.html?rediscover=desktop&remoduletype=hero&remoduleid=489&remoduleitemid=338">
+                            <div class="image-container" data-hero-id="338">
+                                <div class="image" style="background-image: url('https://nytimes-realestate-conmio.s3.amazonaws.com/nyt/realestate/cms/prod/17-02-24-776410451/Hero_WhatYouGet_06_02242017.jpg')">
+                                <h1 class="title"></h1>
+                                <span class="caption">
+                                    Read: $1,700,000 Homes in Connecticut, Minnesota and Montana »                                </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="carousel-slide">
+                        <a href="https://www.nytimes.com/2017/02/22/realestate/compare-homes-in-connecticut-minnesota-and-montana.html?rediscover=desktop&remoduletype=hero&remoduleid=489&remoduleitemid=339">
+                            <div class="image-container" data-hero-id="339">
+                                <div class="image" style="background-image: url('https://nytimes-realestate-conmio.s3.amazonaws.com/nyt/realestate/cms/prod/17-02-24-776410451/Hero_WhatYouGet_07_02242017.jpg')">
+                                <h1 class="title"></h1>
+                                <span class="caption">
+                                    Read: $1,700,000 Homes in Connecticut, Minnesota and Montana »                                </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                            </div>
+        </div>
+        <div class="carousel-placeholder"></div>
+    </div>
+</div>
+<div class="discover-module discover-video "  data-discover-type="video" data-discover-id="881">
+    <div class="video-player-region region">
+        <div class="loader-container video-section-loader-container">
+    <div class="loader loader-t-logo-32x32-ecedeb-ffffff"><span class="visually-hidden">Loading...</span></div>
+</div>
+<section class="video-section invisible"
+         data-playlist-json="{&quot;headline&quot;:&quot;IMELESS MIDWAY LEGACY ESTATE EMBRACES HERITAGE AND ARCHITECTURAL MODERNITY&quot;,&quot;template&quot;:&quot;Playlist&quot;,&quot;id&quot;:881,&quot;display_name&quot;:&quot;find-a-home&quot;,&quot;keywords&quot;:[],&quot;description&quot;:&quot;&quot;,&quot;videos&quot;:[{&quot;summary&quot;:&quot;610 N Center St, Midway, UT, USA&quot;,&quot;headline&quot;:&quot;IMELESS MIDWAY LEGACY ESTATE EMBRACES HERITAGE AND ARCHITECTURAL MODERNITY&quot;,&quot;id&quot;:&quot;2836-257P74&quot;,&quot;display_name&quot;:&quot;610 N Center St, Midway, UT, USA&quot;,&quot;duration&quot;:1,&quot;byline&quot;:&quot;&quot;,&quot;renditions&quot;:[{&quot;fileSize&quot;:1,&quot;video_codec&quot;:&quot;H264&quot;,&quot;mimetype&quot;:&quot;video\/mp4&quot;,&quot;height&quot;:1080,&quot;width&quot;:1920,&quot;type&quot;:&quot;v1080p&quot;,&quot;url&quot;:&quot;https:\/\/vp.nyt.com\/video\/2018\/11\/29\/20181129142013_1_5837277802001_wg_720p.mp4&quot;}],&quot;publish_url&quot;:&quot;\/real-estate\/home\/2836-257P74&quot;,&quot;domain&quot;:&quot;https:\/\/www.nytimes.com&quot;,&quot;images&quot;:[{&quot;height&quot;:591,&quot;width&quot;:1050,&quot;credit&quot;:&quot;&quot;,&quot;type&quot;:&quot;videoSixteenByNine1050&quot;,&quot;url&quot;:&quot;https:\/\/d2mxdjcwk6o9kh.cloudfront.net\/getimage?imageURL=https%3A%2F%2Fs3.amazonaws.com%2Fgabriels.images.pre-download%2Fnyt%2Fprocessed%2F2836-257p74_1.jpg&quot;},{&quot;height&quot;:84,&quot;width&quot;:150,&quot;credit&quot;:&quot;&quot;,&quot;type&quot;:&quot;videoSixteenByNine150&quot;,&quot;url&quot;:&quot;https:\/\/d2mxdjcwk6o9kh.cloudfront.net\/getimage?imageURL=https%3A%2F%2Fs3.amazonaws.com%2Fgabriels.images.pre-download%2Fnyt%2Fprocessed%2F2836-257p74_1.jpg&amp;width=298&quot;}],&quot;playlist&quot;:{&quot;id&quot;:881,&quot;parent_display_name&quot;:&quot;610 N Center St, Midway, UT, USA&quot;,&quot;display_name&quot;:&quot;&quot;,&quot;parent_channel&quot;:{&quot;headline&quot;:&quot;610 N Center St, Midway, UT, USA&quot;,&quot;id&quot;:881},&quot;parent_id&quot;:881},&quot;sub_headline&quot;:&quot;Utah | Wasatch County | Midway&quot;,&quot;sponsor_url&quot;:&quot;http:\/\/www.sothebysrealty.com\/eng&quot;,&quot;sponsor_link&quot;:&quot;http:\/\/www.sothebysrealty.com\/eng&quot;,&quot;sponsor&quot;:&quot;Sotheby's International Realty&quot;},{&quot;summary&quot;:&quot;Sandbank Ocean Villa, Harbour Island, Eleuthera, BHS&quot;,&quot;headline&quot;:&quot;SANDBANK OCEAN VILLA&quot;,&quot;id&quot;:&quot;2836-463EZW&quot;,&quot;display_name&quot;:&quot;Sandbank Ocean Villa, Harbour Island, Eleuthera, BHS&quot;,&quot;duration&quot;:1,&quot;byline&quot;:&quot;&quot;,&quot;renditions&quot;:[{&quot;fileSize&quot;:1,&quot;video_codec&quot;:&quot;H264&quot;,&quot;mimetype&quot;:&quot;video\/mp4&quot;,&quot;height&quot;:1080,&quot;width&quot;:1920,&quot;type&quot;:&quot;v1080p&quot;,&quot;url&quot;:&quot;https:\/\/vp.nyt.com\/video\/2018\/11\/29\/20181129142529_1_5835103885001_wg_720p.mp4&quot;}],&quot;publish_url&quot;:&quot;\/real-estate\/home\/2836-463EZW&quot;,&quot;domain&quot;:&quot;https:\/\/www.nytimes.com&quot;,&quot;images&quot;:[{&quot;height&quot;:591,&quot;width&quot;:1050,&quot;credit&quot;:&quot;&quot;,&quot;type&quot;:&quot;videoSixteenByNine1050&quot;,&quot;url&quot;:&quot;https:\/\/d2mxdjcwk6o9kh.cloudfront.net\/getimage?imageURL=https%3a%2f%2fs3.amazonaws.com%2fgabriels.images.pre-download%2fnyt%2fprocessed%2f2836-463ezw_1.jpg&quot;},{&quot;height&quot;:84,&quot;width&quot;:150,&quot;credit&quot;:&quot;&quot;,&quot;type&quot;:&quot;videoSixteenByNine150&quot;,&quot;url&quot;:&quot;https:\/\/d2mxdjcwk6o9kh.cloudfront.net\/getimage?imageURL=https%3a%2f%2fs3.amazonaws.com%2fgabriels.images.pre-download%2fnyt%2fprocessed%2f2836-463ezw_1.jpg&amp;width=298&quot;}],&quot;playlist&quot;:{&quot;id&quot;:881,&quot;parent_display_name&quot;:&quot;Sandbank Ocean Villa, Harbour Island, Eleuthera, BHS&quot;,&quot;display_name&quot;:&quot;&quot;,&quot;parent_channel&quot;:{&quot;headline&quot;:&quot;Sandbank Ocean Villa, Harbour Island, Eleuthera, BHS&quot;,&quot;id&quot;:881},&quot;parent_id&quot;:881},&quot;sub_headline&quot;:&quot;Bahamas | Harbour Island&quot;,&quot;sponsor_url&quot;:&quot;http:\/\/www.sothebysrealty.com\/eng&quot;,&quot;sponsor_link&quot;:&quot;http:\/\/www.sothebysrealty.com\/eng&quot;,&quot;sponsor&quot;:&quot;Sotheby's International Realty&quot;},{&quot;summary&quot;:&quot;61623 Hosmer Lake Drive, Bend, OR, USA&quot;,&quot;headline&quot;:&quot;TRANQUIL LAUREL HIGHLANDS RETREAT - 400 MEADOW RUN ROAD&quot;,&quot;id&quot;:&quot;2836-5FMWG3&quot;,&quot;display_name&quot;:&quot;61623 Hosmer Lake Drive, Bend, OR, USA&quot;,&quot;duration&quot;:1,&quot;byline&quot;:&quot;&quot;,&quot;renditions&quot;:[{&quot;fileSize&quot;:1,&quot;video_codec&quot;:&quot;H264&quot;,&quot;mimetype&quot;:&quot;video\/mp4&quot;,&quot;height&quot;:1080,&quot;width&quot;:1920,&quot;type&quot;:&quot;v1080p&quot;,&quot;url&quot;:&quot;https:\/\/vp.nyt.com\/video\/2018\/11\/29\/20181129143536_1_5859055442001_wg_720p.mp4&quot;}],&quot;publish_url&quot;:&quot;\/real-estate\/home\/2836-5FMWG3&quot;,&quot;domain&quot;:&quot;https:\/\/www.nytimes.com&quot;,&quot;images&quot;:[{&quot;height&quot;:591,&quot;width&quot;:1050,&quot;credit&quot;:&quot;&quot;,&quot;type&quot;:&quot;videoSixteenByNine1050&quot;,&quot;url&quot;:&quot;https:\/\/d2mxdjcwk6o9kh.cloudfront.net\/getimage?imageURL=https%3a%2f%2fs3.amazonaws.com%2fgabriels.images.pre-download%2fnyt%2fprocessed%2f2836-5fmwg3_1.jpg&quot;},{&quot;height&quot;:84,&quot;width&quot;:150,&quot;credit&quot;:&quot;&quot;,&quot;type&quot;:&quot;videoSixteenByNine150&quot;,&quot;url&quot;:&quot;https:\/\/d2mxdjcwk6o9kh.cloudfront.net\/getimage?imageURL=https%3a%2f%2fs3.amazonaws.com%2fgabriels.images.pre-download%2fnyt%2fprocessed%2f2836-5fmwg3_1.jpg&amp;width=298&quot;}],&quot;playlist&quot;:{&quot;id&quot;:881,&quot;parent_display_name&quot;:&quot;61623 Hosmer Lake Drive, Bend, OR, USA&quot;,&quot;display_name&quot;:&quot;&quot;,&quot;parent_channel&quot;:{&quot;headline&quot;:&quot;61623 Hosmer Lake Drive, Bend, OR, USA&quot;,&quot;id&quot;:881},&quot;parent_id&quot;:881},&quot;sub_headline&quot;:&quot;Oregon | Deschutes County | Bend&quot;,&quot;sponsor_url&quot;:&quot;http:\/\/www.sothebysrealty.com\/eng&quot;,&quot;sponsor_link&quot;:&quot;http:\/\/www.sothebysrealty.com\/eng&quot;,&quot;sponsor&quot;:&quot;Sotheby's International Realty&quot;},{&quot;summary&quot;:&quot;Lovran, Opatija, Primorje Gorski, HRV&quot;,&quot;headline&quot;:&quot;VILLA LUXOTICA&quot;,&quot;id&quot;:&quot;2836-ED4YJN&quot;,&quot;display_name&quot;:&quot;Lovran, Opatija, Primorje Gorski, HRV&quot;,&quot;duration&quot;:1,&quot;byline&quot;:&quot;&quot;,&quot;renditions&quot;:[{&quot;fileSize&quot;:1,&quot;video_codec&quot;:&quot;H264&quot;,&quot;mimetype&quot;:&quot;video\/mp4&quot;,&quot;height&quot;:1080,&quot;width&quot;:1920,&quot;type&quot;:&quot;v1080p&quot;,&quot;url&quot;:&quot;https:\/\/vp.nyt.com\/video\/2018\/11\/29\/20181129144544_1_5855329637001_wg_720p.mp4&quot;}],&quot;publish_url&quot;:&quot;\/real-estate\/home\/2836-ED4YJN&quot;,&quot;domain&quot;:&quot;https:\/\/www.nytimes.com&quot;,&quot;images&quot;:[{&quot;height&quot;:591,&quot;width&quot;:1050,&quot;credit&quot;:&quot;&quot;,&quot;type&quot;:&quot;videoSixteenByNine1050&quot;,&quot;url&quot;:&quot;https:\/\/d2mxdjcwk6o9kh.cloudfront.net\/getimage?imageURL=https%3a%2f%2fs3.amazonaws.com%2fgabriels.images.pre-download%2fnyt%2fprocessed%2f2836-ed4yjn_1.jpg&quot;},{&quot;height&quot;:84,&quot;width&quot;:150,&quot;credit&quot;:&quot;&quot;,&quot;type&quot;:&quot;videoSixteenByNine150&quot;,&quot;url&quot;:&quot;https:\/\/d2mxdjcwk6o9kh.cloudfront.net\/getimage?imageURL=https%3a%2f%2fs3.amazonaws.com%2fgabriels.images.pre-download%2fnyt%2fprocessed%2f2836-ed4yjn_1.jpg&amp;width=298&quot;}],&quot;playlist&quot;:{&quot;id&quot;:881,&quot;parent_display_name&quot;:&quot;Lovran, Opatija, Primorje Gorski, HRV&quot;,&quot;display_name&quot;:&quot;&quot;,&quot;parent_channel&quot;:{&quot;headline&quot;:&quot;Lovran, Opatija, Primorje Gorski, HRV&quot;,&quot;id&quot;:881},&quot;parent_id&quot;:881},&quot;sub_headline&quot;:&quot;Croatia | Other Croatia&quot;,&quot;sponsor_url&quot;:&quot;http:\/\/www.sothebysrealty.com\/eng&quot;,&quot;sponsor_link&quot;:&quot;http:\/\/www.sothebysrealty.com\/eng&quot;,&quot;sponsor&quot;:&quot;Sotheby's International Realty&quot;},{&quot;summary&quot;:&quot;2001 1835 Morton Avenue, Vancouver, BC, CAN&quot;,&quot;headline&quot;:&quot;VANCOUVER PENT HOUSE ON BEACH&quot;,&quot;id&quot;:&quot;2836-M8XWXP&quot;,&quot;display_name&quot;:&quot;2001 1835 Morton Avenue, Vancouver, BC, CAN&quot;,&quot;duration&quot;:1,&quot;byline&quot;:&quot;&quot;,&quot;renditions&quot;:[{&quot;fileSize&quot;:1,&quot;video_codec&quot;:&quot;H264&quot;,&quot;mimetype&quot;:&quot;video\/mp4&quot;,&quot;height&quot;:1080,&quot;width&quot;:1920,&quot;type&quot;:&quot;v1080p&quot;,&quot;url&quot;:&quot;https:\/\/vp.nyt.com\/video\/2018\/11\/29\/20181129145046_1_5847582781001_wg_720p.mp4&quot;}],&quot;publish_url&quot;:&quot;\/real-estate\/home\/2836-M8XWXP&quot;,&quot;domain&quot;:&quot;https:\/\/www.nytimes.com&quot;,&quot;images&quot;:[{&quot;height&quot;:591,&quot;width&quot;:1050,&quot;credit&quot;:&quot;&quot;,&quot;type&quot;:&quot;videoSixteenByNine1050&quot;,&quot;url&quot;:&quot;https:\/\/d2mxdjcwk6o9kh.cloudfront.net\/getimage?imageURL=https%3a%2f%2fs3.amazonaws.com%2fgabriels.images.pre-download%2fnyt%2fprocessed%2f2836-m8xwxp_1.jpg&quot;},{&quot;height&quot;:84,&quot;width&quot;:150,&quot;credit&quot;:&quot;&quot;,&quot;type&quot;:&quot;videoSixteenByNine150&quot;,&quot;url&quot;:&quot;https:\/\/d2mxdjcwk6o9kh.cloudfront.net\/getimage?imageURL=https%3a%2f%2fs3.amazonaws.com%2fgabriels.images.pre-download%2fnyt%2fprocessed%2f2836-m8xwxp_1.jpg&amp;width=298&quot;}],&quot;playlist&quot;:{&quot;id&quot;:881,&quot;parent_display_name&quot;:&quot;2001 1835 Morton Avenue, Vancouver, BC, CAN&quot;,&quot;display_name&quot;:&quot;&quot;,&quot;parent_channel&quot;:{&quot;headline&quot;:&quot;2001 1835 Morton Avenue, Vancouver, BC, CAN&quot;,&quot;id&quot;:881},&quot;parent_id&quot;:881},&quot;sub_headline&quot;:&quot;Canada | Other Areas&quot;,&quot;sponsor_url&quot;:&quot;http:\/\/www.sothebysrealty.com\/eng&quot;,&quot;sponsor_link&quot;:&quot;http:\/\/www.sothebysrealty.com\/eng&quot;,&quot;sponsor&quot;:&quot;Sotheby's International Realty&quot;},{&quot;summary&quot;:&quot;663 Palisade Rim Drive, Henderson, NV, USA&quot;,&quot;headline&quot;:&quot;NEW MODERN 1 STORY CUSTOM SMART HOME WITH STRIP VIEWS&quot;,&quot;id&quot;:&quot;2836-MJL257&quot;,&quot;display_name&quot;:&quot;663 Palisade Rim Drive, Henderson, NV, USA&quot;,&quot;duration&quot;:1,&quot;byline&quot;:&quot;&quot;,&quot;renditions&quot;:[{&quot;fileSize&quot;:1,&quot;video_codec&quot;:&quot;H264&quot;,&quot;mimetype&quot;:&quot;video\/mp4&quot;,&quot;height&quot;:1080,&quot;width&quot;:1920,&quot;type&quot;:&quot;v1080p&quot;,&quot;url&quot;:&quot;https:\/\/vp.nyt.com\/video\/2018\/11\/29\/20181129152400_1_5813232411001_wg_720p.mp4&quot;}],&quot;publish_url&quot;:&quot;\/real-estate\/home\/2836-MJL257&quot;,&quot;domain&quot;:&quot;https:\/\/www.nytimes.com&quot;,&quot;images&quot;:[{&quot;height&quot;:591,&quot;width&quot;:1050,&quot;credit&quot;:&quot;&quot;,&quot;type&quot;:&quot;videoSixteenByNine1050&quot;,&quot;url&quot;:&quot;https:\/\/d2mxdjcwk6o9kh.cloudfront.net\/getimage?imageURL=https%3a%2f%2fs3.amazonaws.com%2fgabriels.images.pre-download%2fnyt%2fprocessed%2f2836-mjl257_1.jpg&quot;},{&quot;height&quot;:84,&quot;width&quot;:150,&quot;credit&quot;:&quot;&quot;,&quot;type&quot;:&quot;videoSixteenByNine150&quot;,&quot;url&quot;:&quot;https:\/\/d2mxdjcwk6o9kh.cloudfront.net\/getimage?imageURL=https%3a%2f%2fs3.amazonaws.com%2fgabriels.images.pre-download%2fnyt%2fprocessed%2f2836-mjl257_1.jpg&amp;width=298&quot;}],&quot;playlist&quot;:{&quot;id&quot;:881,&quot;parent_display_name&quot;:&quot;663 Palisade Rim Drive, Henderson, NV, USA&quot;,&quot;display_name&quot;:&quot;&quot;,&quot;parent_channel&quot;:{&quot;headline&quot;:&quot;663 Palisade Rim Drive, Henderson, NV, USA&quot;,&quot;id&quot;:881},&quot;parent_id&quot;:881},&quot;sub_headline&quot;:&quot;Nevada | Clark County | Henderson&quot;,&quot;sponsor_url&quot;:&quot;http:\/\/www.sothebysrealty.com\/eng&quot;,&quot;sponsor_link&quot;:&quot;http:\/\/www.sothebysrealty.com\/eng&quot;,&quot;sponsor&quot;:&quot;Sotheby's International Realty&quot;},{&quot;summary&quot;:&quot;4000 Wailea Alanui Drive Wailea Point 102, Wailea, HI, USA&quot;,&quot;headline&quot;:&quot;LIVE WAILEA BEACH MAUI&quot;,&quot;id&quot;:&quot;2836-WDPTPD&quot;,&quot;display_name&quot;:&quot;4000 Wailea Alanui Drive Wailea Point 102, Wailea, HI, USA&quot;,&quot;duration&quot;:1,&quot;byline&quot;:&quot;&quot;,&quot;renditions&quot;:[{&quot;fileSize&quot;:1,&quot;video_codec&quot;:&quot;H264&quot;,&quot;mimetype&quot;:&quot;video\/mp4&quot;,&quot;height&quot;:1080,&quot;width&quot;:1920,&quot;type&quot;:&quot;v1080p&quot;,&quot;url&quot;:&quot;https:\/\/vp.nyt.com\/video\/2018\/11\/29\/20181129152904_1_5851979532001_wg_720p.mp4&quot;}],&quot;publish_url&quot;:&quot;\/real-estate\/home\/2836-WDPTPD&quot;,&quot;domain&quot;:&quot;https:\/\/www.nytimes.com&quot;,&quot;images&quot;:[{&quot;height&quot;:591,&quot;width&quot;:1050,&quot;credit&quot;:&quot;&quot;,&quot;type&quot;:&quot;videoSixteenByNine1050&quot;,&quot;url&quot;:&quot;https:\/\/d2mxdjcwk6o9kh.cloudfront.net\/getimage?imageURL=https%3a%2f%2fs3.amazonaws.com%2fgabriels.images.pre-download%2fnyt%2fprocessed%2f2836-wdptpd_1.jpg&quot;},{&quot;height&quot;:84,&quot;width&quot;:150,&quot;credit&quot;:&quot;&quot;,&quot;type&quot;:&quot;videoSixteenByNine150&quot;,&quot;url&quot;:&quot;https:\/\/d2mxdjcwk6o9kh.cloudfront.net\/getimage?imageURL=https%3a%2f%2fs3.amazonaws.com%2fgabriels.images.pre-download%2fnyt%2fprocessed%2f2836-wdptpd_1.jpg&amp;width=298&quot;}],&quot;playlist&quot;:{&quot;id&quot;:881,&quot;parent_display_name&quot;:&quot;4000 Wailea Alanui Drive Wailea Point 102, Wailea, HI, USA&quot;,&quot;display_name&quot;:&quot;&quot;,&quot;parent_channel&quot;:{&quot;headline&quot;:&quot;4000 Wailea Alanui Drive Wailea Point 102, Wailea, HI, USA&quot;,&quot;id&quot;:881},&quot;parent_id&quot;:881},&quot;sub_headline&quot;:&quot;Hawaii |  | Wailea&quot;,&quot;sponsor_url&quot;:&quot;http:\/\/www.sothebysrealty.com\/eng&quot;,&quot;sponsor_link&quot;:&quot;http:\/\/www.sothebysrealty.com\/eng&quot;,&quot;sponsor&quot;:&quot;Sotheby's International Realty&quot;},{&quot;summary&quot;:&quot;8394 Elway Lane, Warrenton, VA, USA&quot;,&quot;headline&quot;:&quot;ELWAY HALL&quot;,&quot;id&quot;:&quot;2836-XEEL5S&quot;,&quot;display_name&quot;:&quot;8394 Elway Lane, Warrenton, VA, USA&quot;,&quot;duration&quot;:1,&quot;byline&quot;:&quot;&quot;,&quot;renditions&quot;:[{&quot;fileSize&quot;:1,&quot;video_codec&quot;:&quot;H264&quot;,&quot;mimetype&quot;:&quot;video\/mp4&quot;,&quot;height&quot;:1080,&quot;width&quot;:1920,&quot;type&quot;:&quot;v1080p&quot;,&quot;url&quot;:&quot;https:\/\/vp.nyt.com\/video\/2018\/11\/29\/20181129153407_1_5855902652001_wg_720p.mp4&quot;}],&quot;publish_url&quot;:&quot;\/real-estate\/home\/2836-XEEL5S&quot;,&quot;domain&quot;:&quot;https:\/\/www.nytimes.com&quot;,&quot;images&quot;:[{&quot;height&quot;:591,&quot;width&quot;:1050,&quot;credit&quot;:&quot;&quot;,&quot;type&quot;:&quot;videoSixteenByNine1050&quot;,&quot;url&quot;:&quot;https:\/\/d2mxdjcwk6o9kh.cloudfront.net\/getimage?imageURL=https%3a%2f%2fs3.amazonaws.com%2fgabriels.images.pre-download%2fnyt%2fprocessed%2f2836-xeel5s_1.jpg&quot;},{&quot;height&quot;:84,&quot;width&quot;:150,&quot;credit&quot;:&quot;&quot;,&quot;type&quot;:&quot;videoSixteenByNine150&quot;,&quot;url&quot;:&quot;https:\/\/d2mxdjcwk6o9kh.cloudfront.net\/getimage?imageURL=https%3a%2f%2fs3.amazonaws.com%2fgabriels.images.pre-download%2fnyt%2fprocessed%2f2836-xeel5s_1.jpg&amp;width=298&quot;}],&quot;playlist&quot;:{&quot;id&quot;:881,&quot;parent_display_name&quot;:&quot;8394 Elway Lane, Warrenton, VA, USA&quot;,&quot;display_name&quot;:&quot;&quot;,&quot;parent_channel&quot;:{&quot;headline&quot;:&quot;8394 Elway Lane, Warrenton, VA, USA&quot;,&quot;id&quot;:881},&quot;parent_id&quot;:881},&quot;sub_headline&quot;:&quot;Virginia | Fauquier County | Warrenton&quot;,&quot;sponsor_url&quot;:&quot;http:\/\/www.sothebysrealty.com\/eng&quot;,&quot;sponsor_link&quot;:&quot;http:\/\/www.sothebysrealty.com\/eng&quot;,&quot;sponsor&quot;:&quot;Sotheby's International Realty&quot;},{&quot;summary&quot;:&quot;North Shore, Auckland, Auckland, NZL&quot;,&quot;headline&quot;:&quot;COASTAL HOME OF DISTINCTION&quot;,&quot;id&quot;:&quot;2836-XPQL9S&quot;,&quot;display_name&quot;:&quot;North Shore, Auckland, Auckland, NZL&quot;,&quot;duration&quot;:1,&quot;byline&quot;:&quot;&quot;,&quot;renditions&quot;:[{&quot;fileSize&quot;:1,&quot;video_codec&quot;:&quot;H264&quot;,&quot;mimetype&quot;:&quot;video\/mp4&quot;,&quot;height&quot;:1080,&quot;width&quot;:1920,&quot;type&quot;:&quot;v1080p&quot;,&quot;url&quot;:&quot;https:\/\/vp.nyt.com\/video\/2018\/11\/29\/20181129153908_1_5844686994001_wg_720p.mp4&quot;}],&quot;publish_url&quot;:&quot;\/real-estate\/home\/2836-XPQL9S&quot;,&quot;domain&quot;:&quot;https:\/\/www.nytimes.com&quot;,&quot;images&quot;:[{&quot;height&quot;:591,&quot;width&quot;:1050,&quot;credit&quot;:&quot;&quot;,&quot;type&quot;:&quot;videoSixteenByNine1050&quot;,&quot;url&quot;:&quot;https:\/\/d2mxdjcwk6o9kh.cloudfront.net\/getimage?imageURL=https%3a%2f%2fs3.amazonaws.com%2fgabriels.images.pre-download%2fnyt%2fprocessed%2f2836-xpql9s_1.jpg&quot;},{&quot;height&quot;:84,&quot;width&quot;:150,&quot;credit&quot;:&quot;&quot;,&quot;type&quot;:&quot;videoSixteenByNine150&quot;,&quot;url&quot;:&quot;https:\/\/d2mxdjcwk6o9kh.cloudfront.net\/getimage?imageURL=https%3a%2f%2fs3.amazonaws.com%2fgabriels.images.pre-download%2fnyt%2fprocessed%2f2836-xpql9s_1.jpg&amp;width=298&quot;}],&quot;playlist&quot;:{&quot;id&quot;:881,&quot;parent_display_name&quot;:&quot;North Shore, Auckland, Auckland, NZL&quot;,&quot;display_name&quot;:&quot;&quot;,&quot;parent_channel&quot;:{&quot;headline&quot;:&quot;North Shore, Auckland, Auckland, NZL&quot;,&quot;id&quot;:881},&quot;parent_id&quot;:881},&quot;sub_headline&quot;:&quot;New Zealand | Auckland&quot;,&quot;sponsor_url&quot;:&quot;http:\/\/www.sothebysrealty.com\/eng&quot;,&quot;sponsor_link&quot;:&quot;http:\/\/www.sothebysrealty.com\/eng&quot;,&quot;sponsor&quot;:&quot;Sotheby's International Realty&quot;},{&quot;summary&quot;:&quot;448 Chalk Sound Drive, Sapodilla Bay, Providenciales, TCA&quot;,&quot;headline&quot;:&quot;DREAM BIG VILLA&quot;,&quot;id&quot;:&quot;2836-YXL4W5&quot;,&quot;display_name&quot;:&quot;448 Chalk Sound Drive, Sapodilla Bay, Providenciales, TCA&quot;,&quot;duration&quot;:1,&quot;byline&quot;:&quot;&quot;,&quot;renditions&quot;:[{&quot;fileSize&quot;:1,&quot;video_codec&quot;:&quot;H264&quot;,&quot;mimetype&quot;:&quot;video\/mp4&quot;,&quot;height&quot;:1080,&quot;width&quot;:1920,&quot;type&quot;:&quot;v1080p&quot;,&quot;url&quot;:&quot;https:\/\/vp.nyt.com\/video\/2018\/11\/29\/20181129154413_1_5849464066001_wg_720p.mp4&quot;}],&quot;publish_url&quot;:&quot;\/real-estate\/home\/2836-YXL4W5&quot;,&quot;domain&quot;:&quot;https:\/\/www.nytimes.com&quot;,&quot;images&quot;:[{&quot;height&quot;:591,&quot;width&quot;:1050,&quot;credit&quot;:&quot;&quot;,&quot;type&quot;:&quot;videoSixteenByNine1050&quot;,&quot;url&quot;:&quot;https:\/\/d2mxdjcwk6o9kh.cloudfront.net\/getimage?imageURL=https%3a%2f%2fs3.amazonaws.com%2fgabriels.images.pre-download%2fnyt%2fprocessed%2f2836-yxl4w5_1_110720181626.jpg&quot;},{&quot;height&quot;:84,&quot;width&quot;:150,&quot;credit&quot;:&quot;&quot;,&quot;type&quot;:&quot;videoSixteenByNine150&quot;,&quot;url&quot;:&quot;https:\/\/d2mxdjcwk6o9kh.cloudfront.net\/getimage?imageURL=https%3a%2f%2fs3.amazonaws.com%2fgabriels.images.pre-download%2fnyt%2fprocessed%2f2836-yxl4w5_1_110720181626.jpg&amp;width=298&quot;}],&quot;playlist&quot;:{&quot;id&quot;:881,&quot;parent_display_name&quot;:&quot;448 Chalk Sound Drive, Sapodilla Bay, Providenciales, TCA&quot;,&quot;display_name&quot;:&quot;&quot;,&quot;parent_channel&quot;:{&quot;headline&quot;:&quot;448 Chalk Sound Drive, Sapodilla Bay, Providenciales, TCA&quot;,&quot;id&quot;:881},&quot;parent_id&quot;:881},&quot;sub_headline&quot;:&quot;Turks And Caicos Islands | Sapodilla Bay&quot;,&quot;sponsor_url&quot;:&quot;http:\/\/www.sothebysrealty.com\/eng&quot;,&quot;sponsor_link&quot;:&quot;http:\/\/www.sothebysrealty.com\/eng&quot;,&quot;sponsor&quot;:&quot;Sotheby's International Realty&quot;}],&quot;publish_url&quot;:&quot;&quot;,&quot;domain&quot;:&quot;http:\/\/www.sothebysrealty.com\/eng&quot;,&quot;slug_name&quot;:&quot;real-estate-find-a-home&quot;,&quot;type&quot;:&quot;Find A Home Video&quot;}"
+         data-api-token=""
+         data-player-id=""
+         data-publisher-id="">
+    <header class="section-header">
+                    <h2 class="section-heading section-heading-sponsor">
+                paid for and posted by:
+                                    <a href="http://www.sothebysrealty.com/eng">
+                
+                                    <img src="https://nytimes-realestate-conmio.s3.amazonaws.com/nyt/realestate/cms/prod/17-06-12-230160794/Logo_SIR.jpg" class="section-heading-sponsor-logo" />
+                
+                                    </a>
+                            </h2>
+                <a
+            href="http://www.sothebysrealty.com/eng"
+            class="user-action explore-all-videos-link">
+            visit Sotheby's International Realty &raquo;
+        </a>
+    </header>
+    <div class="column a-column">
+        <article class="story">
+            <figure class="media video video-player" aria-label="media" role="group">
+                <span class="visually-hidden">Video Player</span>
+                <img src="" class="poster" alt="" />
+                <div class="video-player-container"></div>
+                <div class="media-action-overlay"></div>
+                <figcaption class="credit hidden"></figcaption>
+            </figure>
+        </article>
+    </div>
+    <div class="column b-column">
+        <div class="video-playlist-container">
+            <ul class="video-playlist"></ul>
+        </div>
+    </div> <!-- end b-column -->
+</section>
+    </div>
+
+    <hr class="discover-hairline" />
+</div>
+<div class="discover-module whats-next discover-article lazy-module" data-discover-type="article" data-discover-id="495">
+            <a href="https://www.nytimes.com/column/the-hunt">
+            <h2 class="title">The Hunt</h2>
+        </a>
+        <div class="realestate-carousel discover-carousel discover-article-carousel" data-responsive="true">
+        <div class="carousel-container">
+            <div class="carousel-slide-container">
+                <div class="carousel-slide active">
+                                                            <article class="article small-carousel-item story">
+                        <a href="https://www.nytimes.com/2019/01/24/realestate/staging-a-duet-in-a-one-bedroom-apartment.html?rediscover=desktop&remoduletype=article&remoduleid=495" class="story-link wide-thumb">
+                                                            <img class="discover-lazy-load" data-src="https://static01.nyt.com/images/2019/01/27/realestate/27Hunt-Clinton01-SUB/27Hunt-Clinton01-SUB-mediumThreeByTwo440.jpg" />
+                                                    </a>
+                        <p class="image-credit">Katherine Marks for The New York Times</p>
+                        <h3 class="story-kicker">THE HUNT</h3>
+                            <h2 class="story-heading">
+                                <a href="https://www.nytimes.com/2019/01/24/realestate/staging-a-duet-in-a-one-bedroom-apartment.html?rediscover=desktop&remoduletype=article&remoduleid=495" class="story-link">Staging a Duet in a One-Bedroom Apartment</a>
+                            </h2>
+                        <p class="story-description">Two Juilliard students flee the dorms and search the Lincoln Center area for a decent kitchen and living room to split.</p>
+                        <p class="story-details">
+                            <span class="story-date js-prettyDate" data-prettyDate="1548324008">January 24, 2019</span>
+                                                            <span class="divider"></span>
+                                <span class="story-author">By JOYCE COHEN</span>
+                                                    </p>
+                    </article>
+                                                            <article class="article small-carousel-item story">
+                        <a href="https://www.nytimes.com/2019/01/17/realestate/making-her-new-york-debut-off-broadway.html?rediscover=desktop&remoduletype=article&remoduleid=495" class="story-link wide-thumb">
+                                                            <img class="discover-lazy-load" data-src="https://static01.nyt.com/images/2019/01/20/realestate/20Hunt-UWS1/20Hunt-UWS1-mediumThreeByTwo440-v2.jpg" />
+                                                    </a>
+                        <p class="image-credit">Chang W. Lee/The New York Times</p>
+                        <h3 class="story-kicker">THE HUNT</h3>
+                            <h2 class="story-heading">
+                                <a href="https://www.nytimes.com/2019/01/17/realestate/making-her-new-york-debut-off-broadway.html?rediscover=desktop&remoduletype=article&remoduleid=495" class="story-link">Making Her New York Debut Off Broadway</a>
+                            </h2>
+                        <p class="story-description">For her first home in the city, an aspiring actress finds that the theater district is a better place to work than to live. </p>
+                        <p class="story-details">
+                            <span class="story-date js-prettyDate" data-prettyDate="1547719212">January 17, 2019</span>
+                                                            <span class="divider"></span>
+                                <span class="story-author">By JOYCE COHEN</span>
+                                                    </p>
+                    </article>
+                                                            <article class="article small-carousel-item story">
+                        <a href="https://www.nytimes.com/2019/01/10/realestate/escape-from-the-l-train.html?rediscover=desktop&remoduletype=article&remoduleid=495" class="story-link wide-thumb">
+                                                            <img class="discover-lazy-load" data-src="https://static01.nyt.com/images/2019/01/13/realestate/13Hunt-DowntownBK1/merlin_148620537_e558eb3b-275c-4a37-9942-2670032d0b0f-mediumThreeByTwo440.jpg" />
+                                                    </a>
+                        <p class="image-credit">Stefano Ukmar for The New York Times</p>
+                        <h3 class="story-kicker">THE HUNT</h3>
+                            <h2 class="story-heading">
+                                <a href="https://www.nytimes.com/2019/01/10/realestate/escape-from-the-l-train.html?rediscover=desktop&remoduletype=article&remoduleid=495" class="story-link">Escape From the L Train</a>
+                            </h2>
+                        <p class="story-description">Feeling marooned in Williamsburg, a couple shift their focus from Lower Manhattan to Downtown Brooklyn to find the convenience and amenities they crave. </p>
+                        <p class="story-details">
+                            <span class="story-date js-prettyDate" data-prettyDate="1547114410">January 10, 2019</span>
+                                                            <span class="divider"></span>
+                                <span class="story-author">By JOYCE COHEN</span>
+                                                    </p>
+                    </article>
+                                    </div>
+            </div>
+        </div>
+        <div id="carousel-controls-module" class="hidden">
+    <ol class="carousel-indicators"></ol>
+    <div class="carousel-controls">
+        <div class="carousel-controls-container">
+            <span class="carousel-control left">
+                <span class="arrow arrow-left">
+                    <i class="arrow-conceal"></i>
+                </span>
+            </span>
+            <span class="carousel-control right">
+                <span class="arrow arrow-right">
+                    <i class="arrow-conceal"></i>
+                </span>
+            </span>
+        </div>
+    </div>
+</div>
+    </div>
+    <hr class="discover-hairline" />
+</div>
+<div class="discover-module whats-next discover-article lazy-module" data-discover-type="article" data-discover-id="839">
+            <a href="https://www.nytimes.com/column/on-the-market">
+            <h2 class="title">On the Market</h2>
+        </a>
+        <div class="realestate-carousel discover-carousel discover-article-carousel" data-responsive="true">
+        <div class="carousel-container">
+            <div class="carousel-slide-container">
+                <div class="carousel-slide active">
+                                                            <article class="article small-carousel-item story">
+                        <a href="https://www.nytimes.com/2019/01/24/realestate/homes-for-sale-in-brooklyn-and-manhattan.html?rediscover=desktop&remoduletype=article&remoduleid=839" class="story-link wide-thumb">
+                                                            <img class="discover-lazy-load" data-src="https://static01.nyt.com/images/2019/01/27/realestate/27OTM-NYC-slide-Y825/27OTM-NYC-slide-Y825-mediumThreeByTwo440.jpg" />
+                                                    </a>
+                        <p class="image-credit">Katherine Marks for The New York Times</p>
+                        <h3 class="story-kicker">ON THE MARKET</h3>
+                            <h2 class="story-heading">
+                                <a href="https://www.nytimes.com/2019/01/24/realestate/homes-for-sale-in-brooklyn-and-manhattan.html?rediscover=desktop&remoduletype=article&remoduleid=839" class="story-link">Homes for Sale in Brooklyn and Manhattan</a>
+                            </h2>
+                        <p class="story-description">This week’s properties are in Park Slope, Brooklyn, Chelsea and the Upper West Side.</p>
+                        <p class="story-details">
+                            <span class="story-date js-prettyDate" data-prettyDate="1548358095">January 24, 2019</span>
+                                                            <span class="divider"></span>
+                                <span class="story-author">By STEFANOS CHEN</span>
+                                                    </p>
+                    </article>
+                                                            <article class="article small-carousel-item story">
+                        <a href="https://www.nytimes.com/2019/01/24/realestate/homes-for-sale-in-new-york-and-connecticut.html?rediscover=desktop&remoduletype=article&remoduleid=839" class="story-link wide-thumb">
+                                                            <img class="discover-lazy-load" data-src="https://static01.nyt.com/images/2019/01/27/realestate/27OTM-REG-slide-MIXK/27OTM-REG-slide-MIXK-mediumThreeByTwo440.jpg" />
+                                                    </a>
+                        <p class="image-credit">Brad Dickson for The New York Times</p>
+                        <h3 class="story-kicker">ON THE MARKET</h3>
+                            <h2 class="story-heading">
+                                <a href="https://www.nytimes.com/2019/01/24/realestate/homes-for-sale-in-new-york-and-connecticut.html?rediscover=desktop&remoduletype=article&remoduleid=839" class="story-link">Homes for Sale in New York and Connecticut</a>
+                            </h2>
+                        <p class="story-description">This week’s properties include a five-bedroom in Grandview, N.Y., and a three-bedroom in West Norwalk, Conn.</p>
+                        <p class="story-details">
+                            <span class="story-date js-prettyDate" data-prettyDate="1548358019">January 24, 2019</span>
+                                                            <span class="divider"></span>
+                                <span class="story-author">By ANNE MANCUSO and LISA PREVOST</span>
+                                                    </p>
+                    </article>
+                                                            <article class="article small-carousel-item story">
+                        <a href="https://www.nytimes.com/2019/01/17/realestate/homes-for-sale-in-new-york-and-new-jersey.html?rediscover=desktop&remoduletype=article&remoduleid=839" class="story-link wide-thumb">
+                                                            <img class="discover-lazy-load" data-src="https://static01.nyt.com/images/2019/01/20/realestate/20OTM-REG-slide-FHWS/20OTM-REG-slide-FHWS-mediumThreeByTwo440.jpg" />
+                                                    </a>
+                        <p class="image-credit">Brad Dickson for The New York Times</p>
+                        <h3 class="story-kicker">ON THE MARKET</h3>
+                            <h2 class="story-heading">
+                                <a href="https://www.nytimes.com/2019/01/17/realestate/homes-for-sale-in-new-york-and-new-jersey.html?rediscover=desktop&remoduletype=article&remoduleid=839" class="story-link">Homes for Sale in New York and New Jersey</a>
+                            </h2>
+                        <p class="story-description">This week’s properties include a five-bedroom in Tuckahoe, N.Y., and a three-bedroom in Hoboken, N.J.</p>
+                        <p class="story-details">
+                            <span class="story-date js-prettyDate" data-prettyDate="1547733679">January 17, 2019</span>
+                                                            <span class="divider"></span>
+                                <span class="story-author">By JILL P. CAPUZZO and ANNE MANCUSO</span>
+                                                    </p>
+                    </article>
+                                    </div>
+            </div>
+        </div>
+        <div id="carousel-controls-module" class="hidden">
+    <ol class="carousel-indicators"></ol>
+    <div class="carousel-controls">
+        <div class="carousel-controls-container">
+            <span class="carousel-control left">
+                <span class="arrow arrow-left">
+                    <i class="arrow-conceal"></i>
+                </span>
+            </span>
+            <span class="carousel-control right">
+                <span class="arrow arrow-right">
+                    <i class="arrow-conceal"></i>
+                </span>
+            </span>
+        </div>
+    </div>
+</div>
+    </div>
+    <hr class="discover-hairline" />
+</div>
+</div>
+<div id="realestate-footer" class="realestate-footer">
+            <div class="footer-column">
+            <h3>Manhattan Real Estate</h3>
+            <ul>
+            
+                                <li class="realestate-footer-link">
+                    <a href="/real-estate/usa/ny/new-york/upper-east-side/homes-for-sale">
+                        Upper East Side                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link">
+                    <a href="/real-estate/usa/ny/new-york/midtown-east/homes-for-sale">
+                        Midtown East                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link">
+                    <a href="/real-estate/usa/ny/new-york/upper-west-side-%2872nd-96th-street%29/homes-for-sale">
+                        Upper West Side (72nd - 96th Street)                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link">
+                    <a href="/real-estate/usa/ny/new-york/lincoln-square/homes-for-sale">
+                        Lincoln Square                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link">
+                    <a href="/real-estate/usa/ny/new-york/financial-district/homes-for-sale">
+                        Financial District                    </a>
+                </li>
+            
+                                    <li class="realestate-footer-link show-more">
+                        Show More
+                    </li>
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-york/chelsea/homes-for-sale">
+                        Chelsea                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-york/midtown/homes-for-sale">
+                        Midtown                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-york/west-village/homes-for-sale">
+                        West Village                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-york/hell-s-kitchen/homes-for-sale">
+                        Hell'S Kitchen                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-york/tribeca/homes-for-sale">
+                        Tribeca                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-york/gramercy-park/homes-for-sale">
+                        Gramercy Park                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-york/midtown-south/homes-for-sale">
+                        Midtown South                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-york/murray-hill/homes-for-sale">
+                        Murray Hill                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-york/greenwich-village/homes-for-sale">
+                        Greenwich Village                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-york/harlem/homes-for-sale">
+                        Harlem                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-york/soho/homes-for-sale">
+                        Soho                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-york/sutton-place/homes-for-sale">
+                        Sutton Place                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-york/carnegie-hill/homes-for-sale">
+                        Carnegie Hill                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-york/east-village/homes-for-sale">
+                        East Village                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-york/east-harlem/homes-for-sale">
+                        East Harlem                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-york/kips-bay/homes-for-sale">
+                        Kips Bay                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-york/manhattan-valley/homes-for-sale">
+                        Manhattan Valley                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-york/lower-east-side/homes-for-sale">
+                        Lower East Side                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-york/battery-park-city/homes-for-sale">
+                        Battery Park City                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-york/washington-heights/homes-for-sale">
+                        Washington Heights                    </a>
+                </li>
+                        </ul>
+        </div>
+            <div class="footer-column">
+            <h3>Brooklyn Real Estate</h3>
+            <ul>
+            
+                                <li class="realestate-footer-link">
+                    <a href="/real-estate/usa/ny/brooklyn/bedford-stuyvesant/homes-for-sale">
+                        Bedford Stuyvesant                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link">
+                    <a href="/real-estate/usa/ny/brooklyn/sheepshead-bay/homes-for-sale">
+                        Sheepshead Bay                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link">
+                    <a href="/real-estate/usa/ny/brooklyn/williamsburg/homes-for-sale">
+                        Williamsburg                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link">
+                    <a href="/real-estate/usa/ny/brooklyn/gravesend/homes-for-sale">
+                        Gravesend                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link">
+                    <a href="/real-estate/usa/ny/brooklyn/downtown-brooklyn/homes-for-sale">
+                        Downtown Brooklyn                    </a>
+                </li>
+            
+                                    <li class="realestate-footer-link show-more">
+                        Show More
+                    </li>
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/brooklyn/midwood/homes-for-sale">
+                        Midwood                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/brooklyn/fort-hamilton/homes-for-sale">
+                        Fort Hamilton                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/brooklyn/bay-ridge/homes-for-sale">
+                        Bay Ridge                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/brooklyn/east-flatbush/homes-for-sale">
+                        East Flatbush                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/brooklyn/park-slope/homes-for-sale">
+                        Park Slope                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/brooklyn/brighton-beach/homes-for-sale">
+                        Brighton Beach                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/brooklyn/brooklyn-heights/homes-for-sale">
+                        Brooklyn Heights                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/brooklyn/crown-heights/homes-for-sale">
+                        Crown Heights                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/brooklyn/prospect-heights/homes-for-sale">
+                        Prospect Heights                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/brooklyn/bensonhurst/homes-for-sale">
+                        Bensonhurst                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/brooklyn/bushwick/homes-for-sale">
+                        Bushwick                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/brooklyn/borough-park/homes-for-sale">
+                        Borough Park                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/brooklyn/sunset-park/homes-for-sale">
+                        Sunset Park                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/brooklyn/flatlands/homes-for-sale">
+                        Flatlands                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/brooklyn/clinton-hill/homes-for-sale">
+                        Clinton Hill                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/brooklyn/kensington/homes-for-sale">
+                        Kensington                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/brooklyn/dyker-heights/homes-for-sale">
+                        Dyker Heights                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/brooklyn/canarsie/homes-for-sale">
+                        Canarsie                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/brooklyn/east-new-york/homes-for-sale">
+                        East New York                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/brooklyn/flatbush/homes-for-sale">
+                        Flatbush                    </a>
+                </li>
+                        </ul>
+        </div>
+            <div class="footer-column">
+            <h3>New York Real Estate</h3>
+            <ul>
+            
+                                <li class="realestate-footer-link">
+                    <a href="/real-estate/usa/ny/new-york/homes-for-sale">
+                        Manhattan                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link">
+                    <a href="/real-estate/usa/ny/brooklyn/homes-for-sale">
+                        Brooklyn                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link">
+                    <a href="/real-estate/usa/ny/queens/homes-for-sale">
+                        Queens                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link">
+                    <a href="/real-estate/usa/ny/staten-island/homes-for-sale">
+                        Staten Island                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link">
+                    <a href="/real-estate/usa/ny/bronx/homes-for-sale">
+                        Bronx                    </a>
+                </li>
+                        </ul>
+        </div>
+            <div class="footer-column">
+            <h3>More Real Estate Nearby</h3>
+            <ul>
+            
+                                <li class="realestate-footer-link">
+                    <a href="/real-estate/usa/ny/new-york/homes-for-sale">
+                        Homes For Sale In New York                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link">
+                    <a href="/real-estate/usa/ny/brooklyn/homes-for-sale">
+                        Homes For Sale In Brooklyn                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link">
+                    <a href="/real-estate/usa/ny/queens/homes-for-sale">
+                        Homes For Sale In Queens                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link">
+                    <a href="/real-estate/usa/ny/bronx/homes-for-sale">
+                        Homes For Sale In Bronx                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link">
+                    <a href="/real-estate/usa/ny/staten-island/homes-for-sale">
+                        Homes For Sale In Staten Island                    </a>
+                </li>
+            
+                                    <li class="realestate-footer-link show-more">
+                        Show More
+                    </li>
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/nj/jersey-city/homes-for-sale">
+                        Homes For Sale In Jersey City                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/great-neck/homes-for-sale">
+                        Homes For Sale In Great Neck                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/nj/newark/homes-for-sale">
+                        Homes For Sale In Newark                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/bronxville/homes-for-sale">
+                        Homes For Sale In Bronxville                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/nj/fort-lee/homes-for-sale">
+                        Homes For Sale In Fort Lee                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/nj/hoboken/homes-for-sale">
+                        Homes For Sale In Hoboken                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/new-rochelle/homes-for-sale">
+                        Homes For Sale In New Rochelle                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/chelsea/homes-for-sale">
+                        Homes For Sale In Chelsea                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/nj/clifton/homes-for-sale">
+                        Homes For Sale In Clifton                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/larchmont/homes-for-sale">
+                        Homes For Sale In Larchmont                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/nj/west-new-york/homes-for-sale">
+                        Homes For Sale In West New York                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/nj/west-orange/homes-for-sale">
+                        Homes For Sale In West Orange                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/nj/edgewater/homes-for-sale">
+                        Homes For Sale In Edgewater                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/nj/tenafly/homes-for-sale">
+                        Homes For Sale In Tenafly                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/nj/weehawken/homes-for-sale">
+                        Homes For Sale In Weehawken                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/sands-point/homes-for-sale">
+                        Homes For Sale In Sands Point                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/nj/north-bergen/homes-for-sale">
+                        Homes For Sale In North Bergen                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/ny/yonkers/homes-for-sale">
+                        Homes For Sale In Yonkers                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/nj/englewood/homes-for-sale">
+                        Homes For Sale In Englewood                    </a>
+                </li>
+            
+                                <li class="realestate-footer-link hidden">
+                    <a href="/real-estate/usa/nj/cliffside-park/homes-for-sale">
+                        Homes For Sale In Cliffside Park                    </a>
+                </li>
+                        </ul>
+        </div>
+        <div class="clearfix"></div>
+</div>
+                    <div class="search-overlay"></div>
+                    <div id="HighEndpaid-post-1" class="ad paid-post-1 nocontent robots-nocontent"></div>
+            </main><!-- close main -->
+            
+            <footer id="page-footer" class="page-footer" role="contentinfo">
+    <nav>
+        <h2 class="visually-hidden">Site Information Navigation</h2>
+         <ul>
+             <li>
+                <a href="https://help.nytimes.com/hc/en-us/articles/115014792127-Copyright-notice" itemprop="copyrightNotice">
+                    &copy; <span itemprop="copyrightYear">2019</span><span itemprop="copyrightHolder provider sourceOrganization" itemscope itemtype="http://schema.org/Organization" itemid="http://www.nytimes.com"><span itemprop="name"> The New York Times Company</span><meta itemprop="tickerSymbol" content="NYSE NYT"/></span>
+                </a>
+            </li>
+            <li class="visually-hidden"><a href="https://www.nytimes.com">Home</a></li>
+            <li class="visually-hidden"><a href="http://query.nytimes.com/search/sitesearch/#/">Search</a></li>
+            <li class="visually-hidden">Accessibility concerns? Email us at <a href="mailto:accessibility@nytimes.com">accessibility@nytimes.com</a>. We would love to hear from you.</li>
+            <li class="wide-viewport-item"><a href="https://www.nytimes.com/ref/membercenter/help/infoservdirectory.html">Contact Us</a></li>
+            <li class="wide-viewport-item"><a href="http://www.nytco.com/careers">Work With Us</a></li>
+            <li class="wide-viewport-item"><a href="http://nytmediakit.com/">Advertise</a></li>
+            <li class="wide-viewport-item"><a href="https://www.nytimes.com/content/help/rights/privacy/policy/privacy-policy.html#pp">Your Ad Choices</a></li>
+            <li><a href="https://www.nytimes.com/privacy">Privacy</a></li>
+            <li><a href="https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-service" itemprop="usageTerms">Terms of Service</a></li>
+            <li class="wide-viewport-item last-item"><a href="https://help.nytimes.com/hc/en-us/articles/115014893968-Terms-of-sale">Terms of Sale</a></li>
+         </ul>
+    </nav>
+    <nav class="last-nav">
+        <h2 class="visually-hidden">Site Information Navigation</h2>
+        <ul>
+            <li><a href="http://spiderbites.nytimes.com">Site Map</a></li>
+            <li><a href="https://help.nytimes.com/hc/en-us">Help</a></li>
+            <li><a href="https://help.nytimes.com/hc/en-us/articles/115015385887-Contact-us">Site Feedback</a></li>
+            <li class="wide-viewport-item last-item"><a href="https://www.nytimes.com/subscriptions/Multiproduct/lp5558.html?campaignId=37WXW">Subscriptions</a></li>
+        </ul>
+    </nav>
+</footer>
+        </div><!-- close page -->
+    </div><!-- close shell -->
+        <script src="https://cdn.optimizely.com/public/3013110282/s/gm.js" type="text/javascript" async></script>
+
+<script type="text/javascript" src="https://myaccount.nytimes.com/svc/account/auth/v1/lire-ui?clientId=real.estate.ui"></script>
+
+<script>
+require(['foundation/main'], function () {
+    require(['realestate/main']);
+    require(['jquery/nyt', 'foundation/views/page-manager'], function ($, pageManager) {
+        if (window.location.search.indexOf('disable_tagx') > 0) {
+            return;
+        }
+        $(document).ready(function () {
+            require(['https://a1.nyt.com/analytics/json-kidd.min.js'], function () {
+                pageManager.trackingFireEventQueue();
+            });
+        });
+    });
+});
+</script>
+
+    <div id="Inv1" class="ad inv1-ad hidden"></div>
+<div id="Inv2" class="ad inv2-ad hidden"></div>
+<div id="Inv3" class="ad inv3-ad hidden"></div>
+<div id="ab1" class="ad ab1-ad hidden"></div>
+<div id="ab2" class="ad ab2-ad hidden"></div>
+<div id="ab3" class="ad ab3-ad hidden"></div>
+<div id="prop1" class="ad prop1-ad hidden"></div>
+<div id="prop2" class="ad prop2-ad hidden"></div>
+<div id="Anchor" class="ad anchor-ad hidden"></div>
+<div id="ADX_CLIENTSIDE" class="ad adx-clientside-ad hidden"></div>
+    <!-- Include: newrelic_get_browser_timing_footer() -->
+    <script>
+        if (typeof NYTD === 'object' && NYTD.Abra && NYTD.Abra("WWW_NewRelicFooter")) {
+                    }
+    </script>
+</body>
+</html>

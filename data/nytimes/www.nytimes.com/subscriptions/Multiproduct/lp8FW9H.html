@@ -1,0 +1,541 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Why The Times?</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=1, minimum-scale=1.0">
+    <link rel="shortcut icon" href="https://static01.nyt.com/favicon.ico" />
+    <link rel="apple-touch-icon-precomposed" sizes="144×144" href="https://static01.nyt.com/images/icons/ios-ipad-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114×114" href="https://static01.nyt.com/images/icons/ios-iphone-114x144.png" />
+    <link rel="apple-touch-icon-precomposed" href="https://static01.nyt.com/images/icons/ios-default-homescreen-57x57.png" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    <script>
+        var thisPage = 'why';
+    </script>
+
+    <!-- social share -->
+    <meta name="description" content="Why Subscribe to The New York Times? The Times gives you unparalleled access to the people and events shaping our world today with stories based in facts and engagingly delivered.">
+    <meta content="The Times brings you closer." property="og:title">
+    <meta content="https://www.nytimes.com/why" property="og:site_name">
+    <meta content="https://static01.nyt.com/subscriptions/Multiproduct/assets_pa2017/images/social/social-share-why.png" property="og:image">
+    <meta content="product" property="og:type">
+    <meta content="https://www.nytimes.com/subscriptions/Multiproduct/lp8FW9H.html" property="og:url">
+    <meta content="Experience unparalleled access to the stories shaping our world today with The New York Times. https://www.nytimes.com/why" property="og:description">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@nytimes">
+    <meta name="twitter:creator" content="@nytimes">
+    <meta name="twitter:title" content="The Times brings you closer.">
+    <meta name="twitter:description" content="Experience unparalleled access to the stories shaping our world today with The New York Times. https://www.nytimes.com/why">
+    <meta name="twitter:image" content="https://static01.nyt.com/subscriptions/Multiproduct/assets_pa2017/images/social/social-share-why.png">
+    <!-- END OF SOCIAL SHARE -->
+
+    <!-- bx slider css -->
+    <link href="https://static01.nyt.com/subscriptions/components/css/jquery.bxslider.css" media="all" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="https://static01.nyt.com/subscriptions/Multiproduct/assets_pa2017/css/general.css">
+    <link rel="stylesheet" type="text/css" href="https://static01.nyt.com/subscriptions/Multiproduct/assets_pa2017/css/nav1_5.css">
+    <link rel="stylesheet" type="text/css" href="https://static01.nyt.com/subscriptions/Multiproduct/assets_pa2017/css/intro.css">
+    <link rel="stylesheet" type="text/css" href="https://static01.nyt.com/subscriptions/Multiproduct/assets_pa2017/css/journalists.css">
+    <link rel="stylesheet" type="text/css" href="https://static01.nyt.com/subscriptions/Multiproduct/assets_pa2017/css/ontheground.css">
+    <link rel="stylesheet" type="text/css" href="assets_pa2017/css/methods.css">
+    <link rel="stylesheet" type="text/css" href="https://static01.nyt.com/subscriptions/Multiproduct/assets_pa2017/css/behind.css">
+    <link rel="stylesheet" type="text/css" href="https://static01.nyt.com/subscriptions/Multiproduct/assets_pa2017/css/ourstories.css">
+    <link rel="stylesheet" type="text/css" href="https://static01.nyt.com/subscriptions/Multiproduct/assets_pa2017/css/pointsview.css">
+    <link href="https://static01.nyt.com/subscriptions/Multiproduct/assets_pa2017/css/audio_player.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="https://static01.nyt.com/subscriptions/Multiproduct/assets_pa2017/css/ourvalues.css">
+    <link rel="stylesheet" type="text/css" href="assets_pa2017/css/readytostart.css">
+    <link rel="stylesheet" type="text/css" href="https://static01.nyt.com/subscriptions/Multiproduct/assets_pa2017/css/footer.css">
+    <script src="https://static01.nytimes.com/subscriptions/components/js/html5shiv.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://static01.nyt.com/subscriptions/Multiproduct/assets_pa2017/js/jquery.transit.min.js"></script>
+    <script src="https://wurfl.io/wurfl.js" type="text/javascript"></script>
+    <!-- bx slider script -->
+    <script type="text/javascript" src="https://static01.nyt.com/subscriptions/components/js/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="https://static01.nyt.com/video/vhs/vhs-2.x.min.js"></script>
+    <script src="assets_pa2017/js/general2.js"></script>
+    <script src="assets_pa2017/js/why2.js"></script>
+    <script src="assets_pa2017/js/ourstories.js"></script>
+    <script type="text/javascript" src="https://static01.nyt.com/subscriptions/Multiproduct/assets_pa2017/js/jquery.jplayer.min.js"></script>
+    <script src="assets_pa2017/js/pointsview.js"></script>
+
+
+    <!-- NYTimes typekit -->
+    <script src="//typeface.nytimes.com/zam5nzz.js"></script>
+    <script>
+        try {
+            Typekit.load();
+        } catch (e) {}
+    </script>
+    <meta content="MOPS" name="sourceApp">
+    <script src="https://cdn.optimizely.com/public/3013110282/s/pa_prod.js"></script>
+    <script src="https://a1.nyt.com/analytics/json-kidd-no-ender.min.js"></script>
+
+</head>
+
+<body class="tresWhy">
+
+    <nav class="nav_bar">
+        <!--this gets blown out by nons-->
+        <h2><img src="https://static01.nyt.com/subscriptions/components/img/logos/logo_nyt.svg" width="300" /></h2>
+
+    </nav>
+    <!-- END of nab_bar -->
+    <section id="intro">
+        <div class="content">
+            <h2>Welcome to <span class="together">The New York Times.</span> <br> Coverage that brings <span class="together">you closer.</span> </h2>
+            <p>The Times brings you unparalleled access to the people and events shaping our world today.</p>
+            <p class="photocredit">NICHOLAS CASEY, New York Times correspondent in Caracas. Photo by MIGUEL GUTIERREZ for The New York Times</p>
+        </div>
+        <!-- END of content -->
+        <a class="down_arrow" href="javascript:void(0)"></a>
+        <!-- END of  -->
+        <!-- image to replace background -->
+        <img id="why_intro_bg" src="https://static01.nyt.com/subscriptions/Multiproduct/assets_pa2017/images/why/nicholas-casey-header.jpg" width="1440" height="843" />
+    </section>
+    <!--end of section -->
+
+    <section id="ontheground">
+
+        <div class="content">
+
+            <h2>Reporting from more than <span class="together">140 countries.</span></h2>
+
+
+
+
+            <locLinks>
+                <locLink class="active" data-target="Washington">United States</locLink>
+                <locLink data-target="MexicoCity">Mexico</locLink>
+                <locLink data-target="Lapaz">Bolivia</locLink>
+                <locLink data-target="Paris">France</locLink>
+                <locLink data-target="Jerusalem">Israel</locLink>
+                <locLink data-target="Beijing">China</locLink>
+
+                <locLink data-target="Sydney">Australia</locLink>
+
+            </locLinks>
+
+
+            <div id="earth">
+                <div id="theGlobe">
+                    <br/>
+                    <img class="bg_globe activeGlobe" id="bg_globe1" src="https://static01.nyt.com/subscriptions/Multiproduct/assets_pa2017/images/why/earth/globe-dc.jpg" /><br/>
+                    <img class="bg_globe" id="bg_globe2" src="https://static01.nyt.com/subscriptions/Multiproduct/assets_pa2017/images/why/earth/globe-mexico-city.jpg" /><br/>
+                    <img class="bg_globe" id="bg_globe3" src="https://static01.nyt.com/subscriptions/Multiproduct/assets_pa2017/images/why/earth/globe-la-paz.jpg" /><br/>
+                    <img class="bg_globe" id="bg_globe4" src="https://static01.nyt.com/subscriptions/Multiproduct/assets_pa2017/images/why/earth/globe-paris.jpg" /><br/>
+                    <img class="bg_globe" id="bg_globe5" src="https://static01.nyt.com/subscriptions/Multiproduct/assets_pa2017/images/why/earth/globe-jerusalem.jpg" /><br/>
+                    <img class="bg_globe" id="bg_globe6" src="https://static01.nyt.com/subscriptions/Multiproduct/assets_pa2017/images/why/earth/globe-beijing.jpg" /><br/>
+                    <img class="bg_globe" id="bg_globe7" src="https://static01.nyt.com/subscriptions/Multiproduct/assets_pa2017/images/why/earth/globe-sydney.jpg" /><br/>
+                    <br clear='all' />
+                </div>
+                <location id="Washington">
+
+                    <img src="https://static01.nyt.com/subscriptions/Multiproduct/assets_pa2017/images/why/journalist-headshots/elizabeth-bumiller.png" />
+                    <journalist>
+                        <city>Washington, D.C. </city>
+
+                        <strong>Elisabeth Bumiller</strong> Bureau Chief
+
+                    </journalist>
+                </location>
+
+                <location id="Beijing">
+
+                    <img src="https://static01.nyt.com/subscriptions/Multiproduct/assets_pa2017/images/why/journalist-headshots/jane-perlez.png" />
+                    <journalist>
+                        <city>Beijing</city>
+                        <strong>Jane Perlez</strong> covering East Asia
+                    </journalist>
+                </location>
+
+                <location id="Lapaz">
+
+                    <img src="https://static01.nyt.com/subscriptions/Multiproduct/assets_pa2017/images/why/journalist-headshots/nicholas-casey.png" />
+                    <journalist>
+                        <city>La Paz</city>
+                        <strong>Nick Casey</strong> covering South America
+                    </journalist>
+                </location>
+
+                <location id="Jerusalem">
+
+                    <img src="https://static01.nyt.com/subscriptions/Multiproduct/assets_pa2017/images/why/journalist-headshots/david-halbfinger.png" />
+                    <journalist>
+                        <city>Jerusalem</city>
+                        <strong>David Halbfinger</strong> covering the Middle East
+                    </journalist>
+                </location>
+
+                <location id="MexicoCity">
+
+                    <img src="https://static01.nyt.com/subscriptions/Multiproduct/assets_pa2017/images/why/journalist-headshots/ahmed-azam.png" />
+                    <journalist>
+                        <city>Mexico City</city>
+                        <strong>Azam Ahmed</strong> covering Latin America
+                    </journalist>
+                </location>
+
+                <location id="Paris">
+
+                    <img src="https://static01.nyt.com/subscriptions/Multiproduct/assets_pa2017/images/why/journalist-headshots/alissa-rubin.png" />
+                    <journalist>
+                        <city>Paris</city>
+                        <strong>Alissa Rubin</strong> covering France and Europe
+                    </journalist>
+                </location>
+
+                <location id="Sydney">
+
+                    <img src="https://static01.nyt.com/subscriptions/Multiproduct/assets_pa2017/images/why/journalist-headshots/damien-cave.png" />
+                    <journalist>
+                        <city>Sydney</city>
+                        <strong>Damien Cave</strong> covering Australia and the Pacific Rim
+                    </journalist>
+                </location>
+
+                <h5 class="google-earth-credits">Google Earth | Data SIO, NOAA, U.S. Navy, NGA, GEBCO | Image Landsat /Copernicus | Image IBCAO | Image U.S. Geological Survey</h5>
+            </div>
+            <!--end of div earth -->
+
+
+        </div>
+        <!-- end of content -->
+
+    </section>
+    <!--end of section On the Ground -->
+
+    <section id="journalists">
+        <div class="content">
+            <h2>Times journalists. Our reporters go any distance to reveal the facts. </h2>
+            <p>We do what&rsquo;s required to get the full story. From dodging gunfire to analyzing reams of information, our journalists are steadfast in bringing you the truth. </p>
+
+            <div id="stage_videos">
+                <iframe class="noproof" id="nyt_bl_video" width="800" height="448" src="https://www.youtube.com/embed/zs4-rb0f7HI?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    <!--end of section journalists -->
+
+    <section id="methods">
+
+        <div class="content">
+            <h2>New York Times methods.<br> We bring trusted expertise <span class="together">to every story.</span></h2>
+            <p>Triple checking sources. Vetting leads. Upholding the code of ethics. It takes all of these investigative skills and more for our newsroom to uncover the facts.</p>
+
+            <p class="belowGraph top-line">Investigation by Times journalists Jodi Kantor and Megan Twohey uncovered decades worth of <a class="method-link" href="javascript:void(0)">sexual harassment claims</a> against Hollywood executive Harvey Weinstein.</p>
+
+            <img src="https://static01.nyt.com/subscriptions/Multiproduct/assets_pa2017/images/why/methods/pa-why-metoo.jpg" width="80%" />
+
+        </div>
+        <!-- the Grapher goes here -->
+        <!-- end of Grapher -->
+    </section>
+    <!--end of section Methods-->
+
+    <!-- <section id="ourvalues">
+          <div class="content">
+     <h2>Our journalistic values are <br/>deeply held and unimpeachable.</h2>
+      <p>The principles by which our reporters work are steadfast and non negotiable: consistently going the distance, uncovering truth with unmatched tenacity, telling the story in whatever form it demands — all to help our readers.</p>
+
+
+      </div>
+
+      <photocredit>
+      NICHOLAS CASEY, New York Times correspondent in Caracas. Photo by MIGUEL GUTIERREZ for The New York Times
+      </photocredit>  
+   </section> -->
+
+
+
+    <section id="ourstories">
+        <div class="content">
+            <h2>Times stories. We take you inside, and then we take you further.</h2>
+            <p>Explore stories from new and unexpected angles with our virtual-reality films, original documentaries, podcasts, data visualizations and more. </p>
+        </div>
+
+        <div class="content2">
+            <p id="title_biles">
+                <a href="https://www.nytimes.com/interactive/2016/10/24/world/asia/living-in-chinas-expanding-deserts.html
+">Living in China&rsquo;s Expanding Deserts </a>
+            </p>
+        </div>
+        <!-- END of content 2 -->
+
+        <!--VIDEO OF GYMNAST -->
+        <figure class="bg_video">
+            <video id="ourstories_video" src="https://int.nyt.com/data/videotape/finished/2016/09/13/china-desertification/intro_girl_01-toned-1254.mp4" muted playsinline autoplay loop></video>
+        </figure>
+        <!-- END of bg_video -->
+
+    </section>
+    <!--end of section -->
+
+    <section id="pointsview">
+
+        <svg style="display:none" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <symbol viewBox="0 0 15 12" preserveAspectRatio="xMinYMin meet" id="icon-read-svg" >
+        <title>read</title>
+        <g stroke="none" stroke-width="1" fill="" fill-rule="evenodd" class="read_svg">
+            <g id="PA-Why-Desktop" transform="translate(-890.000000, -5848.000000)" fill="">
+                <g id="05-Perspectives" transform="translate(2.000000, 5530.000000)">
+                    <g id="Icons" transform="translate(862.000000, 302.000000)">
+                        <g id="read-icon" transform="translate(26.000000, 16.000000)">
+                            <path d="M7,11.359 C4.538,8.981 0.586,10.016 0.586,10.016 C0.265,10.1 0,9.897 0,9.565 L0,1.26 C0,0.928 0.257,0.562 0.567,0.447 C0.567,0.447 4.538,-1.019 7,1.359" id="Fill-1"></path>
+                            <path d="M8,11.359 C10.463,8.981 14.415,10.016 14.415,10.016 C14.736,10.1 15,9.897 15,9.565 L15,1.26 C15,0.928 14.744,0.562 14.434,0.447 C14.434,0.447 10.463,-1.019 8,1.359" id="Fill-3"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </symbol>
+
+    <symbol viewBox="0 0 16 10" preserveAspectRatio="xMinYMin meet" id="icon-watch-svg">
+        <title>watch</title>
+        <g stroke="none" stroke-width="1" fill="" fill-rule="evenodd" class="watch_svg">
+            <g id="PA-Why-Desktop" transform="translate(-984.000000, -5848.000000)" fill="">
+                <g id="05-Perspectives" transform="translate(2.000000, 5530.000000)">
+                    <g id="Icons" transform="translate(862.000000, 302.000000)">
+                        <g id="watch-icon" transform="translate(120.000000, 16.000000)">
+                            <polygon id="Fill-1" points="15.0003 0.9991 10.9993 3.9991 10.9993 5.9981 15.0003 8.9991 16.0003 8.9991 16.0003 0.9991"></polygon>
+                            <path d="M10,0 L1,0 C0.45,0 0,0.45 0,1 L0,9 C0,9.55 0.45,10 1,10 L10,10" id="Fill-2"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </symbol>
+
+    <symbol viewBox="0 0 16 14" preserveAspectRatio="xMinYMin meet" id="icon-listen-svg">
+        <title>listen</title>
+        <g id="Working" stroke="none" stroke-width="1" fill="" fill-rule="evenodd" class="listen_svg">
+            <g id="PA-Why-Desktop" transform="translate(-1078.000000, -5847.000000)">
+                <g id="05-Perspectives" transform="translate(2.000000, 5530.000000)">
+                    <g id="Icons" transform="translate(862.000000, 302.000000)">
+                        <g id="listen-icon" transform="translate(214.000000, 15.000000)">
+                            <path d="M16,6.999 C16,4.238 13.762,1.999 11,1.999 L11,2.999 C13.209,2.999 15,4.79 15,6.999 C15,9.208 13.209,10.999 11,10.999 L11,11.999 C13.762,11.999 16,9.76 16,6.999" id="Fill-1" fill=""></path>
+                            <g id="Group-5">
+                                <mask id="mask-2" fill="">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <g id="Clip-4"></g>
+                                <path d="M9,10.4443 L9,7.0043 L9,7.0093 L9,6.9893 L9,6.9943 L9,3.5523 L9,2.4223 L9,0.0003 L8,0.0003 L4,4.0003 L1,4.0003 C0.45,4.0003 0,4.4493 0,5.0003 L0,9.0003 C0,9.5483 0.45,10.0003 1,10.0003 L4,10.0003 L8,14.0003 L9,14.0003 L9,11.5773 L9,10.4443 Z" id="Fill-3" fill="" mask="url(#mask-2)"></path>
+                            </g>
+                            <path d="M13.001,6.999 C13.001,5.895 12.106,4.999 11.001,4.999 L11.001,8.999 C12.106,8.999 13.001,8.103 13.001,6.999" id="Fill-6" fill=""></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </symbol>
+
+    <symbol viewBox="0 0 16 17" preserveAspectRatio="xMinYMin meet" id="icon-interact-svg">
+        <title>interact</title>
+        <g stroke="none" stroke-width="1" fill="" fill-rule="evenodd" class="interact_svg">
+            <g id="PA-Why-Desktop" transform="translate(-1168.000000, -5845.000000)">
+                <g id="05-Perspectives" transform="translate(2.000000, 5530.000000)">
+                    <g id="Icons" transform="translate(862.000000, 302.000000)">
+                        <g id="experience-icon" transform="translate(304.000000, 13.000000)">
+                            <path d="M11.8314,5.9106 C11.4354,6.0956 11.2634,6.5666 11.4474,6.9666 L12.1744,8.5236 C12.2404,8.6646 12.1804,8.8366 12.0344,8.9026 C11.8934,8.9706 11.7224,8.9066 11.6544,8.7646 L10.4224,6.1196 C10.2364,5.7236 9.7654,5.5496 9.3654,5.7346 C8.9704,5.9206 8.7974,6.3926 8.9814,6.7916 L9.8444,8.6396 C9.9104,8.7816 9.8514,8.9536 9.7064,9.0186 C9.5624,9.0876 9.3924,9.0256 9.3234,8.8816 L8.0484,6.1426 C7.8634,5.7466 7.3914,5.5726 6.9924,5.7596 C6.5974,5.9436 6.4244,6.4196 6.6084,6.8146 L7.3304,8.3636 C7.3974,8.5086 7.3364,8.6776 7.1914,8.7446 C7.0504,8.8096 6.8784,8.7506 6.8114,8.6046 L4.5574,3.7666 C4.3704,3.3696 3.8974,3.1976 3.5004,3.3836 C3.1044,3.5686 2.9324,4.0426 3.1164,4.4386 L6.5154,11.7196 C6.5644,11.8246 6.5464,11.9496 6.4684,12.0336 C6.3924,12.1196 6.2684,12.1486 6.1584,12.1096 L3.6464,11.1956 C3.4464,11.1216 3.2304,11.1336 3.0384,11.2216 C2.8474,11.3116 2.7014,11.4706 2.6284,11.6706 C2.5564,11.8696 2.5624,12.0856 2.6534,12.2776 C2.7434,12.4726 2.9034,12.6156 3.1034,12.6886 L8.5444,16.1786 C8.9864,16.5106 10.2514,17.2596 11.0034,16.9086 L14.9174,15.0846 C15.8554,14.6456 16.2624,13.5296 15.8234,12.5906 L12.8884,6.2946 C12.7024,5.8956 12.2294,5.7246 11.8314,5.9106" id="Fill-1"></path>
+                            <path d="M0.3636,6.062 C-0.0724,5.128 -0.1174,4.081 0.2346,3.114 C0.5876,2.144 1.2956,1.372 2.2286,0.936 C3.1626,0.5 4.2096,0.454 5.1776,0.808 C6.1456,1.161 6.9196,1.868 7.3536,2.802 L6.3546,3.268 C6.0446,2.601 5.4926,2.095 4.8006,1.843 C4.1096,1.591 3.3616,1.625 2.6956,1.935 C2.0276,2.247 1.5216,2.798 1.2696,3.489 C1.0176,4.181 1.0506,4.929 1.3626,5.596 L0.3636,6.062 Z" id="Fill-4"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </symbol>
+    
+    
+    <symbol viewBox="0 0 20 21" preserveAspectRatio="xMinYMin meet" id="icon-play-svg">
+        <title>play icon</title>
+        <g id="Working" stroke="none" stroke-width="1" fill-rule="evenodd">
+            <g id="PA-Hover-States" transform="translate(-76.000000, -1337.000000)" >
+                <polygon id="Triangle" points="96.0722656 1347.5 76 1358 76 1337"></polygon>
+            </g>
+        </g>
+    </symbol>
+    
+    <symbol viewBox="0 0 16 17" preserveAspectRatio="xMinYMin meet" id="icon-pause-svg">
+        <title>pause icon</title>
+        <g id="Working" stroke="none" stroke-width="1" fill-rule="evenodd">
+            <g id="PA-Hover-States" transform="translate(-76.000000, -1379.000000)" >
+                <path d="M76,1379 L82,1379 L82,1396 L76,1396 L76,1379 Z M86,1379 L92,1379 L92,1396 L86,1396 L86,1379 Z" id="Pause"></path>
+            </g>
+        </g>
+    </symbol>
+    
+
+</svg>
+
+
+        <div class="content">
+            <h2>Times experiences.<br> We help you get the whole picture. </h2>
+            <p>We tell stories in a range of formats to fit your life and amplify your Times experience. </p>
+
+            <div class="sense_holder">
+
+                <div class="devicePic">
+
+                    <div class="read media-holder" style="display:block">
+                        <img id="img_devices" src="https://static01.nyt.com/subscriptions/Multiproduct/assets_pa2017/images/why/pointsofview/devices1.png" title="Devices" alt="Devices" width="568" />
+                    </div>
+
+                    <div class="watch media-holder">
+                        <figure id="moonlightVideo"></figure>
+                    </div>
+
+                    <div class="listen media-holder">
+                        <figure>
+                            <img src="assets_pa2017/images/why/podcasts.jpg" alt="Podcasts" width="439" />
+
+                            <div id="audioplayer">
+
+                                <div id="jquery_jplayer_1" class="jp-jplayer"></div>
+                                <div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
+                                    <div class="jp-type-single">
+                                        <div class="jp-gui jp-interface">
+                                            <div class="jp-controls">
+                                                <button class="jp-play" role="button" tabindex="0">
+                                            <svg width="20px" height="21px" class="play_icon">
+                                                <use xlink:href="#icon-play-svg"/>
+                                            </svg>
+
+                                            <svg width="20px" height="21px" class="pause_icon">
+                                                <use xlink:href="#icon-pause-svg"/>
+                                            </svg>
+
+                                        </button>
+                                            </div>
+                                            <div class="jp-progress">
+                                                <div class="jp-seek-bar">
+                                                    <div class="jp-play-bar"></div>
+                                                </div>
+                                            </div>
+                                            <div class="jp-time-holder">
+                                                <div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>&nbsp;/
+                                                <div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div>
+                                            </div>
+                                        </div>
+                                        <div class="jp-no-solution">
+                                            <span>Update Required</span> To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <script type="text/javascript">
+                                    $(document).ready(function() {
+
+                                        $("#jquery_jplayer_1").jPlayer({
+                                            ready: function(event) {
+                                                $(this).jPlayer("setMedia", {
+                                                    title: "The Daily Podcast",
+                                                    mp3: "https://static01.nyt.com/subscriptions/Multiproduct/assets_pa2017/audio/theDaily_podcast_teaser.mp3",
+                                                    oga: "https://static01.nyt.com/subscriptions/Multiproduct/assets_pa2017/audio/theDaily_podcast_teaser.ogg"
+                                                });
+                                            },
+                                            swfPath: "../../dist/jplayer",
+                                            supplied: "m4a, mp3, oga",
+                                            wmode: "window",
+                                            useStateClassSkin: true,
+                                            autoBlur: false,
+                                            smoothPlayBar: true,
+                                            keyEnabled: true,
+                                            remainingDuration: true,
+                                            toggleDuration: true
+                                        });
+                                    });
+                                </script>
+
+                            </div>
+                            <!-- END of audioplayer -->
+
+                        </figure>
+                    </div>
+
+                    <div class="interact media-holder">
+                        <figure id="daybreakVideo"></figure>
+                    </div>
+
+
+
+
+                </div>
+
+                <div class="sense_tab">
+                    <div class="sense_buttons" id="sense_buttons">
+                        <div id="btn_read" class="tab active" data-target="read">
+                            <i> <svg height="12px" width="15" class="icon-image"><use xlink:href="#icon-read-svg"/></svg></i>
+                            <h5>Read</h5>
+                        </div>
+                        <div id="btn_watch" class="tab" data-target="watch">
+                            <i><svg height="10px" width="16" class="icon-image"><use xlink:href="#icon-watch-svg"/></svg></i>
+                            <h5>Watch</h5>
+                        </div>
+                        <div id="btn_listen" class="tab" data-target="listen">
+                            <i><svg height="14px" width="16" class="icon-image"><use xlink:href="#icon-listen-svg"/></svg></i>
+                            <h5>Listen</h5>
+                        </div>
+                        <div id="btn_interact" class="tab" data-target="interact">
+                            <i><svg height="17px" width="16" class="icon-image"><use xlink:href="#icon-interact-svg"/></svg></i>
+                            <h5>Interact</h5>
+                        </div>
+
+                    </div>
+                    <!--end of sense buttons -->
+
+
+                    <div class="sense_descriptions" id="sense_descriptions">
+                        <p id="desc_read" style="display:block" class="read active">
+                            Start the day with the <strong>Morning Briefing</strong>, explore a new point of view in <strong>Opinion</strong>, discover what the data means in <strong>The Upshot</strong>, or save a feature article for your downtime.
+                        </p>
+                        <p id="desc_watch" class="watch">
+                            Budding cinephile or just planning your next movie night? Watch a director explain how he got the shot just right in our <strong>&ldquo;Anatomy of a Scene&rdquo;</strong> feature.
+                        </p>
+
+                        <p id="desc_listen" class="listen">
+                            Make better use of your commute with much-lauded podcasts like <strong>The Daily</strong>, a hard-working 20 minutes hosted by Michael Barbaro that explores the issues of the day, or tune into <strong>Still Processing</strong>,
+                            a culture conversation between technology reporter Jenna Wortham and Times critic at large, Wesley Morris.
+                        </p>
+                        <p id="desc_interact" class="interact">
+                            Take a free moment to view <strong>The Daily 360</strong>, a unique panoramic news feature that lets you immerse yourself in the atmosphere of a story.
+                        </p>
+
+                    </div>
+                    <!-- end of sense descriptions -->
+
+                </div>
+            </div>
+            <!-- END of sense_holder -->
+
+        </div>
+        <!--end of content -->
+    </section>
+
+    <section id="readytostart">
+        <div id="readynonsubs">
+            <div class="content">
+                <div id="buttonSet">
+                    <div class="button subscribeNow">SHOW ME MY SUBSCRIPTION OPTIONS</div>
+                    <!-- <p>Starting at <strong class="sub-price">$3.75</strong> a week.</p> -->
+                </div>
+            </div>
+            <!--end of content div -->
+        </div>
+    </section>
+
+    <footer id="footer" class="footer">
+
+    </footer>
+
+    <script>
+        $(document).ready(function() {
+
+        });
+    </script>
+
+
+</body>
+
+</html>

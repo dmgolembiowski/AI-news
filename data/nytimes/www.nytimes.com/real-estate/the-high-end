@@ -1,0 +1,1948 @@
+<!DOCTYPE html>
+<!--[if (gt IE 9)|!(IE)]> <!--> <html lang="en" class="no-js realestate-highend"  itemscope xmlns:og="http://opengraphprotocol.org/schema/"> <!--<![endif]-->
+<!--[if IE 9]> <html lang="en" class="no-js ie9 lt-ie10 realestate-highend" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<!--[if IE 8]> <html lang="en" class="no-js ie8 lt-ie10 lt-ie9 realestate-highend" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<!--[if (lt IE 8)]> <html lang="en" class="no-js lt-ie10 lt-ie9 lt-ie8 realestate-highend" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<head>
+    <title>The New York Times - Realestate - The High End</title>
+
+    
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="shortcut icon" href="https://static01.nyt.com/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="144×144" href="https://static01.nyt.com/images/icons/ios-ipad-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114×114" href="https://static01.nyt.com/images/icons/ios-iphone-114x144.png" />
+<link rel="apple-touch-icon-precomposed" href="https://static01.nyt.com/images/icons/ios-default-homescreen-57x57.png" />
+<meta name="sourceApp" content="nyt-v5" />
+<meta id="applicationName" name="applicationName" content="realestate" />
+<meta id="foundation-build-id" name="foundation-build-id" content="" />
+<meta property="fb:app_id" content="9869919170" />
+<meta property="og:url" content="https://www.nytimes.com/real-estate" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="New York Times Real Estate: To Rent. To Buy. To Love." />
+<meta property="og:description" content="Find thousands of homes for sale or rent with New York Times Real Estate, on the web and on the go. Find the latest open houses, price reductions and homes new to the market with guidance from experts who live here too." />
+<meta property="og:image" content="https://static01.nyt.com/images/icons/t_logo_291_black.png" />
+<meta property="og:site_name" content="NYT Real Estate" />
+<meta property="twitter:card" value="summary" />
+<meta property="twitter:site" value="@nytrealestate" />
+<meta property="twitter:url" content="https://www.nytimes.com/real-estate" />
+<meta property="twitter:title" content="New York Times Real Estate: To Rent. To Buy. To Love." />
+<meta property="twitter:description" content="Find thousands of homes for sale or rent with New York Times Real Estate, on the web and on the go. Find the latest open houses, price reductions and homes new to the market with guidance from experts who live here too." />
+<meta property="twitter:image" content="https://static01.nyt.com/images/icons/t_logo_291_black.png" />
+<meta name="dfp-ad-unit-path" content="realestate/thehighend/sectionfront" />
+<meta name="CG" content="realestate" />
+    
+            <link id="legacy-zam5nzz" rel="stylesheet" type="text/css" href="https://typeface.nyt.com/css/zam5nzz.css" media="all" />
+<!--[if (gt IE 9)|!(IE)]> <!-->
+<link rel="stylesheet" type="text/css" media="screen" href="https://g1.nyt.com/assets/realestate/20190111-213308/css/realestate/styles.css" />
+<!--<![endif]-->
+<!--[if lte IE 9]>
+<link rel="stylesheet" type="text/css" media="screen" href="https://g1.nyt.com/assets/realestate/20190111-213308/css/realestate/styles-ie.css" />
+<![endif]-->
+<link rel="stylesheet" type="text/css" media="print" href="https://g1.nyt.com/assets/realestate/20190111-213308/css/realestate/styles-print.css">
+                <script type="text/javascript">var googletag=googletag||{};googletag.cmd=googletag.cmd||[],function(){var t=document.createElement("script");t.async=!0,t.type="text/javascript";var e="https:"==document.location.protocol;t.src=(e?"https:":"http:")+"//www.googletagservices.com/tag/js/gpt.js";var o=document.getElementsByTagName("script")[0];o.parentNode.insertBefore(t,o)}();</script>
+
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700' rel='stylesheet' type='text/css'>
+<!--  begin abra  -->
+<!--esi
+<esi:include src="http://wp-aballoc-service/v9/document-setup.html-esi?apps=www-realestate+ecomm-fe&amp;etUrl=prd" />
+-->
+<!--  end abra  -->
+
+<!--esi
+<script id="user-info-data" type="application/json">
+<esi:include src="/svc/web-products/userinfo-v3.json" />
+</script>
+-->
+<script id="magnum-feature-flags" type="application/json">["newMasthead","floatingMap","listingPriceMapMarkers","listingContentFilter","newListingAPI","alternateMapResize","publicTransportFilter","dfpAds","foursquareMaxiMap","personalization","shareSavedSearch","showStJohnAds","allowAnonAgentContact","highendAds","trackListingImpressions","mapPolygonSearch","mapNeighborhoodBoundaries","nearbySchoolsModule","showTooltips","agentSearch","NYTExperiment","recaptchaAgentForm","salesActivity","mortgageCalculator","newMobileReleased","piiBlockDFP","headerScrolling","slideShowAds","advancedFilterSets","recentSales","foursquareUpdate","indexAsHeaderBidder","caslOpt","jkiddScript","reGdpr"]</script>
+<script>
+var require = {
+    baseUrl: 'https://g1.nyt.com/assets/',
+    waitSeconds: 20,
+    paths: {
+        'foundation': 'realestate/20190111-213308/js/foundation',
+        'shared': 'realestate/20190111-213308/js/shared',
+        'realestate': 'realestate/20190111-213308/js/realestate',
+        'application': 'realestate/20190111-213308/js/realestate/',
+        'videoFactory': 'https://static01.nyt.com/js2/build/video/2.0/videofactoryrequire',
+        'videoPlaylist': 'https://static01.nyt.com/js2/build/video/players/extended/2.0/appRequire',
+        'auth/mtr': 'https://static01.nyt.com/js/mtr',
+        'auth/growl': 'https://static01.nyt.com/js/auth/growl/default',
+        'vhs': 'https://static01.nyt.com/video/vhs/build/vhs-2.x.min',
+        'vhs3': 'https://static01.nyt.com/video-static/vhs3/vhs.min'
+    }
+};
+</script>
+<!--[if (gte IE 9)|!(IE)]> <!-->
+<script data-main="foundation/main" src="https://g1.nyt.com/assets/realestate/20190111-213308/js/foundation/lib/framework.js"></script>
+<!--<![endif]-->
+<!--[if lt IE 9]>
+<script>
+    require.map = { '*': { 'foundation/main': 'foundation/legacy_main' } };
+</script>
+<script data-main="foundation/legacy_main" src="https://g1.nyt.com/assets/realestate/20190111-213308/js/foundation/lib/framework.js"></script>
+<![endif]-->
+</head>
+<body>
+    
+    <style>
+    .lt-ie10 .messenger.suggestions {
+        display: block !important;
+        height: 50px;
+    }
+
+    .lt-ie10 .messenger.suggestions .message-bed {
+        background-color: #f8e9d2;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .lt-ie10 .messenger.suggestions .message-container {
+        padding: 11px 18px 11px 30px;
+    }
+
+    .lt-ie10 .messenger.suggestions .action-link {
+        font-family: "nyt-franklin", arial, helvetica, sans-serif;
+        font-size: 10px;
+        font-weight: bold;
+        color: #a81817;
+        text-transform: uppercase;
+    }
+
+    .lt-ie10 .messenger.suggestions .alert-icon {
+        background: url('https://static01.nyt.com/images/icons/icon-alert-12x12-a81817.png') no-repeat;
+        width: 12px;
+        height: 12px;
+        display: inline-block;
+        margin-top: -2px;
+        float: none;
+    }
+
+    .lt-ie10 .masthead,
+    .lt-ie10 .navigation,
+    .lt-ie10 .comments-panel {
+        margin-top: 50px !important;
+    }
+
+    .lt-ie10 .ribbon {
+        margin-top: 97px !important;
+    }
+</style>
+<div id="suggestions" class="suggestions messenger nocontent robots-nocontent" style="display:none;">
+    <div class="message-bed">
+        <div class="message-container last-message-container">
+            <div class="message">
+                <span class="message-content">
+                    <i class="icon alert-icon"></i><span class="message-title">NYTimes.com no longer supports Internet Explorer 9 or earlier. Please upgrade your browser.</span>
+                    <a href="http://www.nytimes.com/content/help/site/ie9-support.html" class="action-link">LEARN MORE »</a>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div id="shell" class="shell">
+            <header id="masthead" class="masthead masthead-theme-standard" role="banner">
+    <div class="container">
+        <div class="quick-navigation button-group">
+            <button class="button sections-button"><i class="icon sprite-icon"></i><span class="button-text">Sections</span></button>
+            <button class="button home-button" data-href="https://www.nytimes.com/" title="Go to the home page to see the latest top stories."><i class="icon sprite-icon"></i>
+                <span class="button-text">Home</span>
+            </button>
+            <button class="button search-button"><i class="icon sprite-icon"></i><span class="button-text">Search</span></button>
+            <a class="button skip-button skip-to-content visually-hidden focusable" href="#main">Skip to content</a>
+                                </div><!-- close button-group -->
+        <div class="branding">
+            <h2 class="branding-heading">
+                <a id="branding-heading-link" href="https://www.nytimes.com/">
+                    <span class="visually-hidden">The New York Times</span>
+                </a>
+            </h2>
+            <script>window.magnum.writeLogo('small', 'https://g1.nyt.com/assets/realestate/20190111-213308/images/foundation/logos/', '', 'masthead-theme-standard', '', 'branding-heading-link', 'realestate');</script>
+        </div><!-- close branding -->
+        <div class="collection-meta">
+    <h3 class="kicker"><span class="kicker-label">The High End</span><span class="search-meta hidden"><span class="pipe">|</span><span class="search-term"></span></span></h3>
+</div><!-- close collection-meta -->        <div class="user-tools">
+            <div id="Bar1" class="ad bar1-ad nocontent robots-nocontent"></div>
+<div id="liftoff-nyt5-bar1" class="hidden"></div>
+                        <button class="button search-button"><i class="icon sprite-icon"></i><span class="button-text">Search</span></button>
+            <div class="user-tools-button-group button-group">
+                <button class="button subscribe-button hidden" data-href="https://www.nytimes.com/subscriptions/Multiproduct/lp3004.html?campaignId=4XUYF">Subscribe Now</button>
+                <button class="button login-button hidden">Log In</button>
+                                                <button class="button notifications-button hidden"><i class="icon sprite-icon"></i><span class="button-text">0</span></button>
+                <button class="button user-settings-button"><i class="icon sprite-icon"></i><span class="button-text">Settings</span></button>
+            </div><!-- close user-tools-button-group -->
+        </div><!-- close user-tools -->
+    </div><!-- close container -->
+    <div class="search-flyout-panel flyout-panel">
+    <button class="button close-button" type="button"><i class="icon"></i><span class="visually-hidden">Close search</span></button>
+    <nav class="search-form-control form-control layout-horizontal">
+    <h2 class="visually-hidden">Site Search Navigation</h2>
+    <form class="search-form" role="search">
+        <div class="control">
+            <div class="label-container visually-hidden">
+                                <label for="search-input">Search NYTimes.com</label>
+                            </div>
+            <div class="field-container">
+                                <input id="search-input" name="search-input" type="text" class="search-input text" autocomplete="off" placeholder="Search NYTimes.com" />
+                
+                <button type="button" class="button clear-button" tabindex="-1" aria-describedby="clear-search-input"><i class="icon"></i><span id="clear-search-input" class="visually-hidden">Clear this text input</span></button>
+                <div class="auto-suggest" style="display: none;">
+                    <ol></ol>
+                </div>
+                <button class="button submit-button" type="submit">Go</button>
+            </div>
+        </div><!-- close control -->
+    </form>
+</nav>
+
+
+</div><!-- close flyout-panel -->
+    <div id="notification-modals" class="notification-modals"></div>
+</header>
+                        <nav id="navigation" class="navigation">
+    <h2 class="visually-hidden">Site Navigation</h2>
+</nav><!-- close navigation -->
+
+<nav id="mobile-navigation" class="mobile-navigation hidden">
+    <h2 class="visually-hidden">Site Mobile Navigation</h2>
+</nav><!-- close mobile-navigation -->
+
+    <div id="navigation-edge" class="navigation-edge"></div>
+    <div id="page" class="page">
+                <main id="main" class="main" role="main">
+                                    <header class="collection-header">
+    <div class="collection-meta">
+        <div class="collection-meta-header">
+            <h3 class="kicker">
+                <span class="kicker-label">
+                    <a href="https://www.nytimes.com/section/realestate">REAL ESTATE</a>
+                </span>
+            </h3>
+        </div><!-- close collection-meta-header -->
+
+        <div class="collection-meta-group">
+            <div class="collection-headings">
+                <div class="collection-heading-group">
+                    <h1 class="collection-heading" itemprop="name">
+                        The High End
+                    </h1>
+                </div><!-- close collection-heading-group -->
+            </div><!-- close collection-headings -->
+        </div>
+    </div>
+</header>
+<section
+    class="highend-module embedded-collection-package collection collection-package"
+    data-collection-type=""
+    data-collection-identifier=""
+    data-module-type="lead"
+    data-module-id="10000"
+    >
+    <div class="rank-template template-4">
+        <ol class="story-menu">
+                                             <li class="top-story">
+                                        <article class="story theme-summary">
+                                                            <figure class="media photo" aria-label="media" role="group">
+                                    <span class="visually-hidden">Photo</span>
+                                    <a href="https://www.nytimes.com/2019/01/17/realestate/for-18-5-million-a-studio-where-ziegfeld-dreams-were-invented.html" data-rref="">
+                                        <img
+                                            src="https://static01.nyt.com/images/2019/01/20/realestate/20exclusive-slide-MEBY/20exclusive-slide-MEBY-videoLarge.jpg"
+                                            alt=""
+                                        />
+                                                                                                                    </a>
+                                    <figcaption class="caption" itemprop="caption description">
+                                        <span class="credit" itemprop="copyrightHolder"><span class="visually-hidden">Credit</span></span>
+                                    </figcaption>
+                                </figure>
+                                                        <div class="story-body">
+                                                                    <div class="thumb">
+                                        <a href="https://www.nytimes.com/2019/01/17/realestate/for-18-5-million-a-studio-where-ziegfeld-dreams-were-invented.html" aria-hidden="true" role="presentation" tabindex="-1" data-rref="">
+                                            <img
+                                                src="https://static01.nyt.com/images/2019/01/20/realestate/20exclusive-slide-MEBY/20exclusive-slide-MEBY-thumbStandard.jpg"
+                                                role="presentation"
+                                                alt=""
+                                            />
+                                        </a>
+                                    </div>
+                                                                                                    <h3 class="kicker">EXCLUSIVE</h3>
+                                                                <h2 class="headline">
+                                    <a href="https://www.nytimes.com/2019/01/17/realestate/for-18-5-million-a-studio-where-ziegfeld-dreams-were-invented.html" data-rref="">For $18.5 Million, a Studio Where Ziegfeld Dreams Were Invented</a>
+                                </h2>
+                                <p class="summary">A former warehouse in West Chelsea, once the domain of a famed Broadway set designer and now home to a fashion studio, goes on the market.</p>
+                                <p class="byline">
+                                                                            <span class="freshness"><time data-utc-timestamp="1547737278" datetime="1547737278"></time></span>
+                                                                                    <span class="divider"></span>
+                                                                                                                <span class="author" itemprop="author">By STEFANOS CHEN</span>
+                                </p>
+                            </div>
+                        </article>
+                                </li>
+                                            <li class="story-group">
+                    <ol class="story-menu">
+                        <li>
+                                        <article class="story theme-summary">
+                                                            <figure class="media photo" aria-label="media" role="group">
+                                    <span class="visually-hidden">Photo</span>
+                                    <a href="https://www.nytimes.com/2018/11/30/realestate/new-robert-am-stern-condo-on-park-avenue-sells-for-nearly-74-million.html" data-rref="">
+                                        <img
+                                            src="https://static01.nyt.com/images/2018/12/02/realestate/02ticket1/02ticket1-videoLarge.jpg"
+                                            alt=""
+                                        />
+                                                                                                                    </a>
+                                    <figcaption class="caption" itemprop="caption description">
+                                        <span class="credit" itemprop="copyrightHolder"><span class="visually-hidden">Credit</span>Zeckendorf Development LLC and Seventh Art</span>
+                                    </figcaption>
+                                </figure>
+                                                        <div class="story-body">
+                                                                    <div class="thumb">
+                                        <a href="https://www.nytimes.com/2018/11/30/realestate/new-robert-am-stern-condo-on-park-avenue-sells-for-nearly-74-million.html" aria-hidden="true" role="presentation" tabindex="-1" data-rref="">
+                                            <img
+                                                src="https://static01.nyt.com/images/2018/12/02/realestate/02ticket1/02ticket1-thumbStandard.jpg"
+                                                role="presentation"
+                                                alt=""
+                                            />
+                                        </a>
+                                    </div>
+                                                                                                    <h3 class="kicker">BIG TICKET</h3>
+                                                                <h2 class="headline">
+                                    <a href="https://www.nytimes.com/2018/11/30/realestate/new-robert-am-stern-condo-on-park-avenue-sells-for-nearly-74-million.html" data-rref="">New Robert A.M. Stern Condo on Park Avenue Sells for Nearly $74 Million</a>
+                                </h2>
+                                <p class="summary">A duplex at 520 Park Avenue was the top sale in November. Other notable sales include apartments owned by the Rolling Stones guitarist Keith Richards and the A-ha guitarist Paul Waaktaar-Savoy.</p>
+                                <p class="byline">
+                                                                            <span class="freshness"><time data-utc-timestamp="1543615853" datetime="1543615853"></time></span>
+                                                                                    <span class="divider"></span>
+                                                                                                                <span class="author" itemprop="author">By VIVIAN MARINO</span>
+                                </p>
+                            </div>
+                        </article>
+                                </li>
+                                            <li>
+                                        <article class="story theme-summary">
+                                                            <figure class="media photo" aria-label="media" role="group">
+                                    <span class="visually-hidden">Photo</span>
+                                    <a href="https://www.nytimes.com/2019/01/23/realestate/house-hunting-in-ecuador.html" data-rref="">
+                                        <img
+                                            src="https://static01.nyt.com/images/2019/01/27/realestate/27IHH-Ecuador-slide-GF51/27IHH-Ecuador-slide-GF51-videoLarge.jpg"
+                                            alt=""
+                                        />
+                                                                                                                    </a>
+                                    <figcaption class="caption" itemprop="caption description">
+                                        <span class="credit" itemprop="copyrightHolder"><span class="visually-hidden">Credit</span>Bicubik Photography for The New York Times</span>
+                                    </figcaption>
+                                </figure>
+                                                        <div class="story-body">
+                                                                    <div class="thumb">
+                                        <a href="https://www.nytimes.com/2019/01/23/realestate/house-hunting-in-ecuador.html" aria-hidden="true" role="presentation" tabindex="-1" data-rref="">
+                                            <img
+                                                src="https://static01.nyt.com/images/2019/01/27/realestate/27IHH-Ecuador-slide-GF51/27IHH-Ecuador-slide-GF51-thumbStandard.jpg"
+                                                role="presentation"
+                                                alt=""
+                                            />
+                                        </a>
+                                    </div>
+                                                                                                    <h3 class="kicker">INTERNATIONAL REAL ESTATE</h3>
+                                                                <h2 class="headline">
+                                    <a href="https://www.nytimes.com/2019/01/23/realestate/house-hunting-in-ecuador.html" data-rref="">House Hunting in … Ecuador</a>
+                                </h2>
+                                <p class="summary">Despite a recent downswing in the market, Ecuador’s low cost of living and access to affordable health care make it a popular destination for North Americans.</p>
+                                <p class="byline">
+                                                                            <span class="freshness"><time data-utc-timestamp="1548253888" datetime="1548253888"></time></span>
+                                                                                    <span class="divider"></span>
+                                                                                                                <span class="author" itemprop="author">By KEVIN BRASS</span>
+                                </p>
+                            </div>
+                        </article>
+                                </li>
+                                            <li>
+                                        <article class="story theme-summary">
+                                                            <figure class="media photo" aria-label="media" role="group">
+                                    <span class="visually-hidden">Photo</span>
+                                    <a href="https://www.nytimes.com/2019/01/15/realestate/split-personality-in-seattle.html" data-rref="">
+                                        <img
+                                            src="https://static01.nyt.com/images/2019/01/20/realestate/20LOCATION-SEATTLE-slide-6K7B/00LOCATION-SEATTLE-slide-6K7B-videoLarge.jpg"
+                                            alt=""
+                                        />
+                                                                                                                    </a>
+                                    <figcaption class="caption" itemprop="caption description">
+                                        <span class="credit" itemprop="copyrightHolder"><span class="visually-hidden">Credit</span>Kevin Scott</span>
+                                    </figcaption>
+                                </figure>
+                                                        <div class="story-body">
+                                                                    <div class="thumb">
+                                        <a href="https://www.nytimes.com/2019/01/15/realestate/split-personality-in-seattle.html" aria-hidden="true" role="presentation" tabindex="-1" data-rref="">
+                                            <img
+                                                src="https://static01.nyt.com/images/2019/01/20/realestate/20LOCATION-SEATTLE-slide-6K7B/00LOCATION-SEATTLE-slide-6K7B-thumbStandard.jpg"
+                                                role="presentation"
+                                                alt=""
+                                            />
+                                        </a>
+                                    </div>
+                                                                                                    <h3 class="kicker">ON LOCATION</h3>
+                                                                <h2 class="headline">
+                                    <a href="https://www.nytimes.com/2019/01/15/realestate/split-personality-in-seattle.html" data-rref="">Split Personality in Seattle</a>
+                                </h2>
+                                <p class="summary">From the street, the house is French Norman style, with a turret; in back, it’s a modernist showplace.</p>
+                                <p class="byline">
+                                                                            <span class="freshness"><time data-utc-timestamp="1547546489" datetime="1547546489"></time></span>
+                                                                                    <span class="divider"></span>
+                                                                                                                <span class="author" itemprop="author">By TIM McKEOUGH</span>
+                                </p>
+                            </div>
+                        </article>
+                                        </li>
+                    </ol>
+                                </li>
+                    </ol>
+    </div><!-- close template-4 -->
+</section>
+<div id="HighEndTopAd1" class="ad rank-ad nocontent robots-nocontent"></div>
+<section
+    class="highend-module embedded-collection-package collection collection-package rank-template template-3"
+    data-collection-type=""
+    data-collection-identifier=""
+    data-module-type="article"
+    data-module-id="1002"
+    >
+    <header class="section-header">
+        <h2 class="section-heading">
+                                                </h2>
+    </header>
+    <ol class="story-menu layout-span">
+                    <li>
+                <article class="story theme-summary hidden ">
+                                            <h3 class="kicker">WHAT YOU GET</h3>
+                                        
+                        <figure class="media photo" aria-label="media" role="group">
+                            <span class="visually-hidden">Photo</span>
+                            <a href="https://www.nytimes.com/2018/12/19/realestate/3-million-homes-in-georgia-new-york-and-texas.html" data-rref="">
+                                <img
+                                    src="https://static01.nyt.com/images/2018/12/23/realestate/23WYG-slide-5NF0/23WYG-slide-5NF0-mediumThreeByTwo440.jpg"
+                                    srcset=""
+                                    alt=""
+                                />
+                                                                                            </a>
+                            <figcaption class="caption" itemprop="caption description">
+                                <span class="credit" itemprop="copyrightHolder"><span class="visually-hidden">Credit</span></span>
+                            </figcaption>
+                        </figure>
+                                        <div class="story-body">
+                        <h2 class="headline">
+                            <a href="https://www.nytimes.com/2018/12/19/realestate/3-million-homes-in-georgia-new-york-and-texas.html" data-rref="">$3 Million Homes in Georgia, New York and Texas</a>
+                        </h2>
+                        <p class="summary">A 2008 condominium in Atlanta, a walk-up loft apartment in Manhattan and a French Provincial-style house in Houston.</p>
+                        <p class="byline">
+                            <span class="freshness"><time data-utc-timestamp="1545228098" datetime="1545228098"></time></span>
+                                                        <span class="divider"></span>
+                                                        <span class="author" itemprop="author">By JULIE LASKY</span>
+                        </p>
+                    </div>
+                </article>
+                                    <div id="HighEndPPCollRibbon1" class="ad ppcoll-ribbon nocontent robots-nocontent"></div>
+
+                                                </li>
+
+                    <li>
+                <article class="story theme-summary hidden ">
+                                            <h3 class="kicker">THE HIGH END</h3>
+                                        
+                        <figure class="media photo" aria-label="media" role="group">
+                            <span class="visually-hidden">Photo</span>
+                            <a href="https://www.nytimes.com/2018/11/16/realestate/long-island-city-condo-one-building-three-looks.html" data-rref="">
+                                <img
+                                    src="https://static01.nyt.com/images/2018/11/18/realestate/18highend-lic1/18highend-lic1-mediumThreeByTwo440.jpg"
+                                    srcset=""
+                                    alt=""
+                                />
+                                                                                            </a>
+                            <figcaption class="caption" itemprop="caption description">
+                                <span class="credit" itemprop="copyrightHolder"><span class="visually-hidden">Credit</span></span>
+                            </figcaption>
+                        </figure>
+                                        <div class="story-body">
+                        <h2 class="headline">
+                            <a href="https://www.nytimes.com/2018/11/16/realestate/long-island-city-condo-one-building-three-looks.html" data-rref="">One Building, Three Looks</a>
+                        </h2>
+                        <p class="summary">A new condominium in Long Island City has sections that feature distinct architectural styles: industrial metal, old-school brick and curtain wall glass.</p>
+                        <p class="byline">
+                            <span class="freshness"><time data-utc-timestamp="1542378605" datetime="1542378605"></time></span>
+                                                        <span class="divider"></span>
+                                                        <span class="author" itemprop="author">By JANE MARGOLIES</span>
+                        </p>
+                    </div>
+                </article>
+                                    <div id="HighEndPPCollRibbon2" class="ad ppcoll-ribbon nocontent robots-nocontent"></div>
+
+                                            <div id="HighEndMobilePaidPost" class="ad mobile-paidpost nocontent robots-nocontent"></div>
+                                                </li>
+
+                    <li>
+                <article class="story theme-summary hidden ">
+                                            <h3 class="kicker">THE HIGH END</h3>
+                                        
+                        <figure class="media photo" aria-label="media" role="group">
+                            <span class="visually-hidden">Photo</span>
+                            <a href="https://www.nytimes.com/2018/10/29/realestate/a-former-downtown-music-mecca-becomes-condos.html" data-rref="">
+                                <img
+                                    src="https://static01.nyt.com/images/2018/10/28/realestate/28highend-parkrow1/28highend-parkrow1-mediumThreeByTwo440.jpg"
+                                    srcset=""
+                                    alt=""
+                                />
+                                                                                            </a>
+                            <figcaption class="caption" itemprop="caption description">
+                                <span class="credit" itemprop="copyrightHolder"><span class="visually-hidden">Credit</span></span>
+                            </figcaption>
+                        </figure>
+                                        <div class="story-body">
+                        <h2 class="headline">
+                            <a href="https://www.nytimes.com/2018/10/29/realestate/a-former-downtown-music-mecca-becomes-condos.html" data-rref="">A Former Downtown Music Mecca Becomes Condos</a>
+                        </h2>
+                        <p class="summary">The Park Row site, a piece of the J&R Music and Computer World empire, is being developed into a luxury tower. </p>
+                        <p class="byline">
+                            <span class="freshness"><time data-utc-timestamp="1540818004" datetime="1540818004"></time></span>
+                                                        <span class="divider"></span>
+                                                        <span class="author" itemprop="author">By C. J. HUGHES</span>
+                        </p>
+                    </div>
+                </article>
+                                    <div id="HighEndPPCollRibbon3" class="ad ppcoll-ribbon nocontent robots-nocontent"></div>
+
+                                                </li>
+
+                    <li>
+                <article class="story theme-summary hidden ">
+                                            <h3 class="kicker">THE HIGH END</h3>
+                                        
+                        <figure class="media photo" aria-label="media" role="group">
+                            <span class="visually-hidden">Photo</span>
+                            <a href="https://www.nytimes.com/2018/10/15/realestate/crown-heights-mixes-old-with-new.html" data-rref="">
+                                <img
+                                    src="https://static01.nyt.com/images/2018/10/21/realestate/14highend-crown-slide-MD9V/14highend-crown-slide-MD9V-mediumThreeByTwo440.jpg"
+                                    srcset=""
+                                    alt=""
+                                />
+                                                                                            </a>
+                            <figcaption class="caption" itemprop="caption description">
+                                <span class="credit" itemprop="copyrightHolder"><span class="visually-hidden">Credit</span></span>
+                            </figcaption>
+                        </figure>
+                                        <div class="story-body">
+                        <h2 class="headline">
+                            <a href="https://www.nytimes.com/2018/10/15/realestate/crown-heights-mixes-old-with-new.html" data-rref="">Crown Heights Mixes Old With New</a>
+                        </h2>
+                        <p class="summary">The Brooklyn neighborhood is lined with rowhouses, but is now getting some new midsize apartment buildings.</p>
+                        <p class="byline">
+                            <span class="freshness"><time data-utc-timestamp="1539594079" datetime="1539594079"></time></span>
+                                                        <span class="divider"></span>
+                                                        <span class="author" itemprop="author">By C. J. HUGHES</span>
+                        </p>
+                    </div>
+                </article>
+                                    <div id="HighEndPPCollRibbon4" class="ad ppcoll-ribbon nocontent robots-nocontent"></div>
+
+                                                </li>
+
+                    <li>
+                <article class="story theme-summary hidden ">
+                                            <h3 class="kicker">THE HIGH END</h3>
+                                        
+                        <figure class="media photo" aria-label="media" role="group">
+                            <span class="visually-hidden">Photo</span>
+                            <a href="https://www.nytimes.com/2018/10/11/realestate/a-luxury-rental-in-midtown-from-a-low-key-landlord.html" data-rref="">
+                                <img
+                                    src="https://static01.nyt.com/images/2018/10/14/realestate/14highend-summit2/14highend-summit2-mediumThreeByTwo440.jpg"
+                                    srcset=""
+                                    alt=""
+                                />
+                                                                                            </a>
+                            <figcaption class="caption" itemprop="caption description">
+                                <span class="credit" itemprop="copyrightHolder"><span class="visually-hidden">Credit</span></span>
+                            </figcaption>
+                        </figure>
+                                        <div class="story-body">
+                        <h2 class="headline">
+                            <a href="https://www.nytimes.com/2018/10/11/realestate/a-luxury-rental-in-midtown-from-a-low-key-landlord.html" data-rref="">A Luxury Rental in Midtown From a Low-Key Landlord</a>
+                        </h2>
+                        <p class="summary">A new 42-story rental near the United Nations will be the first Manhattan tower built from scratch by Lloyd M. Goldman, a national landlord.</p>
+                        <p class="byline">
+                            <span class="freshness"><time data-utc-timestamp="1539266406" datetime="1539266406"></time></span>
+                                                        <span class="divider"></span>
+                                                        <span class="author" itemprop="author">By C. J. HUGHES</span>
+                        </p>
+                    </div>
+                </article>
+                                    <div id="HighEndPPCollRibbon5" class="ad ppcoll-ribbon nocontent robots-nocontent"></div>
+
+                                                </li>
+
+            </ol>
+</section><!-- close embedded-collection-package -->
+<section
+    class="highend-module embedded-collection-package collection collection-package rank-template template-3"
+    data-collection-type=""
+    data-collection-identifier=""
+    data-module-type="listing"
+    data-module-id="10001"
+    >
+    <header class="section-header">
+        <h2 class="section-heading">
+                            Luxury Real Estate                    </h2>
+    </header>
+    <ol class="story-menu">
+                    <li class="listing-card-container">
+                <article
+    id="2836-LVZ47J"
+    class="listing-card  "
+    data-id="2836-LVZ47J"
+    data-latitude="40.124490"
+    data-longitude="-74.030990"
+    data-url="/real-estate/usa/nj/sea-girt/homes-for-sale/2-neptune-place/2836-LVZ47J"
+    data-neighborhood-seo-path=""
+    data-channel="sale"
+    data-price="$7,999,999"
+    data-address="2 Neptune Place"
+    data-bedrooms="8"
+    data-bathrooms="6"
+    data-property-type="Single Family House"
+    data-original-photo=""
+    data-new        >
+
+    
+        <a href="/real-estate/usa/nj/sea-girt/homes-for-sale/2-neptune-place/2836-LVZ47J">
+
+        <div class="image-wrapper">
+            
+                            <span class="new">NEW</span>
+            
+                            <div class="realestate-carousel listing-card-carousel" data-lazy-load="true">
+                    <div class="carousel-container">
+                        <div class="carousel-slide-container">
+                                                                                                <div class="carousel-slide active">
+                                                                                    <img class="image" src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=https%3A%2F%2Fs3.amazonaws.com%2Fgabriels.images.pre-download%2Fnyt%2Fprocessed%2F2836-lvz47j_1.jpg&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                                                            </div>
+                                
+                                                                                                <div class="carousel-slide">
+                                        <img class="image lazy-load" data-src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=https%3A%2F%2Fimgs.azureedge.net%2FB06EE1A9-BDF7-4C40-B30F-D3162E96357B&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                    </div>
+                                
+                                                                                                <div class="carousel-slide">
+                                        <img class="image lazy-load" data-src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=https%3A%2F%2Fimgs.azureedge.net%2FDE830DC7-19F0-4E92-9CA3-0F60F091CFF2&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                    </div>
+                                
+                                                                                                <div class="carousel-slide">
+                                        <img class="image lazy-load" data-src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=https%3A%2F%2Fimgs.azureedge.net%2FB12EF0E7-F793-4111-B3C0-CB1E5354A7B2&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                    </div>
+                                
+                                                                                                <div class="carousel-slide">
+                                        <img class="image lazy-load" data-src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=https%3A%2F%2Fimgs.azureedge.net%2FCC4677E5-8D3E-49E8-AF10-43A0D7FB7628&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                    </div>
+                                
+                                                                                                <div class="carousel-slide">
+                                        <img class="image lazy-load" data-src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=https%3A%2F%2Fimgs.azureedge.net%2F04176967-9168-4446-9BC0-8BCAEC7A5948&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                    </div>
+                                
+                                                                                                <div class="carousel-slide">
+                                        <img class="image lazy-load" data-src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=https%3A%2F%2Fimgs.azureedge.net%2FF730B127-032B-49FB-B721-BC64B30FFBB1&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                    </div>
+                                
+                                                                                                <div class="carousel-slide">
+                                        <img class="image lazy-load" data-src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=https%3A%2F%2Fimgs.azureedge.net%2F5AF0464C-90B7-4503-B6BA-59327098EC47&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                    </div>
+                                
+                                                                                                <div class="carousel-slide">
+                                        <img class="image lazy-load" data-src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=https%3A%2F%2Fimgs.azureedge.net%2F4C56A392-05A1-44E3-93F9-4405480CD3C3&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                    </div>
+                                
+                                                                                                <div class="carousel-slide">
+                                        <img class="image lazy-load" data-src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=https%3A%2F%2Fimgs.azureedge.net%2F390E06BE-F4BE-4287-BF52-13EC13D6CA99&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                    </div>
+                                
+                                                                                                <div class="carousel-slide">
+                                        <img class="image lazy-load" data-src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=https%3A%2F%2Fimgs.azureedge.net%2FA20C578D-D7FC-4276-915D-728CF7DA2E80&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                    </div>
+                                
+                                                                                                <div class="carousel-slide">
+                                        <img class="image lazy-load" data-src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=https%3A%2F%2Fimgs.azureedge.net%2F40F19291-71E7-4CBA-844F-EA0C9A598802&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                    </div>
+                                
+                                                                                                <div class="carousel-slide">
+                                        <img class="image lazy-load" data-src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=https%3A%2F%2Fimgs.azureedge.net%2F60915728-861A-4AE7-91BF-CF650D74C6CE&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                    </div>
+                                
+                                                                                                <div class="carousel-slide">
+                                        <img class="image lazy-load" data-src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=https%3A%2F%2Fimgs.azureedge.net%2F54E90AEF-8E7F-476D-BC81-D18CCFB2D76A&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                    </div>
+                                
+                                                                                                <div class="carousel-slide">
+                                        <img class="image lazy-load" data-src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=https%3A%2F%2Fimgs.azureedge.net%2F6C814E57-C749-4A3C-94F5-B9A2A6BE2784&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                    </div>
+                                
+                                                                                                <div class="carousel-slide">
+                                        <img class="image lazy-load" data-src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=https%3A%2F%2Fimgs.azureedge.net%2FD91978BB-FF4D-49B0-8B54-F45A9F9691BA&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                    </div>
+                                
+                                                                                                <div class="carousel-slide">
+                                        <img class="image lazy-load" data-src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=https%3A%2F%2Fimgs.azureedge.net%2F765BBD70-B65E-4E54-8ACF-E6854F86DAB7&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                    </div>
+                                
+                                                                                                <div class="carousel-slide">
+                                        <img class="image lazy-load" data-src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=https%3A%2F%2Fimgs.azureedge.net%2F4F83840E-2AE8-4467-B07C-D851AB967CEC&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                    </div>
+                                
+                                                                                                <div class="carousel-slide">
+                                        <img class="image lazy-load" data-src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=https%3A%2F%2Fimgs.azureedge.net%2F44B49CBD-47E9-4E6F-A551-1AE0A55247A5&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                    </div>
+                                
+                                                                                                <div class="carousel-slide">
+                                        <img class="image lazy-load" data-src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=https%3A%2F%2Fimgs.azureedge.net%2FE06B577E-B71A-472F-AFBA-D1EC3AE2E36C&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                    </div>
+                                
+                                                    </div>
+                    </div>
+                                        <span class="carousel-control left">
+                        <span class="arrow arrow-left"></span>
+                    </span>
+                    <span class="carousel-control right">
+                        <span class="arrow arrow-right"></span>
+                    </span>
+                                    </div>
+                    </div>
+
+        <div class="listing-details">
+            
+            <p class="listing-neighborhood" data-city="Sea Girt">
+                Sea Girt            </p>
+
+            <p class="listing-price">
+                $7,999,999                            </p>
+
+            <p class="listing-detail-text listing-address" title="2 Neptune Place">
+                2 Neptune Place            </p>
+
+            <p class="listing-detail-text size-description">
+                                                            <span>8 Beds</span>
+                        <span class="border">|</span>
+                                                                <span>6 Baths</span>
+                        <span class="border">|</span>
+                                        <span>Single Family House</span>
+                            </p>
+
+                    </div>
+    </a>
+</article>
+            </li>
+                    <li class="listing-card-container">
+                <article
+    id="253-NS1901093918"
+    class="listing-card  "
+    data-id="253-NS1901093918"
+    data-latitude="34.421234"
+    data-longitude="-119.594589"
+    data-url="/real-estate/usa/ca/santa-barbara/homes-for-sale/unique-santa-barbara-opportunity/253-NS1901093918"
+    data-neighborhood-seo-path=""
+    data-channel="sale"
+    data-price="$8,900,000"
+    data-address="Unique Santa Barbara Opportunity"
+    data-bedrooms="-1"
+    data-bathrooms="0"
+    data-property-type="Land"
+    data-original-photo=""
+    data-new        >
+
+    
+        <a href="/real-estate/usa/ca/santa-barbara/homes-for-sale/unique-santa-barbara-opportunity/253-NS1901093918">
+
+        <div class="image-wrapper">
+            
+                            <span class="new">NEW</span>
+            
+                            <div class="realestate-carousel listing-card-carousel" data-lazy-load="true">
+                    <div class="carousel-container">
+                        <div class="carousel-slide-container">
+                                                                                                <div class="carousel-slide active">
+                                                                                    <img class="image" src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=http%3A%2F%2Fnytfsboimages.gabriels.net%2FNS1901093918%2FNS1901093918_p1_1901281437.jpg&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                                                            </div>
+                                
+                                                                                                <div class="carousel-slide">
+                                        <img class="image lazy-load" data-src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=http%3A%2F%2Fnytfsboimages.gabriels.net%2FNS1901093918%2FNS1901093918_p2_1901281438.jpg&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                    </div>
+                                
+                                                                                                <div class="carousel-slide">
+                                        <img class="image lazy-load" data-src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=http%3A%2F%2Fnytfsboimages.gabriels.net%2FNS1901093918%2FNS1901093918_p3_1901281439.jpg&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                    </div>
+                                
+                                                    </div>
+                    </div>
+                                        <span class="carousel-control left">
+                        <span class="arrow arrow-left"></span>
+                    </span>
+                    <span class="carousel-control right">
+                        <span class="arrow arrow-right"></span>
+                    </span>
+                                    </div>
+                    </div>
+
+        <div class="listing-details">
+            
+            <p class="listing-neighborhood" data-city="Santa Barbara">
+                Santa Barbara            </p>
+
+            <p class="listing-price">
+                $8,900,000                            </p>
+
+            <p class="listing-detail-text listing-address" title="Unique Santa Barbara Opportunity">
+                Unique Santa Barbara Opportunity            </p>
+
+            <p class="listing-detail-text size-description">
+                                                                                <span>0 Baths</span>
+                        <span class="border">|</span>
+                                        <span>Land</span>
+                            </p>
+
+                    </div>
+    </a>
+</article>
+            </li>
+                    <li class="listing-card-container">
+                <article
+    id="399-RX-10499434"
+    class="listing-card  "
+    data-id="399-RX-10499434"
+    data-latitude="26.431750"
+    data-longitude="-80.063890"
+    data-url="/real-estate/usa/fl/highland-beach/homes-for-sale/2342-s-ocean-boulevard/399-RX-10499434"
+    data-neighborhood-seo-path=""
+    data-channel="sale"
+    data-price="$7,495,000"
+    data-address="2342 S Ocean Boulevard"
+    data-bedrooms="5"
+    data-bathrooms="5"
+    data-property-type=""
+    data-original-photo=""
+    data-new        >
+
+    
+        <a href="/real-estate/usa/fl/highland-beach/homes-for-sale/2342-s-ocean-boulevard/399-RX-10499434">
+
+        <div class="image-wrapper">
+            
+                            <span class="new">NEW</span>
+            
+                            <div class="realestate-carousel listing-card-carousel" data-lazy-load="true">
+                    <div class="carousel-container">
+                        <div class="carousel-slide-container">
+                                                                                                <div class="carousel-slide active">
+                                                                                    <img class="image" src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=https%3A%2F%2Fs3.amazonaws.com%2Fgabriels.images.pre-download%2Fnyt%2Fprocessed%2F399-rx-10499434_1.jpg&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                                                            </div>
+                                
+                                                                                                <div class="carousel-slide">
+                                        <img class="image lazy-load" data-src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=https%3A%2F%2Fs3.amazonaws.com%2Fgabriels.images.pre-download%2Fnyt%2Fprocessed%2F399-rx-10499434_2.jpg&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                    </div>
+                                
+                                                                                                <div class="carousel-slide">
+                                        <img class="image lazy-load" data-src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=https%3A%2F%2Fs3.amazonaws.com%2Fgabriels.images.pre-download%2Fnyt%2Fprocessed%2F399-rx-10499434_3.jpg&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                    </div>
+                                
+                                                                                                <div class="carousel-slide">
+                                        <img class="image lazy-load" data-src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=https%3A%2F%2Fs3.amazonaws.com%2Fgabriels.images.pre-download%2Fnyt%2Fprocessed%2F399-rx-10499434_4.jpg&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                    </div>
+                                
+                                                                                                <div class="carousel-slide">
+                                        <img class="image lazy-load" data-src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=https%3A%2F%2Fs3.amazonaws.com%2Fgabriels.images.pre-download%2Fnyt%2Fprocessed%2F399-rx-10499434_5.jpg&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                    </div>
+                                
+                                                                                                <div class="carousel-slide">
+                                        <img class="image lazy-load" data-src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=https%3A%2F%2Fs3.amazonaws.com%2Fgabriels.images.pre-download%2Fnyt%2Fprocessed%2F399-rx-10499434_6.jpg&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                    </div>
+                                
+                                                                                                <div class="carousel-slide">
+                                        <img class="image lazy-load" data-src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=https%3A%2F%2Fs3.amazonaws.com%2Fgabriels.images.pre-download%2Fnyt%2Fprocessed%2F399-rx-10499434_7.jpg&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                    </div>
+                                
+                                                                                                <div class="carousel-slide">
+                                        <img class="image lazy-load" data-src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=https%3A%2F%2Fs3.amazonaws.com%2Fgabriels.images.pre-download%2Fnyt%2Fprocessed%2F399-rx-10499434_8.jpg&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                    </div>
+                                
+                                                                                                <div class="carousel-slide">
+                                        <img class="image lazy-load" data-src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=https%3A%2F%2Fs3.amazonaws.com%2Fgabriels.images.pre-download%2Fnyt%2Fprocessed%2F399-rx-10499434_9.jpg&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                    </div>
+                                
+                                                                                                <div class="carousel-slide">
+                                        <img class="image lazy-load" data-src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=https%3A%2F%2Fs3.amazonaws.com%2Fgabriels.images.pre-download%2Fnyt%2Fprocessed%2F399-rx-10499434_10.jpg&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                    </div>
+                                
+                                                                                                <div class="carousel-slide">
+                                        <img class="image lazy-load" data-src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=https%3A%2F%2Fs3.amazonaws.com%2Fgabriels.images.pre-download%2Fnyt%2Fprocessed%2F399-rx-10499434_11.jpg&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                    </div>
+                                
+                                                                                                <div class="carousel-slide">
+                                        <img class="image lazy-load" data-src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=https%3A%2F%2Fs3.amazonaws.com%2Fgabriels.images.pre-download%2Fnyt%2Fprocessed%2F399-rx-10499434_12.jpg&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                    </div>
+                                
+                                                                                                <div class="carousel-slide">
+                                        <img class="image lazy-load" data-src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=https%3A%2F%2Fs3.amazonaws.com%2Fgabriels.images.pre-download%2Fnyt%2Fprocessed%2F399-rx-10499434_13.jpg&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                    </div>
+                                
+                                                                                                <div class="carousel-slide">
+                                        <img class="image lazy-load" data-src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=https%3A%2F%2Fs3.amazonaws.com%2Fgabriels.images.pre-download%2Fnyt%2Fprocessed%2F399-rx-10499434_14.jpg&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                    </div>
+                                
+                                                                                                <div class="carousel-slide">
+                                        <img class="image lazy-load" data-src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=https%3A%2F%2Fs3.amazonaws.com%2Fgabriels.images.pre-download%2Fnyt%2Fprocessed%2F399-rx-10499434_15.jpg&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                    </div>
+                                
+                                                                                                <div class="carousel-slide">
+                                        <img class="image lazy-load" data-src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=https%3A%2F%2Fs3.amazonaws.com%2Fgabriels.images.pre-download%2Fnyt%2Fprocessed%2F399-rx-10499434_16.jpg&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                    </div>
+                                
+                                                                                                <div class="carousel-slide">
+                                        <img class="image lazy-load" data-src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=https%3A%2F%2Fs3.amazonaws.com%2Fgabriels.images.pre-download%2Fnyt%2Fprocessed%2F399-rx-10499434_17.jpg&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                    </div>
+                                
+                                                                                                <div class="carousel-slide">
+                                        <img class="image lazy-load" data-src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=https%3A%2F%2Fs3.amazonaws.com%2Fgabriels.images.pre-download%2Fnyt%2Fprocessed%2F399-rx-10499434_18.jpg&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                    </div>
+                                
+                                                                                                <div class="carousel-slide">
+                                        <img class="image lazy-load" data-src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=https%3A%2F%2Fs3.amazonaws.com%2Fgabriels.images.pre-download%2Fnyt%2Fprocessed%2F399-rx-10499434_19.jpg&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                    </div>
+                                
+                                                                                                <div class="carousel-slide">
+                                        <img class="image lazy-load" data-src="https://d2mxdjcwk6o9kh.cloudfront.net/getimage?imageURL=https%3A%2F%2Fs3.amazonaws.com%2Fgabriels.images.pre-download%2Fnyt%2Fprocessed%2F399-rx-10499434_20.jpg&width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                    </div>
+                                
+                                                    </div>
+                    </div>
+                                        <span class="carousel-control left">
+                        <span class="arrow arrow-left"></span>
+                    </span>
+                    <span class="carousel-control right">
+                        <span class="arrow arrow-right"></span>
+                    </span>
+                                    </div>
+                    </div>
+
+        <div class="listing-details">
+            
+            <p class="listing-neighborhood" data-city="Highland Beach">
+                Highland Beach            </p>
+
+            <p class="listing-price">
+                $7,495,000                            </p>
+
+            <p class="listing-detail-text listing-address" title="2342 S Ocean Boulevard">
+                2342 S Ocean Boulevard            </p>
+
+            <p class="listing-detail-text size-description">
+                                                            <span>5 Beds</span>
+                        <span class="border">|</span>
+                                                                <span>5 Baths</span>
+                        <span class="border">|</span>
+                                        <span></span>
+                            </p>
+
+                    </div>
+    </a>
+</article>
+            </li>
+                    <li class="listing-card-container">
+                <article
+    id="46-3632829"
+    class="listing-card  "
+    data-id="46-3632829"
+    data-latitude="40.770012"
+    data-longitude="-73.967217"
+    data-url="/real-estate/usa/ny/new-york/upper-east-side/homes-for-sale/the-westbury-15-east-69th-street/46-3632829"
+    data-neighborhood-seo-path=""
+    data-channel="sale"
+    data-price="$8,150,000"
+    data-address="The Westbury, 15 East 69th Street"
+    data-bedrooms="3"
+    data-bathrooms="3"
+    data-property-type="Condo"
+    data-original-photo=""
+    data-new        >
+
+    
+        <a href="/real-estate/usa/ny/new-york/upper-east-side/homes-for-sale/the-westbury-15-east-69th-street/46-3632829">
+
+        <div class="image-wrapper">
+            
+                            <span class="new">NEW</span>
+            
+                            <div class="realestate-carousel listing-card-carousel" data-lazy-load="true">
+                    <div class="carousel-container">
+                        <div class="carousel-slide-container">
+                                                                                                <div class="carousel-slide active">
+                                                                                    <img class="image" src="http://www.nytimes.com/real-estate/the-high-end?width=298&compressionRate=80&bypassGlobalProxy=true"/>
+                                                                            </div>
+                                
+                                                    </div>
+                    </div>
+                                    </div>
+                    </div>
+
+        <div class="listing-details">
+            
+            <p class="listing-neighborhood" data-city="New York">
+                Upper East Side            </p>
+
+            <p class="listing-price">
+                $8,150,000                            </p>
+
+            <p class="listing-detail-text listing-address" title="The Westbury, 15 East 69th Street">
+                The Westbury, 15 East 69th Street            </p>
+
+            <p class="listing-detail-text size-description">
+                                                            <span>3 Beds</span>
+                        <span class="border">|</span>
+                                                                <span>3 Baths</span>
+                        <span class="border">|</span>
+                                        <span>Condo</span>
+                            </p>
+
+                    </div>
+    </a>
+</article>
+            </li>
+            </ol>
+</section><!-- close embedded-collection-package -->
+<div class="stream-supplemental">
+	<div id="main-tabs" class="main-tabs tabs">
+    <nav class="tab-navigation">
+        <ul class="tab-menu" role="tablist">
+                                            <li class="tab   active "
+                aria-controls="latest-panel" role="tab" tabindex="0" aria-selected="true" data-name="latest">
+                <a id="tab-link-1" class=""href="#latest-panel" tabindex="-1">Latest</a>
+            </li>
+                                            <li class="tab    search-tab"
+                aria-controls="search-panel" role="tab" tabindex="0" aria-selected="true" data-name="search">
+                <a id="tab-link-2" class="search-link"href="#search-panel" tabindex="-1"><i class="icon sprite-icon search-icon"></i><span class="link-text">Search</span>
+<form class="search-tab-form" role="search">
+    <div class="control">
+        <div class="label-container visually-hidden">
+            <label id="search-tab-label" for="search-tab-input">Search</label>
+        </div>
+        <div class="field-container">
+            <input id="search-tab-input" name="search-tab-input" type="text"
+                class="search-tab-input text" placeholder="Search"
+                aria-labelledby="search-tab-label" size="8" autocomplete="off" />
+            <button type="button" class="button clear-button hidden" tabindex="-1"
+                aria-describedby="clear-search-input"><i class="icon"></i><span
+                id="clear-search-input" class="visually-hidden">Clear this text input</span></button>
+        </div>
+    </div><!-- close control -->
+</form>
+</a>
+            </li>
+                </ul><!-- close tab-menu -->
+    </nav><!-- close tab-navigation -->
+
+                            <section
+            id="latest-panel"
+            class="tab-panel latest-panel  "
+            aria-labelledby="tab-link-1"
+            role="tabpanel"
+            aria-expanded="false"
+            tabindex="-1"
+        >
+            <h2 class="section-heading visually-hidden">Latest Articles</h2>
+<div class="stream">
+    <ol class="story-menu theme-stream initial-set">
+                    <li id="story-100000006305247-823">
+                <article class="story theme-summary has-kicker" itemscope itemtype="http://schema.org/NewsArticle">
+    <div class="story-body">
+        <a class="story-link" data-rref="" href="https://www.nytimes.com/2019/01/17/realestate/for-18-5-million-a-studio-where-ziegfeld-dreams-were-invented.html ">
+            <div class="story-meta">
+                                <h2 class="headline" itemprop="headline">
+                    For $18.5 Million, a Studio Where Ziegfeld Dreams Were Invented                </h2>
+                <p class="summary" itemprop="description">A former warehouse in West Chelsea, once the domain of a famed Broadway set designer and now home to a fashion studio, goes on the market.</p>
+                <p class="byline" itemprop="author">By STEFANOS CHEN</p>
+            </div><!-- close story-meta -->
+            <div class="wide-thumb">
+                                    <img role="presentation" src="https://static01.nyt.com/images/2019/01/20/realestate/20exclusive-slide-MEBY/20exclusive-slide-MEBY-mediumThreeByTwo440.jpg" alt="For $18.5 Million, a Studio Where Ziegfeld Dreams Were Invented" itemprop="thumbnailUrl" />
+                                                                    </div><!-- close wide-thumb -->
+        </a>
+    </div><!-- close story-body -->
+    <footer class="story-footer">
+        <time class="dateline" datetime="2019-01-17" itemprop="dateModified" content="2019-01-17">JAN. 17, 2019</time>
+    </footer>
+</article>
+            </li>
+                    <li id="story-100000006252545-383">
+                <article class="story theme-summary has-kicker" itemscope itemtype="http://schema.org/NewsArticle">
+    <div class="story-body">
+        <a class="story-link" data-rref="" href="https://www.nytimes.com/2018/12/19/realestate/3-million-homes-in-georgia-new-york-and-texas.html ">
+            <div class="story-meta">
+                                <h2 class="headline" itemprop="headline">
+                    $3 Million Homes in Georgia, New York and Texas                </h2>
+                <p class="summary" itemprop="description">A 2008 condominium in Atlanta, a walk-up loft apartment in Manhattan and a French Provincial-style house in Houston.</p>
+                <p class="byline" itemprop="author">By JULIE LASKY</p>
+            </div><!-- close story-meta -->
+            <div class="wide-thumb">
+                                    <img role="presentation" src="https://static01.nyt.com/images/2018/12/23/realestate/23WYG-slide-5NF0/23WYG-slide-5NF0-mediumThreeByTwo440.jpg" alt="$3 Million Homes in Georgia, New York and Texas" itemprop="thumbnailUrl" />
+                                                                    </div><!-- close wide-thumb -->
+        </a>
+    </div><!-- close story-body -->
+    <footer class="story-footer">
+        <time class="dateline" datetime="2018-12-19" itemprop="dateModified" content="2018-12-19">DEC. 19, 2018</time>
+    </footer>
+</article>
+            </li>
+                    <li id="story-100000006175827-606">
+                <article class="story theme-summary has-kicker" itemscope itemtype="http://schema.org/NewsArticle">
+    <div class="story-body">
+        <a class="story-link" data-rref="" href="https://www.nytimes.com/2018/11/16/realestate/long-island-city-condo-one-building-three-looks.html ">
+            <div class="story-meta">
+                                <h2 class="headline" itemprop="headline">
+                    One Building, Three Looks                </h2>
+                <p class="summary" itemprop="description">A new condominium in Long Island City has sections that feature distinct architectural styles: industrial metal, old-school brick and curtain wall glass.</p>
+                <p class="byline" itemprop="author">By JANE MARGOLIES</p>
+            </div><!-- close story-meta -->
+            <div class="wide-thumb">
+                                    <img role="presentation" src="https://static01.nyt.com/images/2018/11/18/realestate/18highend-lic1/18highend-lic1-mediumThreeByTwo440.jpg" alt="One Building, Three Looks" itemprop="thumbnailUrl" />
+                                                                    </div><!-- close wide-thumb -->
+        </a>
+    </div><!-- close story-body -->
+    <footer class="story-footer">
+        <time class="dateline" datetime="2018-11-16" itemprop="dateModified" content="2018-11-16">NOV. 16, 2018</time>
+    </footer>
+</article>
+            </li>
+                    <li id="story-100000006170779-689">
+                <article class="story theme-summary has-kicker" itemscope itemtype="http://schema.org/NewsArticle">
+    <div class="story-body">
+        <a class="story-link" data-rref="" href="https://www.nytimes.com/2018/10/29/realestate/a-former-downtown-music-mecca-becomes-condos.html ">
+            <div class="story-meta">
+                                <h2 class="headline" itemprop="headline">
+                    A Former Downtown Music Mecca Becomes Condos                </h2>
+                <p class="summary" itemprop="description">The Park Row site, a piece of the J&R Music and Computer World empire, is being developed into a luxury tower. </p>
+                <p class="byline" itemprop="author">By C. J. HUGHES</p>
+            </div><!-- close story-meta -->
+            <div class="wide-thumb">
+                                    <img role="presentation" src="https://static01.nyt.com/images/2018/10/28/realestate/28highend-parkrow1/28highend-parkrow1-mediumThreeByTwo440.jpg" alt="A Former Downtown Music Mecca Becomes Condos" itemprop="thumbnailUrl" />
+                                                                    </div><!-- close wide-thumb -->
+        </a>
+    </div><!-- close story-body -->
+    <footer class="story-footer">
+        <time class="dateline" datetime="2018-10-29" itemprop="dateModified" content="2018-10-29">OCT. 29, 2018</time>
+    </footer>
+</article>
+            </li>
+                    <li id="story-100000006147414-306">
+                <article class="story theme-summary has-kicker" itemscope itemtype="http://schema.org/NewsArticle">
+    <div class="story-body">
+        <a class="story-link" data-rref="" href="https://www.nytimes.com/2018/10/15/realestate/crown-heights-mixes-old-with-new.html ">
+            <div class="story-meta">
+                                <h2 class="headline" itemprop="headline">
+                    Crown Heights Mixes Old With New                </h2>
+                <p class="summary" itemprop="description">The Brooklyn neighborhood is lined with rowhouses, but is now getting some new midsize apartment buildings.</p>
+                <p class="byline" itemprop="author">By C. J. HUGHES</p>
+            </div><!-- close story-meta -->
+            <div class="wide-thumb">
+                                    <img role="presentation" src="https://static01.nyt.com/images/2018/10/21/realestate/14highend-crown-slide-MD9V/14highend-crown-slide-MD9V-mediumThreeByTwo440.jpg" alt="Crown Heights Mixes Old With New" itemprop="thumbnailUrl" />
+                                                                    </div><!-- close wide-thumb -->
+        </a>
+    </div><!-- close story-body -->
+    <footer class="story-footer">
+        <time class="dateline" datetime="2018-10-15" itemprop="dateModified" content="2018-10-15">OCT. 15, 2018</time>
+    </footer>
+</article>
+            </li>
+                    <li id="story-100000006142415-465">
+                <article class="story theme-summary has-kicker" itemscope itemtype="http://schema.org/NewsArticle">
+    <div class="story-body">
+        <a class="story-link" data-rref="" href="https://www.nytimes.com/2018/10/11/realestate/a-luxury-rental-in-midtown-from-a-low-key-landlord.html ">
+            <div class="story-meta">
+                                <h2 class="headline" itemprop="headline">
+                    A Luxury Rental in Midtown From a Low-Key Landlord                </h2>
+                <p class="summary" itemprop="description">A new 42-story rental near the United Nations will be the first Manhattan tower built from scratch by Lloyd M. Goldman, a national landlord.</p>
+                <p class="byline" itemprop="author">By C. J. HUGHES</p>
+            </div><!-- close story-meta -->
+            <div class="wide-thumb">
+                                    <img role="presentation" src="https://static01.nyt.com/images/2018/10/14/realestate/14highend-summit2/14highend-summit2-mediumThreeByTwo440.jpg" alt="A Luxury Rental in Midtown From a Low-Key Landlord" itemprop="thumbnailUrl" />
+                                                                    </div><!-- close wide-thumb -->
+        </a>
+    </div><!-- close story-body -->
+    <footer class="story-footer">
+        <time class="dateline" datetime="2018-10-11" itemprop="dateModified" content="2018-10-11">OCT. 11, 2018</time>
+    </footer>
+</article>
+            </li>
+                    <li id="story-100000006106585-645">
+                <article class="story theme-summary has-kicker" itemscope itemtype="http://schema.org/NewsArticle">
+    <div class="story-body">
+        <a class="story-link" data-rref="" href="https://www.nytimes.com/2018/09/21/realestate/another-condo-tower-sprouts-in-downtown-brooklyn.html ">
+            <div class="story-meta">
+                                <h2 class="headline" itemprop="headline">
+                    Another Condo Tower Sprouts in Downtown Brooklyn                </h2>
+                <p class="summary" itemprop="description">Tishman Speyer builds its first condo on the site of a Macy’s parking garage.</p>
+                <p class="byline" itemprop="author">By KAYA LATERMAN</p>
+            </div><!-- close story-meta -->
+            <div class="wide-thumb">
+                                    <img role="presentation" src="https://static01.nyt.com/images/2018/09/23/realestate/23highend-hoyt1/23highend-hoyt1-mediumThreeByTwo440.jpg" alt="Another Condo Tower Sprouts in Downtown Brooklyn" itemprop="thumbnailUrl" />
+                                                                    </div><!-- close wide-thumb -->
+        </a>
+    </div><!-- close story-body -->
+    <footer class="story-footer">
+        <time class="dateline" datetime="2018-09-21" itemprop="dateModified" content="2018-09-21">SEPT. 21, 2018</time>
+    </footer>
+</article>
+            </li>
+                    <li id="story-100000005993026-952">
+                <article class="story theme-summary has-kicker" itemscope itemtype="http://schema.org/NewsArticle">
+    <div class="story-body">
+        <a class="story-link" data-rref="" href="https://www.nytimes.com/2018/07/13/realestate/hampton-bays-builds-waterfront-luxury.html ">
+            <div class="story-meta">
+                                <h2 class="headline" itemprop="headline">
+                    Hampton Bays Builds Waterfront Luxury                </h2>
+                <p class="summary" itemprop="description">A townhouse development and a refurbished inn are poised to bracket the Shinnecock Canal and provide a “renewed gateway into the Hamptons.”</p>
+                <p class="byline" itemprop="author">By MARCELLE SUSSMAN FISCHLER</p>
+            </div><!-- close story-meta -->
+            <div class="wide-thumb">
+                                    <img role="presentation" src="https://static01.nyt.com/images/2018/07/15/realestate/15highend1/15highend1-mediumThreeByTwo440.jpg" alt="Hampton Bays Builds Waterfront Luxury" itemprop="thumbnailUrl" />
+                                                                    </div><!-- close wide-thumb -->
+        </a>
+    </div><!-- close story-body -->
+    <footer class="story-footer">
+        <time class="dateline" datetime="2018-07-13" itemprop="dateModified" content="2018-07-13">JULY 13, 2018</time>
+    </footer>
+</article>
+            </li>
+                    <li id="story-100000005949749-923">
+                <article class="story theme-summary has-kicker" itemscope itemtype="http://schema.org/NewsArticle">
+    <div class="story-body">
+        <a class="story-link" data-rref="" href="https://www.nytimes.com/2018/06/14/realestate/a-soho-triplex-on-the-market-for-65-million.html ">
+            <div class="story-meta">
+                                <h2 class="headline" itemprop="headline">
+                    A SoHo Triplex on the Market for $65 Million                </h2>
+                <p class="summary" itemprop="description">A triplex atop 419-421 Broome Street in SoHo, where the actor Heath Ledger rented a loft when he died 10 years ago, is on the market for $65 million.</p>
+                <p class="byline" itemprop="author">By VIVIAN MARINO</p>
+            </div><!-- close story-meta -->
+            <div class="wide-thumb">
+                                    <img role="presentation" src="https://static01.nyt.com/images/2018/06/17/realestate/17exclusive-photo3/17exclusive-photo3-mediumThreeByTwo440.jpg" alt="A SoHo Triplex on the Market for $65 Million" itemprop="thumbnailUrl" />
+                                                                    </div><!-- close wide-thumb -->
+        </a>
+    </div><!-- close story-body -->
+    <footer class="story-footer">
+        <time class="dateline" datetime="2018-06-14" itemprop="dateModified" content="2018-06-14">JUNE 14, 2018</time>
+    </footer>
+</article>
+            </li>
+                    <li id="story-100000005932573-168">
+                <article class="story theme-summary has-kicker" itemscope itemtype="http://schema.org/NewsArticle">
+    <div class="story-body">
+        <a class="story-link" data-rref="" href="https://www.nytimes.com/2018/06/07/realestate/david-adjaye-designs-a-tower-for-the-financial-district.html ">
+            <div class="story-meta">
+                                <h2 class="headline" itemprop="headline">
+                    David Adjaye Designs a Tower for the Financial District                </h2>
+                <p class="summary" itemprop="description">The architect best known for his African-American history museum in Washington creates a 66-story condo with a nod to New York’s history.</p>
+                <p class="byline" itemprop="author">By TIM McKEOUGH</p>
+            </div><!-- close story-meta -->
+            <div class="wide-thumb">
+                                    <img role="presentation" src="https://static01.nyt.com/images/2018/06/10/realestate/10highend-adjaye4/10highend-adjaye4-mediumThreeByTwo440.jpg" alt="David Adjaye Designs a Tower for the Financial District" itemprop="thumbnailUrl" />
+                                                                    </div><!-- close wide-thumb -->
+        </a>
+    </div><!-- close story-body -->
+    <footer class="story-footer">
+        <time class="dateline" datetime="2018-06-07" itemprop="dateModified" content="2018-06-07">JUNE 7, 2018</time>
+    </footer>
+</article>
+            </li>
+            </ol>
+</div><!-- close stream -->
+<div class="supplemental">
+    <div id="HighEndlede-ad" class="ad lede-ad nocontent robots-nocontent"></div>
+</div><!-- close supplemental -->
+        </section><!-- close tab-panel -->
+                            <section
+            id="search-panel"
+            class="tab-panel search-panel hidden "
+            aria-labelledby="tab-link-2"
+            role="tabpanel"
+            aria-expanded="false"
+            tabindex="-1"
+        >
+                <div id="stream-search" class="stream-search">
+        <div class="stream-controls">
+            <header class="stream-search-header section-header" aria-live="polite" aria-atomic="true">
+                <h2 class="section-heading visually-hidden">Search Articles</h2>
+                <h3 class="stream-search-heading section-heading"><span class="result-count">10 results</span> <span id="results-for-word" class="hidden">for</span> <strong class="search-term"></strong> <span class="stream-sort">sorted by <button type="button" class="button stream-sort-button"><span class="button-text">newest</span><i class="icon caret-icon"></i></button></span></h3>
+            </header>
+        </div><!-- close stream-controls -->
+<div class="stream">
+    <ol class="story-menu theme-stream initial-set">
+                    <li id="story-100000006305247-701">
+                <article class="story theme-summary has-kicker" itemscope itemtype="http://schema.org/NewsArticle">
+    <div class="story-body">
+        <a class="story-link" data-rref="" href="https://www.nytimes.com/2019/01/17/realestate/for-18-5-million-a-studio-where-ziegfeld-dreams-were-invented.html ">
+            <div class="story-meta">
+                                <h2 class="headline" itemprop="headline">
+                    For $18.5 Million, a Studio Where Ziegfeld Dreams Were Invented                </h2>
+                <p class="summary" itemprop="description">A former warehouse in West Chelsea, once the domain of a famed Broadway set designer and now home to a fashion studio, goes on the market.</p>
+                <p class="byline" itemprop="author">By STEFANOS CHEN</p>
+            </div><!-- close story-meta -->
+            <div class="wide-thumb">
+                                    <img role="presentation" src="https://static01.nyt.com/images/2019/01/20/realestate/20exclusive-slide-MEBY/20exclusive-slide-MEBY-mediumThreeByTwo440.jpg" alt="For $18.5 Million, a Studio Where Ziegfeld Dreams Were Invented" itemprop="thumbnailUrl" />
+                                                                    </div><!-- close wide-thumb -->
+        </a>
+    </div><!-- close story-body -->
+    <footer class="story-footer">
+        <time class="dateline" datetime="2019-01-17" itemprop="dateModified" content="2019-01-17">JAN. 17, 2019</time>
+    </footer>
+</article>
+            </li>
+                    <li id="story-100000006252545-922">
+                <article class="story theme-summary has-kicker" itemscope itemtype="http://schema.org/NewsArticle">
+    <div class="story-body">
+        <a class="story-link" data-rref="" href="https://www.nytimes.com/2018/12/19/realestate/3-million-homes-in-georgia-new-york-and-texas.html ">
+            <div class="story-meta">
+                                <h2 class="headline" itemprop="headline">
+                    $3 Million Homes in Georgia, New York and Texas                </h2>
+                <p class="summary" itemprop="description">A 2008 condominium in Atlanta, a walk-up loft apartment in Manhattan and a French Provincial-style house in Houston.</p>
+                <p class="byline" itemprop="author">By JULIE LASKY</p>
+            </div><!-- close story-meta -->
+            <div class="wide-thumb">
+                                    <img role="presentation" src="https://static01.nyt.com/images/2018/12/23/realestate/23WYG-slide-5NF0/23WYG-slide-5NF0-mediumThreeByTwo440.jpg" alt="$3 Million Homes in Georgia, New York and Texas" itemprop="thumbnailUrl" />
+                                                                    </div><!-- close wide-thumb -->
+        </a>
+    </div><!-- close story-body -->
+    <footer class="story-footer">
+        <time class="dateline" datetime="2018-12-19" itemprop="dateModified" content="2018-12-19">DEC. 19, 2018</time>
+    </footer>
+</article>
+            </li>
+                    <li id="story-100000006175827-869">
+                <article class="story theme-summary has-kicker" itemscope itemtype="http://schema.org/NewsArticle">
+    <div class="story-body">
+        <a class="story-link" data-rref="" href="https://www.nytimes.com/2018/11/16/realestate/long-island-city-condo-one-building-three-looks.html ">
+            <div class="story-meta">
+                                <h2 class="headline" itemprop="headline">
+                    One Building, Three Looks                </h2>
+                <p class="summary" itemprop="description">A new condominium in Long Island City has sections that feature distinct architectural styles: industrial metal, old-school brick and curtain wall glass.</p>
+                <p class="byline" itemprop="author">By JANE MARGOLIES</p>
+            </div><!-- close story-meta -->
+            <div class="wide-thumb">
+                                    <img role="presentation" src="https://static01.nyt.com/images/2018/11/18/realestate/18highend-lic1/18highend-lic1-mediumThreeByTwo440.jpg" alt="One Building, Three Looks" itemprop="thumbnailUrl" />
+                                                                    </div><!-- close wide-thumb -->
+        </a>
+    </div><!-- close story-body -->
+    <footer class="story-footer">
+        <time class="dateline" datetime="2018-11-16" itemprop="dateModified" content="2018-11-16">NOV. 16, 2018</time>
+    </footer>
+</article>
+            </li>
+                    <li id="story-100000006170779-954">
+                <article class="story theme-summary has-kicker" itemscope itemtype="http://schema.org/NewsArticle">
+    <div class="story-body">
+        <a class="story-link" data-rref="" href="https://www.nytimes.com/2018/10/29/realestate/a-former-downtown-music-mecca-becomes-condos.html ">
+            <div class="story-meta">
+                                <h2 class="headline" itemprop="headline">
+                    A Former Downtown Music Mecca Becomes Condos                </h2>
+                <p class="summary" itemprop="description">The Park Row site, a piece of the J&R Music and Computer World empire, is being developed into a luxury tower. </p>
+                <p class="byline" itemprop="author">By C. J. HUGHES</p>
+            </div><!-- close story-meta -->
+            <div class="wide-thumb">
+                                    <img role="presentation" src="https://static01.nyt.com/images/2018/10/28/realestate/28highend-parkrow1/28highend-parkrow1-mediumThreeByTwo440.jpg" alt="A Former Downtown Music Mecca Becomes Condos" itemprop="thumbnailUrl" />
+                                                                    </div><!-- close wide-thumb -->
+        </a>
+    </div><!-- close story-body -->
+    <footer class="story-footer">
+        <time class="dateline" datetime="2018-10-29" itemprop="dateModified" content="2018-10-29">OCT. 29, 2018</time>
+    </footer>
+</article>
+            </li>
+                    <li id="story-100000006147414-660">
+                <article class="story theme-summary has-kicker" itemscope itemtype="http://schema.org/NewsArticle">
+    <div class="story-body">
+        <a class="story-link" data-rref="" href="https://www.nytimes.com/2018/10/15/realestate/crown-heights-mixes-old-with-new.html ">
+            <div class="story-meta">
+                                <h2 class="headline" itemprop="headline">
+                    Crown Heights Mixes Old With New                </h2>
+                <p class="summary" itemprop="description">The Brooklyn neighborhood is lined with rowhouses, but is now getting some new midsize apartment buildings.</p>
+                <p class="byline" itemprop="author">By C. J. HUGHES</p>
+            </div><!-- close story-meta -->
+            <div class="wide-thumb">
+                                    <img role="presentation" src="https://static01.nyt.com/images/2018/10/21/realestate/14highend-crown-slide-MD9V/14highend-crown-slide-MD9V-mediumThreeByTwo440.jpg" alt="Crown Heights Mixes Old With New" itemprop="thumbnailUrl" />
+                                                                    </div><!-- close wide-thumb -->
+        </a>
+    </div><!-- close story-body -->
+    <footer class="story-footer">
+        <time class="dateline" datetime="2018-10-15" itemprop="dateModified" content="2018-10-15">OCT. 15, 2018</time>
+    </footer>
+</article>
+            </li>
+                    <li id="story-100000006142415-305">
+                <article class="story theme-summary has-kicker" itemscope itemtype="http://schema.org/NewsArticle">
+    <div class="story-body">
+        <a class="story-link" data-rref="" href="https://www.nytimes.com/2018/10/11/realestate/a-luxury-rental-in-midtown-from-a-low-key-landlord.html ">
+            <div class="story-meta">
+                                <h2 class="headline" itemprop="headline">
+                    A Luxury Rental in Midtown From a Low-Key Landlord                </h2>
+                <p class="summary" itemprop="description">A new 42-story rental near the United Nations will be the first Manhattan tower built from scratch by Lloyd M. Goldman, a national landlord.</p>
+                <p class="byline" itemprop="author">By C. J. HUGHES</p>
+            </div><!-- close story-meta -->
+            <div class="wide-thumb">
+                                    <img role="presentation" src="https://static01.nyt.com/images/2018/10/14/realestate/14highend-summit2/14highend-summit2-mediumThreeByTwo440.jpg" alt="A Luxury Rental in Midtown From a Low-Key Landlord" itemprop="thumbnailUrl" />
+                                                                    </div><!-- close wide-thumb -->
+        </a>
+    </div><!-- close story-body -->
+    <footer class="story-footer">
+        <time class="dateline" datetime="2018-10-11" itemprop="dateModified" content="2018-10-11">OCT. 11, 2018</time>
+    </footer>
+</article>
+            </li>
+                    <li id="story-100000006106585-700">
+                <article class="story theme-summary has-kicker" itemscope itemtype="http://schema.org/NewsArticle">
+    <div class="story-body">
+        <a class="story-link" data-rref="" href="https://www.nytimes.com/2018/09/21/realestate/another-condo-tower-sprouts-in-downtown-brooklyn.html ">
+            <div class="story-meta">
+                                <h2 class="headline" itemprop="headline">
+                    Another Condo Tower Sprouts in Downtown Brooklyn                </h2>
+                <p class="summary" itemprop="description">Tishman Speyer builds its first condo on the site of a Macy’s parking garage.</p>
+                <p class="byline" itemprop="author">By KAYA LATERMAN</p>
+            </div><!-- close story-meta -->
+            <div class="wide-thumb">
+                                    <img role="presentation" src="https://static01.nyt.com/images/2018/09/23/realestate/23highend-hoyt1/23highend-hoyt1-mediumThreeByTwo440.jpg" alt="Another Condo Tower Sprouts in Downtown Brooklyn" itemprop="thumbnailUrl" />
+                                                                    </div><!-- close wide-thumb -->
+        </a>
+    </div><!-- close story-body -->
+    <footer class="story-footer">
+        <time class="dateline" datetime="2018-09-21" itemprop="dateModified" content="2018-09-21">SEPT. 21, 2018</time>
+    </footer>
+</article>
+            </li>
+                    <li id="story-100000005993026-779">
+                <article class="story theme-summary has-kicker" itemscope itemtype="http://schema.org/NewsArticle">
+    <div class="story-body">
+        <a class="story-link" data-rref="" href="https://www.nytimes.com/2018/07/13/realestate/hampton-bays-builds-waterfront-luxury.html ">
+            <div class="story-meta">
+                                <h2 class="headline" itemprop="headline">
+                    Hampton Bays Builds Waterfront Luxury                </h2>
+                <p class="summary" itemprop="description">A townhouse development and a refurbished inn are poised to bracket the Shinnecock Canal and provide a “renewed gateway into the Hamptons.”</p>
+                <p class="byline" itemprop="author">By MARCELLE SUSSMAN FISCHLER</p>
+            </div><!-- close story-meta -->
+            <div class="wide-thumb">
+                                    <img role="presentation" src="https://static01.nyt.com/images/2018/07/15/realestate/15highend1/15highend1-mediumThreeByTwo440.jpg" alt="Hampton Bays Builds Waterfront Luxury" itemprop="thumbnailUrl" />
+                                                                    </div><!-- close wide-thumb -->
+        </a>
+    </div><!-- close story-body -->
+    <footer class="story-footer">
+        <time class="dateline" datetime="2018-07-13" itemprop="dateModified" content="2018-07-13">JULY 13, 2018</time>
+    </footer>
+</article>
+            </li>
+                    <li id="story-100000005949749-346">
+                <article class="story theme-summary has-kicker" itemscope itemtype="http://schema.org/NewsArticle">
+    <div class="story-body">
+        <a class="story-link" data-rref="" href="https://www.nytimes.com/2018/06/14/realestate/a-soho-triplex-on-the-market-for-65-million.html ">
+            <div class="story-meta">
+                                <h2 class="headline" itemprop="headline">
+                    A SoHo Triplex on the Market for $65 Million                </h2>
+                <p class="summary" itemprop="description">A triplex atop 419-421 Broome Street in SoHo, where the actor Heath Ledger rented a loft when he died 10 years ago, is on the market for $65 million.</p>
+                <p class="byline" itemprop="author">By VIVIAN MARINO</p>
+            </div><!-- close story-meta -->
+            <div class="wide-thumb">
+                                    <img role="presentation" src="https://static01.nyt.com/images/2018/06/17/realestate/17exclusive-photo3/17exclusive-photo3-mediumThreeByTwo440.jpg" alt="A SoHo Triplex on the Market for $65 Million" itemprop="thumbnailUrl" />
+                                                                    </div><!-- close wide-thumb -->
+        </a>
+    </div><!-- close story-body -->
+    <footer class="story-footer">
+        <time class="dateline" datetime="2018-06-14" itemprop="dateModified" content="2018-06-14">JUNE 14, 2018</time>
+    </footer>
+</article>
+            </li>
+                    <li id="story-100000005932573-688">
+                <article class="story theme-summary has-kicker" itemscope itemtype="http://schema.org/NewsArticle">
+    <div class="story-body">
+        <a class="story-link" data-rref="" href="https://www.nytimes.com/2018/06/07/realestate/david-adjaye-designs-a-tower-for-the-financial-district.html ">
+            <div class="story-meta">
+                                <h2 class="headline" itemprop="headline">
+                    David Adjaye Designs a Tower for the Financial District                </h2>
+                <p class="summary" itemprop="description">The architect best known for his African-American history museum in Washington creates a 66-story condo with a nod to New York’s history.</p>
+                <p class="byline" itemprop="author">By TIM McKEOUGH</p>
+            </div><!-- close story-meta -->
+            <div class="wide-thumb">
+                                    <img role="presentation" src="https://static01.nyt.com/images/2018/06/10/realestate/10highend-adjaye4/10highend-adjaye4-mediumThreeByTwo440.jpg" alt="David Adjaye Designs a Tower for the Financial District" itemprop="thumbnailUrl" />
+                                                                    </div><!-- close wide-thumb -->
+        </a>
+    </div><!-- close story-body -->
+    <footer class="story-footer">
+        <time class="dateline" datetime="2018-06-07" itemprop="dateModified" content="2018-06-07">JUNE 7, 2018</time>
+    </footer>
+</article>
+            </li>
+            </ol>
+</div><!-- close stream -->
+<div class="supplemental">
+    <div id="HighEndlede-ad" class="ad lede-ad nocontent robots-nocontent"></div>
+</div><!-- close supplemental -->
+</div><!-- close stream-search -->
+        </section><!-- close tab-panel -->
+    </div><!-- close story-tabs -->
+</div>
+                    <div class="search-overlay"></div>
+                    <div id="HighEndpaid-post-1" class="ad paid-post-1 nocontent robots-nocontent"></div>
+            </main><!-- close main -->
+            <section id="site-index" class="site-index">
+    <header class="section-header">
+        <p class="user-action"><a href="https://www.nytimes.com/">Go to Home Page &raquo;</a></p>
+        <h2 class="section-heading">
+            <span class="visually-hidden">Site Index</span>
+            <a id="site-index-branding-link" href="https://www.nytimes.com/">
+                <span class="visually-hidden">The New York Times</span>
+            </a>
+        </h2>
+        <script>window.magnum.writeLogo('small', 'https://g1.nyt.com/assets/realestate/20190111-213308/images/foundation/logos/', '', '', '', 'site-index-branding-link', '');</script>
+    </header>
+
+    <nav id="site-index-navigation" class="site-index-navigation" role="navigation">
+        <h2 class="visually-hidden">Site Index Navigation</h2>
+        <div class="split-6-layout layout">
+
+                                                        
+                    <div class="column">
+                        <h3 class="menu-heading">News</h3>
+                        <ul class="menu">
+
+                                                                                                                                                                                    
+                                    <li>
+                                        <a href="https://www.nytimes.com/section/world">World</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/section/us">U.S.</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/section/politics">Politics</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/section/nyregion">N.Y.</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/section/business">Business</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/section/technology">Tech</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/section/science">Science</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/section/health">Health</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/section/sports">Sports</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/section/education">Education</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/section/obituaries">Obituaries</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/pages/todayspaper/index.html">Today's Paper</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/section/corrections">Corrections</a>
+                                    </li>
+
+                                                            
+                        </ul>
+                    </div><!-- close column -->
+
+                                            
+                    <div class="column">
+                        <h3 class="menu-heading">Opinion</h3>
+                        <ul class="menu">
+
+                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/pages/opinion/index.html">Today's Opinion</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/section/opinion/columnists">Op-Ed Columnists</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/section/opinion/editorials">Editorials</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/section/opinion/contributors">Op-Ed Contributors</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/section/opinion/letters">Letters</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/section/opinion/sunday">Sunday Review</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/video/opinion">Video: Opinion</a>
+                                    </li>
+
+                                                            
+                        </ul>
+                    </div><!-- close column -->
+
+                                            
+                    <div class="column">
+                        <h3 class="menu-heading">Arts</h3>
+                        <ul class="menu">
+
+                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/section/arts">Today's Arts</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/section/arts/design">Art & Design</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/section/books">Books</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/section/arts/dance">Dance</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/section/movies">Movies</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/section/arts/music">Music</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/events/">N.Y.C. Events Guide</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/section/arts/television">Television</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/section/theater">Theater</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/video/arts">Video: Arts</a>
+                                    </li>
+
+                                                            
+                        </ul>
+                    </div><!-- close column -->
+
+                                            
+                    <div class="column">
+                        <h3 class="menu-heading">Living</h3>
+                        <ul class="menu">
+
+                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/section/automobiles">Automobiles</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/crosswords">Crossword</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/pages/dining/index.html">Food</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/section/education">Education</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/section/fashion">Fashion & Style</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/section/health">Health</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/section/jobs">Jobs</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/section/magazine">Magazine</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/events/">N.Y.C. Events Guide</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/section/realestate">Real Estate</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/section/t-magazine">T Magazine</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/section/travel">Travel</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/section/fashion/weddings">Weddings & Celebrations</a>
+                                    </li>
+
+                                                            
+                        </ul>
+                    </div><!-- close column -->
+
+                                            
+                    <div class="column">
+                        <h3 class="menu-heading">Listings & More</h3>
+                        <ul class="menu">
+
+                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/section/reader-center">Reader Center</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/ref/classifieds/">Classifieds</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/marketing/tools-and-services/">Tools & Services</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/events/">N.Y.C. Events Guide</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/section/multimedia">Multimedia</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://lens.blogs.nytimes.com/">Photography</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/video">Video</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://store.nytimes.com/?action=click&contentCollection=NYT%20Store&contentPlacement=2&module=SectionsNav&pgtype=Homepage&region=TopBar&t=qry542&utm_campaign=NYT-HP&utm_content=hp_browsetree&utm_medium=HPB&utm_source=nytimes&version=BrowseTree">NYT Store</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/times-journeys/?utm_source=nytimes&utm_medium=HPLink&utm_content=hp_browsetree&utm_campaign=NYT-HP">Times Journeys</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/seeallnav">Subscribe</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="https://www.nytimes.com/membercenter">Manage My Account</a>
+                                    </li>
+
+                                                                                            
+                                    <li>
+                                        <a href="http://www.nytco.com">NYTCo</a>
+                                    </li>
+
+                                                            
+                        </ul>
+                    </div><!-- close column -->
+
+                            
+            <div class="column last-column">
+                
+<h3 class="menu-heading">Subscribe</h3>
+
+<ul class="menu primary-menu">
+    <li class="menu-label">Subscribe</li>
+    <li class="home-delivery">
+        <i class="icon sprite-icon"></i>
+                    <a class="nyt-home-delivery" href="https://www.nytimes.com/hdleftnav">Home Delivery</a>
+            </li>
+    <li class="digital-subscriptions">
+        <i class="icon sprite-icon"></i>
+                    <a class="digital-subscription" href="https://www.nytimes.com/digitalleftnav">Digital Subscriptions</a>
+            </li>
+    <li class="nyt-crossword last-item">
+        <i class="icon sprite-icon"></i>
+        <a id="nyt-crossword" href="https://www.nytimes.com/crosswords">Crossword</a>
+    </li>
+</ul>
+
+<ul class="menu secondary-menu">
+
+    <li class="email-newsletters">
+        <a href="https://www.nytimes.com/marketing/newsletters">Email Newsletters</a>
+    </li>
+    <li class="gift-subscription">
+                    <a href="https://www.nytimes.com/giftleftnav">Gift Subscriptions</a>
+            </li>
+    <li>
+                    <a href="https://www.nytimes.com/corporateleftnav">Group Subscriptions</a>
+            </li>
+    <li>
+                    <a href="https://www.nytimes.com/educationleftnav">Education Rate</a>
+            </li>
+
+</ul>
+<ul class="menu secondary-menu">
+    <li>
+        <a href="https://www.nytimes.com/services/mobile/index.html">Mobile Applications</a>
+    </li>
+    <li>
+                    <a href="http://eedition.nytimes.com/cgi-bin/signup.cgi?cc=37FYY">Replica Edition</a>
+            </li>
+            <li>
+            <a href="https://subscribe.inyt.com">International New York Times</a>
+        </li>
+    
+</ul>
+            </div><!-- close column -->
+
+        </div><!-- close split-6-layout -->
+
+    </nav><!-- close nav -->
+
+</section><!-- close site-index -->
+
+            <footer id="page-footer" class="page-footer" role="contentinfo">
+    <nav>
+        <h2 class="visually-hidden">Site Information Navigation</h2>
+         <ul>
+             <li>
+                <a href="https://help.nytimes.com/hc/en-us/articles/115014792127-Copyright-notice" itemprop="copyrightNotice">
+                    &copy; <span itemprop="copyrightYear">2019</span><span itemprop="copyrightHolder provider sourceOrganization" itemscope itemtype="http://schema.org/Organization" itemid="http://www.nytimes.com"><span itemprop="name"> The New York Times Company</span><meta itemprop="tickerSymbol" content="NYSE NYT"/></span>
+                </a>
+            </li>
+            <li class="visually-hidden"><a href="https://www.nytimes.com">Home</a></li>
+            <li class="visually-hidden"><a href="http://query.nytimes.com/search/sitesearch/#/">Search</a></li>
+            <li class="visually-hidden">Accessibility concerns? Email us at <a href="mailto:accessibility@nytimes.com">accessibility@nytimes.com</a>. We would love to hear from you.</li>
+            <li class="wide-viewport-item"><a href="https://www.nytimes.com/ref/membercenter/help/infoservdirectory.html">Contact Us</a></li>
+            <li class="wide-viewport-item"><a href="http://www.nytco.com/careers">Work With Us</a></li>
+            <li class="wide-viewport-item"><a href="http://nytmediakit.com/">Advertise</a></li>
+            <li class="wide-viewport-item"><a href="https://www.nytimes.com/content/help/rights/privacy/policy/privacy-policy.html#pp">Your Ad Choices</a></li>
+            <li><a href="https://www.nytimes.com/privacy">Privacy</a></li>
+            <li><a href="https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-service" itemprop="usageTerms">Terms of Service</a></li>
+            <li class="wide-viewport-item last-item"><a href="https://help.nytimes.com/hc/en-us/articles/115014893968-Terms-of-sale">Terms of Sale</a></li>
+         </ul>
+    </nav>
+    <nav class="last-nav">
+        <h2 class="visually-hidden">Site Information Navigation</h2>
+        <ul>
+            <li><a href="http://spiderbites.nytimes.com">Site Map</a></li>
+            <li><a href="https://help.nytimes.com/hc/en-us">Help</a></li>
+            <li><a href="https://help.nytimes.com/hc/en-us/articles/115015385887-Contact-us">Site Feedback</a></li>
+            <li class="wide-viewport-item last-item"><a href="https://www.nytimes.com/subscriptions/Multiproduct/lp5558.html?campaignId=37WXW">Subscriptions</a></li>
+        </ul>
+    </nav>
+</footer>
+        </div><!-- close page -->
+    </div><!-- close shell -->
+        <script src="https://cdn.optimizely.com/public/3013110282/s/gm.js" type="text/javascript" async></script>
+
+<script type="text/javascript" src="https://myaccount.nytimes.com/svc/account/auth/v1/lire-ui?clientId=real.estate.ui"></script>
+
+<script>
+require(['foundation/main'], function () {
+    require(['realestate/main']);
+    require(['jquery/nyt', 'foundation/views/page-manager'], function ($, pageManager) {
+        if (window.location.search.indexOf('disable_tagx') > 0) {
+            return;
+        }
+        $(document).ready(function () {
+            require(['https://a1.nyt.com/analytics/json-kidd.min.js'], function () {
+                pageManager.trackingFireEventQueue();
+            });
+        });
+    });
+});
+</script>
+
+    <div id="Inv1" class="ad inv1-ad hidden"></div>
+<div id="Inv2" class="ad inv2-ad hidden"></div>
+<div id="Inv3" class="ad inv3-ad hidden"></div>
+<div id="ab1" class="ad ab1-ad hidden"></div>
+<div id="ab2" class="ad ab2-ad hidden"></div>
+<div id="ab3" class="ad ab3-ad hidden"></div>
+<div id="prop1" class="ad prop1-ad hidden"></div>
+<div id="prop2" class="ad prop2-ad hidden"></div>
+<div id="Anchor" class="ad anchor-ad hidden"></div>
+<div id="ADX_CLIENTSIDE" class="ad adx-clientside-ad hidden"></div>
+    <!-- Include: newrelic_get_browser_timing_footer() -->
+    <script>
+        if (typeof NYTD === 'object' && NYTD.Abra && NYTD.Abra("WWW_NewRelicFooter")) {
+                    }
+    </script>
+</body>
+</html>
