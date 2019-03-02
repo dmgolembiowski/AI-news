@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import numpy as np
-from __init__ import SydneyClass
+from __init__ import GarfieldClass
 
 class InputGate:
 
@@ -60,7 +60,7 @@ class ConstantErrorCarousel:
     def global_Error(cls, q_Value):
         pass
 
-class MemoryCell(SydneyClass):
+class MemoryCell(GarfieldClass):
     """
     LSTM.MemoryCell should be initialized in a non-traditional fashion, accepting
     __init__ arguments of the form `Classname(inputgate, CEC, etc...)` since
