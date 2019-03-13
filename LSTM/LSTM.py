@@ -1,19 +1,23 @@
 #!/usr/bin/env python3
 import numpy as np
-from __init__ import GarfieldClass
+import typing 
+
+#from __init__ import GarfieldClass
+class GarfieldClass:
+    pass
 
 class InputGate:
 
     def __init__(self, position, value, input_Legal=True, is_Open=False):
-        self.position = position
-        self.value = value
+        self.position : typing.Any()
+        self.value : type(np.array())
         self.input_Legal = input_Legal
         self.is_Open = is_Open 
-        self.correspondence = {self.position : self.value}
+        self.correspondence : dict 
 
-    def _input(self, new_Value):
-        self.value = new_Value
-        self.correspondence[self.value] = self.value
+    def _input(self, error_Signal):
+        self.value : type(np.array())
+        self.correspondence[error_Signal.position] = typing.Any() 
 
 
 class OutputGate:
@@ -27,7 +31,7 @@ class OutputGate:
 
 class ForgetGate:
     Forget_Threshold = np.Inf
-
+    
     def __init__(self, position, value, input_Legal=True):
         self.position = position
         self.value = value
