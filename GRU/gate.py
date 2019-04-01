@@ -13,6 +13,10 @@ class Gate:
     
     @staticmethod
     def join(tensor, *tensors):
+        """
+        Use torch.cat([tensor1, tensor2, ...], dim=1)
+        
+        """
         _tensors = ()
         _tensors.add(tensor)
         for t in tensors:
