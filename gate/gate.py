@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 import torch
 
-class Gate:
-    
+class Gate: 
     @staticmethod
     def sigmoid(tensor):
         return torch.nn.Sigmoid()(tensor)
