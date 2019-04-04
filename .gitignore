@@ -106,3 +106,4 @@ venv.bak/
 # Training Data
 all-the-news.db
 data/all-the-news.db
+data/news.db

@@ -3,17 +3,15 @@ import pandas as pd
 import sqlite3
 import sys
 
-def getDatabase(conn, content=True, title=False):
+def getDatabase(conn, content=True, title=False, tableName="longform"):
     if content:
         fieldName = "content"
-        news = pd.read_sql("SELECT content FROM longform;", conn)
-        return news, fieldName
     else:
         fieldName = "title"
-        news = pd.read_sql("SELECT title FROM longform;", conn)
-        return news, fieldName
-
-def getConnection(local=True, PATH="all-the-news-db"):
+    news = pd.read_sql(f"SELECT {fieldName} FROM {tableName};", conn)
+    return news, fieldName
+    
+def getConnection(local=True, PATH="all-the-news.db"):
     if local:
         """
         Creates a database connection to the 099.db database file
@@ -32,7 +30,7 @@ def getConnection(local=True, PATH="all-the-news-db"):
         raise AttributeError
         sys.exit()
 
-def main(path=None):
+def extract(path=None):
     """
     Usage:
             news = dbVectorize.main()
