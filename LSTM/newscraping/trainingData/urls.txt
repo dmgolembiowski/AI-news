@@ -1,3 +1,0 @@
-https://docs.scrapy.org/en/latest/intro/overview.html
-http://docs.pyspider.org/en/latest/tutorial/HTML-and-CSS-Selector/
-https://github.com/dmgolembiowski/AI-news
