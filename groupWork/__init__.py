@@ -1,0 +1,1 @@
+from .groupwork import wordRNN

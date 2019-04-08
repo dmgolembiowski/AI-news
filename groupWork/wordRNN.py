@@ -73,6 +73,119 @@ class DecoderRNN(nn.Module):
     def initHidden(self):
         return torch.zeros(1, 1, self.hidden_size, device=device)
     
+""" two potential ways to train
+def train(input_tensor, target_tensor, encoder, decoder, encoder_optimizer, decoder_optimizer, criterion, max_length=MAX_LENGTH):
+    encoder_hidden = encoder.initHidden()
+
+    encoder_optimizer.zero_grad()
+    decoder_optimizer.zero_grad()
+
+    input_length = input_tensor.size(0)
+    target_length = target_tensor.size(0)
+
+    encoder_outputs = torch.zeros(max_length, encoder.hidden_size, device=device)
+
+    loss = 0
+
+    for ei in range(input_length):
+        encoder_output, encoder_hidden = encoder(
+            input_tensor[ei], encoder_hidden)
+        encoder_outputs[ei] = encoder_output[0, 0]
+
+    decoder_input = torch.tensor([[SOS_token]], device=device)
+
+    decoder_hidden = encoder_hidden
+
+    use_teacher_forcing = True if random.random() < teacher_forcing_ratio else False
+
+    if use_teacher_forcing:
+        # Teacher forcing: Feed the target as the next input
+        for di in range(target_length):
+            decoder_output, decoder_hidden, decoder_attention = decoder(
+                decoder_input, decoder_hidden, encoder_outputs)
+            loss += criterion(decoder_output, target_tensor[di])
+            decoder_input = target_tensor[di]  # Teacher forcing
+
+    else:
+        # Without teacher forcing: use its own predictions as the next input
+        for di in range(target_length):
+            decoder_output, decoder_hidden, decoder_attention = decoder(
+                decoder_input, decoder_hidden, encoder_outputs)
+            topv, topi = decoder_output.topk(1)
+            decoder_input = topi.squeeze().detach()  # detach from history as input
+
+            loss += criterion(decoder_output, target_tensor[di])
+            if decoder_input.item() == EOS_token:
+                break
+
+    loss.backward()
+
+    encoder_optimizer.step()
+    decoder_optimizer.step()
+
+    return loss.item() / target_length
+    
+def train(net, data, epochs=10, batch_size=10, seq_length=50, lr=0.001, clip=5, val_frac=0.1, print_every=10):
+    net.train()
+    
+    opt = torch.optim.Adam(net.parameters(), lr=lr)
+    criterion = nn.CrossEntropyLoss()
+    
+    # create training and validation data
+    val_idx = int(len(data)*(1-val_frac))
+    data, val_data = data[:val_idx], data[val_idx:]
+    
+    if(train_on_gpu):
+        net.cuda()
+    
+    counter = 0
+    n_chars = len(net.chars)
+    for e in range(epochs):
+        # initialize hidden state
+        h = net.init_hidden(batch_size)
+        
+        for x, y in get_batches(data, batch_size, seq_length):
+            counter += 1
+            
+            # One-hot encode our data and make them Torch tensors
+            x = one_hot_encode(x, n_chars)
+            inputs, targets = torch.from_numpy(x), torch.from_numpy(y)
+            
+            if(train_on_gpu):
+                inputs, targets = inputs.cuda(), targets.cuda()
+
+            # Creating new variables for the hidden state, otherwise
+            # we'd backprop through the entire training history
+            h = tuple([each.data for each in h])
+
+            # zero accumulated gradients
+            net.zero_grad()
+            
+            # get the output from the model
+            output, h = net(inputs, h)
+            
+            # calculate the loss and perform backprop
+            loss = criterion(output, targets.view(batch_size*seq_length).long())
+            loss.backward()
+            # `clip_grad_norm` helps prevent the exploding gradient problem in RNNs / LSTMs.
+            nn.utils.clip_grad_norm_(net.parameters(), clip)
+            opt.step()
+            
+n_hidden=512
+n_layers=2
+
+net = CharRNN(chars, n_hidden, n_layers)
+print(net)
+
+# Declaring the hyperparameters
+batch_size = 128
+seq_length = 100
+n_epochs = 20 # start smaller if you are just testing initial behavior
+
+# train the model
+train(net, encoded, epochs=n_epochs, batch_size=batch_size, seq_length=seq_length, lr=0.001, print_every=50)
+"""
+    
 """ old RNN
 class WordRRN(nn.Module):
     def __init__(self, tokens, drop_prob=0.5):
@@ -80,7 +193,7 @@ class WordRRN(nn.Module):
         
         # create word dictionaries
         self.words = tokens
-        self.int2word = dict(enumerate(self.chars))
+        self.int2word = dict(enumerate(self.words))
         self.word2int = {word: ii for ii, word in self.int2word.items()}
         
         # define GRU TODO
@@ -101,14 +214,4 @@ class WordRRN(nn.Module):
             
         #move backwards? TODO
         # ...
-"""
-"""
-    # defines an optimizer (Adam), loss, and does validation data and inits hidden state of RNN
-    # forward and backpropagation
-    def train(net, data, epochs=10, batch_size=10, seq_length=50, lr=0.001, clip=5, val_frac=01, print_every=10):
-        net.train()
-        opt = torch.optim.Adam(net.parameters(), lr=lr)
-        criterion = nn.CrossEntropyLoss()
-        
-        #training and validation data
 """
