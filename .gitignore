@@ -107,3 +107,4 @@ venv.bak/
 all-the-news.db
 data/all-the-news.db
 data/news.db
+data/allNews.txt

@@ -13,13 +13,13 @@ def getDatabase(conn, content=True, title=False, tableName="clean"):
     news = pd.read_sql(f"SELECT {fieldName} FROM {tableName} WHERE LENGTH({fieldName}) >= 6000;", conn)
     return news, fieldName
     
-def getConnection(local=True, PATH="news.db"):
-    if local:
+def getConnection(PATH=None):
+    if True:
         """
         Creates a database connection to the 099.db database file
         located at ~/./all-the-news.db
         """
-        PATH="news.db"
+        PATH="news.db" if PATH == None else PATH
         try:
             connection = sqlite3.connect(PATH)
             assert(connection is not None)
@@ -27,10 +27,6 @@ def getConnection(local=True, PATH="news.db"):
         except ConnectionRefusedError:
             print(ConnectionRefusedError)
         return None
-    else:
-        print('Undefined value for "local" argument. Exiting program...')
-        raise AttributeError
-        sys.exit()
 
 def extract(path=None):
     """
@@ -45,7 +41,7 @@ def extract(path=None):
             for chunk in doc.noun_chunks:
                 print(f'{chunk} - {chunk.label_}')
     """
-    local_connection = getConnection() if (path == None) else getConnection(PATH=path)
+    local_connection = getConnection(PATH="news.db") if (path == None) else getConnection(PATH=path)
     news, fieldName = getDatabase(conn=local_connection)
     return (entry for entry in news[fieldName])
 
@@ -83,7 +79,9 @@ def partition(path=None, default_size=179599):
     # write these to their own unique temporary db.file
 """
 
-
+def main(path=None):
+    path = "news.db" if (path == None) else path
+    yield collections.deque(word for word in next(extract()).split(' ') if word !='')
 
 
 def newArticle(allNews):
@@ -131,3 +129,10 @@ def nextWords(article, allNews, nextChunk=None, wordcount = 50, wc=-1, dropFirst
         nextChunk.popleft()
     return fillup(nextChunk, wc)
 
+def saveGenerator(_allNews):
+    with open("allNews.txt", "w") as f:
+        f.writelines(_allNews)
+
+def openGenerator():
+    with open("allNews.txt", "r") as f:
+        return (_ for _ in f.readlines())
