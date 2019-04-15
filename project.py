@@ -340,4 +340,4 @@ def sample(net, size, prime, top_k=None):
     return ''.join(words)
     
 # Generating new text
-print(sample(net, 1000, prime='The ', top_k=5))
+print(sample(net, 1000, prime='the ', top_k=5))
