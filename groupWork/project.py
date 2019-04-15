@@ -13,6 +13,7 @@ import numpy as np
 import torch
 from torch import nn
 import torch.nn.functional as F
+from collections import OrderedDict
 
 # Open shakespeare text file and read in data as `text`
 with open('article.txt', 'r') as f:
@@ -26,9 +27,9 @@ with open('article.txt', 'r') as f:
 # We create two dictionaries:
 # 1. int2word, which maps integers to characters
 # 2. word2int, which maps characters to integers
-text = [t+' ' for t in text.split(" ") if t]
+text = [t.strip("\n")+' ' for t in text.split(" ") if t]
 words = tuple(set(text))
-int2word = dict(enumerate(words))
+int2word = OrderedDict(enumerate(words))
 word2int = {word: ii for ii, word in int2word.items()} #reverse mapping from character to int
 
 # Encode the text
@@ -65,7 +66,7 @@ def get_batches(arr, batch_size, seq_length):
     
     batch_size_total = batch_size * seq_length
     # total number of batches we can make
-    n_batches = len(arr)//batch_size_total
+    n_batches = len(arr)//batch_size_total #floor int divison //
     
     # Keep only enough characters to make full batches
     arr = arr[:n_batches * batch_size_total]
@@ -104,7 +105,7 @@ class CharRNN(nn.Module):
         
         # creating character dictionaries
         self.words = tokens
-        self.int2word = dict(enumerate(self.words))
+        self.int2word = OrderedDict(enumerate(words)) #change TODO
         self.word2int = {word: ii for ii, word in self.int2word.items()}
         
         #define the LSTM
@@ -117,7 +118,6 @@ class CharRNN(nn.Module):
         #define the final, fully-connected output layer
         self.fc = nn.Linear(n_hidden, len(self.words))
       
-    
     def forward(self, x, hidden):
         ''' Forward pass through the network. 
             These inputs are x, and the hidden/cell state `hidden`. '''
@@ -337,4 +337,4 @@ def sample(net, size, prime, top_k=None):
     return ''.join(words)
     
 # Generating new text
-print(sample(net, 1000, prime='A ', top_k=5))
+print(sample(net, 1000, prime='The ', top_k=5))
