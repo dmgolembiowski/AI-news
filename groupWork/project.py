@@ -18,7 +18,7 @@ from collections import OrderedDict
 # Open shakespeare text file and read in data as `text`
 with open('article.txt', 'r') as f:
     text = f.read()
-
+    
 # Showing the first 100 characters
 #text[:100]
 
@@ -278,7 +278,6 @@ def predict(net, word, h=None, top_k=None):
         ''' Given a character, predict the next character.
             Returns the predicted character and the hidden state.
         '''
-        
         # tensor inputs
         x = np.array([[net.word2int[word]]])
         x = one_hot_encode(x, len(net.words))
@@ -322,11 +321,14 @@ def sample(net, size, prime, top_k=None):
     net.eval() # eval mode
     
     # First off, run through the prime characters
-    words = [word for word in prime]
+    #words = [word for word in prime]
+    words = []
+    words.append(prime)
     h = net.init_hidden(1)
-    for word in prime:
-        word, h = predict(net, word, h, top_k=top_k)
+    #for word in prime:
+    word, h = predict(net, words[-1], h, top_k=top_k)
 
+    #words.append(word)
     words.append(word)
     
     # Now pass in the previous character and get a new one
