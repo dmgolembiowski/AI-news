@@ -14,9 +14,10 @@ import torch
 from torch import nn
 import torch.nn.functional as F
 from collections import OrderedDict
+import sys
 
 # Open shakespeare text file and read in data as `text`
-with open('article.txt', 'r') as f:
+with open(sys.argv[1], 'r') as f:
     text = f.read()
     
 # Showing the first 100 characters

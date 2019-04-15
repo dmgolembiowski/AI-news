@@ -41,7 +41,7 @@ def extract(path=None):
             for chunk in doc.noun_chunks:
                 print(f'{chunk} - {chunk.label_}')
     """
-    local_connection = getConnection(PATH="news.db") if (path == None) else getConnection(PATH=path)
+    local_connection = getConnection(PATH="/home/david/ai/AI-news/data/news.db") if (path == None) else getConnection(PATH=path)
     news, fieldName = getDatabase(conn=local_connection)
     return (entry for entry in news[fieldName])
 
