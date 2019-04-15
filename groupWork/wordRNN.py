@@ -9,6 +9,8 @@ Based on
 https://towardsdatascience.com/writing-like-shakespeare-with-machine-learning-in-pytorch-d77f851d910c
 and
 https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html
+and
+https://github.com/emadRad/lstm-gru-pytorch/blob/master/lstm_gru.ipynb
 """
 import numpy as np
 import torch
