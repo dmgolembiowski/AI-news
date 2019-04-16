@@ -15,11 +15,14 @@ from torch import nn
 import torch.nn.functional as F
 from collections import OrderedDict
 import sys
-
+import gc
+#import __uni
+model_name = 'rnn_20_epoch.net'
+model_saved=False
 # Open shakespeare text file and read in data as `text`
 with open(sys.argv[1], 'r') as f:
     text = f.read()
-    
+
 # Showing the first 100 characters
 #text[:100]
 
@@ -36,9 +39,9 @@ word2int = {word: ii for ii, word in int2word.items()} #reverse mapping from cha
 # Encode the text
 encoded = np.array([word2int[word] for word in text])
 
-# Showing the first 100 encoded characters
-#encoded[:100]
-
+def resume_training(_continue=False):
+    global model_saved
+    model_saved = _continue
 # Defining method to encode one hot labels
 def one_hot_encode(arr, n_labels):
     
@@ -110,9 +113,18 @@ class CharRNN(nn.Module):
         self.word2int = {word: ii for ii, word in self.int2word.items()}
         
         #define the LSTM
+        
         self.lstm = nn.LSTM(len(self.words), n_hidden, n_layers, 
                             dropout=drop_prob, batch_first=True)
         
+        """
+        self.lstm = nn.GRU(input_size=len(self.words), 
+                hidden_size=self.n_hidden, 
+                num_layers=self.n_layers,
+                bias=True,
+                dropout=self.drop_prob,
+                bidirectional=False)
+        """
         #define a dropout layer
         self.dropout = nn.Dropout(drop_prob)
         
@@ -153,7 +165,71 @@ class CharRNN(nn.Module):
                       weight.new(self.n_layers, batch_size, self.n_hidden).zero_())
         
         return hidden
-       
+
+# Defining a method to generate the next character
+def predict(net, word, h=None, top_k=None): 
+        ''' Given a character, predict the next character.
+            Returns the predicted character and the hidden state.
+        '''
+        # tensor inputs
+        x = np.array([[net.word2int[word]]])
+        x = one_hot_encode(x, len(net.words))
+        inputs = torch.from_numpy(x)
+        
+        if(train_on_gpu):
+            inputs = inputs.cuda()
+        
+        # detach hidden state from history
+        h = tuple([each.data for each in h])
+        # get the output of the model
+        out, h = net(inputs, h)
+
+        # get the character probabilities
+        p = F.softmax(out, dim=1).data
+        if(train_on_gpu):
+            p = p.cpu() # move to cpu
+        
+        # get top characters
+        if top_k is None:
+            top_ch = np.arange(len(net.words))
+        else:
+            p, top_ch = p.topk(top_k)
+            top_ch = top_ch.numpy().squeeze()
+        
+        # select the likely next character with some element of randomness
+        p = p.numpy().squeeze()
+        word = np.random.choice(top_ch, p=p/p.sum())
+        
+        # return the encoded value of the predicted char and the hidden state
+        return net.int2word[word], h
+        
+# Declaring a method to generate new text
+def sample(net, size, prime, top_k=None):
+        
+    if(train_on_gpu):
+        net.cuda()
+    else:
+        net.cpu()
+    
+    net.eval() # eval mode
+    
+    # First off, run through the prime characters
+    #words = [word for word in prime]
+    words = []
+    words.append(prime)
+    h = net.init_hidden(1)
+    #for word in prime:
+    word, h = predict(net, words[-1], h, top_k=top_k)
+
+    #words.append(word)
+    words.append(word)
+    
+    # Now pass in the previous character and get a new one
+    for ii in range(size): 
+        word, h = predict(net, words[-1], h, top_k=top_k)
+        words.append(word)
+
+    return ''.join(words)
 # Declaring the train method
 def train(net, data, epochs=10, batch_size=10, seq_length=50, lr=0.001, clip=5, val_frac=0.1, print_every=10):
     ''' Training a network 
@@ -172,6 +248,21 @@ def train(net, data, epochs=10, batch_size=10, seq_length=50, lr=0.001, clip=5, 
         print_every: Number of steps for printing training and validation loss
     
     '''
+    global model_name
+    def loadTheModel():
+        with open("rnn_20_epoch.net", "rb") as f:
+            # encode() to model.decode()
+            result = f.read()
+            model = torch.load(result)
+            model.eval()
+    def saveTheModel():
+        with open(model_name, 'wb') as f:
+            torch.save(checkpoint, f)
+
+    global model_saved
+    if (model_saved):
+        loadTheModel()
+        
     net.train()
     
     opt = torch.optim.Adam(net.parameters(), lr=lr)
@@ -242,102 +333,32 @@ def train(net, data, epochs=10, batch_size=10, seq_length=50, lr=0.001, clip=5, 
                     val_losses.append(val_loss.item())
                 
                 net.train() # reset to train mode after iterationg through validation data
+                saveTheModel()
                 
                 print("Epoch: {}/{}...".format(e+1, epochs),
                       "Step: {}...".format(counter),
                       "Loss: {:.4f}...".format(loss.item()),
                       "Val Loss: {:.4f}".format(np.mean(val_losses)))
-                      
-# Define and print the net
-n_hidden=512
-n_layers=2
 
-net = CharRNN(words, n_hidden, n_layers)
-print(net)
+def initialize_train_seq(loadTheModel):
+    if (loadTheModel !=None):
+        resume_training(_continue=True)
+    # Define and print the net
+    n_hidden=512
+    n_layers=2
+    net = CharRNN(words, n_hidden, n_layers)
+    print(net)
+    # Declaring the hyperparameters
+    batch_size = 128
+    seq_length = 100
+    n_epochs = 20 # start smaller if you are just testing initial behavior
+    # train the model
+    train(net, encoded, epochs=n_epochs, batch_size=batch_size, seq_length=seq_length, lr=0.001, print_every=50)
+    checkpoint = {'n_hidden': net.n_hidden,
+                'n_layers': net.n_layers,
+                'state_dict': net.state_dict(),
+                'tokens': net.words}
+    # Generating new text
+    print(sample(net, 2500, prime='the ', top_k=5))
 
-# Declaring the hyperparameters
-batch_size = 128
-seq_length = 100
-n_epochs = 20 # start smaller if you are just testing initial behavior
-
-# train the model
-train(net, encoded, epochs=n_epochs, batch_size=batch_size, seq_length=seq_length, lr=0.001, print_every=50)
-
-# Saving the model
-model_name = 'rnn_20_epoch.net'
-
-checkpoint = {'n_hidden': net.n_hidden,
-              'n_layers': net.n_layers,
-              'state_dict': net.state_dict(),
-              'tokens': net.words}
-
-with open(model_name, 'wb') as f:
-    torch.save(checkpoint, f)
-    
-# Defining a method to generate the next character
-def predict(net, word, h=None, top_k=None): 
-        ''' Given a character, predict the next character.
-            Returns the predicted character and the hidden state.
-        '''
-        # tensor inputs
-        x = np.array([[net.word2int[word]]])
-        x = one_hot_encode(x, len(net.words))
-        inputs = torch.from_numpy(x)
-        
-        if(train_on_gpu):
-            inputs = inputs.cuda()
-        
-        # detach hidden state from history
-        h = tuple([each.data for each in h])
-        # get the output of the model
-        out, h = net(inputs, h)
-
-        # get the character probabilities
-        p = F.softmax(out, dim=1).data
-        if(train_on_gpu):
-            p = p.cpu() # move to cpu
-        
-        # get top characters
-        if top_k is None:
-            top_ch = np.arange(len(net.words))
-        else:
-            p, top_ch = p.topk(top_k)
-            top_ch = top_ch.numpy().squeeze()
-        
-        # select the likely next character with some element of randomness
-        p = p.numpy().squeeze()
-        word = np.random.choice(top_ch, p=p/p.sum())
-        
-        # return the encoded value of the predicted char and the hidden state
-        return net.int2word[word], h
-        
-# Declaring a method to generate new text
-def sample(net, size, prime, top_k=None):
-        
-    if(train_on_gpu):
-        net.cuda()
-    else:
-        net.cpu()
-    
-    net.eval() # eval mode
-    
-    # First off, run through the prime characters
-    #words = [word for word in prime]
-    words = []
-    words.append(prime)
-    h = net.init_hidden(1)
-    #for word in prime:
-    word, h = predict(net, words[-1], h, top_k=top_k)
-
-    #words.append(word)
-    words.append(word)
-    
-    # Now pass in the previous character and get a new one
-    for ii in range(size): 
-        word, h = predict(net, words[-1], h, top_k=top_k)
-        words.append(word)
-
-    return ''.join(words)
-    
-# Generating new text
-print(sample(net, 1000, prime='the ', top_k=5))
+initialize_train_seq(sys.argv[2])
