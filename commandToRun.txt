@@ -1,0 +1,1 @@
+find trainingData/ -type f -exec optirun python -v project.py '{}' False ';'
