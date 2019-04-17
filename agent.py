@@ -9,7 +9,7 @@ with open('_data/all.txt', 'r') as f:
     text = f.read()
 
 # Showing the first 100 characters
-text[:100]
+#text[:100]
 
 # encoding the text and map each character to an integer and vice versa
 
@@ -24,7 +24,7 @@ char2int = {ch: ii for ii, ch in int2char.items()}
 encoded = np.array([char2int[ch] for ch in text])
 
 # Showing the first 100 encoded characters
-encoded[:100]
+#encoded[:100]
 
 # Defining method to encode one hot labels
 def one_hot_encode(arr, n_labels):
@@ -81,7 +81,7 @@ else:
     print('No GPU available, training on CPU; consider making n_epochs very small.')
     
 # Declaring the model
-class CharRNN(nn.Module):
+class RNN(nn.Module):
     
     def __init__(self, tokens, n_hidden=256, n_layers=2,
                                drop_prob=0.5, lr=0.001):
@@ -149,7 +149,7 @@ def train(net, data, epochs=10, batch_size=10, seq_length=50, lr=0.001, clip=5, 
         Arguments
         ---------
         
-        net: CharRNN network
+        net: RNN network
         data: text data to train the network
         epochs: Number of epochs to train
         batch_size: Number of mini-sequences per mini-batch, aka batch size
@@ -240,13 +240,13 @@ def train(net, data, epochs=10, batch_size=10, seq_length=50, lr=0.001, clip=5, 
 n_hidden=512
 n_layers=2
 
-net = torch.nn.DataParallel(CharRNN(chars, n_hidden, n_layers), dim=1).cuda()
+net = RNN(chars, n_hidden, n_layers)
 print(net)
 
 # Declaring the hyperparameters
 batch_size = 128
 seq_length = 100
-n_epochs = 20 # start smaller if you are just testing initial behavior
+n_epochs = 30 # start smaller if you are just testing initial behavior
 
 # train the model
 train(net, encoded, epochs=n_epochs, batch_size=batch_size, seq_length=seq_length, lr=0.001, print_every=50)
@@ -301,7 +301,7 @@ def predict(net, char, h=None, top_k=None):
         return net.int2char[char], h
         
 # Declaring a method to generate new text
-def sample(net, size, prime='The', top_k=None):
+def sample(net, size, prime='the', top_k=None):
         
     if(train_on_gpu):
         net.cuda()
@@ -326,4 +326,6 @@ def sample(net, size, prime='The', top_k=None):
     return ''.join(chars)
     
 # Generating new text
-print(sample(net, 1000, prime='A', top_k=5))
+for num in range(0,4):
+    with open(f"AINewsArticle{num}.txt", 'w') as f:
+        f.write(sample(net, 3000, prime='a', top_k=15))
