@@ -65,7 +65,7 @@ def get_batches(arr, batch_size, seq_length):
 # Declaring the model
 class CharRNN(nn.Module):
     
-    def __init__(self, tokens, n_hidden=256, n_layers=2,
+    def __init__(self, tokens, n_hidden=512, n_layers=2,
                                drop_prob=0.5, lr=0.001):
         super().__init__()
         self.drop_prob = drop_prob
@@ -75,23 +75,28 @@ class CharRNN(nn.Module):
         
         # creating character dictionaries
         self.words = tokens
-        self.int2word = OrderedDict(enumerate(self.words))
-        self.word2int = {word: ii for ii, word in self.int2word.items()}
+        #global int2word
+        #global word2int
+        int2word = {}
+        word2int = {}
+        
+        self.int2word = int2word
+        self.word2int = word2int
         
         #define the LSTM
-        self.lstm = nn.LSTM(len(self.words), n_hidden, n_layers, 
+        self.lstm = nn.LSTM(len(self.int2word), n_hidden, n_layers, 
                             dropout=drop_prob, batch_first=True)
         
         #define a dropout layer
         self.dropout = nn.Dropout(drop_prob)
         
         #define the final, fully-connected output layer
-        self.fc = nn.Linear(n_hidden, len(self.words))
+        self.fc = nn.Linear(n_hidden, len(self.int2word))
       
     def forward(self, x, hidden):
         ''' Forward pass through the network. 
             These inputs are x, and the hidden/cell state `hidden`. '''
-                
+        #print("forward", x.size())
         #get the outputs and the new hidden state from the lstm
         r_output, hidden = self.lstm(x, hidden)
         
@@ -154,7 +159,7 @@ def train(net, data, epochs=10, batch_size=10, seq_length=50, lr=0.001, clip=5, 
         net.cuda()
     
     counter = 0
-    n_words = len(net.words)
+    n_words = len(net.int2word)
     for e in range(epochs):
         # initialize hidden state
         h = net.init_hidden(batch_size)
@@ -224,7 +229,7 @@ def predict(net, word, h=None, top_k=None):
         '''
         # tensor inputs
         x = np.array([[net.word2int[word]]])
-        x = one_hot_encode(x, len(net.words))
+        x = one_hot_encode(x, len(net.int2word))
         inputs = torch.from_numpy(x)
         
         if(train_on_gpu):
@@ -242,7 +247,7 @@ def predict(net, word, h=None, top_k=None):
         
         # get top characters
         if top_k is None:
-            top_ch = np.arange(len(net.words))
+            top_ch = np.arange(len(net.int2word))
         else:
             p, top_ch = p.topk(top_k)
             top_ch = top_ch.numpy().squeeze()
@@ -255,19 +260,39 @@ def predict(net, word, h=None, top_k=None):
         return net.int2word[word], h
         
 # Declaring a method to generate new text
-def sample(net, size, prime, top_k=None):
+def sample(net, size, prime, top_k=None): #make word2int and int2word global variables
+    def sanitize(_text):
+        _text = _text.strip("\n")
+        _text = _text.strip('\\')
+        return _text
+    
     for i in range(10):
         article = "article" + str(i) + ".txt"
         # Open shakespeare text file and read in data as `text`
+        wordSet = set()
         with open(article, 'r') as f:
             text = f.read()
             # We create two dictionaries:
             # 1. int2word, which maps integers to characters
             # 2. word2int, which maps characters to integers
-            text = [t.strip("\n")+' ' for t in text.split(" ") if t]
-            words = tuple(set(text))#need to save outside loop??
-            int2word = OrderedDict(enumerate(words))
-            word2int = {word: ii for ii, word in int2word.items()} #reverse mapping from character to int
+            text = [sanitize(t)+' ' for t in text.split(" ") if t]
+            wordSet = set(text).union(wordSet)
+            words = tuple(wordSet)#need to save outside loop??
+            global int2word
+            global word2int
+            enumeratedWords = OrderedDict(enumerate(words, len(word2int)))
+            print(len(enumeratedWords))
+            #print(word2int)
+            #forprint(int2word)
+            enumeratedWords2 = enumeratedWords#does update change its parameter
+            int2word.update(enumeratedWords)#TODO each update is not increasing the dictionaries by the same amount
+            print(len(enumeratedWords))
+            word2int.update({word: ii for ii, word in enumeratedWords2.items()})
+            print(len(int2word), len(word2int))
+           # print(int2word)
+                
+            #int2word = OrderedDict(enumerate(words))
+            #word2int = {word: ii for ii, word in int2word.items()} #reverse mapping from character to int
             # Encode the text
             encoded = np.array([word2int[word] for word in text])
             if net == None:
@@ -276,7 +301,8 @@ def sample(net, size, prime, top_k=None):
                     net.cuda()
                 else:
                     net.cpu()
-                net.lstm.input_size = len(words)
+            net.lstm.input_size = len(int2word)
+            net.words = words
             # train the model
             train(net, encoded, epochs=n_epochs, batch_size=batch_size, seq_length=seq_length, lr=0.001, print_every=50)
 
@@ -299,7 +325,7 @@ def sample(net, size, prime, top_k=None):
         words.append(word)
 
     return ''.join(words)
-    
+
 # Check if GPU is available
 train_on_gpu = torch.cuda.is_available()
 if(train_on_gpu):
@@ -318,5 +344,7 @@ n_epochs = 10 # start smaller if you are just testing initial behavior
     
 # Generating new text
 net = None
-
-print(sample(net, 1000, prime='a ', top_k=100))
+int2word = {}
+word2int = {}
+# print(sample(net, 1000, prime='a ', top_k=100))
+print(sample(net, batch_size, prime='a ', top_k=100))
