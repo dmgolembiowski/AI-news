@@ -75,16 +75,14 @@ class CharRNN(nn.Module):
         
         # creating character dictionaries
         self.words = tokens
-        #global int2word
-        #global word2int
-        int2word = {}
-        word2int = {}
+        global int2word
+        global word2int
         
         self.int2word = int2word
         self.word2int = word2int
         
         #define the LSTM
-        self.lstm = nn.LSTM(len(self.int2word), n_hidden, n_layers, 
+        self.lstm = nn.LSTM(len(self.word2int), n_hidden, n_layers, #first int in m2
                             dropout=drop_prob, batch_first=True)
         
         #define a dropout layer
@@ -260,12 +258,13 @@ def predict(net, word, h=None, top_k=None):
         return net.int2word[word], h
         
 # Declaring a method to generate new text
-def sample(net, size, prime, top_k=None): #make word2int and int2word global variables
+def sample(net, size, prime, top_k=None):
     def sanitize(_text):
         _text = _text.strip("\n")
         _text = _text.strip('\\')
         return _text
     
+    currentIndex = 2
     for i in range(10):
         article = "article" + str(i) + ".txt"
         # Open shakespeare text file and read in data as `text`
@@ -275,24 +274,43 @@ def sample(net, size, prime, top_k=None): #make word2int and int2word global var
             # We create two dictionaries:
             # 1. int2word, which maps integers to characters
             # 2. word2int, which maps characters to integers
-            text = [sanitize(t)+' ' for t in text.split(" ") if t]
-            wordSet = set(text).union(wordSet)
+            #text = [sanitize(t)+' ' for t in text.split(" ") if t]
+            text = [t+' ' for t in text.split(" ") if t]
+            text = set(text)
+            #wordDifference = text - wordSet
+            wordDifference = wordSet.symmetric_difference(text) - wordSet.difference(text)
+            wordSet = wordSet.union(text)
             words = tuple(wordSet)#need to save outside loop??
             global int2word
             global word2int
-            enumeratedWords = OrderedDict(enumerate(words, len(word2int)))
-            print(len(enumeratedWords))
-            #print(word2int)
-            #forprint(int2word)
-            enumeratedWords2 = enumeratedWords#does update change its parameter
-            int2word.update(enumeratedWords)#TODO each update is not increasing the dictionaries by the same amount
-            print(len(enumeratedWords))
-            word2int.update({word: ii for ii, word in enumeratedWords2.items()})
+            #enumeratedWords = OrderedDict(enumerate(words, len(word2int)))
+            #enumeratedWords2 = enumeratedWords#does update change its parameter
+            #int2word.update(enumeratedWords)#TODO each update is not increasing the dictionaries by the same amount
+            #word2int.update({word: ii for ii, word in enumeratedWords2.items()})
+            for w in wordDifference:
+                if w in word2int.keys():
+                    continue
+                int2word[currentIndex] = w
+                word2int[w] = currentIndex
+                currentIndex += 1
             print(len(int2word), len(word2int))
-           # print(int2word)
-                
             #int2word = OrderedDict(enumerate(words))
             #word2int = {word: ii for ii, word in int2word.items()} #reverse mapping from character to int
+    
+    for i in range(10):
+        article = "article" + str(i) + ".txt"
+        # Open shakespeare text file and read in data as `text`
+        #wordSet = set()
+        with open(article, 'r') as f:
+            text = f.read()
+            text = [t+' ' for t in text.split(" ") if t]
+            # We create two dictionaries:
+            # 1. int2word, which maps integers to characters
+            # 2. word2int, which maps characters to integers
+            #wordSet = set(text).union(wordSet)
+            #words = tuple(wordSet)#need to save outside loop??
+            #global int2word
+            #global word2int
             # Encode the text
             encoded = np.array([word2int[word] for word in text])
             if net == None:
@@ -301,7 +319,7 @@ def sample(net, size, prime, top_k=None): #make word2int and int2word global var
                     net.cuda()
                 else:
                     net.cpu()
-            net.lstm.input_size = len(int2word)
+            #net.lstm.input_size = len(int2word)
             net.words = words
             # train the model
             train(net, encoded, epochs=n_epochs, batch_size=batch_size, seq_length=seq_length, lr=0.001, print_every=50)
@@ -346,5 +364,4 @@ n_epochs = 10 # start smaller if you are just testing initial behavior
 net = None
 int2word = {}
 word2int = {}
-# print(sample(net, 1000, prime='a ', top_k=100))
-print(sample(net, batch_size, prime='a ', top_k=100))
+print(sample(net, 1000, prime='a ', top_k=100))
