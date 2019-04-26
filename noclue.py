@@ -14,9 +14,53 @@ import torch
 from torch import nn
 import torch.nn.functional as F
 from collections import OrderedDict
-import IPython
+import sys
+import gc
+import time
+#import __uni
 
-# Make vectors in the form [0,0,1,0] to represent dictonary
+#model_saved=False
+DATA = {}
+DATA_ID = 0
+
+# DATA_COLUMNS probably won't be used, but it's a backup
+# in case our output DataFrame of stats doesn't work as intended
+DATA_COLUMNS = []
+
+
+with open("", 'r') as f:
+    text = f.read()
+
+text = [t.strip("\n")+' ' for t in text.split(" ") if t]
+
+# We create two dictionaries:
+# 1. int2word, which maps integers to characters
+# 2. word2int, which maps characters to integers
+words = tuple(set(text))
+int2word = OrderedDict(enumerate(words))
+word2int = {word: ii for ii, word in int2word.items()} 
+
+##
+print(text[:100])
+print()
+print("^^Example of first 100 elements")
+##
+time.sleep(1)
+
+# Encode the text
+encoded = np.array([word2int[word] for word in text])
+##
+print(encoded[:100])
+print()
+print("^^Example of first 100 encoded elements")
+time.sleep(1)
+##
+"""MARKED FOR DELETION
+def resume_training(_continue=False):
+    global model_saved
+    model_saved = _continue
+"""
+# Defining method to encode one hot labels
 def one_hot_encode(arr, n_labels):
     
     # Initialize the the encoded array
@@ -25,7 +69,7 @@ def one_hot_encode(arr, n_labels):
     # Fill the appropriate elements with ones
     one_hot[np.arange(one_hot.shape[0]), arr.flatten()] = 1.
     
-    # Reshape it to get back to the original array
+    # Finally reshape it to get back to the original array
     one_hot = one_hot.reshape((*arr.shape, n_labels))
     
     return one_hot
@@ -63,11 +107,18 @@ def get_batches(arr, batch_size, seq_length):
             y[:, :-1], y[:, -1] = x[:, 1:], arr[:, 0]
         yield x, y
 
+# Check if GPU is available
+train_on_gpu = torch.cuda.is_available()
+if(train_on_gpu):
+    print('Training on GPU!')
+else: 
+    print('No GPU available, training on CPU; consider making n_epochs very small.')
+    
 # Declaring the model
 class CharRNN(nn.Module):
     
-    def __init__(self, tokens, n_hidden=512, n_layers=2,
-                               drop_prob=0.5, lr=0.001):
+    def __init__(self, tokens, n_hidden=256, n_layers=2,
+                               drop_prob=0.55, lr=0.025):
         super().__init__()
         self.drop_prob = drop_prob
         self.n_layers = n_layers
@@ -76,121 +127,32 @@ class CharRNN(nn.Module):
         
         # creating character dictionaries
         self.words = tokens
-        global int2word
-        global word2int
-        
-        self.int2word = int2word
-        self.word2int = word2int
+        self.int2word = OrderedDict(enumerate(words)) #change TODO
+        self.word2int = {word: ii for ii, word in self.int2word.items()}
         
         #define the LSTM
-        self.lstm = nn.LSTM(len(self.word2int), n_hidden, n_layers, #first int in m2
+        
+        self.lstm = nn.LSTM(len(self.words), n_hidden, n_layers, 
                             dropout=drop_prob, batch_first=True)
         
+        """
+        self.gru = nn.GRU(input_size=len(self.words), 
+                hidden_size=self.n_hidden, 
+                num_layers=self.n_layers,
+                bias=True,
+                dropout=self.drop_prob,
+                bidirectional=False)
+        """
         #define a dropout layer
         self.dropout = nn.Dropout(drop_prob)
         
         #define the final, fully-connected output layer
-        self.fc = nn.Linear(n_hidden, len(self.int2word))
-          
-    # Declaring the train method
-    def ___train(self, data, epochs=10, batch_size=10, seq_length=50, lr=0.001, clip=5, val_frac=0.1, print_every=10):
-        ''' Training a network 
-        
-            Arguments
-            ---------
-            
-            net: CharRNN network
-            data: text data to train the network
-            epochs: Number of epochs to train
-            batch_size: Number of mini-sequences per mini-batch, aka batch size
-            seq_length: Number of character steps per mini-batch
-            lr: learning rate
-            clip: gradient clipping
-            val_frac: Fraction of data to hold out for validation
-            print_every: Number of steps for printing training and validation loss
-        
-        '''
-        
-        # net.train()
-
-        opt = torch.optim.Adam(net.parameters(), lr=lr)
-        criterion = nn.CrossEntropyLoss()
-        
-        # create training and validation data
-        val_idx = int(len(data)*(1-val_frac))
-        data, val_data = data[:val_idx], data[val_idx:]
-        
-        if(train_on_gpu):
-            net.cuda()
-        
-        counter = 0
-        n_words = len(net.int2word)
-        for e in range(epochs):
-            # initialize hidden state
-            h = net.init_hidden(batch_size)
-            
-            for x, y in get_batches(data, batch_size, seq_length):
-                counter += 1
-                
-                # One-hot encode our data and make them Torch tensors
-                x = one_hot_encode(x, n_words)
-                inputs, targets = torch.from_numpy(x), torch.from_numpy(y)
-                
-                if(train_on_gpu):
-                    inputs, targets = inputs.cuda(), targets.cuda()
-
-                # Creating new variables for the hidden state, otherwise
-                # we'd backprop through the entire training history
-                h = tuple([each.data for each in h])
-
-                # zero accumulated gradients
-                net.zero_grad()
-                
-                # get the output from the model
-                output, h = net(inputs, h)
-                
-                # calculate the loss and perform backprop
-                loss = criterion(output, targets.view(batch_size*seq_length).long())
-                loss.backward()
-                # `clip_grad_norm` helps prevent the exploding gradient problem in RNNs / LSTMs.
-                nn.utils.clip_grad_norm_(net.parameters(), clip)
-                opt.step()
-                
-                # loss stats
-                if counter % print_every == 0:
-                    # Get validation loss
-                    val_h = net.init_hidden(batch_size)
-                    val_losses = []
-                    net.eval()
-                    for x, y in get_batches(val_data, batch_size, seq_length):
-                        # One-hot encode our data and make them Torch tensors
-                        x = one_hot_encode(x, n_words)
-                        x, y = torch.from_numpy(x), torch.from_numpy(y)
-                        
-                        # Creating new variables for the hidden state, otherwise
-                        # we'd backprop through the entire training history
-                        val_h = tuple([each.data for each in val_h])
-                        
-                        inputs, targets = x, y
-                        if(train_on_gpu):
-                            inputs, targets = inputs.cuda(), targets.cuda()
-
-                        output, val_h = net(inputs, val_h)
-                        val_loss = criterion(output, targets.view(batch_size*seq_length).long())
-                    
-                        val_losses.append(val_loss.item())
-                    
-                    net.train() # reset to train mode after iterationg through validation data
-                    
-                    print("Epoch: {}/{}...".format(e+1, epochs),
-                          "Step: {}...".format(counter),
-                          "Loss: {:.4f}...".format(loss.item()),
-                          "Val Loss: {:.4f}".format(np.mean(val_losses)))
-         
+        self.fc = nn.Linear(n_hidden, len(self.words))
+      
     def forward(self, x, hidden):
         ''' Forward pass through the network. 
             These inputs are x, and the hidden/cell state `hidden`. '''
-        #print("forward", x.size())
+                
         #get the outputs and the new hidden state from the lstm
         r_output, hidden = self.lstm(x, hidden)
         
@@ -221,9 +183,8 @@ class CharRNN(nn.Module):
                       weight.new(self.n_layers, batch_size, self.n_hidden).zero_())
         
         return hidden
-       
-# Declaring the train method
-def train(net, data, epochs=10, batch_size=10, seq_length=50, lr=0.005, clip=5, val_frac=0.1, print_every=10):
+
+def train(net, data, epochs=10, batch_size=10, seq_length=50, lr=0.001, clip=5, val_frac=0.1, print_every=10):
     ''' Training a network 
     
         Arguments
@@ -240,9 +201,10 @@ def train(net, data, epochs=10, batch_size=10, seq_length=50, lr=0.005, clip=5, 
         print_every: Number of steps for printing training and validation loss
     
     '''
-    print(f"net, data, epochs, batch_size, seq_length, lr=0.001, clips, val_frac, print_every")
+    global DATA
+    global DATA_ID
     net.train()
-    print(
+    
     opt = torch.optim.Adam(net.parameters(), lr=lr)
     criterion = nn.CrossEntropyLoss()
     
@@ -254,7 +216,205 @@ def train(net, data, epochs=10, batch_size=10, seq_length=50, lr=0.005, clip=5, 
         net.cuda()
     
     counter = 0
-    n_words = len(net.int2word)
+    n_chars = len(net.chars)
+    for e in range(epochs):
+        # initialize hidden state
+        h = net.init_hidden(batch_size)
+        
+        for x, y in get_batches(data, batch_size, seq_length):
+            counter += 1
+            
+            # One-hot encode our data and make them Torch tensors
+            x = one_hot_encode(x, n_chars)
+            inputs, targets = torch.from_numpy(x), torch.from_numpy(y)
+            
+            if(train_on_gpu):
+                inputs, targets = inputs.cuda(), targets.cuda()
+
+            # Creating new variables for the hidden state, otherwise
+            # we'd backprop through the entire training history
+            h = tuple([each.data for each in h])
+
+            # zero accumulated gradients
+            net.zero_grad()
+            
+            # get the output from the model
+            output, h = net(inputs, h)
+            
+            # calculate the loss and perform backprop
+            loss = criterion(output, targets.view(batch_size*seq_length).long())
+            loss.backward()
+            # `clip_grad_norm` helps prevent the exploding gradient problem in RNNs / LSTMs.
+            nn.utils.clip_grad_norm_(net.parameters(), clip)
+            opt.step()
+            
+            # loss stats
+            if counter % print_every == 0:
+                # Get validation loss
+                val_h = net.init_hidden(batch_size)
+                val_losses = []
+                net.eval()
+                for x, y in get_batches(val_data, batch_size, seq_length):
+                    # One-hot encode our data and make them Torch tensors
+                    x = one_hot_encode(x, n_chars)
+                    x, y = torch.from_numpy(x), torch.from_numpy(y)
+                    
+                    # Creating new variables for the hidden state, otherwise
+                    # we'd backprop through the entire training history
+                    val_h = tuple([each.data for each in val_h])
+                    
+                    inputs, targets = x, y
+                    if(train_on_gpu):
+                        inputs, targets = inputs.cuda(), targets.cuda()
+
+                    output, val_h = net(inputs, val_h)
+                    val_loss = criterion(output, targets.view(batch_size*seq_length).long())
+                
+                    val_losses.append(val_loss.item())
+                
+                net.train() # reset to train mode after iterationg through validation data
+                DATA.update({
+                    "ID":DATA_ID, 
+                    "Epoch":e+1/epochs,
+                    "Step":counter,
+                    "Loss": loss.item(),
+                    "Val Loss": np.mean(val_losses)})
+                DATA_ID += 1
+                print("Epoch: {}/{}...".format(e+1, epochs),
+                      "Step: {}...".format(counter),
+                      "Loss: {:.4f}...".format(loss.item()),
+                      "Val Loss: {:.4f}".format(np.mean(val_losses)))
+
+# Define and print the net
+n_hidden=512
+n_layers=2
+net = CharRNN(words, n_hidden, n_layers)
+print(net)
+# Declaring the hyperparameters
+batch_size = 128
+seq_length = 100
+n_epochs = 20 # start small, modify manually later
+# train the model
+train(net, encoded, epochs=n_epochs, batch_size=batch_size, seq_length=seq_length, lr=0.025, print_every=10)
+model_name = 'rnn_20_epoch.net'
+
+checkpoint = {'n_hidden': net.n_hidden,
+            'n_layers': net.n_layers,
+            'state_dict': net.state_dict(),
+            'tokens': net.words}
+
+# Defining a method to generate the next character
+def predict(net, word, h=None, top_k=None): 
+        ''' Given a character, predict the next character.
+            Returns the predicted character and the hidden state.
+        '''
+        # tensor inputs
+        x = np.array([[net.word2int[word]]])
+        x = one_hot_encode(x, len(net.words))
+        inputs = torch.from_numpy(x)
+        
+        if(train_on_gpu):
+            inputs = inputs.cuda()
+        
+        # detach hidden state from history
+        h = tuple([each.data for each in h])
+        # get the output of the model
+        out, h = net(inputs, h)
+
+        # get the character probabilities
+        p = F.softmax(out, dim=1).data
+        if(train_on_gpu):
+            p = p.cpu() # move to cpu
+        
+        # get top characters
+        if top_k is None:
+            top_ch = np.arange(len(net.words))
+        else:
+            p, top_ch = p.topk(top_k)
+            top_ch = top_ch.numpy().squeeze()
+        
+        # select the likely next character with some element of randomness
+        p = p.numpy().squeeze()
+        word = np.random.choice(top_ch, p=p/p.sum())
+        
+        # return the encoded value of the predicted char and the hidden state
+        return net.int2word[word], h
+        
+# Declaring a method to generate new text
+def sample(net, size, prime, top_k=None):
+        
+    if(train_on_gpu):
+        net.cuda()
+    else:
+        net.cpu()
+    
+    net.eval() # eval mode
+    
+    # First off, run through the prime characters
+    #words = [word for word in prime]
+    words = []
+    words.append(prime)
+    h = net.init_hidden(1)
+    #for word in prime:
+    word, h = predict(net, words[-1], h, top_k=top_k)
+
+    #words.append(word)
+    words.append(word)
+    
+    # Now pass in the previous character and get a new one
+    for ii in range(size): 
+        word, h = predict(net, words[-1], h, top_k=top_k)
+        words.append(word)
+
+    return ''.join(words)
+
+'''
+# Declaring the train method
+def train(net, data, epochs=10, batch_size=10, seq_length=50, lr=0.001, clip=5, val_frac=0.1, print_every=10):
+    """ Training a network 
+    
+        Arguments
+        ---------
+        
+        net: CharRNN network
+        data: text data to train the network
+        epochs: Number of epochs to train
+        batch_size: Number of mini-sequences per mini-batch, aka batch size
+        seq_length: Number of character steps per mini-batch
+        lr: learning rate
+        clip: gradient clipping
+        val_frac: Fraction of data to hold out for validation
+        print_every: Number of steps for printing training and validation loss
+    
+    """
+    def loadTheModel():
+        with open("rnn_20_epoch.net", "rb") as f:
+            # encode() to model.decode()
+            result = f.read()
+            model = torch.load(result)
+            model.eval()
+    def saveTheModel():
+        with open(model_name, 'wb') as f:
+            torch.save(checkpoint, f)
+
+    global model_saved
+    if (model_saved):
+        loadTheModel()
+        
+    net.train()
+    
+    opt = torch.optim.Adam(net.parameters(), lr=lr)
+    criterion = nn.CrossEntropyLoss()
+    
+    # create training and validation data
+    val_idx = int(len(data)*(1-val_frac))
+    data, val_data = data[:val_idx], data[val_idx:]
+    
+    if(train_on_gpu):
+        net.cuda()
+    
+    counter = 0
+    n_words = len(net.words)
     for e in range(epochs):
         # initialize hidden state
         h = net.init_hidden(batch_size)
@@ -311,158 +471,14 @@ def train(net, data, epochs=10, batch_size=10, seq_length=50, lr=0.005, clip=5, 
                     val_losses.append(val_loss.item())
                 
                 net.train() # reset to train mode after iterationg through validation data
+                saveTheModel()
                 
                 print("Epoch: {}/{}...".format(e+1, epochs),
                       "Step: {}...".format(counter),
                       "Loss: {:.4f}...".format(loss.item()),
                       "Val Loss: {:.4f}".format(np.mean(val_losses)))
-                      
-# Defining a method to generate the next character
-def predict(net, word, h=None, top_k=None): 
-        ''' Given a character, predict the next character.
-            Returns the predicted character and the hidden state.
-        '''
-        # tensor inputs
-        x = np.array([[net.word2int[word]]])
-        x = one_hot_encode(x, len(net.int2word))
-        inputs = torch.from_numpy(x)
-        
-        if(train_on_gpu):
-            inputs = inputs.cuda()
-        
-        # detach hidden state from history
-        h = tuple([each.data for each in h])
-        # get the output of the model
-        out, h = net(inputs, h)
+'''
 
-        # get the character probabilities
-        p = F.softmax(out, dim=1).data
-        if(train_on_gpu):
-            p = p.cpu() # move to cpu
-        
-        # get top characters
-        if top_k is None:
-            top_ch = np.arange(len(net.int2word))
-        else:
-            p, top_ch = p.topk(top_k)
-            top_ch = top_ch.numpy().squeeze()
-        
-        # select the likely next character with some element of randomness
-        p = p.numpy().squeeze()
-        word = np.random.choice(top_ch, p=p/p.sum())
-        
-        # return the encoded value of the predicted char and the hidden state
-        return net.int2word[word], h
-        
-# Declaring a method to generate new text
-def sample(net, size, prime, top_k=None):
-    def sanitize(_text):
-        _text = _text.strip("\n")
-        _text = _text.strip('\\')
-        return _text
-    
-    currentIndex = 2
-    for i in range(10):
-        article = "article" + str(i) + ".txt"
-        # Open shakespeare text file and read in data as `text`
-        wordSet = set()
-        with open(article, 'r') as f:
-            text = f.read()
-            # We create two dictionaries:
-            # 1. int2word, which maps integers to characters
-            # 2. word2int, which maps characters to integers
-            #text = [sanitize(t)+' ' for t in text.split(" ") if t]
-            text = [t+' ' for t in text.split(" ") if t]
-            text = set(text)
-            #wordDifference = text - wordSet
-            wordDifference = wordSet.symmetric_difference(text) - wordSet.difference(text)
-            wordSet = wordSet.union(text)
-            words = tuple(wordSet)#need to save outside loop??
-            global int2word
-            global word2int
-            #enumeratedWords = OrderedDict(enumerate(words, len(word2int)))
-            #enumeratedWords2 = enumeratedWords#does update change its parameter
-            #int2word.update(enumeratedWords)#TODO each update is not increasing the dictionaries by the same amount
-            #word2int.update({word: ii for ii, word in enumeratedWords2.items()})
-            for w in wordDifference:
-                if w in word2int.keys():
-                    continue
-                int2word[currentIndex] = w
-                word2int[w] = currentIndex
-                currentIndex += 1
-            print(len(int2word), len(word2int))
-            #int2word = OrderedDict(enumerate(words))
-            #word2int = {word: ii for ii, word in int2word.items()} #reverse mapping from character to int
-    
-    for i in range(10):
-        article = "article" + str(i) + ".txt"
-        # Open shakespeare text file and read in data as `text`
-        #wordSet = set()
-        with open(article, 'r') as f:
-            text = f.read()
-            text = [t+' ' for t in text.split(" ") if t]
-            # We create two dictionaries:
-            # 1. int2word, which maps integers to characters
-            # 2. word2int, which maps characters to integers
-            #wordSet = set(text).union(wordSet)
-            #words = tuple(wordSet)#need to save outside loop??
-            #global int2word
-            #global word2int
-            # Encode the text
-            encoded = np.array([word2int[word] for word in text])
-            if net == None:
-                net = CharRNN(words, n_hidden, n_layers)
-                if(train_on_gpu):
-                    net.cuda()
-                else:
-                    net.cpu()
-            #net.lstm.input_size = len(int2word)
-            net.words = words
-            # train the model
-            print("net.train()")
-            try:
-                net.train()
-            except KeyError:
-                pass
-
-    net.eval() # eval mode
-    
-    # First off, run through the prime characters
-    #words = [word for word in prime]
-    words = []
-    words.append(prime)
-    h = net.init_hidden(1)
-    #for word in prime:
-    word, h = predict(net, words[-1], h, top_k=top_k)
-
-    #words.append(word)
-    words.append(word)
-    
-    # Now pass in the previous character and get a new one
-    for ii in range(size): 
-        word, h = predict(net, words[-1], h, top_k=top_k)
-        words.append(word)
-
-    return ''.join(words)
-
-# Check if GPU is available
-train_on_gpu = torch.cuda.is_available()
-if(train_on_gpu):
-    print('Training on GPU!')
-else: 
-    print('No GPU available, training on CPU; consider making n_epochs very small.')
-    
-# Define and print the net
-n_hidden=512
-n_layers=2
-
-# Declaring the hyperparameters
-batch_size = 128
-seq_length = 100
-n_epochs = 10 # start smaller if you are just testing initial behavior
-    
 # Generating new text
-net = None
-int2word = {}
-word2int = {}
-print(sample(net, 1000, prime='a ', top_k=100))
+print(sample(net, 2500, prime='the ', top_k=5))
+
